@@ -1,6 +1,6 @@
 # news-briefing — 하루 4회 뉴스 브리핑 (GitHub Actions)
 
-로컬 PC 없이 GitHub Actions에서 하루 4회(KST 06:20 / 10:00 / 14:15 / 21:30) 뉴스를 수집·선별해 Telegram으로 발송한다. 기존 Claude 데스크톱 "예정된 작업"(morning/midmorning/afternoon/evening)의 클라우드 이관판.
+로컬 PC 없이 GitHub Actions에서 하루 4회(KST 06:20 / 10:00 / 14:15 / 21:30, **토요일 생략**) 뉴스를 수집·선별해 Telegram으로 발송한다. 토요일 뉴스는 월요일 morning의 주말 확장 윈도우(금 14:00~월 06:10)가 커버한다. 기존 Claude 데스크톱 "예정된 작업"(morning/midmorning/afternoon/evening)의 클라우드 이관판.
 
 ## 구조
 

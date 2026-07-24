@@ -2,11 +2,12 @@ name: news-briefing
 
 on:
   schedule:
-    # KST = UTC+9. GitHub cron은 UTC 기준.
-    - cron: '20 21 * * *'   # morning    06:20 KST (전날 21:20 UTC)
-    - cron: '0 1 * * *'     # midmorning 10:00 KST
-    - cron: '15 5 * * *'    # afternoon  14:15 KST
-    - cron: '30 12 * * *'   # evening    21:30 KST
+    # KST = UTC+9. GitHub cron은 UTC 기준. KST 토요일은 발송 생략 (토요일 뉴스는 월요일 morning의 주말 윈도우가 커버).
+    # morning은 전날 UTC에 실행되므로 KST 토요일 제외 = UTC 금요일(5) 제외.
+    - cron: '20 21 * * 0-4,6'   # morning    06:20 KST, 일~금 (KST 토 제외)
+    - cron: '0 1 * * 0-5'       # midmorning 10:00 KST, 일~금
+    - cron: '15 5 * * 0-5'      # afternoon  14:15 KST, 일~금
+    - cron: '30 12 * * 0-5'     # evening    21:30 KST, 일~금
   workflow_dispatch:
     inputs:
       slot:
@@ -26,11 +27,11 @@ jobs:
         id: slot
         run: |
           case "${{ github.event.schedule }}" in
-            "20 21 * * *") SLOT=morning ;;
-            "0 1 * * *")   SLOT=midmorning ;;
-            "15 5 * * *")  SLOT=afternoon ;;
-            "30 12 * * *") SLOT=evening ;;
-            *)             SLOT="${{ inputs.slot }}" ;;
+            "20 21 * * 0-4,6") SLOT=morning ;;
+            "0 1 * * 0-5")     SLOT=midmorning ;;
+            "15 5 * * 0-5")    SLOT=afternoon ;;
+            "30 12 * * 0-5")   SLOT=evening ;;
+            *)                 SLOT="${{ inputs.slot }}" ;;
           esac
           echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
           echo "선택된 슬롯: $SLOT"
