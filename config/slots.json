@@ -1,0 +1,82 @@
+{
+  "_comment": "수집기(collect.py)가 사용하는 슬롯별 설정. 키워드·시간윈도우의 단일 출처. 선별 우선순위·제외 규칙은 prompts/*.md 참조.",
+  "method1_keywords": {
+    "건설": [
+      "부동산 정책", "홈플러스", "MBK",
+      "부동산신탁", "책임준공",
+      "부동산PF", "프로젝트 파이낸싱",
+      "건설 법정관리", "건설사 워크아웃",
+      "기한이익상실",
+      "지방 미분양", "LH 공급", "부동산 경매",
+      "1기 신도시", "재건축", "강남 재건축",
+      "오피스", "상업용부동산", "물류센터"
+    ],
+    "금융_1차": [
+      "금감원", "금융위", "가계대출", "금융 규제", "자본시장",
+      "거래소", "가상자산 규제", "국회 금융", "펀드 투자"
+    ],
+    "금융_2차": [
+      "KB국민은행", "신한은행", "하나은행", "우리은행", "NH농협은행",
+      "한국투자증권", "미래에셋증권", "삼성증권", "NH투자증권", "KB증권"
+    ],
+    "금융_3차": [
+      "카카오뱅크", "토스뱅크", "신한투자증권", "메리츠증권", "대신증권"
+    ]
+  },
+  "method3_themes": {
+    "#AI": ["AI OpenAI OR Anthropic OR DeepMind", "generative AI model"],
+    "#AI_Infra": ["AI datacenter GPU", "Nvidia AI infrastructure"],
+    "#AI_Labs": ["AI research lab paper", "Anthropic OR OpenAI research"],
+    "#반도체": ["semiconductor foundry memory", "TSMC OR Samsung OR SK Hynix chip"],
+    "#소재_에너지": ["battery lithium materials", "copper nickel rare earth mining"],
+    "#석유": ["crude oil OPEC", "oil major refinery shale"],
+    "#LNG": ["LNG liquefied natural gas", "LNG terminal export contract"],
+    "#산업재": ["aerospace defense shipbuilding", "Boeing OR Lockheed OR Caterpillar"],
+    "#소비재": ["retail consumer tech device", "Apple OR Samsung OR Amazon consumer"],
+    "#원자력_전력": ["nuclear power SMR", "power grid utility electricity demand"],
+    "#우주": ["space launch satellite", "SpaceX OR NASA OR Rocket Lab"],
+    "#전쟁_지정학": ["war geopolitics sanctions", "Ukraine OR Israel OR Taiwan conflict"],
+    "#스테이블코인": ["stablecoin Circle USDC OR Tether USDT", "Coinbase stablecoin regulation"]
+  },
+  "slots": {
+    "morning": {
+      "run_kst": "06:20",
+      "methods": ["method1", "method3"],
+      "window_m1": { "weekday": ["yesterday 22:00", "today 06:10"], "monday": ["last_friday 14:00", "today 06:10"] },
+      "window_m3_hours": 24,
+      "window_m3_end": "today 06:10",
+      "targets": { "건설": 10, "금융": 10, "theme_max": 2 }
+    },
+    "midmorning": {
+      "run_kst": "10:00",
+      "methods": ["method1"],
+      "window_m1": { "weekday": ["today 06:10", "today 09:50"], "monday": ["last_friday 14:00", "today 09:50"] },
+      "targets": { "건설": 10, "금융": 10 }
+    },
+    "afternoon": {
+      "run_kst": "14:15",
+      "methods": ["method1"],
+      "window_m1": { "weekday": ["today 09:50", "today 14:05"], "monday": ["last_friday 14:00", "today 14:05"] },
+      "targets": { "건설": 10, "금융": 10 }
+    },
+    "evening": {
+      "run_kst": "21:30",
+      "methods": ["method1"],
+      "window_m1": { "weekday": ["today 14:05", "today 21:20"], "monday": ["last_friday 14:00", "today 21:20"] },
+      "targets": { "건설": 10, "금융": 10 }
+    }
+  },
+  "allowed_media_domains": {
+    "n.news.naver.com": "네이버뉴스", "news.naver.com": "네이버뉴스",
+    "biz.chosun.com": "조선비즈", "mk.co.kr": "매일경제", "hankyung.com": "한국경제",
+    "fnnews.com": "파이낸셜뉴스", "news1.kr": "뉴스원", "v.daum.net": "다음뉴스",
+    "bloter.net": "블로터", "investchosun.com": "인베스트조선", "businesspost.co.kr": "비즈니스포스트",
+    "thelec.kr": "디일렉", "dealsite.co.kr": "딜사이트", "einfomax.co.kr": "연합인포맥스",
+    "news.sbs.co.kr": "SBS", "news.kbs.co.kr": "KBS", "khan.co.kr": "경향신문",
+    "newsis.com": "뉴시스", "joongang.co.kr": "중앙일보", "donga.com": "동아일보",
+    "hani.co.kr": "한겨레", "asiae.co.kr": "아시아경제", "sedaily.com": "서울경제",
+    "mtn.co.kr": "MTN", "edaily.co.kr": "이데일리", "kmib.co.kr": "국민일보",
+    "g-enews.com": "글로벌이코노믹", "pinpointnews.co.kr": "핀포인트뉴스",
+    "kmecnews.co.kr": "기계설비신문", "housingherald.co.kr": "하우징헤럴드", "arunews.com": "한국주택경제"
+  }
+}

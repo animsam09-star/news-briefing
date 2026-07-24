@@ -1,0 +1,71 @@
+name: news-briefing
+
+on:
+  schedule:
+    # KST = UTC+9. GitHub cron은 UTC 기준.
+    - cron: '20 21 * * *'   # morning    06:20 KST (전날 21:20 UTC)
+    - cron: '0 1 * * *'     # midmorning 10:00 KST
+    - cron: '15 5 * * *'    # afternoon  14:15 KST
+    - cron: '30 12 * * *'   # evening    21:30 KST
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: '브리핑 슬롯'
+        required: true
+        type: choice
+        options: [morning, midmorning, afternoon, evening]
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 슬롯 결정 (cron → slot 매핑)
+        id: slot
+        run: |
+          case "${{ github.event.schedule }}" in
+            "20 21 * * *") SLOT=morning ;;
+            "0 1 * * *")   SLOT=midmorning ;;
+            "15 5 * * *")  SLOT=afternoon ;;
+            "30 12 * * *") SLOT=evening ;;
+            *)             SLOT="${{ inputs.slot }}" ;;
+          esac
+          echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
+          echo "선택된 슬롯: $SLOT"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 기사 풀 수집 (네이버 API + Google News RSS)
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/collect.py --slot "${{ steps.slot.outputs.slot }}" --out pool.json
+
+      - name: Claude Code 설치
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: 브리핑 선별·검증·발송 (Claude 헤드리스)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          claude -p "$(cat "prompts/${{ steps.slot.outputs.slot }}.md")" \
+            --dangerously-skip-permissions \
+            --model claude-sonnet-5
+
+      - name: 수집 풀 아카이브 (디버깅용, 7일 보관)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pool-${{ steps.slot.outputs.slot }}-${{ github.run_id }}
+          path: pool.json
+          retention-days: 7
+          if-no-files-found: ignore
