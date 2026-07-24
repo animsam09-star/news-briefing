@@ -132,14 +132,22 @@ def naver_search(query, window, domain_map, display=50):
             src2, ok2 = media_name(it["link"], domain_map)
             if ok2:
                 src, allowed, orig = src2, True, it["link"]
-        out.append({
-            "title": strip_tags(it["title"]),
+        title = strip_tags(it["title"])
+        rec = {
+            "title": title,
             "url": orig,
             "source": src,
             "allowed_media": allowed,
             "pub_kst": pub.astimezone(KST).strftime("%Y-%m-%d %H:%M"),
             "matched_query": query,
-        })
+        }
+        # 네이버 API는 긴 제목을 "..."로 절단해 반환 → 복원 대상 표시 + 네이버뉴스 링크 보존
+        if title.endswith("..."):
+            rec["title_truncated"] = True
+        nlink = it.get("link") or ""
+        if "naver.com" in nlink and nlink != orig:
+            rec["naver_link"] = nlink
+        out.append(rec)
     return out
 
 
