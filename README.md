@@ -27,5 +27,5 @@ prompts/<slot>.md         Claude 헤드리스 프롬프트 — 풀에서 선별 
 - **수동 실행/테스트**: Actions 탭 → news-briefing → Run workflow → 슬롯 선택.
 - **키워드/테마 변경**: `config/slots.json` 수정 (수집), 우선순위·제외 규칙은 `prompts/*.md` 수정 (선별).
 - **실행 로그·수집 풀**: 각 run의 artifact `pool-<slot>-<runid>`에 pool.json 7일 보관.
-- **cron 지연**: GitHub 스케줄은 정시가 아니라 수 분~십수 분 지연될 수 있음. 시간 윈도우는 KST 고정 앵커(예: 06:10) 기준이라 지연돼도 창은 동일 — 발송만 늦어진다.
+- **정시 발송**: GitHub `schedule`은 정시 보장이 없어 실측 수십 분~3시간 이상 지연됨. 그래서 1차 발송은 외부 스케줄러(Claude Code Routine, 분 단위 정확도)가 각 슬롯 정각에 `workflow_dispatch`를 호출하는 방식. `schedule` cron은 백업으로 남아 있고, 같은 슬롯이 이미 dispatch로 발송(또는 진행 중)이면 워크플로 내 중복 발송 가드가 생략시킨다. 시간 윈도우는 KST 고정 앵커(예: 06:10) 기준이라 어느 경로로 실행돼도 창은 동일.
 - **월요일**: 주말 포함 확장 윈도우(금 14:00~) 자동 적용 (`collect.py`가 KST 요일 판단).
