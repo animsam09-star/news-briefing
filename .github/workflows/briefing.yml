@@ -22,7 +22,7 @@ on:
         options: [morning, midmorning, afternoon, evening]
 
 permissions:
-  contents: read
+  contents: write   # state/sent.json (슬롯 간 중복 차단 이력) 커밋
   actions: read
 
 jobs:
@@ -31,6 +31,8 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 발송 이력 커밋 시 rebase 재시도가 가능하도록 전체 히스토리
 
       - name: 슬롯 결정 (cron → slot 매핑)
         id: slot
@@ -96,6 +98,32 @@ jobs:
           claude -p "$(cat "prompts/${{ steps.slot.outputs.slot }}.md")" \
             --dangerously-skip-permissions \
             --model claude-sonnet-5
+
+      # 이번 슬롯이 발송한 기사를 이력에 남긴다 → 다음 슬롯의 collect.py가 수집 단계에서 제외.
+      # 프롬프트가 /tmp/sent.json 을 남기지 못했으면 경고만 하고 통과(fail-open).
+      - name: 발송 이력 기록 (슬롯 간 중복 차단)
+        if: steps.guard.outputs.skip != 'true'
+        run: python scripts/record_sent.py --slot "${{ steps.slot.outputs.slot }}" --in /tmp/sent.json
+
+      - name: 발송 이력 커밋
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/sent.json
+          if git diff --cached --quiet; then
+            echo "이력 변화 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "chore(state): ${{ steps.slot.outputs.slot }} 발송 이력 갱신 [skip ci]"
+          # 다른 슬롯이 그 사이 커밋했을 수 있으므로 rebase 후 재시도
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push 실패 — origin 변경분 rebase 후 재시도 ($i/3)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            sleep $((i * 3))
+          done
+          echo "::warning::발송 이력 push 실패 — 다음 슬롯에서 중복이 늘어날 수 있음"
 
       - name: 수집 풀 아카이브 (디버깅용, 7일 보관)
         if: always() && steps.guard.outputs.skip != 'true'

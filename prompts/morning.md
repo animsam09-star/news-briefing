@@ -76,7 +76,21 @@ curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
 
 plain text, 3000자 초과 시 분할, 한국어.
 
-**시간 윈도우**: `pool.json`의 `windows_kst` 필드가 확정값 (방식1: 평일 전날22:00~06:10 / 월 금14:00~월06:10, 방식3: 항상 24h). collect.py가 계산·적용 완료. 프롬프트에서 재계산하지 않는다.
+**발송 이력 기록 (필수 — 슬롯 간 중복 차단)**
+
+발송을 마친 뒤 **이번에 내보낸 기사 전부**를 `/tmp/sent.json`에 남긴다. 워크플로가 이걸 `state/sent.json`에 병합하고, **다음 슬롯의 collect.py가 읽어 같은 기사를 아예 수집하지 않는다.** 제목은 발송한 최종 제목, URL은 **TinyURL이 아니라 원본 URL**을 넣는다(단축 URL은 대조가 안 된다).
+```
+cat > /tmp/sent.json <<'EOF'
+[
+ {"title": "발송한 기사 제목", "url": "https://원본-기사-URL"},
+ {"title": "...", "url": "..."}
+]
+EOF
+```
+이 파일을 남기지 않으면 다음 슬롯에 같은 기사가 다시 나간다. **누락 시 완료 선언 금지.**
+
+
+**시간 윈도우**: `pool.json`의 `windows_kst` 필드가 확정값. 방식1은 **직전 실행 슬롯(전날 evening, 일요일이면 금요일 evening)의 종료 시각 21:20 ~ 당일 06:10**, 방식3은 항상 24h. 슬롯 윈도우가 서로 맞물려 있어 중첩이 없다. collect.py가 계산·적용 완료 — 프롬프트에서 재계산하지 않는다.
 
 **절대 금지**
 1. pool.json 밖 기사 임의 추가 금지 (폴백은 `--adhoc-*`로만).
