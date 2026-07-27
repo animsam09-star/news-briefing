@@ -39,7 +39,12 @@ stats = {"naver_queries": 0, "rss_queries": 0, "rejected_out_of_window": 0,
          "rejected_already_sent": 0, "sent_history_size": 0}
 
 # 직전 슬롯들이 이미 발송한 기사 (state/sent.json에서 로드) — 슬롯 간 중복 차단용
+# SENT_URLS/SENT_TITLES: 기계적 하드 필터 (거의 동일한 제목·URL을 수집 단계에서 제거)
+# SENT_RECENT: 프롬프트에 그대로 주입 — "같은 사건인가" 판단은 코드가 못 하므로 LLM에 맡긴다
 SENT_URLS, SENT_TITLES = set(), set()
+SENT_RECENT = []
+SENT_INJECT_HOURS = 48   # 프롬프트에 보여줄 범위 (직전 3~4개 슬롯)
+SENT_INJECT_MAX = 80     # 프롬프트 길이 방어
 
 
 def fetch(url, data=None, headers=None, timeout=25):
@@ -111,7 +116,8 @@ def load_sent_history(now_kst):
     except (OSError, ValueError):
         return
     cutoff = now_kst - timedelta(hours=SENT_RETENTION_HOURS)
-    kept = 0
+    inject_cutoff = now_kst - timedelta(hours=SENT_INJECT_HOURS)
+    kept, recent = 0, []
     for e in data.get("sent", []):
         try:
             ts = datetime.strptime(e["sent_kst"], "%Y-%m-%d %H:%M").replace(tzinfo=KST)
@@ -126,6 +132,12 @@ def load_sent_history(now_kst):
         t = norm_title(e.get("title"))
         if t:
             SENT_TITLES.add(t)
+        if ts >= inject_cutoff and e.get("title"):
+            recent.append((ts, {"slot": e.get("slot", ""),
+                                "sent_kst": e["sent_kst"],
+                                "title": e["title"]}))
+    recent.sort(key=lambda p: p[0], reverse=True)
+    SENT_RECENT[:] = [r for _, r in recent[:SENT_INJECT_MAX]]
     stats["sent_history_size"] = kept
 
 
@@ -338,6 +350,10 @@ def main():
         "windows_kst": {k: [w[0].strftime("%Y-%m-%d %H:%M"), w[1].strftime("%Y-%m-%d %H:%M")]
                         for k, w in windows.items()},
         "sent_history_size": stats["sent_history_size"],
+        # 직전 슬롯들이 이미 발송한 기사 제목. 제목·URL이 거의 같은 건은 위에서 이미
+        # 걸러졌고, 여기 남은 건 "같은 사건을 다룬 다른 기사"를 프롬프트가 판단해
+        # 제외하라고 넘기는 목록이다 (§7 슬롯 간 중복 제거).
+        "recently_sent": SENT_RECENT,
     }
 
     # ── 방식1: 네이버 API ──
