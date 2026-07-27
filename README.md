@@ -26,6 +26,7 @@ prompts/<slot>.md         Claude 헤드리스 프롬프트 — 풀에서 선별 
 
 - **수동 실행/테스트**: Actions 탭 → news-briefing → Run workflow → 슬롯 선택.
 - **키워드/테마 변경**: `config/slots.json` 수정 (수집), 우선순위·제외 규칙은 `prompts/*.md` 수정 (선별).
-- **실행 로그·수집 풀**: 각 run의 artifact `pool-<slot>-<runid>`에 pool.json 7일 보관.
+- **실행 로그·수집 풀**: 각 run의 artifact `pool-<slot>-<runid>`에 pool.json 7일 보관. 발송 직전 메시지 전문은 run 로그의 발송 스텝에 그대로 출력되므로 실제 발송본 형식을 사후 확인할 수 있다.
+- **메시지 형식 (4슬롯 공통 v7)**: 번호·화살표 없이 `제목` 줄 + `단축 URL` 줄, 기사 사이 빈 줄 1개 (morning 방식3만 그 사이에 `- 요약` 줄 추가). **개행은 반드시 임시 파일에 진짜 줄바꿈으로 쓰고 `--data-urlencode "text@/tmp/msgN.txt"`로 발송** — 셸 인자에 `\n` 두 글자를 넣으면 Telegram에 리터럴 `\n`이 텍스트로 찍힌다.
 - **정시 발송**: GitHub `schedule`은 정시 보장이 없어 실측 수십 분~3시간 이상 지연됨. 그래서 1차 발송은 외부 스케줄러(Claude Code Routine, 분 단위 정확도)가 각 슬롯 정각에 `workflow_dispatch`를 호출하는 방식. `schedule` cron은 백업으로 남아 있고, 같은 슬롯이 이미 dispatch로 발송(또는 진행 중)이면 워크플로 내 중복 발송 가드가 생략시킨다. 시간 윈도우는 KST 고정 앵커(예: 06:10) 기준이라 어느 경로로 실행돼도 창은 동일.
 - **월요일**: 주말 포함 확장 윈도우(금 14:00~) 자동 적용 (`collect.py`가 KST 요일 판단).

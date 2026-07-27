@@ -21,10 +21,30 @@
 ═══════════════════════════════════════
 
 **Telegram (환경변수 — 값 하드코딩 금지)**
+
+메시지는 **임시 파일에 진짜 줄바꿈으로 작성한 뒤 파일 경유로 발송**한다. 메시지 1개당 파일 1개(`/tmp/msg1.txt`, `/tmp/msg2.txt` …).
 ```
+# 1) 작성 — heredoc 안에서는 개행이 그대로 개행으로 들어간다
+cat > /tmp/msg1.txt <<'EOF'
+📰 ...
+━━━ 건설/부동산 ━━━
+기사 제목
+https://tinyurl.com/xxxxxxx
+
+기사 제목
+https://tinyurl.com/xxxxxxx
+EOF
+
+# 2) 발송 직전 전문 출력 (필수 — Actions 로그에 실제 발송본을 남겨 형식 검증)
+cat /tmp/msg1.txt
+
+# 3) 발송 — text@파일 형식이면 curl이 파일 내용의 개행을 %0A로 정확히 인코딩
 curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-  -d "chat_id=${TELEGRAM_CHAT_ID}" --data-urlencode "text=메시지내용"
+  -d "chat_id=${TELEGRAM_CHAT_ID}" --data-urlencode "text@/tmp/msg1.txt"
 ```
+
+**줄바꿈 절대 규칙 (2026-07-27 사용자 지적)**: 셸 인자 안에 `\n`(백슬래시+n) 두 글자를 넣으면 curl이 그 두 글자를 그대로 인코딩해 **Telegram에 리터럴 `\n`이 텍스트로 표시된다**. 개행은 언제나 파일 안의 진짜 줄바꿈이어야 하고, 발송은 위의 `text@파일` 형식으로만 한다. `--data-urlencode "text=...\n..."` 직접 전달 금지.
+
 plain text, 3000자 초과 시 분할, 한국어.
 
 **시간 윈도우**: `pool.json`의 `windows_kst`가 확정값 (평일: 당일 14:05~21:20 / 월: 금 14:00~월 21:20). 재계산 금지.
@@ -88,21 +108,24 @@ plain text, 3000자 초과 시 분할, 한국어.
 ## 8. 메시지 형식 (v7: 제목 + 단축URL, 번호·화살표 없음)
 ═══════════════════════════════════════
 - 모든 URL은 TinyURL 축약: `https://tinyurl.com/api-create.php?url=<원본URL>` GET → 응답 본문이 단축 URL. 실패 시 해당 건만 원본 fallback + 푸터 "단축 실패 N건".
-- 번호(1.)·화살표(→) 사용 금지. 제목 한 줄, 다음 줄에 단축 URL. 기사 간 빈 줄 없음. 섹션 헤더는 유지.
+- 번호(1.)·화살표(→) 사용 금지. 제목 한 줄, 다음 줄에 단축 URL. **기사 사이에는 빈 줄 1개** (2026-07-27 사용자 지침 — 가독성). 섹션 헤더는 유지.
 
 ```
-📰 오후 10시 뉴스 브리핑 (YYYY.MM.DD)
+📰 오후 9시 30분 뉴스 브리핑 (YYYY.MM.DD)
 
 ━━━ 건설/부동산 ━━━
 기사 제목
 https://tinyurl.com/xxxxxxx
+
 기사 제목
 https://tinyurl.com/xxxxxxx
+
 ...
 
 ━━━ 경제/금융 ━━━
 기사 제목
 https://tinyurl.com/xxxxxxx
+
 ...
 
 ━━━ 발송 검증 ━━━
