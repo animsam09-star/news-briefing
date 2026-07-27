@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """발송 이력 기록기 — 슬롯 간 중복 발송 차단용 상태 갱신.
 
-브리핑 프롬프트가 발송 직후 `/tmp/sent.json`에 이번에 내보낸 기사 목록을
+브리핑 프롬프트가 발송 직후 `out/sent.json`에 이번에 내보낸 기사 목록을
 `[{"title": ..., "url": ...}, ...]` 형태로 남긴다. 이 스크립트가 그것을
 `state/sent.json`에 병합하고 보존기간이 지난 항목을 잘라낸다.
 다음 슬롯의 collect.py가 이 파일을 읽어 같은 기사를 애초에 수집하지 않는다.
@@ -9,7 +9,7 @@
 입력 파일이 없거나 깨져 있으면 경고만 남기고 정상 종료한다 — 이력이 비면
 중복이 다시 늘어날 뿐 브리핑 자체는 계속 나가야 하기 때문이다(fail-open).
 
-사용: python scripts/record_sent.py --slot morning --in /tmp/sent.json
+사용: python scripts/record_sent.py --slot morning --in out/sent.json
 """
 import argparse
 import json
@@ -36,7 +36,7 @@ def load_state():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slot", required=True)
-    ap.add_argument("--in", dest="infile", default="/tmp/sent.json")
+    ap.add_argument("--in", dest="infile", default="out/sent.json")
     args = ap.parse_args()
 
     now_kst = datetime.now(KST)

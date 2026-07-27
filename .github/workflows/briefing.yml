@@ -99,11 +99,28 @@ jobs:
             --dangerously-skip-permissions \
             --model claude-sonnet-5
 
+      # `claude -p`는 최종 응답 텍스트만 stdout에 내보내므로 세션 안에서 cat을 찍어도
+      # Actions 로그에는 남지 않는다. 발송본을 확인하려면 워크플로가 직접 출력해야 한다.
+      - name: 실제 발송본 출력 (형식 사후 검증)
+        if: always() && steps.guard.outputs.skip != 'true'
+        run: |
+          shopt -s nullglob
+          files=(out/msg*.txt)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::warning::out/msg*.txt 없음 — 발송본을 확인할 수 없다 (프롬프트가 out/ 에 쓰지 않았음)"
+            exit 0
+          fi
+          for f in "${files[@]}"; do
+            echo "───────── $f ─────────"
+            cat -- "$f"
+            echo
+          done
+
       # 이번 슬롯이 발송한 기사를 이력에 남긴다 → 다음 슬롯의 collect.py가 수집 단계에서 제외.
-      # 프롬프트가 /tmp/sent.json 을 남기지 못했으면 경고만 하고 통과(fail-open).
+      # 프롬프트가 out/sent.json 을 남기지 못했으면 경고만 하고 통과(fail-open).
       - name: 발송 이력 기록 (슬롯 간 중복 차단)
         if: steps.guard.outputs.skip != 'true'
-        run: python scripts/record_sent.py --slot "${{ steps.slot.outputs.slot }}" --in /tmp/sent.json
+        run: python scripts/record_sent.py --slot "${{ steps.slot.outputs.slot }}" --in out/sent.json
 
       - name: 발송 이력 커밋
         if: steps.guard.outputs.skip != 'true'
@@ -125,11 +142,13 @@ jobs:
           done
           echo "::warning::발송 이력 push 실패 — 다음 슬롯에서 중복이 늘어날 수 있음"
 
-      - name: 수집 풀 아카이브 (디버깅용, 7일 보관)
+      - name: 수집 풀·발송본 아카이브 (디버깅용, 7일 보관)
         if: always() && steps.guard.outputs.skip != 'true'
         uses: actions/upload-artifact@v4
         with:
           name: pool-${{ steps.slot.outputs.slot }}-${{ github.run_id }}
-          path: pool.json
+          path: |
+            pool.json
+            out/
           retention-days: 7
           if-no-files-found: ignore
