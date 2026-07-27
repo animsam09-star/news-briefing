@@ -31,9 +31,15 @@ from email.utils import parsedate_to_datetime
 KST = timezone(timedelta(hours=9), "KST")  # 한국은 DST 없음 — 고정 오프셋으로 tzdata 의존성 제거
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "..", "config", "slots.json")
+SENT_PATH = os.path.join(os.path.dirname(__file__), "..", "state", "sent.json")
+SENT_RETENTION_HOURS = 96  # 금요일 저녁 발송분이 월요일 아침까지 남도록
 
 stats = {"naver_queries": 0, "rss_queries": 0, "rejected_out_of_window": 0,
-         "decode_fail": 0, "fetch_errors": [], "no_pubdate": 0}
+         "decode_fail": 0, "fetch_errors": [], "no_pubdate": 0,
+         "rejected_already_sent": 0, "sent_history_size": 0}
+
+# 직전 슬롯들이 이미 발송한 기사 (state/sent.json에서 로드) — 슬롯 간 중복 차단용
+SENT_URLS, SENT_TITLES = set(), set()
 
 
 def fetch(url, data=None, headers=None, timeout=25):
@@ -50,7 +56,7 @@ def strip_tags(s):
 
 
 def parse_kst_anchor(expr, now_kst):
-    """'yesterday 22:00' / 'today 06:10' / 'last_friday 14:00' -> aware datetime(KST)"""
+    """'yesterday 22:00' / 'today 06:10' / 'prev_run_day 21:20' -> aware datetime(KST)"""
     day_expr, hm = expr.split(" ")
     hh, mm = map(int, hm.split(":"))
     base = now_kst.replace(hour=hh, minute=mm, second=0, microsecond=0)
@@ -58,26 +64,76 @@ def parse_kst_anchor(expr, now_kst):
         return base
     if day_expr == "yesterday":
         return base - timedelta(days=1)
-    if day_expr == "last_friday":
-        # 월요일 실행 기준 직전 금요일
-        delta = (now_kst.weekday() - 4) % 7 or 7
-        return base - timedelta(days=delta)
+    if day_expr == "prev_run_day":
+        # 직전에 실제로 발송이 있었던 날. 토요일(KST)은 발송을 생략하므로
+        # 어제가 토요일이면(=오늘이 일요일) 하루 더 거슬러 금요일이 직전 실행일이다.
+        # 이 앵커 덕에 월요일·일요일 특례가 따로 필요 없다 — 주말 확장 윈도우는
+        # 일요일 morning 한 곳에만 자동으로 생긴다.
+        back = 2 if (now_kst - timedelta(days=1)).weekday() == 5 else 1
+        return base - timedelta(days=back)
     raise ValueError(expr)
 
 
 def compute_windows(slot_cfg, now_kst):
-    is_monday = now_kst.weekday() == 0
-    key = "monday" if is_monday else "weekday"
-    w1 = slot_cfg["window_m1"][key]
+    """슬롯 윈도우 = [직전 실행 슬롯의 종료 시각, 이번 슬롯의 종료 시각].
+
+    각 슬롯의 시작점이 직전 슬롯의 끝과 정확히 맞물리므로 어떤 시각도
+    두 번 수집되지 않는다(중첩 0). 요일별 특례는 prev_run_day 앵커가 흡수한다.
+    """
+    w1 = slot_cfg["window_m1"]
     windows = {"m1": (parse_kst_anchor(w1[0], now_kst), parse_kst_anchor(w1[1], now_kst))}
     if "window_m3_hours" in slot_cfg:
         end = parse_kst_anchor(slot_cfg["window_m3_end"], now_kst)
         windows["m3"] = (end - timedelta(hours=slot_cfg["window_m3_hours"]), end)
-    return windows, is_monday
+    return windows
 
 
 def in_window(dt, window):
     return window[0] <= dt.astimezone(KST) <= window[1]
+
+
+# 제목 앞의 [속보]·[단독]·(종합)·【…】 류 말머리 — 같은 사건인데 지문이 어긋나는 주범
+_LEAD_TAG_RE = re.compile(r"^\s*(?:[\[\(<【][^\]\)>】]{0,20}[\]\)>】]\s*)+")
+
+
+def norm_title(t):
+    """매체별 표기 차이를 흡수한 제목 지문 (말머리·공백·문장부호 제거 후 앞 40자)."""
+    t = _LEAD_TAG_RE.sub("", t or "")
+    return re.sub(r"[\s\W_]+", "", t, flags=re.UNICODE).lower()[:40]
+
+
+def load_sent_history(now_kst):
+    """직전 슬롯들이 발송한 기사 지문을 로드. 파일이 없으면 조용히 빈 집합."""
+    global SENT_URLS, SENT_TITLES
+    try:
+        with open(SENT_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return
+    cutoff = now_kst - timedelta(hours=SENT_RETENTION_HOURS)
+    kept = 0
+    for e in data.get("sent", []):
+        try:
+            ts = datetime.strptime(e["sent_kst"], "%Y-%m-%d %H:%M").replace(tzinfo=KST)
+        except (KeyError, ValueError):
+            continue
+        if ts < cutoff:
+            continue
+        kept += 1
+        u = (e.get("url") or "").split("?")[0]
+        if u:
+            SENT_URLS.add(u)
+        t = norm_title(e.get("title"))
+        if t:
+            SENT_TITLES.add(t)
+    stats["sent_history_size"] = kept
+
+
+def already_sent(url, title):
+    """직전 슬롯에서 이미 나간 기사인가. 같은 사건의 타 매체 재보도도 제목 지문으로 잡힌다."""
+    if url and url.split("?")[0] in SENT_URLS:
+        return True
+    return norm_title(title) in SENT_TITLES
 
 
 def domain_of(url):
@@ -126,6 +182,9 @@ def naver_search(query, window, domain_map, display=50):
             stats["rejected_out_of_window"] += 1
             continue
         orig = it.get("originallink") or it.get("link")
+        if already_sent(orig, strip_tags(it["title"])):
+            stats["rejected_already_sent"] += 1
+            continue
         src, allowed = media_name(orig, domain_map)
         # 네이버뉴스 링크만 있으면 네이버뉴스로 인정
         if not allowed and "naver.com" in (it.get("link") or ""):
@@ -177,6 +236,10 @@ def gnews_rss(query, window, lang="en-US", gl="US", ceid="US:en", when="1d"):
             continue
         if not in_window(pub, window):
             stats["rejected_out_of_window"] += 1
+            continue
+        # 이 시점에는 경유 URL뿐이라 URL 대조는 불가 — 제목 지문으로만 걸러진다
+        if already_sent(None, title):
+            stats["rejected_already_sent"] += 1
             continue
         out.append({"title": title, "gnews_url": link, "source": source,
                     "pub_kst": pub.astimezone(KST).strftime("%Y-%m-%d %H:%M")})
@@ -246,7 +309,8 @@ def main():
     slot_cfg = cfg["slots"][args.slot]
     domain_map = cfg["allowed_media_domains"]
     now_kst = datetime.now(KST)
-    windows, is_monday = compute_windows(slot_cfg, now_kst)
+    windows = compute_windows(slot_cfg, now_kst)
+    load_sent_history(now_kst)
 
     # ── 폴백(adhoc) 모드: 결과를 stdout으로만 출력 ──
     if args.adhoc_naver:
@@ -271,9 +335,9 @@ def main():
     pool = {
         "slot": args.slot,
         "generated_kst": now_kst.strftime("%Y-%m-%d %H:%M"),
-        "is_monday": is_monday,
         "windows_kst": {k: [w[0].strftime("%Y-%m-%d %H:%M"), w[1].strftime("%Y-%m-%d %H:%M")]
                         for k, w in windows.items()},
+        "sent_history_size": stats["sent_history_size"],
     }
 
     # ── 방식1: 네이버 API ──
