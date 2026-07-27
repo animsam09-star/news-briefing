@@ -120,7 +120,271 @@
    "sent_kst": "2026-07-27 21:43",
    "title": "[단독] '해외에만 써라' KIC 3000억... 도미누스, 멕시코에 첫 베팅",
    "url": "https://biz.chosun.com/stock/stock_general/2026/07/27/M4G3RMFE6NGSPDEO22XN4PIPUM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "부동산 세제개편 밑그림 나왔다…'1주택 보호·초고가 조정' 무게",
+   "url": "https://n.news.naver.com/mnews/article/079/0004172596?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "한성숙 \"부동산 문제 큰 책임감\" 김윤덕 \"필요하면 그린벨트 풀 것\"",
+   "url": "https://www.joongang.co.kr/article/25448640"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "잔금 열사까지 등장하자…'아파트 집단 대출' 대출총량서 제외 검토",
+   "url": "https://n.news.naver.com/mnews/article/448/0000629726?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "장특공 '거주 중심' 손질 시사…12억 넘는 집주인들 촉각",
+   "url": "https://www.news1.kr/realestate/general/6240542"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "자연녹지 규제 완화에 5만2000세대 신청",
+   "url": "https://n.news.naver.com/mnews/article/654/0000192337?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "'미분양 무덤' 대구의 교훈… \"원스톱 인허가, 수도권에 절실\"[주택 공급의 덫, 지자체 인허가]",
+   "url": "https://n.news.naver.com/mnews/article/081/0003665129?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "환경평가에 발목 잡힌 공공주택 공급… '인허가 속도법' 국회 공전[주택 공급의 덫, 지자체 인허가]",
+   "url": "https://n.news.naver.com/mnews/article/081/0003665128?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "건설사 2분기 실적 희비…반도체 공사·원가율 관리가 갈랐다",
+   "url": "https://www.news1.kr/realestate/general/6240683"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "입주 하세월에 '전세 난민' 내몰려… 정책 신뢰도 '뚝' [심층기획-공공주택 공급 지연, 속타는 무주택자]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004146402?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "\"고액대출에 추가 부담금\"…부동산 '거시건전성 관리부담금' 효과 있을까",
+   "url": "https://www.newsis.com/view/NISX20260727_0003725391"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "여전사 이어 저축은행도 차담대 제한…'LTV 100% 이내' 제한이 원칙",
+   "url": "https://www.news1.kr/finance/general-finance/6240262"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "소상공인 대출문턱 낮춰… 16개 은행서 2.2조 공급 [경제 레이더]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004146375?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "'K-파운더 펀드' 띄운 정부…벤처·VC \"실질 투자 생태계 구축 관건\"",
+   "url": "https://www.news1.kr/industry/sb-founded/6240227"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "\"기업·자영업 붕괴, 상환 쉽지 않다\"…8조 규모 불어난 은행 요주의여신",
+   "url": "https://www.mk.co.kr/article/12109004"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "두산에 SK실트론 지분 매각… 7개월 협상, 이르면 31일 결론",
+   "url": "https://n.news.naver.com/mnews/article/023/0003989910?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "[단신]KB금융, 1500억 원 규모 유니콘 육성 펀드 조성 外",
+   "url": "https://www.donga.com/news/Economy/article/all/20260727/134374420/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "4대 카드사 상반기 당기순익 4.2%↑…연체율 개선",
+   "url": "https://n.news.naver.com/mnews/article/374/0000524008?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "원화 스테이블코인·온체인 파생상품, 제도권 내 끌어들여야",
+   "url": "https://n.news.naver.com/mnews/article/023/0003989885?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "코인원·코빗·업비트 짝 찾았는데… '사면초가' 빗썸은 누구와 손잡나[경제 블로그]",
+   "url": "https://n.news.naver.com/mnews/article/081/0003665189?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "\"혼자 말하면 안 듣던 기업, 주주가 뭉치니 전화를 받았다\"",
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1270241.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "OpenAI CEO Sam Altman heads to Washington as AI policy deadline nears",
+   "url": "https://www.politico.com/news/2026/07/27/openai-ceo-sam-altman-heads-to-washington-as-ai-policy-deadline-nears-01012970"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Improved Voice Mode Makes Working With Claude Easier",
+   "url": "https://aibusiness.com/generative-ai/improved-voice-mode-makes-working-claude-easier"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Nvidia making big bets on AI infrastructure",
+   "url": "https://www.cnbc.com/video/2026/07/27/nvidia-making-big-bets-on-ai-infrastructure.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "NVIDIA HGX B300 Benchmarking for AI Infrastructure: Evaluating Performance, Power, and AI Workload",
+   "url": "https://techinsights.com/blog/nvidia-hgx-b300-ai-infrastructure-benchmarking"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "NVIDIA Backs Sutskever's AI Safety Lab With $5B and Vera Rubin Supercompute",
+   "url": "https://www.techtimes.com/articles/321744/20260727/nvidia-backs-sutskevers-ai-safety-lab-5b-vera-rubin-supercompute.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "OpenAI's Hugging Face Hack Raises a Bigger Question About Who Controls AI Agents",
+   "url": "https://innotechtoday.com/openais-hugging-face-hack-raises-a-bigger-question-about-who-controls-ai-agents/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock.",
+   "url": "https://www.barrons.com/articles/nvidia-stock-price-openai-finance-deal-b9c8993b"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Why This Time Is Different for SK Hynix and Memory Chips",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-07-27/sk-hynix-and-memory-chip-makers-hope-ai-breaks-the-boom-and-bust-cycle"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "M&A frames Mount Isa renaissance",
+   "url": "https://www.cairnspost.com.au/business/stockhead/mount-isas-renaissance-all-roads-lead-to-queenslands-ma-capital/news-story/c3da80856361d23cf09ab9aadb40a626"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "India's mineral security imperative",
+   "url": "https://www.deccanherald.com/amp/story/opinion%2Findias-mineral-security-imperative-4089491"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Oil prices see largest two-month drop as US-Iran tensions ease",
+   "url": "https://cryptobriefing.com/oil-prices-see-largest-two-month-drop-as-us-iran-tensions-ease/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "US strategic oil reserve at lowest level since 1983 amid Iran tensions",
+   "url": "https://cryptobriefing.com/us-strategic-oil-reserve-at-lowest-level-since-1983-amid-iran-tensions/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Argent LNG wins DOE approval to export to free-trade agreement countries",
+   "url": "https://www.ogj.com/general-interest/government/news/55393783/argent-lng-wins-doe-approval-to-export-to-free-trade-agreement-countries"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Ukraine wants Canada's LNG for 30 years. Will Carney deliver?",
+   "url": "https://www.junonews.com/p/ukraine-wants-canadas-lng-for-30"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Boeing Earnings Set for Tuesday. It Needs to Build More Planes.",
+   "url": "https://www.barrons.com/articles/boeing-earnings-stock-price-228776d8"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "The 5.5-Degree Rule That Now Governs Every 737 MAX Takeoff After Boeing's MCAS Rewrite",
+   "url": "https://simpleflying.com/5-degree-rule-now-governs-every-737-max-takeoff-boeing-mcas-rewrite/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Apple Upgrade Launches Tuesday: Monthly Payments Drop, but Device Ownership Does Too",
+   "url": "https://www.techtimes.com/articles/321732/20260727/apple-upgrade-launches-tuesday-monthly-payments-drop-device-ownership-does-too.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Is NextEra Energy (NYSE:NEE) Meeting Rising Data-Center Power Demand?",
+   "url": "https://kalkinemedia.com/us/stocks/energy/is-nextera-energy-nysenee-meeting-rising-data-center-power-demand"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "APS customers set all-time record for energy use amid extreme heat",
+   "url": "https://www.abc15.com/news/local-news/aps-customers-set-all-time-record-for-energy-use-amid-extreme-heat"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Rocket Lab to start launching missile-defense missions from Alaska under $266 million Space Force deal",
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-to-start-launching-missile-defense-missions-from-alaska-under-usd266-million-space-force-deal"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "Ukraine-linked cells arrested over attacks in Iraq",
+   "url": "https://shafaq.com/en/Security/Ukraine-linked-cells-arrested-over-attacks-in-Iraq"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "UN eyeing potential Israeli war crimes in Lebanon",
+   "url": "https://www.aljazeera.com/news/2026/7/27/un-eyeing-potential-israeli-war-crimes-in-lebanon"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "New York AG Letitia James Opposes the Crypto Bill Coinbase Wants Passed August 3",
+   "url": "https://beincrypto.com/james-crypto-oversight-coinbase-vote/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-28 06:33",
+   "title": "China Is Outspending the US on Crypto Rails, Coinbase Tells Senate",
+   "url": "https://beincrypto.com/china-crypto-rails-digital-yuan-senate/"
   }
  ],
- "updated_kst": "2026-07-27 21:43"
+ "updated_kst": "2026-07-28 06:33"
 }
