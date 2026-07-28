@@ -11,7 +11,7 @@ on:
     # morning은 전날 UTC에 실행되므로 KST 토요일 제외 = UTC 금요일(5) 제외.
     - cron: '20 21 * * 0-4,6'   # morning    06:20 KST, 일~금 (KST 토 제외)
     - cron: '0 1 * * 0-5'       # midmorning 10:00 KST, 일~금
-    - cron: '15 5 * * 0-5'      # afternoon  14:15 KST, 일~금
+    - cron: '40 5 * * 0-5'      # afternoon  14:40 KST, 일~금 (발송 완료 ~14:52 — '3시까지' 지침)
     - cron: '30 12 * * 0-5'     # evening    21:30 KST, 일~금
   workflow_dispatch:
     inputs:
@@ -40,7 +40,7 @@ jobs:
           case "${{ github.event.schedule }}" in
             "20 21 * * 0-4,6") SLOT=morning ;;
             "0 1 * * 0-5")     SLOT=midmorning ;;
-            "15 5 * * 0-5")    SLOT=afternoon ;;
+            "40 5 * * 0-5")    SLOT=afternoon ;;
             "30 12 * * 0-5")   SLOT=evening ;;
             *)                 SLOT="${{ inputs.slot }}" ;;
           esac
