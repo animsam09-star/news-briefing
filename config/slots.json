@@ -55,15 +55,15 @@
       "targets": { "건설": 10, "금융": 10 }
     },
     "afternoon": {
-      "run_kst": "14:15",
+      "run_kst": "14:40",
       "methods": ["method1"],
-      "window_m1": ["today 09:50", "today 14:05"],
+      "window_m1": ["today 09:50", "today 14:30"],
       "targets": { "건설": 10, "금융": 10 }
     },
     "evening": {
       "run_kst": "21:30",
       "methods": ["method1"],
-      "window_m1": ["today 14:05", "today 21:20"],
+      "window_m1": ["today 14:30", "today 21:20"],
       "targets": { "건설": 10, "금융": 10 }
     }
   },
