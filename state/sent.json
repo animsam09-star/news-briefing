@@ -744,7 +744,277 @@
    "sent_kst": "2026-07-28 21:43",
    "title": "코스콤, K-금융 데이터로 '글로벌 투심' 잡는다…자본시장 영토 확장",
    "url": "https://n.news.naver.com/mnews/article/029/0003039439?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "정부, '기업형 임대주택' 확대 검토…'청년 중심 공급' 대안 될까",
+   "url": "https://www.khan.co.kr/article/202607282148015"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "중형 공공임대 늘린다는 정부… 1~2인 가구 수요와 '엇박자'",
+   "url": "https://n.news.naver.com/mnews/article/022/0004146702?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "20년 넘게 소유하던 서울 집, 상반기 가장 많이 팔았다... 세금 인상 예고 영향",
+   "url": "https://n.news.naver.com/mnews/article/469/0000944967?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "LH, 서리풀 2만가구 공급 속도…'마지막 관문' 경영투자심사 진행",
+   "url": "https://www.news1.kr/realestate/general/6241826"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "수요지 따로 있는데… 매입임대 공급 '엇박'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005392327?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "기업銀 부동산업 연체율 14년만에 최고…상승폭 최대",
+   "url": "https://n.news.naver.com/mnews/article/001/0016220329?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "빈 사무실 늘었다…서울 오피스 공실률 5년만에 최고",
+   "url": "https://www.newsis.com/view/NISX20260728_0003726929"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "\"부모 재산 따라 서울 입성\"…대출 조이자 더 벌어진 '주거 격차'",
+   "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02145126645519440"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "대출 막히자 작은 집 샀다…서울 40㎡ 이하 거래 역대 최대",
+   "url": "https://www.news1.kr/realestate/general/6241654"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "보유세 압박에도 초고가 랠리…압구정 112억·반포 98억",
+   "url": "https://www.newsis.com/view/NISX20260727_0003725280"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "'롯데카드 중징계' 31일 결론날까…금융위, 해킹 사고 첫 영업정지 고심",
+   "url": "https://www.news1.kr/finance/insurance-card/6241676"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "상반기 등록 ABS 발행 26.6조…전년대비 26.5%↑",
+   "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02072966645519440"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "미국 이어 영국도 24시간 주식거래 추진…'국장'도 가능할까",
+   "url": "https://www.khan.co.kr/article/202607290600071"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "BNK금융 상반기 순이익 13%↓…일회성 비용 발생 영향",
+   "url": "https://n.news.naver.com/mnews/article/374/0000524228?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "농협금융, 비이자이익 확대에도 영업익 '뒷걸음'…하반기 관건은 충당금 관리",
+   "url": "https://n.news.naver.com/mnews/article/629/0000519817?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "신한은행, 모집인 통한 대출 중단...\"이틀 만에 한도 소진\"",
+   "url": "https://n.news.naver.com/mnews/article/374/0000524226?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "'29조원' 대미 투자 1호, 텍사스 가스화력발전소 건설 낙점",
+   "url": "https://n.news.naver.com/mnews/article/081/0003665599?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "중·저신용 위한 인뱅인데… 대출 문턱, 시중은행보다 높아졌다 [뉴스 분석]",
+   "url": "https://n.news.naver.com/mnews/article/081/0003665595?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "대기업 믿고 빌려주고, 취약기업 챙겨주고…'허리기업' 대출만 말랐다",
+   "url": "https://www.mk.co.kr/article/12110107"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "연체율 관리 급한 상호금융, 집단대출 완화에 기대 ↑",
+   "url": "https://n.news.naver.com/mnews/article/008/0005392319?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Here's what Anthropic found when it turned Mythos loose on encryption algorithms - CyberScoop",
+   "url": "https://cyberscoop.com/anthropic-claude-mythos-encryption-flaws-hawk-aes-pqc/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "OpenAI models used Artifactory zero-days to escape to the internet - BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Nvidia Reportedly Signs Up to $50 Billion Texas Data-Center Lease - TradingView",
+   "url": "https://www.tradingview.com/news/gurufocus:2d829bb1d094b:0-nvidia-reportedly-signs-up-to-50-billion-texas-data-center-lease/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Proxmox VE Joins NVIDIA's Mission Control Ecosystem as the HA Layer for AI Factories - StorageReview.com",
+   "url": "https://www.storagereview.com/sv/news/proxmox-ve-joins-nvidias-mission-control-ecosystem-as-the-ha-layer-for-ai-factories"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Top AI Researchers From Rival Labs Come Together To Ask US Govt To \"Pace The Frontier\" Of AI - OfficeChai",
+   "url": "https://officechai.com/ai/top-ai-researchers-from-rival-labs-come-together-to-ask-us-govt-to-pace-the-frontier-of-ai/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box' - Dark Reading",
+   "url": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "SK Hynix Earnings Will Signal What's Next for Memory Chip Boom - Barron's",
+   "url": "https://www.barrons.com/articles/sk-hynix-earnings-stock-price-10751beb"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Samsung and Broadcom Expand Collaboration Across Memory and Foundry Tech - HPCwire",
+   "url": "https://www.hpcwire.com/off-the-wire/samsung-and-broadcom-expand-collaboration-across-memory-and-foundry-tech/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "As Zimbabwe's raw lithium ban pays off, ambitions grow - The Zimbabwean",
+   "url": "https://www.thezimbabwean.co/2026/07/as-zimbabwes-raw-lithium-ban-pays-off-ambitions-grow/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Mining can strengthen Brazil's position in future tariff negotiations - BNamericas",
+   "url": "https://www.bnamericas.com/en/news/mining-can-strengthen-brazils-position-in-future-tariff-negotiations"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "OPEC Prepares to Stop Raising Oil Output Targets - OilPrice.com",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Prepares-to-Stop-Raising-Oil-Output-Targets.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "The politics of the last barrel - worldfinance.com",
+   "url": "https://www.worldfinance.com/special-reports/the-politics-of-the-last-barrel"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "US approves Louisiana LNG export facility, adding 25 million metric tons to their export capacity - todayville.com",
+   "url": "https://www.todayville.com/calgary/us-approves-louisiana-lng-export-facility-adding-25-million-metric-tons-to-their-export-capacity/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Duke Energy plans largest LNG facility in company history for Davidson County - hpenews.com",
+   "url": "https://www.hpenews.com/thomasville_times/duke-energy-plans-largest-lng-facility-in-company-history-for-davidson-county/article_f67175e6-aaa1-5180-9a30-2e48b51a25bf.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "The Boeing Company Q2 2026 Earnings Call Summary - Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-company-q2-2026-earnings-204932494.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Zelensky meets Lockheed Martin team to discuss 'further development of cooperation' - Yahoo",
+   "url": "https://www.yahoo.com/news/videos/zelensky-meets-lockheed-martin-team-210123977.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Apple briefly tops $5 trillion market value for first time - Reuters",
+   "url": "https://www.reuters.com/business/retail-consumer/apple-briefly-becomes-second-company-ever-notch-5-trillion-market-value-2026-07-28/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Apple Launches Klarna Leasing With $17.99 Monthly iPhone Plans - TradingView",
+   "url": "https://www.tradingview.com/news/gurufocus:37df3749b094b:0-apple-launches-klarna-leasing-with-17-99-monthly-iphone-plans/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "UAMPS downsizes NuScale SMR plans - American Nuclear Society",
+   "url": "https://www.ans.org/news/article-3087/uamps-downsizes-nuscale-smr-plans/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Why Private Equity is Investing Beyond Data Centers and into AI's Power Infrastructure - Hart Energy",
+   "url": "https://www.hartenergy.com/energy-market-transactions/equity/he-pi-private-equity-energy-infrastructure/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "SPCX, RKLB, ASTS, LUNR In Focus — Trump Administration To Expedite Approvals For Commercial Rocket Launches - TradingView",
+   "url": "https://www.tradingview.com/news/stocktwits:c6ac071a3094b:0-spcx-rklb-asts-lunr-in-focus-trump-administration-to-expedite-approvals-for-commercial-rocket-launches/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Iran and Oman exchange proposals to manage Strait of Hormuz - Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/7/28/iran-and-oman-exchange-proposals-to-manage-strait-of-hormuz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "Zelensky, Trump discuss more powerful weapons for Ukraine war - The Australian",
+   "url": "https://www.theaustralian.com.au/world/zelensky-trump-discuss-more-powerful-weapons-for-ukraine-war/news-story/33b16e7b17a9d8cd28a041f033c18e76"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "How new Treasury rules on stablecoin will affect players - Business Daily",
+   "url": "https://www.businessdailyafrica.com/bd/corporate/technology/how-new-treasury-rules-on-stablecoin-will-affect-players-5539940"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-29 06:33",
+   "title": "This ETF Quietly Became the Checking Account for the Entire Stablecoin Industry - 24/7 Wall St.",
+   "url": "https://247wallst.com/investing/etf/2026/07/28/this-etf-quietly-became-the-checking-account-for-the-entire-stablecoin-industry/"
   }
  ],
- "updated_kst": "2026-07-28 21:43"
+ "updated_kst": "2026-07-29 06:33"
 }
