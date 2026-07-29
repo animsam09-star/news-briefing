@@ -1374,7 +1374,283 @@
    "sent_kst": "2026-07-29 21:44",
    "title": "대출한도 줄인 국민은행, 금리도 인상…최대 0.53%P 상향",
    "url": "https://n.news.naver.com/mnews/article/016/0002676997?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "[단독]공정시장가액비율 60→80% 상향… 초고가 주택 종부세 '핀셋 증세'",
+   "url": "https://www.donga.com/news/Economy/article/all/20260729/134390559/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "신규 택지·그린벨트 풀고 세제·대출 조인다…부동산 대책 윤곽",
+   "url": "https://www.news1.kr/realestate/general/6243165"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "경제부총리 \"다주택자의 비거주 주택, 세금부담 늘어야\"",
+   "url": "https://n.news.naver.com/mnews/article/002/0002450255?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "순방 중 돌아가는 세제 발표 시계…李 없이도 속도내는 정부",
+   "url": "https://n.news.naver.com/mnews/article/119/0003116305?sid=100"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "양도세 고차익에 정조준…한시적 매도 유인 카드 '만지작'",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008681658&plink=ORI&cooper=NAVER"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "대출 막혀 하반기 입주 앞둔 7만 가구 '잔금 비상'…둔촌주공 때는 어땠...",
+   "url": "https://www.news1.kr/finance/general-finance/6242770"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "위기의 건설업…올 상반기만 2092곳 폐업, 12년 만에 최다",
+   "url": "https://www.newsis.com/view/NISX20260728_0003726632"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "이주비 대출 양극화…완화 목소리 커진다",
+   "url": "https://n.news.naver.com/mnews/article/629/0000520203?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "[단독]불난 쿠팡 물류센터 건물, 화재안전조사 5회중 3회 '불량'",
+   "url": "https://www.donga.com/news/Society/article/all/20260730/134391141/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "수명 긴 주택·소규모 정비사업…재건축 아닌 '다른 길'도 있다",
+   "url": "https://www.hani.co.kr/arti/area/capital/1270590.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "정부, 단일종목 레버리지 ETF 개인별 투자한도 20%내로 제한(종합)",
+   "url": "http://www.fnnews.com/news/202607292158371819"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "예보료, 17년만에 손본다… '인상' 추진",
+   "url": "https://n.news.naver.com/mnews/article/008/0005393053?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "지방銀 中企연체율 11년만에 최고… 'K자 양극화' 심화",
+   "url": "https://www.donga.com/news/Economy/article/all/20260729/134390376/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "가상자산사업자 과반, 부채비율 요건 미충족…생존 위기",
+   "url": "https://n.news.naver.com/mnews/article/001/0016222969?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "연금자산 적립금 80조 돌파… 상반기에만 43만 명 몰렸다",
+   "url": "https://www.donga.com/news/Economy/article/all/20260729/134382818/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "해외 펀드 판매액 1년 새 83% 급증",
+   "url": "https://www.donga.com/news/Economy/article/all/20260729/134382620/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "금융지주 '보험 경쟁' 새 국면…KB는 수성, 신한·우리는 M&A 승부수",
+   "url": "https://n.news.naver.com/mnews/article/629/0000520200?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "중기대출 270조 짊어진 IBK…불황 땐 건전성 우려",
+   "url": "https://www.sedaily.com/article/20073552?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "메리츠금융 회사채 수요예측 흥행…4800억 주문 유입 [시그널]",
+   "url": "https://www.sedaily.com/article/20073487?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "'기업 승계' 1226곳, 우리은행 손 잡았다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005393064?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "ChatGPT maker OpenAI says rogue AI agent attack hit several companies",
+   "url": "https://www.trtworld.com/article/c4bd64fa2dc5"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Anthropic confirms Claude is down worldwide",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "NVIDIA Talks: Backing OpenAI's US$500bn Ohio AI Data Centre",
+   "url": "https://datacentremagazine.com/news/nvidia-openai-us-500-bn-ohio-ai-data-centre-talks"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Nvidia Secures Stake in Nebius as AI Infrastructure Demand Surges",
+   "url": "https://www.readers.id/en/nvidia-secures-stake-nebius-ai"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "OpenAI, Anthropic ask U.S. government to consider slowing down AI",
+   "url": "https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "OpenAI Launches Free AI Access for Scientists: Apply Now, Model Weights Still Off-Limits",
+   "url": "https://www.techtimes.com/articles/322124/20260729/openai-launches-free-ai-access-scientists-apply-now-model-weights-still-off-limits.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Micron Stock Is Getting Hit After SK Hynix's Fumbled Earnings Moment",
+   "url": "https://www.barrons.com/articles/micron-stock-price-sk-hynix-earnings-ec869b5f"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "SK Hynix's Profits Explode 550%, but Its $31 Billion Spending Plan Sends Investors Running",
+   "url": "https://247wallst.com/investing/2026/07/29/sk-hynixs-profits-explode-550-but-its-31-billion-spending-plan-sends-investors-running/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "U.S. backs Madagascar rare earth project as critical minerals strategy expands",
+   "url": "https://mugglehead.com/u-s-backs-madagascar-rare-earth-project-as-critical-minerals-strategy-expands/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Beyond Recycling: The Critical Minerals Race That Will Shape India's EV Boom",
+   "url": "https://www.businessworld.in/article/beyond-recycling-the-critical-minerals-race-that-will-shape-india-s-ev-boom-617125"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "OPEC Again Lowers 2026 Global Oil Demand Growth Forecast",
+   "url": "https://energynow.ca/2026/06/opec-again-lowers-2026-global-oil-demand-growth-forecast/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Carney rejects idea of using oil as weapon against US tariffs",
+   "url": "https://cryptobriefing.com/carney-rejects-idea-of-using-oil-as-weapon-against-us-tariffs/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Fire erupts on ships at Egypt's Damietta port",
+   "url": "https://www.aljazeera.com/news/2026/7/29/fire-erupts-on-ships-at-egypts-damietta-port"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Germany LNG deal signals long-term opportunity for Northeast B.C. gas producers",
+   "url": "https://www.cjdctv.com/news/article/germany-lng-deal-signals-long-term-opportunity-for-northeast-bc-gas-producers/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Caterpillar Stock Downgraded as AI Data Center Pushback Gets Real",
+   "url": "https://www.barrons.com/articles/caterpillar-stock-price-downgrade-ai-datacenter-aa331d25"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Debrief: Spirit Defense Aims To Assert Its Independence Under Boeing",
+   "url": "https://aviationweek.com/defense/supply-chain/debrief-spirit-defense-aims-assert-its-independence-under-boeing"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Qualcomm forecasts weak quarterly profit, expects Apple revenue drop to accelerate",
+   "url": "https://www.reuters.com/business/retail-consumer/qualcomm-forecasts-weak-quarterly-profit-expects-apple-revenue-drop-accelerate-2026-07-29/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Apple Launches Apple Upgrade Device Leasing for iPhone, Apple Watch, iPad, and Mac",
+   "url": "https://winbuzzer.com/2026/07/29/apple-upgrade-separates-monthly-prices-from-ownership-costs-xcxwbn/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Small Town Plays Guinea Pig For First-Of-Its-Kind Underground Nuclear Reactor",
+   "url": "https://www.dailywire.com/news/small-town-plays-guinea-pig-for-first-of-its-kind-underground-nuclear-reactor"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Grid Modernizations Fuel New Wave of Energy Storage Projects",
+   "url": "https://www.ecmweb.com/maintenance-repair-operations/energy-management/news/55394530/grid-modernizations-fuel-new-wave-of-energy-storage-projects"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
+   "url": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Italy's Hyperspectral Satellite Contract Triples Resolution as Rivals Emerge",
+   "url": "https://www.techtimes.com/articles/322128/20260729/italys-hyperspectral-satellite-contract-triples-resolution-rivals-emerge.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Trump says US to deliver 'beating' to Iran after bases again targeted",
+   "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "New investigation shows how an Israeli settler escaped justice",
+   "url": "https://www.aljazeera.com/news/2026/7/29/new-investigation-shows-how-an-israeli-settler-escaped-justice"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "Tether Sheds $5.5 Billion in USDT Supply as Stablecoin Turnover Hits a Record Pace",
+   "url": "https://news.bitcoin.com/stablecoins/tether-sheds-5-5-billion-in-usdt-supply-as-stablecoin-turnover-hits-a-record-pace/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-30 06:29",
+   "title": "The Digital Asset Market Clarity Act update",
+   "url": "https://cryptonews.net/news/legal/33220830/"
   }
  ],
- "updated_kst": "2026-07-29 21:44"
+ "updated_kst": "2026-07-30 06:29"
 }
