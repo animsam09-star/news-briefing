@@ -1,11 +1,11 @@
 # news-briefing — 하루 4회 뉴스 브리핑 (GitHub Actions)
 
-로컬 PC 없이 GitHub Actions에서 하루 4회(KST 06:20 / 10:00 / 14:40 / 21:30 실행, **토요일 생략**) 뉴스를 수집·선별해 Telegram으로 발송한다. 토요일 뉴스는 일요일 morning의 확장 윈도우(금 21:20~일 06:10)가 커버한다. 기존 Claude 데스크톱 "예정된 작업"(morning/midmorning/afternoon/evening)의 클라우드 이관판.
+로컬 PC 없이 GitHub Actions에서 하루 4회(KST 06:20 / 10:00 / 14:40 / 21:30 실행, **토요일 생략**) 뉴스를 수집·선별해 Telegram으로 발송한다. 국내 브리핑(방식1)은 4회 모두, 글로벌 13테마 브리핑(방식3)은 morning·evening 2회 나간다 — morning이 밤사이, evening이 낮 시간대를 맡아 겹치지 않는다. 토요일 뉴스는 일요일 morning의 확장 윈도우(금 21:20~일 06:10)가 커버한다. 기존 Claude 데스크톱 "예정된 작업"(morning/midmorning/afternoon/evening)의 클라우드 이관판.
 
 ## 구조
 
 ```
-scripts/collect.py        기계적 수집기 — 네이버 뉴스 API(방식1) + Google News RSS(방식3, morning만)
+scripts/collect.py        기계적 수집기 — 네이버 뉴스 API(방식1) + Google News RSS(방식3, morning·evening)
                           pubDate 기준 시간 윈도우 필터·경유 URL 디코딩·중복 제거 → pool.json
 scripts/record_sent.py    발송 이력 기록기 — 프롬프트가 남긴 /tmp/sent.json을 state/sent.json에 병합·만료정리
 config/slots.json         슬롯별 시간 윈도우·키워드·테마·허용 매체 도메인 (수집 설정의 단일 출처)

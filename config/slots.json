@@ -38,14 +38,13 @@
     "#전쟁_지정학": ["war geopolitics sanctions", "Ukraine OR Israel OR Taiwan conflict"],
     "#스테이블코인": ["stablecoin Circle USDC OR Tether USDT", "Coinbase stablecoin regulation"]
   },
-  "_window_rule": "각 슬롯의 window_m1 시작점 = 직전 실행 슬롯의 종료 시각. 이어 붙이면 빈틈도 중첩도 없다. morning의 prev_run_day 앵커는 토요일 발송 생략을 흡수하므로(일요일이면 금요일로 2일 소급) 월요일·주말 특례가 따로 필요 없다 — 주말 확장 윈도우는 일요일 morning 한 곳에만 생긴다.",
+  "_window_rule": "방식3(window_m3)도 같은 원리로 맞물린다 — morning이 밤사이(전날 21:20~06:10), evening이 낮(06:10~21:20)을 맡아 24h를 겹침 없이 채운다. 각 슬롯의 window_m1 시작점 = 직전 실행 슬롯의 종료 시각. 이어 붙이면 빈틈도 중첩도 없다. morning의 prev_run_day 앵커는 토요일 발송 생략을 흡수하므로(일요일이면 금요일로 2일 소급) 월요일·주말 특례가 따로 필요 없다 — 주말 확장 윈도우는 일요일 morning 한 곳에만 생긴다.",
   "slots": {
     "morning": {
       "run_kst": "06:20",
       "methods": ["method1", "method3"],
       "window_m1": ["prev_run_day 21:20", "today 06:10"],
-      "window_m3_hours": 24,
-      "window_m3_end": "today 06:10",
+      "window_m3": ["prev_run_day 21:20", "today 06:10"],
       "targets": { "건설": 10, "금융": 10, "theme_max": 2 }
     },
     "midmorning": {
@@ -62,9 +61,10 @@
     },
     "evening": {
       "run_kst": "21:30",
-      "methods": ["method1"],
+      "methods": ["method1", "method3"],
       "window_m1": ["today 14:30", "today 21:20"],
-      "targets": { "건설": 10, "금융": 10 }
+      "window_m3": ["today 06:10", "today 21:20"],
+      "targets": { "건설": 10, "금융": 10, "theme_max": 2 }
     }
   },
   "allowed_media_domains": {
