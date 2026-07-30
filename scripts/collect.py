@@ -87,10 +87,21 @@ def compute_windows(slot_cfg, now_kst):
     """
     w1 = slot_cfg["window_m1"]
     windows = {"m1": (parse_kst_anchor(w1[0], now_kst), parse_kst_anchor(w1[1], now_kst))}
-    if "window_m3_hours" in slot_cfg:
-        end = parse_kst_anchor(slot_cfg["window_m3_end"], now_kst)
-        windows["m3"] = (end - timedelta(hours=slot_cfg["window_m3_hours"]), end)
+    if "window_m3" in slot_cfg:
+        w3 = slot_cfg["window_m3"]
+        windows["m3"] = (parse_kst_anchor(w3[0], now_kst), parse_kst_anchor(w3[1], now_kst))
     return windows
+
+
+def rss_when_for(window):
+    """Google News RSS의 when: 파라미터를 윈도우 길이에서 역산.
+
+    when:1d로 고정하면 윈도우가 하루를 넘는 경우(일요일 morning은 금요일까지
+    소급) Google이 애초에 하루치만 돌려줘 조용히 구멍이 난다. 올림한 일수를 쓴다.
+    """
+    hours = (window[1] - window[0]).total_seconds() / 3600.0
+    days = int(hours // 24) + (1 if hours % 24 else 0)
+    return f"{max(1, days)}d"
 
 
 def in_window(dt, window):
@@ -224,8 +235,8 @@ def naver_search(query, window, domain_map, display=50):
 
 # ─── 방식3: Google News RSS + 경유 URL 디코딩 ─────────────────────
 
-def gnews_rss(query, window, lang="en-US", gl="US", ceid="US:en", when="1d"):
-    q = urllib.parse.quote(f"{query} when:{when}")
+def gnews_rss(query, window, lang="en-US", gl="US", ceid="US:en", when=None):
+    q = urllib.parse.quote(f"{query} when:{when or rss_when_for(window)}")
     url = f"https://news.google.com/rss/search?q={q}&hl={lang}&gl={gl}&ceid={ceid}"
     stats["rss_queries"] += 1
     try:
