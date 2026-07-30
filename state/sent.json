@@ -2010,7 +2010,283 @@
    "sent_kst": "2026-07-30 21:44",
    "title": "금투협, 증권사에 \"가상자산 업무 추진 시 금감원과 상의\" 서신",
    "url": "https://n.news.naver.com/mnews/article/001/0016225378?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "\"비아파트 공급 붕괴\"…정부, 세제·PF·인허가 패키지 대책 추진",
+   "url": "https://www.news1.kr/realestate/general/6244648"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "[단독]겉도는 공공 주택공급… 10곳중 7곳 청약 지연",
+   "url": "https://www.donga.com/news/Economy/article/all/20260731/134398519/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "‘2000억 긴급자금’ 숨통 튼 홈플러스, 8월 초 영업 재개…‘한국형 트레이더 조’로 사활 [SS포커스]",
+   "url": "https://n.news.naver.com/mnews/article/468/0001257045?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "HUG, 보증사고로 5년간 12조원 ‘떼였다’",
+   "url": "https://n.news.naver.com/mnews/article/022/0004147298?sid=100"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "상반기 서울 주택 준공 물량 '뚝'…아파트는 58% 줄어",
+   "url": "https://n.news.naver.com/mnews/article/374/0000524758?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "착공·분양 증가에도 공급 불안 여전…‘악성 미분양’ 3만가구 육박",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/31/5GVQ2N2ZGNBKFB3ODFPN6KRLLA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "오세훈표 정비사업 속도전…서울 재건축·재개발 어디까지",
+   "url": "https://magazine.hankyung.com/business/article/202607305486b"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "서대문구, 재개발·재건축 민관 합동 점검 TF 가동",
+   "url": "https://www.sedaily.com/article/20074095?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "2분기 강원지역 상가 공실률 상승",
+   "url": "https://n.news.naver.com/mnews/article/087/0001208508?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "해진공, 미 에너지·물류 인프라 2100억 투자…“공급망 강화”",
+   "url": "https://www.joongang.co.kr/article/25449602"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "'내부 유출'과 '외부 해킹'은 같은가…롯데카드 중징계 결론 임박",
+   "url": "https://n.news.naver.com/mnews/article/417/0001153810?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "금융위, '12대 입법과제' 국회 제출…서민금융법·자본시장법 드라이브",
+   "url": "https://www.news1.kr/finance/general-finance/6244644"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "대법 \"차바이오텍 허위공시 믿고 주식 샀다 손해봤다면 배상해야\"",
+   "url": "https://n.news.naver.com/mnews/article/008/0005393733?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "롯데손해보험 공개매각 전환…금융지주와 셈법 맞으려면 [시그널INSIDE]",
+   "url": "https://www.sedaily.com/article/20073896?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "“코인 맡기면 매달 1.8% 수익”… 123억 가상자산 가로챈 일당 검거",
+   "url": "https://n.news.naver.com/mnews/article/022/0004147318?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "내년부터 코인 과세 강행…국내 투자자 해외 이탈 우려 목소리도",
+   "url": "https://n.news.naver.com/mnews/article/422/0000890812?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "은행 문턱 높아지니…저축銀 고신용자 비중 ‘쑥’",
+   "url": "https://www.sedaily.com/article/20074092?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "너무 높아진 은행 대출 문턱… 신용 ‘1등급’도 탈락 가능성 [경제 레이더]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004147304?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "잔금대출도 규제 대상… “자금계획 미리 세워야”[부동산 빨간펜]",
+   "url": "https://www.donga.com/news/Economy/article/all/20260730/134397303/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "미 연준, 향후 금리 모호한 입장…8월 결정 앞둔 한국은행 ‘고민’",
+   "url": "https://www.khan.co.kr/article/202607302139005"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "AI & Tech Brief: Exclusive | AI policy groups call for OpenAI investigation - The Washington Post",
+   "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/07/30/ai-tech-brief-exclusive-ai-policy-groups-call-openai-investigation/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Amazon Q2 Profit More Than Triples As Anthropic AI Bet Pays Off Big Time - IMDb",
+   "url": "https://www.imdb.com/news/ni65951932/?ref_=nwc_art_perm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "AMD Helios Brings A New Vision For AI Infrastructure - Resident™ Magazine",
+   "url": "https://resident.com/tech-and-gear/2026/07/30/amd-helios-brings-a-new-vision-for-ai-infrastructure"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Samsung SDS External Cloud Revenue Surges as B300 GPUaaS Goes Fully Commercial - Tech Times",
+   "url": "https://www.techtimes.com/articles/322310/20260730/samsung-sds-external-cloud-revenue-surges-b300-gpuaas-goes-fully-commercial.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "AI Probability Bias Traced to Training: Claude Pessimistic, GPT Optimistic Across All Tests - Tech Times",
+   "url": "https://www.techtimes.com/articles/322341/20260730/ai-probability-bias-traced-training-claude-pessimistic-gpt-optimistic-across-all-tests.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Stanford Paper Challenges Core Assumption Behind Offline-to-Online Reinforcement Learning Pipelines - Tech Times",
+   "url": "https://www.techtimes.com/articles/322340/20260730/stanford-paper-challenges-core-assumption-behind-offline-online-reinforcement-learning-pipelines.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Samsung reports record profit as AI boom drives chip demand - The San Joaquin Valley Sun",
+   "url": "https://sjvsun.com/u-s/samsung-reports-record-profit-as-ai-boom-drives-chip-demand/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "SK Hynix Made $42B in One Quarter But Investor Still Yawned - Memeburn",
+   "url": "https://memeburn.com/sk-hynix-record-profit-ai-chip-selloff-2026/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Why making lighter and better batteries takes time - Tech Xplore",
+   "url": "https://techxplore.com/news/2026-07-lighter-batteries.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Ascend Elements to Pay $7.5 Million to Resolve Federal Reimbursement Claims - WKDZ",
+   "url": "https://www.wkdzradio.com/2026/07/30/ascend-elements-to-pay-7-5-million-to-resolve-federal-reimbursement-claims/news-edge/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Houthi Threats on Saudi Oil Shift Market Hopes to Suez - Energy Intelligence",
+   "url": "https://www.energyintel.com/0000019f-afd2-d21d-a9ff-ffd698050000"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Crude Oil is pricing a Hormuz deal, not a peace deal - FXStreet",
+   "url": "https://www.fxstreet.com/news/crude-oil-is-pricing-a-hormuz-deal-not-a-peace-deal-202607301848"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "FSRU shutdown disrupts 2 spot LNG cargo deliveries - The Financial Express",
+   "url": "https://today.thefinancialexpress.com.bd/print/fsru-shutdown-disrupts-2-spot-lng-cargo-deliveries-1785436032"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Iran clears passage for Pakistan-bound LNG shipment from Qatar - Pakistan Today",
+   "url": "https://www.pakistantoday.com.pk/2026/07/30/iran-clears-passage-for-pakistan-bound-lng-shipment-from-qatar"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "FAA Proposes Inspections For 453 Boeing 737 MAX Jets Over Seat Issue - Travel Noire",
+   "url": "https://travelnoire.com/boeing-737-max-seat-inspections"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Lockheed Martin wins $58.6B contract to produce Patriot interceptors - The Hill",
+   "url": "https://thehill.com/policy/defense/6000739-lockheed-martin-contract-patriot-interceptor-missiles-stockpile/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Apple revenue, profits beat expectations on iPhone, Mac sales - Reuters",
+   "url": "https://www.reuters.com/business/retail-consumer/apple-revenue-profits-beat-expectations-iphone-mac-sales-2026-07-30/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "1.5M heating devices sold on Amazon, Walmart recalled after 350 injuries, one death - MassLive",
+   "url": "https://www.masslive.com/news/2026/07/15m-heating-devices-sold-on-amazon-walmart-recalled-after-350-injuries-one-death.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Ameren's 2.1-GW Gas Plant Falls Short of Data Center Power Demand - Pipeline and Gas Journal",
+   "url": "https://pgjonline.com/news/2026/july/amerens-21-gw-gas-plant-falls-short-of-data-center-power-demand"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "How AI Is powering India’s next generation of smart electricity grids - pv magazine India",
+   "url": "https://www.pv-magazine-india.com/2026/07/30/how-ai-is-powering-indias-next-generation-of-smart-electricity-grids/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "SpaceX Carries Spy Satellite into Orbit - NTD News",
+   "url": "https://www.ntd.com/spacex-carries-spy-satellite-into-orbit_1163144.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Rocket Lab Jumps 8% After iQPS Books Three More Electron Launches, Expanding SAR Constellation - finance.biggo.com",
+   "url": "https://finance.biggo.com/news/14b619a0-c774-4e9e-94cd-c6a12f865817"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Ukraine dials India, seeks peace role amid ship attack concerns - The Times of India",
+   "url": "https://timesofindia.indiatimes.com/india/ukraine-dials-india-seeks-peace-role-amid-ship-attack-concerns/articleshow/132750207.cms"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Saudi Arabia announces maritime defence alliance to secure vital waterways - Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/7/30/saudi-arabia-announces-maritime-defence-alliance-to-secure-vital-waterways"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Coinbase Stock: Why Looming Crypto Legislation Overshadows Earnings - barrons.com",
+   "url": "https://www.barrons.com/articles/coinbase-earnings-stock-price-32ce7c46"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-07-31 06:31",
+   "title": "Coinbase shares slip after Q2 results despite prediction markets doubling and record trading market share - The Block",
+   "url": "https://www.theblock.co/post/410208/coinbase-shares-slip-after-q2-results-despite-prediction-markets-doubling-and-record-trading-market-share?utm_source=markets.xml&utm_medium=rss"
   }
  ],
- "updated_kst": "2026-07-30 21:44"
+ "updated_kst": "2026-07-31 06:31"
 }
