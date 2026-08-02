@@ -2,246 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "\"악성 미분양·흉물 빈집 잡자\"… 대전시, 취득세 최대 50% 감면",
-   "url": "http://www.fnnews.com/news/202607290836065309"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "주택공급 '방법론' 엇갈려도…교집합은 '준공업지역'",
-   "url": "https://n.news.naver.com/mnews/article/648/0000049293?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "서울시, '2.7조' 잠실 MICE 복합개발 본격화",
-   "url": "https://view.asiae.co.kr/article/2026072908184270899"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "\"집주인이 은행 된다\"…셀러 파이낸싱의 역설, 편법 거래·사적금융 키우나",
-   "url": "http://www.fnnews.com/news/202607290329258873"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "GS건설, 2분기 영업익 914억원 43.6%↓…신규 수주 5.2조원 61.7%↑",
-   "url": "https://www.newsis.com/view/NISX20260729_0003727466"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "살 사람은 많다는데 거래는 왜 줄었을까?",
-   "url": "https://www.hankyung.com/article/202607279052O"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "토지 보유자 2000만명 넘어…국민 10명 중 4명 땅 소유",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/29/XJHI655PE5CPHIH23NM5Q6QR7Q/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "\"호텔도 운용의 시대\" 코람코, AUM 5조 밑그림 밝혀 [fn마켓워치]",
-   "url": "http://www.fnnews.com/news/202607290800259362"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "양도세 '퇴로' 마련하면 다주택자 '급매' 풀릴까…\"반짝 효과 뿐\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003115895?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "서울 아파트 거래 '급랭'…세금·대출 규제에 매수자 관망[집슐랭]",
-   "url": "https://www.sedaily.com/article/20073058?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "생소한 토큰증권 알기 쉽게…블록체인 기술주 발굴",
-   "url": "https://n.news.naver.com/mnews/article/008/0005392402?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "보이스피싱 보상, 피해·사기계좌 금융사가 절반씩 부담",
-   "url": "https://n.news.naver.com/mnews/article/030/0003452028?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "금융위, 삼성증권 중징계 감경할 듯…발행어음 인가 받나",
-   "url": "https://n.news.naver.com/mnews/article/422/0000890017?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "\"길거리 나앉게 생겼다\" 절규…정부는 \"대출 규제 유지\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003115910?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "가산금리 '법적비용 제외' 한 달, 체감은 '미미'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003115904?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "293만명 빚 탕감해줬더니…6명 중 1명 또 빚 연체",
-   "url": "https://n.news.naver.com/mnews/article/374/0000524258?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "10월 피해환급법 시행 앞두고…DAXA, 비원화 거래소 간담회",
-   "url": "https://n.news.naver.com/mnews/article/030/0003452019?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "거래 마를수록 커지는 업비트…빗썸은 '고립무원'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003115909?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "코스피 유상증자 반토막…상반기 전체 규모 6.3조원",
-   "url": "https://n.news.naver.com/mnews/article/030/0003452064?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-29 10:18",
-   "title": "정산 혁신 넘어 결제망 내재화…쿠팡의 스테이블코인 실험",
-   "url": "https://n.news.naver.com/mnews/article/417/0001153458?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "윤곽 드러나고 있는 부동산 세제 개편안… 가격 수준, 거주 및 다주택자 여부 따져 세 부담 ‘차등화’",
-   "url": "https://n.news.naver.com/mnews/article/022/0004146828?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "구윤철, 李 '보유세 3배' 예고에…\"좀 올려야 한다는 취지\"",
-   "url": "https://www.hankyung.com/article/2026072930896"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "“집값도 전세, 월세도 다 오른다”…하반기 부동산 ‘삼중고’",
-   "url": "https://n.news.naver.com/mnews/article/666/0000117046?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "빈 상가를 공공임대주택으로…국토부, 비주택 리모델링 확대",
-   "url": "https://n.news.naver.com/mnews/article/422/0000890104?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "강남 알짜 재건축 공사비 갈등에 파국…대우건설, 소송전 예고",
-   "url": "https://n.news.naver.com/mnews/article/374/0000524348?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "“이주비·중도금 대출도 풀려야 숨통”",
-   "url": "https://n.news.naver.com/mnews/article/016/0002676781?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "지난해 청약 상위 80%가 '정비사업'…경쟁률 격차 '42배'",
-   "url": "https://www.hankyung.com/article/202607292353i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "블랙록 “韓 부동산, 세계서 가장 매력적 시장 중 하나”",
-   "url": "https://n.news.naver.com/mnews/article/016/0002676718?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "용인 반도체 국가산단 LNG발전소 \"수소 혼소 재검토 필요\"",
-   "url": "https://n.news.naver.com/mnews/article/607/0000003429?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "입고, 쓸고, 진단하고…건설현장 접수한 ‘로봇’",
-   "url": "https://n.news.naver.com/mnews/article/029/0003039587?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "금융위원장 \"단일종목 레버리지 ETF 배수조정·전문투자자 제한 검토\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005392659?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "특징주 기사로 85억 챙긴 기자·회계사 8명 기소...4명 구속",
-   "url": "https://n.news.naver.com/mnews/article/310/0000138730?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "구윤철 \"가상자산 과세, 내년부터 예정대로 시행\"",
-   "url": "https://n.news.naver.com/mnews/article/448/0000630138?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "이억원 \"가계부채, 부동산시장 영향 과거보다 제한적…절연 기조 유지\"",
-   "url": "https://www.newsis.com/view/NISX20260729_0003727923"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "금감원, 금융사 외부 IT 위탁 관리 강화…제3자 리스크 가이드라인 마련",
-   "url": "https://n.news.naver.com/mnews/article/119/0003116099?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "산은, 3450억 규모 ‘남부권 펀드’ 조성…지역 벤처 생태계 활력",
-   "url": "https://n.news.naver.com/mnews/article/029/0003039589?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "씨티 “韓 개미 레버리지 ETF 손실 56조 추정…하이닉스만 8조 물렸다”",
-   "url": "https://www.sedaily.com/article/20073275?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "국민·신한 AI 보안 투자비중 40배 차이…이억원 \"실제 격차인지 확인\"",
-   "url": "https://n.news.naver.com/mnews/article/031/0001045660?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "美 은행권 \"스테이블코인 이자·리워드 막아야\"…클래리티법 수정 촉구",
-   "url": "https://www.news1.kr/finance/blockchain-fintech/6242366"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-07-29 14:50",
-   "title": "증권사들, 제이알리츠 주총 앞두고 의결권 안내… ETF 운용사 판단 주목",
-   "url": "https://biz.chosun.com/stock/stock_general/2026/07/29/2G5TLYELFRAEHFBQB62MFOYOG4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-07-29 21:44",
    "title": "계곡 정비보다 쉽다더니…李 집권 1년차 집값 상승률 1위",
@@ -2154,7 +1914,121 @@
    "sent_kst": "2026-08-02 10:17",
    "title": "원화 스테이블코인 경쟁 본격화…네카오 주도권 승부",
    "url": "https://n.news.naver.com/mnews/article/001/0016228604?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "서울 고가주택 상승률 세계 2위…청년 주택자산은 8년 새 반토막",
+   "url": "https://www.newsis.com/view/NISX20260802_0003732953"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "비아파트 공급 확대 나선 정부…\"수요 회복책 병행해야\"[닥치고 공급③]",
+   "url": "https://www.newsis.com/view/NISX20260731_0003732185"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "취임 한 달 이성훈, LH 개혁안 시험대…분사 여부·부채 해법 주목",
+   "url": "https://view.asiae.co.kr/article/2026080212301381631"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "양도세 중과 앞두고 고가아파트 매도 몰렸나… 5월 거래 비중 연중 최고",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/08/02/WDX4PATI7ZGZ3L75WOZXUDD7BM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "부실 전기공사에 벌점 물린다…입찰 제한·영업정지 추진",
+   "url": "https://biz.chosun.com/policy/policy_sub/2026/08/02/3NM4WHDTSJGVRMMWWOQLSUBSOY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "'공급 병목 해소' 입법 시동…산단 보상 앞당기고 도심 후보지 법제화",
+   "url": "http://www.fnnews.com/news/202608021025597307"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "대법 \"지자체 요청 전선 지중화 분담금, 부가세 대상 아냐\"",
+   "url": "https://n.news.naver.com/mnews/article/448/0000630851?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "'얼마가 적정가?'…3.5조 '깜깜이 조경수 시장' 해결 나선 이곳",
+   "url": "https://n.news.naver.com/mnews/article/008/0005394386?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "\"내포역세권 땅투기 꺾는다\"...충남도, 삽교 일대 토지거래허가구역 2년 연장",
+   "url": "http://www.fnnews.com/news/202608021035035904"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "연 20% 초고금리 대부 불법추심…'대포폰 제로'로 3일 안에 차단한다",
+   "url": "https://n.news.naver.com/mnews/article/029/0003040169?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "금감원 제동에도 여전한 편법 영업…'700종신보험' 전수 조사",
+   "url": "https://n.news.naver.com/mnews/article/030/0003453369?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "정부 '증시 긴급조치권' 추진…삼전닉스 레버리지 배율 낮추나",
+   "url": "https://n.news.naver.com/mnews/article/079/0004174587?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "삼성證, 발행어음 '8호 사업자' 청신호…메리츠는 인가 '안갯속'",
+   "url": "https://www.newsis.com/view/NISX20260802_0003732826"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "영풍, 회계제재 놓고 금융당국과 치열한 법정 공방",
+   "url": "https://n.news.naver.com/mnews/article/021/0002808529?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "5대 은행 주담대 11개월 만에 최대폭 증가…마통 잔액 석 달 연속 '1조원대'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002678317?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "FIU, APG 연차총회 참석…사이버 스캠 대응 국제공조 논의",
+   "url": "https://www.newsis.com/view/NISX20260802_0003732897"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "9200억원 위메이드 인수, 누가 돈 대나…네오펄스 자금 구조 베일에",
+   "url": "https://n.news.naver.com/mnews/article/030/0003453336?sid=105"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "[STO 돋보기 ㊦] 美는 주식, 韓은 실물자산…4경원 토큰증권 경쟁 '점화'",
+   "url": "https://n.news.naver.com/mnews/article/138/0002236279?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-02 14:51",
+   "title": "환율 한 달 새 '125원' 급락…금융위기 후 가장 빠른 속도",
+   "url": "https://n.news.naver.com/mnews/article/215/0001260845?sid=101"
   }
  ],
- "updated_kst": "2026-08-02 10:17"
+ "updated_kst": "2026-08-02 14:51"
 }
