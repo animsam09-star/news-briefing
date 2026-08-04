@@ -2,102 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "부산 미분양 아파트 석 달 내리 8천가구↑…악성도 증가",
-   "url": "https://n.news.naver.com/mnews/article/001/0016226187?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "부동산 국민 의견 7476건…주택금융 39%로 최다",
-   "url": "https://n.news.naver.com/mnews/article/119/0003116832?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "[대출 규제 역설] 총량 맞추며 핀셋 지원?…시장선 \"언 발에 오줌 누기\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003116798?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "[홈플러스와 부동산] [하나대체투자자산운용] 지방 자산의 늪…엑시트 '산 넘어 산'",
-   "url": "https://dealsite.co.kr/articles/166187"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "대한토지신탁, 공공 임대 주택 리츠 '독주'",
-   "url": "https://dealsite.co.kr/articles/166203"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "[신세계프라퍼티 점프업] 정용진 회장, OKO그룹 동맹…청담프리마 본PF 전환 '청신호'",
-   "url": "https://dealsite.co.kr/articles/166214"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "'한국판 국부펀드' KIC로 통합…8월 '한국투자공사법' 개정안 발의",
-   "url": "https://n.news.naver.com/mnews/article/008/0005393771?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "금융위, STO 하위법규 막바지 조율…31일 업계 의견수렴",
-   "url": "https://dealsite.co.kr/articles/166297"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "[단독]드디어 불법 코인거래소 차단된다…방심위 \"사기사이트처럼 차단\"",
-   "url": "https://view.asiae.co.kr/article/2026073018314271848"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "단일종목 레버리지 오늘부터 '현금 3000만원' 있어야 매수",
-   "url": "https://n.news.naver.com/mnews/article/081/0003666384?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "네이버-두나무 '빅딜' 청신호…공정위 \"연내 심사 완료할 것\" 공식화",
-   "url": "https://www.news1.kr/finance/blockchain-fintech/6244567"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "[단독]중복상장 막았더니 올해 7월까지 단 1건…코스피 기업공개 25년만에 최저",
-   "url": "https://view.asiae.co.kr/article/2026073014030734318"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "새도약기금, 상록수·케이비스타 등 보유 연체 채권 2조6000억 매입",
-   "url": "https://biz.chosun.com/stock/finance/2026/07/31/XIMEE7ECOFA3ZAUJTZUMJX3COQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "퇴직연금 1위 내준 삼성생명, IRP 수수료 없앤다",
-   "url": "https://n.news.naver.com/mnews/article/215/0001260660?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "NH농협은행, 3년 만에 1000억원 규모 한국형 녹색채권 발행",
-   "url": "https://n.news.naver.com/mnews/article/030/0003452968?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-07-31 10:19",
-   "title": "빅배스 끝낸 하나캐피탈…김용석 대표, 연임 열쇠 '건전성'",
-   "url": "https://dealsite.co.kr/articles/166217"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-07-31 14:48",
    "title": "[초동시각]집단대출, 투기인가",
@@ -2316,7 +2220,121 @@
    "sent_kst": "2026-08-04 06:36",
    "title": "Coinbase CEO Brian Armstrong Supports CLARITY Act, Calls for Senate Vote This Week - ababnews.com",
    "url": "https://www.ababnews.com/news/ad04bd6f-1636-4a5b-bc60-85bf6a28425a"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "부동산 대책, '세제' 다음은 '공급'…준공업지역·그린벨트 카드 꺼내드나",
+   "url": "https://view.asiae.co.kr/article/2026080314221978854"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "“서울은 경쟁 치열한데”…부산 미분양 아파트 석 달 내리 8천가구↑",
+   "url": "https://www.mk.co.kr/article/12116000"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "LH 매입임대 지을 건설사에 땅 팔면 양도세 감면",
+   "url": "https://n.news.naver.com/mnews/article/648/0000049479?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "한국토지신탁, 부천 중동 은하마을 재건축 사업시행자 지정",
+   "url": "https://www.newsis.com/view/NISX20260804_0003735228"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "홈플러스 67개 매장 영업 재개…대구·경북 9곳",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8627783&ref=A"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "성남시, 용인~성남 고속도로 샛별마을 하부 통과 반대",
+   "url": "https://www.sedaily.com/article/20075353?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "강남 매물은 나오지만...집값은 다른 곳이 오른다? [굿모닝경제]",
+   "url": "https://n.news.naver.com/mnews/article/052/0002388563?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "서울 관악구, 구청장 직속 정비사업 신속지원단 신설…주택정비 속도 낸다",
+   "url": "https://n.news.naver.com/mnews/article/119/0003117877?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "\"구매에서 거주로 전환\"...'똘똘한 한 채' 운명은? [뉴스UP]",
+   "url": "https://n.news.naver.com/mnews/article/052/0002388541?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "\"롯데카드, 내부 경고 무시, '보안 100점' 자평\"…금감원 지적 보니",
+   "url": "https://news.mtn.co.kr/news-detail/2026080409061214867"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "금감원, '오지급 사태' 빗썸 검사의견서 송부",
+   "url": "https://www.newsis.com/view/NISX20260803_0003734624"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "'9년 족쇄' 삼성증권 발행어음 사업 인가...빗장 풀리나?",
+   "url": "https://n.news.naver.com/mnews/article/123/0002387772?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "리딩뱅크 이끈 정상혁 행장, 통합 신한銀 첫 '3연임' 역사 쓸까",
+   "url": "https://n.news.naver.com/mnews/article/629/0000521458?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "당국 레버리지 '긴급조치권' 추진…투자자 보호냐, 과도한 규제냐",
+   "url": "https://n.news.naver.com/mnews/article/119/0003117820?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "빗썸, 2028년 IPO 추진…“제도권 금융 수준 투명성 확보”",
+   "url": "https://n.news.naver.com/mnews/article/123/0002387773?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "두산, SK실트론 인수에 1조 차입…추가 부담은?",
+   "url": "https://n.news.naver.com/mnews/article/648/0000049496?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "'실적'만으론 부족…금융지주 회장·은행장 연임에 '새 변수'",
+   "url": "https://dealsite.co.kr/articles/166416"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "“8월 통과 물 건너가나”…美 클래리티법, 상원 본회의 안건서 빠져",
+   "url": "https://www.mk.co.kr/article/12115978"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-04 10:25",
+   "title": "\"안전지대가 최고\"…정기예금 25조 늘고 대기성 자금 '썰물'",
+   "url": "https://n.news.naver.com/mnews/article/119/0003117823?sid=101"
   }
  ],
- "updated_kst": "2026-08-04 06:36"
+ "updated_kst": "2026-08-04 10:25"
 }
