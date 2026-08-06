@@ -1,0 +1,49 @@
+name: watchdog
+
+# 브리핑이 통째로 누락됐을 때 자동 재발송한다.
+#
+# briefing.yml 안에 재시도를 넣을 수 없는 이유: 잡이 러너를 배정받지 못하면
+# 잡 안의 어떤 스텝도 실행되지 않는다(`if: always()` 스텝조차). 2026-08-07
+# morning이 그랬다 — 15분 큐 대기 후 취소, 과금 0ms, 로그 404. 실패 알림조차
+# 나갈 수 없었으므로 판단은 반드시 그 잡 바깥에서 해야 한다.
+#
+# 이 워크플로가 스스로 러너를 못 받는 경우도 있지만, 하루 17번 시도하므로
+# 전부 실패할 확률은 매우 낮다.
+
+on:
+  schedule:
+    # KST 07:05 ~ 23:05 매시 (UTC 22:05, 23:05, 00:05~14:05)
+    - cron: '5 22,23,0-14 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '판단만 하고 재발송은 하지 않음'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: write   # briefing.yml 재-dispatch
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 누락 슬롯 점검 및 재발송
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
+          python scripts/watchdog.py $ARGS
