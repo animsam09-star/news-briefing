@@ -2,120 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "서울 고가주택 상승률 세계 2위…청년 주택자산은 8년 새 반토막",
-   "url": "https://www.newsis.com/view/NISX20260802_0003732953"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "비아파트 공급 확대 나선 정부…\"수요 회복책 병행해야\"[닥치고 공급③]",
-   "url": "https://www.newsis.com/view/NISX20260731_0003732185"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "취임 한 달 이성훈, LH 개혁안 시험대…분사 여부·부채 해법 주목",
-   "url": "https://view.asiae.co.kr/article/2026080212301381631"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "양도세 중과 앞두고 고가아파트 매도 몰렸나… 5월 거래 비중 연중 최고",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/08/02/WDX4PATI7ZGZ3L75WOZXUDD7BM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "부실 전기공사에 벌점 물린다…입찰 제한·영업정지 추진",
-   "url": "https://biz.chosun.com/policy/policy_sub/2026/08/02/3NM4WHDTSJGVRMMWWOQLSUBSOY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "'공급 병목 해소' 입법 시동…산단 보상 앞당기고 도심 후보지 법제화",
-   "url": "http://www.fnnews.com/news/202608021025597307"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "대법 \"지자체 요청 전선 지중화 분담금, 부가세 대상 아냐\"",
-   "url": "https://n.news.naver.com/mnews/article/448/0000630851?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "'얼마가 적정가?'…3.5조 '깜깜이 조경수 시장' 해결 나선 이곳",
-   "url": "https://n.news.naver.com/mnews/article/008/0005394386?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "\"내포역세권 땅투기 꺾는다\"...충남도, 삽교 일대 토지거래허가구역 2년 연장",
-   "url": "http://www.fnnews.com/news/202608021035035904"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "연 20% 초고금리 대부 불법추심…'대포폰 제로'로 3일 안에 차단한다",
-   "url": "https://n.news.naver.com/mnews/article/029/0003040169?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "금감원 제동에도 여전한 편법 영업…'700종신보험' 전수 조사",
-   "url": "https://n.news.naver.com/mnews/article/030/0003453369?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "정부 '증시 긴급조치권' 추진…삼전닉스 레버리지 배율 낮추나",
-   "url": "https://n.news.naver.com/mnews/article/079/0004174587?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "삼성證, 발행어음 '8호 사업자' 청신호…메리츠는 인가 '안갯속'",
-   "url": "https://www.newsis.com/view/NISX20260802_0003732826"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "영풍, 회계제재 놓고 금융당국과 치열한 법정 공방",
-   "url": "https://n.news.naver.com/mnews/article/021/0002808529?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "5대 은행 주담대 11개월 만에 최대폭 증가…마통 잔액 석 달 연속 '1조원대'",
-   "url": "https://n.news.naver.com/mnews/article/016/0002678317?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "FIU, APG 연차총회 참석…사이버 스캠 대응 국제공조 논의",
-   "url": "https://www.newsis.com/view/NISX20260802_0003732897"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "9200억원 위메이드 인수, 누가 돈 대나…네오펄스 자금 구조 베일에",
-   "url": "https://n.news.naver.com/mnews/article/030/0003453336?sid=105"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "[STO 돋보기 ㊦] 美는 주식, 韓은 실물자산…4경원 토큰증권 경쟁 '점화'",
-   "url": "https://n.news.naver.com/mnews/article/138/0002236279?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-02 14:51",
-   "title": "환율 한 달 새 '125원' 급락…금융위기 후 가장 빠른 속도",
-   "url": "https://n.news.naver.com/mnews/article/215/0001260845?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-08-02 21:56",
    "title": "여전한 '부동산 쏠림'…부동산 배율, 정부 규제에도 안 줄었다",
@@ -2970,7 +2856,127 @@
    "sent_kst": "2026-08-06 10:21",
    "title": "국유재산법 76년 만에 전면 개정…국가자산기본법 제정",
    "url": "https://n.news.naver.com/mnews/article/119/0003118807?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "세제 개편 앞두고 눈치보기… 강남3구 아파트값 상승폭 4주째 둔화",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/08/06/2QBSCFCI2FH23DB7PVEIDDFN5I/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "'5만 가구+α' 추가 공급대책 다음 주 발표",
+   "url": "https://www.sedaily.com/article/20076334?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "[단독] 공급대책 맞춰 추가 세제지원 검토…'공급 숨통' 틔운다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002680321?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "8월 아파트 분양전망 5.6p 상승…수도권은 14p 하락",
+   "url": "http://www.fnnews.com/news/202608060603196183"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "대치동부터 '준공업지역' 구로까지 정비사업 확정으로 9237세대 공급",
+   "url": "https://n.news.naver.com/mnews/article/016/0002680363?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "금리 뛰자 상업용 부동산 '핵심 자산' 쏠림…호텔에 돈 몰렸다",
+   "url": "https://n.news.naver.com/mnews/article/138/0002236795?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "\"돈 없는 임차인 어디로 가죠\"…씨 마른 서울 전월세에 주거 불안 확산",
+   "url": "https://n.news.naver.com/mnews/article/119/0003119019?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "\"늙어가는 강남…첫째도, 둘째도 재건축 활성화\" [민선 9기 기초단체장 인터뷰]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002680368?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "수도권 집 팔고 지방 가면 양도세 반값…고령층 움직일까",
+   "url": "https://www.newsis.com/view/NISX20260806_0003738749"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "재건축 비거주 조합원 '직격탄'…2029년 보유공제 사라진다",
+   "url": "https://www.news1.kr/realestate/general/6250307"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "국고채 76조 '입찰담합' 혐의…금융사 15곳, 최대 15조 과징금",
+   "url": "https://view.asiae.co.kr/article/2026080609144132712"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "지주 CEO 3연임 금지 '위헌' 우려…발표 전격 보류 [H-EXCLUSIVE]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002680349?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "'단일종목 레버리지' 거래 40%가 외국인…초단타 막는 '과다호가부담금' 추진",
+   "url": "https://www.newsis.com/view/NISX20260806_0003738955"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "한은 금통위도 갈렸다…8월 금리 인상 가능성 커지나",
+   "url": "https://www.sedaily.com/article/20076336?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "SK디앤디 주가 장중 상한가, 금감원 1367억 규모 유상증자 정정 요구",
+   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444072"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "지도교수·동문 앉혀 '친위대' 구성…금융지주, 사외이사 검증 무력화",
+   "url": "https://www.newsis.com/view/NISX20260806_0003738568"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "'사기 당한' 웰컴저축은행, 자기자본의 11% 918억 손실",
+   "url": "https://n.news.naver.com/mnews/article/374/0000525935?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "코로나 때 자영업자 빚 100조...내년 예산안에 '탕감책' 담기나",
+   "url": "https://n.news.naver.com/mnews/article/016/0002680405?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "당정, 스튜어드십코드 실적 따라 국민연금 위탁 조정 논의",
+   "url": "http://www.fnnews.com/news/202608061345100885"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-06 14:51",
+   "title": "벌어지는 인뱅 수익차…카뱅 실적 날고, 케뱅 29% '뚝'",
+   "url": "https://www.newsis.com/view/NISX20260806_0003738699"
   }
  ],
- "updated_kst": "2026-08-06 10:21"
+ "updated_kst": "2026-08-06 14:51"
 }
