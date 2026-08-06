@@ -7,11 +7,13 @@
 ```
 scripts/collect.py        기계적 수집기 — 네이버 뉴스 API(방식1) + Google News RSS(방식3, morning·evening)
                           pubDate 기준 시간 윈도우 필터·경유 URL 디코딩·중복 제거 → pool.json
-scripts/record_sent.py    발송 이력 기록기 — 프롬프트가 남긴 /tmp/sent.json을 state/sent.json에 병합·만료정리
+scripts/record_sent.py    발송 이력 기록기 — 프롬프트가 남긴 out/sent.json을 state/sent.json에 병합·만료정리
+scripts/watchdog.py       누락 감시견 — 마감이 지났는데 성공 기록이 없는 슬롯을 재-dispatch
 config/slots.json         슬롯별 시간 윈도우·키워드·테마·허용 매체 도메인 (수집 설정의 단일 출처)
 state/sent.json           최근 96h 발송 이력 (슬롯 간 중복 차단용, 워크플로가 매 발송 후 커밋)
 prompts/<slot>.md         Claude 헤드리스 프롬프트 — 풀에서 선별 → G0 게이트 → TinyURL → Telegram 발송 → sent.json 기록
 .github/workflows/briefing.yml  cron 4개(UTC) + 수동 실행(workflow_dispatch)
+.github/workflows/watchdog.yml  매시(KST 07~23) 누락 점검 → 자동 재발송
 ```
 
 설계 원칙: **날짜 검증은 코드(collect.py), 선별·요약은 Claude.** Claude는 pool.json 밖 기사를 추가할 수 없고, 폴백 재검색도 `collect.py --adhoc-*` 경유로만 가능(동일 윈도우 필터 자동 적용).
@@ -45,3 +47,6 @@ prompts/<slot>.md         Claude 헤드리스 프롬프트 — 풀에서 선별 
 - **메시지 형식 (4슬롯 공통 v7)**: 번호·화살표 없이 `제목` 줄 + `단축 URL` 줄, 기사 사이 빈 줄 1개 (morning 방식3만 그 사이에 `- 요약` 줄 추가). **개행은 반드시 임시 파일에 진짜 줄바꿈으로 쓰고 `--data-urlencode "text@/tmp/msgN.txt"`로 발송** — 셸 인자에 `\n` 두 글자를 넣으면 Telegram에 리터럴 `\n`이 텍스트로 찍힌다.
 - **정시 발송**: GitHub `schedule`은 정시 보장이 없어 실측 수십 분~3시간 이상 지연됨. 그래서 1차 발송은 외부 스케줄러(Claude Code Routine, 분 단위 정확도)가 각 슬롯 정각에 `workflow_dispatch`를 호출하는 방식. `schedule` cron은 백업으로 남아 있고, 같은 슬롯이 이미 dispatch로 발송(또는 진행 중)이면 워크플로 내 중복 발송 가드가 생략시킨다. 시간 윈도우는 KST 고정 앵커(예: 06:10) 기준이라 어느 경로로 실행돼도 창은 동일.
 - **월요일**: 주말 포함 확장 윈도우(금 14:00~) 자동 적용 (`collect.py`가 KST 요일 판단).
+- **누락 자동 복구**: `watchdog` 워크플로가 KST 07:05~23:05 매시 돌며, 마감(슬롯 예정시각+30분)이 지났는데 그날 성공 기록이 없는 슬롯을 다시 dispatch한다. 이미 성공했거나 아직 실행 중이면 건드리지 않고, 하루 3회(최초 1+재시도 2)를 넘으면 멈춘다 — 시크릿 만료처럼 고쳐야 낫는 고장에서 재시도가 폭주하지 않도록.
+
+  **왜 briefing.yml 안에 재시도를 넣지 않았나**: 잡이 GitHub 러너를 배정받지 못하면 잡 안의 **어떤 스텝도 실행되지 않는다** — `if: always()` 스텝조차. 2026-08-07 morning이 그 경우로, 15분간 큐에 머물다 취소됐고 과금 0ms·로그 404·아티팩트 0건이라 실패 알림조차 나갈 수 없었다. 판단은 반드시 그 잡 바깥에서 해야 한다.
