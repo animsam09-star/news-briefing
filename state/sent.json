@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "\"세제개편안 봐야 팔든지 버티든지\"…서울 아파트 시장 짙어진 '관망'",
-   "url": "https://www.mk.co.kr/article/12115112"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "국토부, 수도권 신규 주택지 위법 의심거래 346건 적발",
-   "url": "https://www.arunews.com/news/articleView.html?idxno=65580"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "5월 서울 아파트계약 28%가 15억 초과",
-   "url": "https://www.sedaily.com/article/20075074?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "악성 미분양 지역에 신규착공 급증?…'공공매입'이 부른 모럴해저드 우려",
-   "url": "https://n.news.naver.com/mnews/article/021/0002808770?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "6월 대구·경북 주택시장, 매매 늘었지만⋯미분양도 늘어",
-   "url": "https://n.news.naver.com/mnews/article/657/0000053991?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "회생기회 잡은 홈플러스⋯M&A 성패 '노사신뢰'에 달렸다",
-   "url": "https://n.news.naver.com/mnews/article/031/0001046706?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "유통 넘어 공간 개발로…'디벨로퍼' 된 백화점",
-   "url": "https://n.news.naver.com/mnews/article/138/0002236374?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "SK디앤디 대규모 유상증자 추진...상폐 대신 유동성 극복 나선다",
-   "url": "https://n.news.naver.com/mnews/article/016/0002678677?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "포트코리아운용, 은희석 신임 대표 선임…경영정상화 과제",
-   "url": "https://dealsite.co.kr/articles/166043"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "'국가AI컴퓨팅센터' 첫 삽…2028년 첨단 GPU 1만5천장 구축",
-   "url": "https://n.news.naver.com/mnews/article/092/0002432835?sid=105"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "[단독] 금융위, 레버리지 ETF 스트레스 테스트도 안 거쳤다",
-   "url": "https://www.hankyung.com/article/202608031655i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "새마을금고 감독 체계 재논의… 행안부, 금융 당국에 일부 권한 이관 검토",
-   "url": "https://biz.chosun.com/stock/finance/2026/08/03/H3WI5PHVFRDLPNEPIXDWF45TRY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "금융위, 토큰증권 세부 법안 이달 중순 발표…투자한도·유통체계 주목",
-   "url": "https://www.newsis.com/view/NISX20260803_0003734050"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "상폐 기준은 높이고 유동성은 빼고…금융위가 키운 코스닥 위기",
-   "url": "https://n.news.naver.com/mnews/article/629/0000521225?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "은행 저리자금 저축은행에 공급…'온렌딩형' 포용금융 모델 검토",
-   "url": "https://view.asiae.co.kr/article/2026080310351206978"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "대출 규제에도 안 꺾인 '영끌' 수요…은행권 대출 총량 한도 코앞까지",
-   "url": "https://n.news.naver.com/mnews/article/586/0000135085?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "삼성증권, 제재 리스크 해소…9년 만에 발행어음 인가 기대",
-   "url": "https://n.news.naver.com/mnews/article/008/0005394788?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "'영업정지 1.5개월' 롯데카드, MBK 인수 후 정보보호 예산 비율 급감",
-   "url": "https://www.news1.kr/finance/general-finance/6247077"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "홍콩 투자 부실에 흔들린 임종룡 인사…우리은행 이태훈 美법인장 조기 교체",
-   "url": "https://dealsite.co.kr/articles/166280"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-03 14:50",
-   "title": "'대출금 편취·자금세탁 혐의' 농협 조합장·직원 2명 피소",
-   "url": "https://www.newsis.com/view/NISX20260803_0003734007"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-08-03 21:54",
    "title": "실거주 중심 세제 전면 개편... 종부세 '주택 수' 없애고 20억까지 면세",
@@ -2988,7 +2868,127 @@
    "sent_kst": "2026-08-07 10:22",
    "title": "[Invest]교보생명, IPO냐 풋옵션 행사냐... 증권사 불러 실익 따지는 FI",
    "url": "https://www.investchosun.com/site/data/html_dir/2026/08/06/2026080680087.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "\"용적률 1.2배·이주비 LTV 70%\"…서울시, 대통령실에 규제완화 요청",
+   "url": "https://n.news.naver.com/mnews/article/008/0005397022?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "'영끌' 주택공급 지지부진…올해 착공물량 30% 미만",
+   "url": "https://view.asiae.co.kr/article/2026080713462714765"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "지방 악성 미분양 4배 폭증…세제개편 '지방 해법' 빠졌다",
+   "url": "https://www.news1.kr/realestate/general/6251675"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "올해 7개월간 전국 빌딩·건물·꼬마빌딩 40조 매매, 서울 20조 절반 넘게 팔려",
+   "url": "https://n.news.naver.com/mnews/article/030/0003455113?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "[2026 시공능력평가] [대우건설] 빅배스 여파에 시평 5위로 하락…본업 경쟁력 흔들",
+   "url": "https://dealsite.co.kr/articles/166632"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "코엑스 2.5배 '잠실 스포츠·MICE 복합공간' 본격화…킨텍스가 40년 운영",
+   "url": "https://www.sedaily.com/article/20076816?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "공급 속도전에 조직 개혁까지…LH, 시장 안정화 성과 낼까",
+   "url": "https://www.newsis.com/view/NISX20260807_0003740346"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "충북개발공사 등 4개 지방공기업 행안부 경평서 최하위 등급(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016239262?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "LH 부산울산, 파격적 조건으로 미매각토지 해소에 진력",
+   "url": "https://n.news.naver.com/mnews/article/082/0001392972?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "與황희, '구조·설비 분리형 건축 도입시 인센티브' 건축법 개정안 대표발의",
+   "url": "https://n.news.naver.com/mnews/article/016/0002680958?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "예탁원, 비상장·조각투자 청산결제 인프라 개발 착수…연내 목표",
+   "url": "https://n.news.naver.com/mnews/article/008/0005397034?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "\"레버리지 ETF 규제 후 거래대금 90% 줄었다\"…반도체·해외 상품으로 '풍선효과'",
+   "url": "https://n.news.naver.com/mnews/article/138/0002237005?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "\"2억원 벌금 없애라\"… 두나무 인수 앞둔 네이버, 공정거래법 재판에 사활",
+   "url": "https://biz.chosun.com/stock/finance/2026/08/07/4VBBK3XDMJBFFHQVQU34W72DZU/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "하태경 \"임기 끝까지 맞서겠다\"…금융위와 AI 투자 갈등 격화",
+   "url": "https://n.news.naver.com/mnews/article/417/0001154658?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "러시아도 가상자산 제도권 편입…당국 승인 가상자산만 투자 가능",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6252233"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "시가 버젓이 있는데…'법정평가액' 밀어붙이는 與에 자본시장 '부글'",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/07/2026080780090.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "'김용범 책임론' 선 그은 靑…\"운용사와 짜고 친 판 아니냐\" 의혹도",
+   "url": "https://n.news.naver.com/mnews/article/629/0000522586?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "가상자산 마켓메이커 윈터뮤트, 전통 금융 진출…美 브로커딜러 등록 완료",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6252245"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "[단독] 사조산업, 계열사 '헐값 매각' 의혹…공정위 신고 당한 까닭",
+   "url": "https://n.news.naver.com/mnews/article/586/0000135451?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-07 14:51",
+   "title": "삼양패키징, 2년 만에 공모채 시장 복귀…최대 1000억원[fn마켓워치]",
+   "url": "http://www.fnnews.com/news/202608071008343519"
   }
  ],
- "updated_kst": "2026-08-07 10:22"
+ "updated_kst": "2026-08-07 14:51"
 }
