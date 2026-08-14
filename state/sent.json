@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "강남 그린벨트 2만가구 카드…정부, 서울 '영끌 공급' [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002681545?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "[단독]역세권 땅 찾는 정부…LH 기숙사도 공공주택으로 바꾼다",
-   "url": "https://n.news.naver.com/mnews/article/008/0005397639?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "김경기 부장 \"LH, 강남 서울본부 청년 주택 위해 내놓아…준공업지역엔 2만 7천 가구 규모 공급 방안 검토\" [프레스룸 부동산경기시점]",
-   "url": "https://n.news.naver.com/mnews/article/057/0001962887?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "\"시공사 선정해도 착공까지 5년\"…서울 주택공급 막는 '4대 병목'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005397798?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "공사비 38% 뛰고 금리까지 인상…지방 건설사 'PF 이중고'",
-   "url": "https://www.news1.kr/realestate/general/6251813"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "건설주 8월들어 17%↑…원전 이어 AI 데이터센터 기대감",
-   "url": "https://n.news.naver.com/mnews/article/016/0002681659?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "주택 공급 확대 신호탄 올렸지만…민간 건설사 재무구조엔 '빨간불'",
-   "url": "https://www.mk.co.kr/article/12122577"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "與, 다시 '서울 공급' 속도전…비아파트 총동원·재건축 기간 단축",
-   "url": "https://n.news.naver.com/mnews/article/016/0002681593?sid=100"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "강남구 '정비사업 세금 안내서' 발간…\"전국 최초\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016242606?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "[증권사 위험자산 이동]⑥ 키움證, 총량 줄어도 무등급 PF가 절반",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=670477"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "\"원금 전액손실 가능\"…금감원, 해외부동산 공모펀드 유의사항 안내",
-   "url": "https://n.news.naver.com/mnews/article/119/0003120186?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "가상자산 보이스피싱 피해 환급 앞두고 금감원, 시스템 개편 착수",
-   "url": "https://n.news.naver.com/mnews/article/374/0000526515?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "카카오뱅크, 반기 최대 순익에도 웃지 못한 이유…플랫폼·비용 '시험대'",
-   "url": "https://n.news.naver.com/mnews/article/629/0000523028?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "'회장 3연임 금지' 법제화 멈췄는데…금융지주 인사시계는 '째깍째깍'",
-   "url": "https://n.news.naver.com/mnews/article/138/0002237219?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "가상자산사업자 '대주주 적격성' 숨통…금융위 \"경미한 법 위반 예외\"",
-   "url": "https://www.newsis.com/view/NISX20260810_0003742750"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "빚 탕감 강조한 李 대통령… 금융위, 대부업 페널티안 준비",
-   "url": "https://biz.chosun.com/stock/finance/2026/08/10/52FRTA2XY5GRBPAOE6NKI6U7A4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "與, ISA 개편·주가누르기 방지법 '원점 재검토'...\"국민 체감이 최종기준\"",
-   "url": "https://n.news.naver.com/mnews/article/123/0002388099?sid=100"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "\"은행도 증권도 걸렸다\"…KB·NH금융, 국고채 담합 '이중 과징금' 촉각",
-   "url": "https://n.news.naver.com/mnews/article/629/0000523123?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "산은·기은·수은 직원 2000명 뭉친다…'지방이전 저지' 첫 공동집회",
-   "url": "https://n.news.naver.com/mnews/article/417/0001154864?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-10 14:51",
-   "title": "발행어음 노리는 진승욱號 대신증권…자기자본 넘은 부동산금융이 발목 잡나",
-   "url": "https://n.news.naver.com/mnews/article/138/0002237204?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-08-10 21:57",
    "title": "'세입자 낀 집' 갭투자 허용 연장 추진…정책 충돌에 세 번째 '예외'",
@@ -3078,7 +2958,127 @@
    "sent_kst": "2026-08-14 10:28",
    "title": "키옥시아 주가 2·3배 추종 ETF 美 상장 추진",
    "url": "http://www.fnnews.com/news/202608140802253351"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "서울 아파트 관망세…강남3구·용산구 거래허가 신청 한달새 22% 줄어",
+   "url": "https://www.donga.com/news/Economy/article/all/20260814/134477971/1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "\"집 가진 사람도 불안\"…세제개편안에 국민 45% \"부동산 부정적 영향\" [한국갤럽]",
+   "url": "https://www.mk.co.kr/article/12127953"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "\"전월세난 급한 불 끄겠지만 보증규제 '126%룰' 풀어야\" [8·13 공급대책 이후]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002684022?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "물량보다 '보상→착공' 속도…주민갈등 해결 여부도 성패 관건 [8·13 공급대책 이후]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002684013?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "'어린이정원'까지 허물겠다는 정부… 녹지 긁어모아 7.3만호 공급 논란",
+   "url": "https://n.news.naver.com/mnews/article/021/0002811493?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "[8·13 대책] 정비사업 최대 수혜지는?…노원·도봉 '웃고' 여의도 '덤덤'",
+   "url": "https://n.news.naver.com/mnews/article/031/0001049824?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "동작구, 500가구 미만 정비구역 지정 권한 이양 제안",
+   "url": "https://www.newsis.com/view/NISX20260814_0003749541"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "세제 개편이 판 바꾸나…강남 '털썩' 강북·강서 '들썩'",
+   "url": "https://www.mk.co.kr/article/12127780"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "[시선집중] 국토부 차관 \"있는 땅 없는 땅 긁어모았다. 땅 더 있다! 빠르면 9월 말 발표\"",
+   "url": "https://n.news.naver.com/mnews/article/214/0001517886?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "아태는 20% 늘었는데 한국은 18%↓…'오피스 빅딜' 기저효과",
+   "url": "https://www.hankyung.com/article/202608138271r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "7월 가계대출 6.2조↑…당국 \"집값 불씨 여전, 고삐 죈다\"",
+   "url": "https://n.news.naver.com/mnews/article/029/0003042407?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "대출 총량 늘려준 정부, 은행 소집해 \"실수요에 공급하라\" 주문",
+   "url": "https://n.news.naver.com/mnews/article/586/0000135981?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "금융위·금감원 세종行 무게… 2차 공공기관 이르면 이달 말 확정",
+   "url": "https://n.news.naver.com/mnews/article/656/0000184054?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "은행권 잇단 대출 사기… 금감원, 내부통제 검사 검토",
+   "url": "https://biz.chosun.com/stock/finance/2026/08/14/7SF7CKS5A5DZNB6GVZXMT4FC4U/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "바이낸스, 네이버·LG전자 20배 선물 출시… 자본시장법 위반 소지",
+   "url": "https://biz.chosun.com/stock/finance/2026/08/14/UB7YFQVLRVH4JI4IGYJWG3UCQY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "與 김현정, 제3자 연대책임 제한하는 '여전법' 개정안 대표발의",
+   "url": "https://n.news.naver.com/mnews/article/123/0002388427?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "네이버·두나무 빅딜 '청신호'…가상자산 지각변동 급물살",
+   "url": "https://n.news.naver.com/mnews/article/374/0000527531?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "시장 살린다며 '무더기 상폐' 초읽기…투자자 보호는 '뒷전'",
+   "url": "https://n.news.naver.com/mnews/article/629/0000524531?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "은행권 노사갈등 확산…금융노조 9월 총파업 예고·카뱅 2차 파업 돌입",
+   "url": "https://www.mk.co.kr/article/12127752"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-14 14:56",
+   "title": "[단독] \"성과급 주총서 정하자\" 찾아간 산업부…법무부·금융위는 난색",
+   "url": "https://n.news.naver.com/mnews/article/374/0000527528?sid=101"
   }
  ],
- "updated_kst": "2026-08-14 10:28"
+ "updated_kst": "2026-08-14 14:56"
 }
