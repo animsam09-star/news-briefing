@@ -1,0 +1,73 @@
+name: telegram-check
+
+# Telegram 연결만 확인한다 — 브리핑을 태우지 않고 토큰·chat_id·전달 가능 여부를 본다.
+#
+# 브리핑 잡이 초록색인데 메시지가 안 오는 상황(2026-08-14)에서 원인을 가르기 위한 도구다.
+# 잡 성공 = "Claude가 발송본을 만들었다"일 뿐, "Telegram이 받았다"가 아니었다.
+#
+# 로그는 public 이므로 응답 원문을 절대 찍지 않는다 — getMe 에는 봇 계정, sendMessage
+# 성공 응답에는 수신자 이름과 chat_id 가 들어 있다. ok / description 만 남긴다.
+
+on:
+  workflow_dispatch:
+    inputs:
+      send_test_message:
+        description: '실제로 테스트 메시지 1건을 보낸다'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 토큰·chat 확인
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEND_TEST: ${{ inputs.send_test_message }}
+        run: |
+          if [ -z "${TELEGRAM_BOT_TOKEN}" ]; then echo "::error::TELEGRAM_BOT_TOKEN 시크릿이 비어 있다"; exit 1; fi
+          if [ -z "${TELEGRAM_CHAT_ID}" ]; then echo "::error::TELEGRAM_CHAT_ID 시크릿이 비어 있다"; exit 1; fi
+
+          # 응답 원문 대신 판정만 출력. 인자: 호출 이름. 표준입력: 응답 본문.
+          cat > /tmp/verdict.py <<'PY'
+          import json, sys
+          name = sys.argv[1]
+          try:
+              r = json.load(sys.stdin)
+          except Exception:
+              print(f"{name}: JSON 아닌 응답 — Telegram API 장애 가능")
+              sys.exit(1)
+          if r.get("ok"):
+              print(f"{name}: ok")
+              sys.exit(0)
+          print(f"{name}: 거부됨 (error_code {r.get('error_code', '?')}) — {r.get('description', '(설명 없음)')}")
+          sys.exit(1)
+          PY
+
+          rc=0
+
+          resp=$(curl -sS --max-time 20 "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getMe") \
+            || resp='{"ok":false,"description":"curl 실패"}'
+          printf '%s' "$resp" | python3 /tmp/verdict.py getMe || rc=1
+
+          resp=$(curl -sS --max-time 20 "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getChat" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}") || resp='{"ok":false,"description":"curl 실패"}'
+          printf '%s' "$resp" | python3 /tmp/verdict.py getChat || rc=1
+
+          if [ "${SEND_TEST}" = "true" ]; then
+            printf '%s\n' "브리핑 봇 연결 확인 — 이 메시지가 보이면 발송 경로는 정상입니다." > /tmp/ping.txt
+            resp=$(curl -sS --max-time 20 "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d "chat_id=${TELEGRAM_CHAT_ID}" --data-urlencode "text@/tmp/ping.txt") \
+              || resp='{"ok":false,"description":"curl 실패"}'
+            printf '%s' "$resp" | python3 /tmp/verdict.py sendMessage || rc=1
+          fi
+
+          if [ "$rc" -ne 0 ]; then
+            echo "::error::Telegram 경로 이상 — 위 사유 확인 (토큰 재발급·chat_id 변경·봇 차단 등)"
+          fi
+          exit $rc
