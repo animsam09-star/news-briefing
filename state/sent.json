@@ -2,396 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "동탄·구리 묶이자 '병점·다산' 불장…한 달새 1억5천만원 뛰어",
-   "url": "https://www.newsis.com/view/NISX20260812_0003746628"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "\"대출 안나와 집 계약 취소 속출\"…본점 지령에 주담대 닫은 은행들",
-   "url": "https://n.news.naver.com/mnews/article/079/0004178201?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "[단독] 무리한 대출 총량 규제에 커지는 '잔금대출 대란'",
-   "url": "https://n.news.naver.com/mnews/article/023/0003992748?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "집값도 전셋값도 고공행진…공급 부족에 서민 주거 불안 '확산'",
-   "url": "https://www.newsis.com/view/NISX20260812_0003746873"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "이자도 제대로 못 갚는 '깡통대출' 6조4000억원 쌓여",
-   "url": "https://n.news.naver.com/mnews/article/023/0003992665?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "[챗 APT] 낙찰률 '뚝'·낙찰가율 '쑥'…아파트 경매 옥석 가리기",
-   "url": "https://n.news.naver.com/mnews/article/654/0000194999?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "보상에만 2년 '훌쩍'…공급 '속도전' 가능할까",
-   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008702760&plink=ORI&cooper=NAVER"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "\"정부 변덕에\" 3번 말바꾼 강남 집주인… 세입자 도미노 대혼란",
-   "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000002673&cp=nv"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "유탄 맞는 세입자… 집세 상승률 3년여 만에 '최고'",
-   "url": "https://n.news.naver.com/mnews/article/081/0003669900?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "[단독] 어려운 대학생 돕다 '종부세 폭탄'…착한 기숙사 문 닫는다",
-   "url": "https://www.joongang.co.kr/article/25452962"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "비은행 주택대출 150조 육박…부동산 쏠림 심화",
-   "url": "https://www.sedaily.com/article/20078762?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "연말까지 5개월 남았는데… 5대銀, 가계대출 목표치 벌써 47% 초과",
-   "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000002698&cp=nv"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "'생산적 금융'에도… 1년간 대출증가 58%는 대기업몫",
-   "url": "https://www.donga.com/news/Economy/article/all/20260812/134467911/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "인뱅, 저신용자가 가계대출 금리 더 싸게 빌린다",
-   "url": "https://n.news.naver.com/mnews/article/022/0004150576?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "비트코인 1개도 거래 안되는데...면허 장사 나선 코인 거래소",
-   "url": "https://www.sedaily.com/article/20078764?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "김정주가 점찍은 '1호 거래소'…박현주 품에서 간판 바꾸고 새판짜기",
-   "url": "https://www.news1.kr/finance/blockchain-fintech/6257223"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "'20년 터줏대감' 신한 vs '청라 이전' 하나...인천시금고 혈투 막 올라",
-   "url": "https://n.news.naver.com/mnews/article/008/0005399340?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "\"분산투자 좋은 거 아니었어?\"…TDF 여러 개 샀더니 은퇴 전략 꼬인다[부꾸미]",
-   "url": "https://n.news.naver.com/mnews/article/008/0005399297?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "뛰는 증권사, 잠자던 은행 앞섰다…미래·한투 '예적금 시장' 넘봐",
-   "url": "https://www.news1.kr/finance/general-stock/6257333"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "투자일임 운용액 1000조 돌파…전업사 순익 19배↑",
-   "url": "http://www.fnnews.com/news/202608121850039032"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "EXCLUSIVE: Inside the Google executive moves that led to its big AI reshuffle",
-   "url": "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Bitcoin Miners Have Something Anthropic Desperately Needs. It's Worth $9.1 Billion",
-   "url": "https://www.inc.com/georgia-fearn/bitcoin-miners-have-something-anthropic-despreately-needs-worth-9-billion-dollars/91388958"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "AI Cloud Provider Lambda Prices Loan for Nvidia-Tied Chip Deal",
-   "url": "https://www.bloomberg.com/news/articles/2026-08-12/ai-cloud-provider-lambda-prices-loan-for-nvidia-tied-chip-deal"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Cerebras Stock Crashes 14% Despite Beating Q2 Estimates",
-   "url": "https://www.techbuzz.ai/articles/cerebras-stock-crashes-14-despite-beating-q2-estimates"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Kevin Weil Left OpenAI 4 Months Ago. Now He's Seeking $150 Million for a Startup With No Public Product",
-   "url": "https://www.inc.com/georgia-fearn/kevin-weil-left-open-ai-months-ago-now-seeking-150-million-dollars-for-startup/91389531"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Putting OpenAI Cyber Models to Work for Defenders",
-   "url": "https://www.paloaltonetworks.com/blog/2026/08/putting-openai-cyber-models-to-work-for-defenders/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Micron Stock Is Being Outpaced by Memory Chip Rivals SK Hynix, Samsung",
-   "url": "https://www.barrons.com/articles/micron-stock-price-sk-hynix-samsung-memory-chip-a17de0ae"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Intel CEO Declares Memory His Pet Project as XBM Patent and $20B Raise Converge",
-   "url": "https://www.techtimes.com/articles/324195/20260812/intel-ceo-declares-memory-his-pet-project-xbm-patent-20b-raise-converge.htm"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "After Years Looking For a Market, Lithium Metal Battery Startups Find One in Ukraine",
-   "url": "https://www.theinformation.com/newsletters/the-electric/years-looking-market-lithium-metal-battery-startups-find-one-ukraine"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "MiniMines Secures Patent for Hybrid Battery Recycling Tech",
-   "url": "https://www.mvapulse.com/minimines-secures-patent-for-hybrid-battery-recycling-tech/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "OPEC: Saudi crude production rebounds by more than 1 MMbpd in July",
-   "url": "https://www.oilandgas360.com/opec-saudi-crude-production-rebounds-by-more-than-1-mmbpd-in-july/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Russia Daily Oil Production Almost 1MM Barrels Below OPEC Quota",
-   "url": "https://www.rigzone.com/news/wire/russia_daily_oil_production_almost_1mm_barrels_below_opec_quota-12-aug-2026-184360-article/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Vietnam considers second LNG term contract after deal with Shell",
-   "url": "https://www.reuters.com/business/energy/vietnam-considers-second-lng-term-contract-after-deal-with-shell-document-shows-2026-08-12/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Trump's 'energy emergency' could fast-track massive expansion of Plaquemines LNG export terminal",
-   "url": "https://apnews.com/article/plaquemines-liquefied-natural-gas-export-terminal-expansion-f2d881a6669827a5c008f4e2ec4a33df"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Boeing's chief says the company needs a couple more years to fix its finances before a new jet",
-   "url": "https://okdiario.com/techy/en/boeings-chief-says-the-company-needs-a-couple-more-years-to-fix-its-finances-before-a-new-jet/7385/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Lockheed Martin, Verizon Unveil Drone Detection Using Cell Towers",
-   "url": "https://aviationweek.com/aerospace/advanced-air-mobility/lockheed-martin-verizon-unveil-drone-detection-using-cell-towers"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "It looks like Apple's iPhone 18 really will skip the fall launch this year",
-   "url": "https://www.theverge.com/tech/979231/apple-base-iphone-18-launch-delayed"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Can Amazon Keep Riding the AI Cloud Wave?",
-   "url": "https://kalkinemedia.com/us/stocks/growth/can-amazon-nasdaqamzn-keep-riding-the-ai-cloud-wave"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Texas broke power demand records in July, and solar kept the grid from collapsing",
-   "url": "https://www.thecooldown.com/green-tech/texas-solar-power-grid-stability-july/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "New Jersey weighs paying home battery owners to help the grid when demand surges",
-   "url": "https://www.thecooldown.com/green-tech/new-jersey-home-batteries-virtual-power-plant/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Northrop's robot space mechanic is a new way to keep satellites at work longer",
-   "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "ISRO Tests Improved Version Of Small Satellite Launch Vehicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/isro-tests-improved-version-of-small-satellite-launch-vehicle-1978746"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Ukraine pounds naval base, grain terminals at Russia's Black Sea port of Novorossiysk",
-   "url": "https://japantoday.com/category/world/ukraine-pounds-naval-base-grain-terminals-at-russia's-black-sea-port-of-novorossiysk"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Ukraine restricts data on Russian missile strikes as attacks surge",
-   "url": "https://www.arabnews.com/node/2654435/amp"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Tether's USDT Supply Shrinks by $4B in 60 Days as Crypto Demand Cools",
-   "url": "https://cryptonews.net/news/finance/33287343/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-08-13 06:35",
-   "title": "Coinbase Business Expands with AI Agent Payments and USDT Support",
-   "url": "https://cryptonews.net/news/market/33283430/"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "'데이터센터 난립 막는다'…영등포구, 모든 건립 건축심의 의무화 추진",
-   "url": "https://www.news1.kr/local/moi/6257566"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "강남구, 재건축 설계자 선정에 '강남형 운영기준' 마련",
-   "url": "https://view.asiae.co.kr/article/2026081308385905610"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "세금 피하려 매물 쏟아지는데…토허제·대출 규제에 거래는 '꽁꽁'[집슐랭]",
-   "url": "https://www.sedaily.com/article/20078819?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "\"거래도 없는데 왜 이러지?\"…'스멀스멀' 오르는 비강남 아파트값",
-   "url": "https://www.mk.co.kr/article/12126150"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "부동산 '세제 개편안' 꼬인 세 가지 이유",
-   "url": "https://n.news.naver.com/mnews/article/047/0002525404?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "울산시, 주거 안정 대책 추진…공공주택 6천671가구 단계적 공급",
-   "url": "https://www.hankyung.com/article/202608138428h"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "노후청사 개발하고 고시원 규제 풀고…주택공급 수단 총동원",
-   "url": "https://n.news.naver.com/mnews/article/119/0003121248?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "체리차는 '손실 제로'…KG그룹, 1100억 보증 짊어져",
-   "url": "https://dealsite.co.kr/articles/166796"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "대출 '바늘구멍'에...서울 아파트 계약 해제 23% 급증 [굿모닝경제]",
-   "url": "https://n.news.naver.com/mnews/article/052/0002392669?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "빗썸, 알트코인 출금 13시간 지연… 금감원, 현장 방문 예정",
-   "url": "https://biz.chosun.com/stock/finance/2026/08/13/EQHTCUIJHNEMLHEX3SEHZ4SASQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "\"자살사망자 54%가 부채 보유\"…금융당국, 취약채무자 구제 집중",
-   "url": "https://www.newsis.com/view/NISX20260812_0003746825"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "미래에셋벤처투자, 올해 주요 정책기관 출자로 9290억 펀드 결성 전망",
-   "url": "https://view.asiae.co.kr/article/2026081308305562203"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "'디지털자산기본법' 불씨 살린다…금융위·與 비공개 회동",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429910"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "주담대 액셀 밟는 토스뱅크…흥행하면 '브레이크'",
-   "url": "https://dealsite.co.kr/articles/166987"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "\"보담대 빚투 막아라\"…보험업계, 대출한도 추가축소·기준도 변경",
-   "url": "https://www.mk.co.kr/article/12126111"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "[은행 기업대출 점검] 기업대출 경쟁에 '브레이크' 건 신한은행…골라서 늘린다",
-   "url": "https://dealsite.co.kr/articles/166990"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "[단독] '넥스트증권 품은 큰손들' 타임폴리오·베이트리, 전환사채 깜짝 조기전환…지분 9.9% 확보",
-   "url": "https://n.news.naver.com/mnews/article/016/0002683253?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "보험업계 M&A 다시 달아오른다…금융그룹 외연 확장 경쟁",
-   "url": "https://n.news.naver.com/mnews/article/417/0001155232?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-13 10:21",
-   "title": "NH투자증권, 코스콤과 토큰증권 MOU…디지털 자산 발굴",
-   "url": "https://n.news.naver.com/mnews/article/629/0000524115?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-08-13 14:48",
    "title": "수도권에 '23만호+α' 추가 공급…그린벨트 해제",
@@ -2562,7 +2172,121 @@
    "sent_kst": "2026-08-17 06:32",
    "title": "Stablecoin Market Drops Toward $300 Billion in Third-Largest Drawdown on Record",
    "url": "https://coinpaper.com/34302/stablecoin-market-drops-toward-300-billion-in-third-largest-drawdown-on-record"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "주택공급 방안, 정비사업 주요 내용은 | 주택공급 한 축 정비사업… 재개발·재건축 '속도전'",
+   "url": "https://www.arunews.com/news/articleView.html?idxno=65991"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "지난달 국내 리츠 총 자산 127조 돌파… 10년간 100조원 넘게 성장",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/08/17/FASLXBQBCZDWVOOURKU7GRH3UM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "[단독] \"6개월이라도 빨리\" 2000억 추경 앵커리츠, 첫 투자도 못 해 [결산대해부⑱]",
+   "url": "https://n.news.naver.com/mnews/article/586/0000136099?sid=100"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "\"계란은 수입하면 되지만 집은 못해\"...정부, 21개월 초단기 착공 승부수",
+   "url": "https://n.news.naver.com/mnews/article/008/0005400788?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "[머니톡스] '무늬만 그린벨트'의 재발견…녹지는 지키고 훼손지는 풀어야",
+   "url": "https://n.news.naver.com/mnews/article/001/0016254138?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "동작구가 '500세대 미만 정비구역 권한' 서울시에 요구한 이유",
+   "url": "https://n.news.naver.com/mnews/article/016/0002684614?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "사라진 수주전…성수·목동 '재건축 대어' 줄줄이 단독입찰",
+   "url": "https://n.news.naver.com/mnews/article/029/0003042581?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "아파트 전세난에 대출 규제 맞물리자…서울 대형 오피스텔 '대안'으로",
+   "url": "https://n.news.naver.com/mnews/article/119/0003122288?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "[압·여·목·성 신지형도] 공사비 '1000만원 벽' 세운 목동…압구정·여의도와 격차↑",
+   "url": "https://dealsite.co.kr/articles/166975"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "[1mm금융톡]금감원, 9월 '소비자보호 대국민 보고대회'…이찬진 첫 작품",
+   "url": "https://view.asiae.co.kr/article/2026081414272919768"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "[단독] 보이스피싱범들, 상품권이 막히자 출금 못 막는 '외화계좌'로 튀었다…자금세탁 새 먹잇감",
+   "url": "https://n.news.naver.com/mnews/article/016/0002684591?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "[여의도 물어보살③] '돈 없는 개미 빠져라'…레버리지 보완책 효과는",
+   "url": "https://n.news.naver.com/mnews/article/119/0003122287?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "미술품·부동산 조각투자 장내시장 11월 열린다…'신종증권시장' 개설",
+   "url": "https://n.news.naver.com/mnews/article/029/0003042592?sid=105"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "\"8% 시대 오나\" 주담대 가산금리 역대 최고",
+   "url": "https://magazine.hankyung.com/business/article/202608174727b"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "부동산 막차에 가계대출 급증…지방은행 연체율엔 '빨간불'",
+   "url": "https://n.news.naver.com/mnews/article/243/0000101754?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "동양생명 인수로 '은행' 넘어 '종합금융' 진화...임종룡표 우리금융 첫 성적표는?",
+   "url": "https://n.news.naver.com/mnews/article/243/0000101757?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "씨 마른 1세대 김치코인…마지막 주자들도 '퇴출 위기'",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6260047"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "농협금융, 그룹 총동원 '연금시장' 정조준…\"수익률 1위 굳힌다\"",
+   "url": "https://n.news.naver.com/mnews/article/029/0003042599?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-17 10:22",
+   "title": "카카오뱅크, 기업가치 제고 드라이브…자사주 27만주 전격 소각",
+   "url": "https://n.news.naver.com/mnews/article/029/0003042601?sid=101"
   }
  ],
- "updated_kst": "2026-08-17 06:32"
+ "updated_kst": "2026-08-17 10:22"
 }
