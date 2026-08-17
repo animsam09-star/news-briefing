@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "수도권에 '23만호+α' 추가 공급…그린벨트 해제",
-   "url": "https://n.news.naver.com/mnews/article/422/0000895368?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "서울시, 주택대책에 그린벨트 활용 반대…\"사전협의 부족 유감\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016249796?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "정부, 서울 염창·남양주·광주에 2.7만호 공급한다",
-   "url": "https://www.newsis.com/view/NISX20260813_0003747851"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "[8·13 대책] 재건축·재개발 속도 낸다…2030년까지 23만4000가구 착공",
-   "url": "https://n.news.naver.com/mnews/article/629/0000524220?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "태릉골프장 2029년 착공…정비사업 지원해 2030년까지 서울 23.4만호 착공[8·13 부동산 종합대책]",
-   "url": "https://www.sedaily.com/article/20079001?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "다가구 3층→4층·모듈러 주택 확대…비아파트 공급 총력[8·13대책]",
-   "url": "https://www.newsis.com/view/NISX20260813_0003747917"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "주택사업 경기전망 석 달 만에 하락…자금조달 부담 확대",
-   "url": "https://n.news.naver.com/mnews/article/374/0000527246?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "공실 상가·지식산업센터도 주택으로…AI 시대 맞춰 용도지역 체계 확 바꾼다",
-   "url": "https://n.news.naver.com/mnews/article/016/0002683451?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "[8·13 주택공급]재개발 조합설립 동의율 70%로 5%p↓",
-   "url": "https://n.news.naver.com/mnews/article/648/0000049803?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "[8·13 주택공급]택지 지정 3년 뒤 첫삽 '풀악셀'",
-   "url": "https://n.news.naver.com/mnews/article/648/0000049796?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "금융위, 10대 금융사에 주택공급 지원 독려…PF 금융애로센터 신설 [8·13 부동산대책]",
-   "url": "https://n.news.naver.com/mnews/article/119/0003121446?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "청년에 4억 이하 '비아파트' 자가 마련 기회 준다…청년미래보금자리론 출시",
-   "url": "https://n.news.naver.com/mnews/article/449/0000356725?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "\"한 번만 살았어도 제외\"..금융위, 비거주 1주택자 전세대출 제한",
-   "url": "http://www.fnnews.com/news/202608131349175628"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "가계부채 관리 기조 속 실수요자·주택공급 대출 지원",
-   "url": "https://www.newsis.com/view/NISX20260813_0003747878"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "금융위 \"추가 대출 규제 완화 없다… 총량 규제도 계속 유지\"",
-   "url": "https://biz.chosun.com/stock/finance/2026/08/13/ZEUN5AJSYZFKFNZ3ND2O45Z2FA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "부동산 PF에 보험사 자금 푼다…신디케이트론 1조→5조 확대",
-   "url": "https://n.news.naver.com/mnews/article/417/0001155276?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "금융위, PF 자본규제 2년 유예·이주비대출 신축기준 변경… 주택공급 속도낸다",
-   "url": "http://www.fnnews.com/news/202608131225588804"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "대형 GA, '보험판매전문회사'로 전환…권한·책임 금융사 수준으로 강화",
-   "url": "https://n.news.naver.com/mnews/article/138/0002237704?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "국세청, KB국민은행 특별 세무조사⋯조사4국 투입",
-   "url": "https://n.news.naver.com/mnews/article/031/0001049490?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-13 14:48",
-   "title": "카카오뱅크 노조, 내일 2차 파업…\"요구 관철까지 지속\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003121496?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-08-13 21:55",
    "title": "이 대통령 “공급 총력전…파격 공급·공정 조세·세밀한 금융 유기적 조합”",
@@ -2286,7 +2166,121 @@
    "sent_kst": "2026-08-17 10:22",
    "title": "카카오뱅크, 기업가치 제고 드라이브…자사주 27만주 전격 소각",
    "url": "https://n.news.naver.com/mnews/article/029/0003042601?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "서울 GB 전역·인접 수도권 토허제…추가 택지 발표까지 묶는다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005400873?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "\"용산공원에 주택 공급\" 국토부 장관 발언에 용산구 '강력 반대'",
+   "url": "https://n.news.naver.com/mnews/article/215/0001262598?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "주택 공급 놓고 '샅바싸움'…김윤덕·오세훈, 20일 담판서 접점 모색",
+   "url": "https://www.sedaily.com/article/20080014?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "12평 빌라에 '영끌' 유도… 청년들 \"주거 사다리 아닌 족쇄\"",
+   "url": "https://n.news.naver.com/mnews/article/029/0003042650?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "\"10억짜리 집인데 대출은 왜 적지?\"…전세보증금 반환대출 한도 기준 모르면 낭패",
+   "url": "https://n.news.naver.com/mnews/article/138/0002238009?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "경상북도, 9월 1일부터 '전세 피해 및 예방 지원센터' 운영",
+   "url": "https://n.news.naver.com/mnews/article/657/0000054442?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "LH, 신규 승강기에 에어컨 의무화…공공주택 품질 향상",
+   "url": "https://www.mk.co.kr/article/12129299"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "재건축·재개발의 위험…\"새 아파트 무조건 받는 것 아냐\" 경고 [이송렬의 우주인]",
+   "url": "https://www.hankyung.com/article/2026081407976"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "[기자수첩]투기 아닌 '진짜 임대사업' 가려내 키운다면",
+   "url": "https://n.news.naver.com/mnews/article/648/0000049889?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "금감원, 금융권 '기후 스트레스테스트' 계획 공개…9월 국제 컨퍼런스 개최",
+   "url": "https://n.news.naver.com/mnews/article/138/0002238011?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "1년새 PEF 규제법 8개…정작 토종 펀드는 역차별",
+   "url": "https://n.news.naver.com/mnews/article/023/0003993346?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "\"동전주 걷어내면 천스닥 회복할까\"…코스닥 36곳 무더기 관리종목, 퇴출 본격화",
+   "url": "https://www.mk.co.kr/article/12129256"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "\"韓증시 못 믿어\"…지수 상승 전환에도 '공매도' 급증",
+   "url": "https://www.newsis.com/view/NISX20260817_0003751374"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "'과세 특혜' 확대하는 게 조세 정의? 금융소득 분리과세 특례 향한 질문 [분석+]",
+   "url": "https://n.news.naver.com/mnews/article/665/0000007969?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "레버리지 개미들 55조나 털렸는데…1,200억 챙긴 정체",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008708393&plink=ORI&cooper=NAVER"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "서학개미 순매도에도…증권사, 2분기 해외 수수료 1조 벌었다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000527812?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "취임 1년 만에 전국 돈 성대규…ABL 통합 작업도 속도",
+   "url": "https://www.sedaily.com/article/20080006?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "20년 아성 지킬 신한 vs 청라 본사 앞세운 하나…인천시금고",
+   "url": "http://www.fnnews.com/news/202608171055586178"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-17 14:52",
+   "title": "겁먹은 개미 머뭇거릴 때…외국인은 삼전닉스 '5조 베팅' [분석+]",
+   "url": "https://www.hankyung.com/article/2026081422286"
   }
  ],
- "updated_kst": "2026-08-17 10:22"
+ "updated_kst": "2026-08-17 14:52"
 }
