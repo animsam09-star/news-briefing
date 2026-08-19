@@ -2796,7 +2796,265 @@
    "sent_kst": "2026-08-19 14:49",
    "title": "기업금융 승부 건 SC제일·씨티銀…기업 부실 확산에 건전성 '시험대'",
    "url": "https://n.news.naver.com/mnews/article/031/0001050764?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "정부 '로또 줍줍' 폐지에 무주택자들 반발…전문가들도 \"실효성 의문\"",
+   "url": "https://news.mtn.co.kr/news-detail/2026081915473444906"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "수도권 연 29.4만가구 착공?…\"2005년 이후 한 번도 없었다\"",
+   "url": "https://n.news.naver.com/mnews/article/119/0003123123?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "집값 잡으려 세금 조였더니 전월세가 뛴다…주택시장 '풍선효과' 우려",
+   "url": "https://n.news.naver.com/mnews/article/123/0002388633?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "롯데건설, 회사채 수요예측서 3배 몰려… 작년 '주문 0' 치욕 씻었다",
+   "url": "https://biz.chosun.com/stock/market_trend/2026/08/19/2IBAKYRHGFCFDKPQLDR4RQRBFY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "부산 부동산 소비심리 한 달새 '뚝'…건설사 \"회복책 절실\"",
+   "url": "https://n.news.naver.com/mnews/article/658/0000152828?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "물량 늘리고 공기 반년 줄여… 모듈러 주택 2만가구 공급 실험",
+   "url": "http://www.fnnews.com/news/202608191817132935"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "경기도·GH '20번의 두드림' 결실…공공임대 기금 '출자' 전환",
+   "url": "https://n.news.naver.com/mnews/article/022/0004152069?sid=102"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "[부동산 돋보기] '8·13대책'의 지방 차별",
+   "url": "https://n.news.naver.com/mnews/article/082/0001394585?sid=110"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "시공사의 갑작스런 분양가 인하 요구, 발 빼기 수순?",
+   "url": "https://n.news.naver.com/mnews/article/082/0001394620?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "세제 개편 발표 뒤 강남 매물 6.5%↑…매수자 '관망'",
+   "url": "https://www.mk.co.kr/article/12131298"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "예금보호 한도 상향에 보험료 급증…'MG손보 부실' 터진 손보엔 3배 뛴 '청구서'",
+   "url": "https://www.sedaily.com/article/20080999?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "FIU, 가상자산 거래소 '법인 계좌 현금 보유 현황' 자료 요청",
+   "url": "https://n.news.naver.com/mnews/article/001/0016259318?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "1300억 손실 낸 신한투자증권, 내부통제 부실 과태료는 면제…이유는? [취재여담]",
+   "url": "https://n.news.naver.com/mnews/article/374/0000528206?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "인니서 성장 돌파구 찾았는데…지주계 카드사 경영권 넘긴다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000528259?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "전북, 제3금융중심지 7년 만에 재도전…금융위, 3개년 청사진 가동",
+   "url": "https://n.news.naver.com/mnews/article/029/0003043123?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "대출 규제 완화 신호탄…농협銀 변동형 주담대 재개",
+   "url": "https://n.news.naver.com/mnews/article/658/0000152827?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "[단독] 전력망 투자 수익에 비과세 검토 [심층기획-'에너지전환 청구서' 팩트체크]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004152117?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "카카오모빌리티, 美 IPO 추진 본격화…SEC에 비공개 서류 제출",
+   "url": "https://n.news.naver.com/mnews/article/092/0002434445?sid=105"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "우리투자證, IPO 주관 시동 … 라이드플럭스 상장예심 청구",
+   "url": "https://www.mk.co.kr/article/12131443"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "국민은행 퇴직연금 ETF 당일 매도·매수 도입",
+   "url": "http://www.fnnews.com/news/202608191814369860"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "OpenAI introduces ChatGPT version designed for teenagers - Anadolu Ajansı",
+   "url": "https://www.aa.com.tr/en/world/openai-introduces-chatgpt-version-designed-for-teenagers/4031715"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "What to Know About Anthropic’s New Claude Watermarking on AI-Generated Text and Files - cnet.com",
+   "url": "https://www.cnet.com/tech/services-and-software/anthropics-claude-will-add-watermarks-to-ai-generated-text-and-files-2/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Inside NVIDIA US$105bn Deal to Power OpenAI's Models - AI Magazine",
+   "url": "https://aimagazine.com/news/inside-nvidias-us-105-bn-bet-on-ohios-10gw-ai-supercampus"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Nvidia's Balance Sheet Has Quietly Become AI's Risk Backstop - ad-hoc-news.de",
+   "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nvidia-s-balance-sheet-has-quietly-become-ai-s-risk-backstop/69969961"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "OpenAI Hacked Hugging Face, Then Deployed Safety Monitors Its Own Scientists Proved Can Be Gamed - Tech Times",
+   "url": "https://www.techtimes.com/articles/324929/20260819/openai-hacked-hugging-face-then-deployed-safety-monitors-its-own-scientists-proved-can-gamed.htm"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "SK Hynix Approves $28.6 Billion Share Buyback Program - AsatuNews.co.id",
+   "url": "https://www.asatunews.co.id/en/sk-hynix-approves-billion-share-buyback"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Samsung hikes chipmaking prices by 15% amid soaring AI demand - The News International",
+   "url": "https://www.thenews.com.pk/latest/1412784-samsung-hikes-chipmaking-prices-by-15-amid-soaring-ai-demand"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "POSCO Targets China Battery Materials Market - businesskorea.co.kr",
+   "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=275091"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Brazil's mining sector has potential to reac... - BNamericas",
+   "url": "https://www.bnamericas.com/en/news/brazils-mining-sector-has-potential-to-reach-us250-billion-in-tax-revenue-by-2035"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Oil Prices Are On Borrowed Time As The War In Iran Rages On (Commodity:CL1:COM) - Seeking Alpha",
+   "url": "https://seekingalpha.com/article/4938159-oil-prices-are-on-borrowed-time-as-the-war-in-iran-rages-on"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Shell Trader Mansfield Resigns After 26 Years at Oil Major - Bloomberg.com",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-19/shell-trader-mansfield-resigns-after-26-years-at-oil-major"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "The Two Very Different Destinations Priced Into Caterpillar Stock - trefis.com",
+   "url": "https://www.trefis.com/data/companies/CAT/no-login-required/F89Y1dQh/The-Two-Very-Different-Destinations-Priced-Into-Caterpillar-Stock"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Amazon fined Rs 1 lakh over Ram Mandir prasad listings - MediaNama",
+   "url": "https://www.medianama.com/2026/08/223-ccpa-amazon-ram-mandir-prasad-fine/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Samsung Galaxy phones could soon get a popular Apple feature - Mashable",
+   "url": "https://mashable.com/tech/samsung-one-ui-9-5-app-mirroring"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Singapore and China sign nuclear cooperation agreement - energynews.pro",
+   "url": "https://energynews.pro/en/singapore-and-china-sign-nuclear-cooperation-agreement"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "EDF Reconnects Third Reactor at Gravelines After Jellyfish Incident - energynews.pro",
+   "url": "https://energynews.pro/en/edf-reconnects-third-reactor-at-gravelines-after-jellyfish-incident"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Taiwan’s own satellite launcher fails first test, triggers missile panic - South China Morning Post",
+   "url": "https://www.scmp.com/news/china/military/article/3364561/taiwan-made-satellite-launcher-fails-first-test-triggers-missile-panic"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "SpaceX completes 100th orbital mission of 2026; achieves milestone for third year in a row - starlust.org",
+   "url": "https://starlust.org/space-x-completes-100th-orbital-mission-of-2026-achieves-milestone-for-third-year-in-a-row/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Russia, Ukraine report civilian casualties after night-time air attacks - Anadolu Ajansı",
+   "url": "https://www.aa.com.tr/en/russia-ukraine-war/russia-ukraine-report-civilian-casualties-after-night-time-air-attacks/4031687"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Fedorov's Call for Elections Amidst Ukraine's War Challenges Zelenskiy - Devdiscourse",
+   "url": "https://www.devdiscourse.com/article/law-order/3965692-fedorovs-call-for-elections-amidst-ukraines-war-challenges-zelenskiy"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Tether’s first audit sparks more queries; stablecoin card volume soars - CoinGeek",
+   "url": "https://coingeek.com/tether-first-audit-sparks-more-queries-stablecoin-card-volume-soars/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "Coinbase Brings Direct BRL Trading for USDC to Coinbase Advanced - Coinbase",
+   "url": "https://www.coinbase.com/blog/coinbase-brings-direct-brl-trading-for-usdc"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-19 21:49",
+   "title": "RTX (NYSE: RTX) Secures $22.9 Billion Tomahawk Cruise Missile Contract With U.S. Navy In Seven-Year Production Deal",
+   "url": "https://www.foreignpolicyjournal.com/2026/08/18/rtx-nyse-rtx-secures-22-9-billion-tomahawk-cruise-missile-contract-with-u-s-navy-in-seven-year-production-deal/"
   }
  ],
- "updated_kst": "2026-08-19 14:49"
+ "updated_kst": "2026-08-19 21:49"
 }
