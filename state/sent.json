@@ -3030,7 +3030,127 @@
    "sent_kst": "2026-08-20 11:17",
    "title": "[단독] 박현주 회장 '인수 마무리' 코빗 전직원 직접 만난다",
    "url": "https://www.mk.co.kr/article/12131863"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "정부, 23만가구 공급 '속도전'...건자재업계 시장 훈풍 기대감",
+   "url": "https://n.news.naver.com/mnews/article/016/0002686223?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "전세금 맡기면 연 4%대 이자 지급…'전월세 안심신탁' 9월 시행",
+   "url": "https://www.newsis.com/view/NISX20260820_0003755252"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "김윤덕-오세훈, 용산공원 개발 평행선…주변 부지엔 '접점'(종합2보)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016261275?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "'서초 내곡·강남 세곡·송파 방이'…GB개발 후보지 관측",
+   "url": "https://n.news.naver.com/mnews/article/021/0002812617?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "'공격적 잔금대출 공급' 주문 하루만에…은행권 한도 푼다",
+   "url": "https://www.news1.kr/finance/general-finance/6264066"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "8·13 공급대책 후 첫 집값 통계…서울 아파트값 상승폭 오히려 확대",
+   "url": "https://www.news1.kr/realestate/general/6264095"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "금리 인상에 착공 지연 우려…하도급업계 '위험 전이' 대응 필요",
+   "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=51386"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "서울 빌라 평균 4억원 돌파…청년 대출 문턱 낮춰도 집값이 '발목' 잡나",
+   "url": "https://n.news.naver.com/mnews/article/586/0000136343?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "점포 23곳 팔고도 1.5조 더 빌려야…홈플러스 '10년 회생' 시험대",
+   "url": "https://www.newsis.com/view/NISX20260820_0003755779"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "서울 집값, 규제에도 왜 안 꺾이나… 지난 10년 부동산 시장이 보여준 것",
+   "url": "https://n.news.naver.com/mnews/article/469/0000949061?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "5대 코인거래소 시세조종 AI로 잡는다…심층분석 '3일→1시간' 단축",
+   "url": "https://www.hani.co.kr/arti/economy/finance/1273772.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "금융위, 경남 수해 피해 가계·중기 금융지원…대출 만기 최대 1년 연장",
+   "url": "https://www.news1.kr/finance/general-finance/6264368"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "가계대출 못 늘리는 상호금융, 총량 조정으로 숨통 트일까",
+   "url": "https://biz.chosun.com/stock/finance/2026/08/20/TBG4J22PJJCUHJRWJQ7BVDFE5A/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "상호금융 수신 28조원 감소… 당국, 필요 시 비상 계획 가동",
+   "url": "https://biz.chosun.com/stock/finance/2026/08/20/DIMXSIPLUBF5HKXXNFSOIL5IKY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "'청년 대출' 신설해 총량 제외…중금리대출도 문턱 낮춘다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002686113?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "금융위 압박 통했나…5대 증권사 '매담대' 줄줄이 인하",
+   "url": "https://n.news.naver.com/mnews/article/374/0000528394?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "[단독] 민주당 \"가상자산 과세 추가유예 없다\"",
+   "url": "http://www.fnnews.com/news/202608192103205443"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "비트고코리아, 해외 기업 최초 직접 VASP 취득…\"장기적 투자\"(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016260753?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "'2500명' 롯데카드 집단소송 2차 변론기일…재판부 \"어떤 정보가 유출됐는지 입증해야\"",
+   "url": "https://n.news.naver.com/mnews/article/030/0003458987?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-20 14:50",
+   "title": "카카오뱅크 노조, 31일부터 닷새간 전면파업…첫 장기 연속파업",
+   "url": "https://n.news.naver.com/mnews/article/138/0002238382?sid=101"
   }
  ],
- "updated_kst": "2026-08-20 11:17"
+ "updated_kst": "2026-08-20 14:50"
 }
