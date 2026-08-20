@@ -85,22 +85,69 @@ jobs:
         if: steps.guard.outputs.skip != 'true'
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: 브리핑 선별·검증·발송 (Claude 헤드리스)
+      - name: 브리핑 선별·작성 (Claude 헤드리스 → out/msg*.txt)
         if: steps.guard.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           claude -p "$(cat "prompts/${{ steps.slot.outputs.slot }}.md")" \
             --dangerously-skip-permissions \
             --model claude-sonnet-5
 
-      # `claude -p`는 최종 응답 텍스트만 stdout에 내보내므로 세션 안에서 cat을 찍어도
-      # Actions 로그에는 남지 않는다. 발송본을 확인하려면 워크플로가 직접 출력해야 한다.
+      # 발송은 워크플로가 직접 한다.
+      #
+      # 왜: `claude -p`는 최종 응답 텍스트만 stdout에 내보내므로, 세션 안에서 쏜 curl의
+      # 응답은 Actions 로그에 남지 않는다. 그래서 Telegram이 메시지를 거부해도 잡은
+      # 초록색으로 끝나고 아무도 모른다 — 2026-08-14에 실제로 그렇게 됐다(morning 잡
+      # success, msg1~5.txt 정상 생성, 사용자에게는 아무것도 도착하지 않음).
+      # 여기서 쏘면 응답의 ok 값을 워크플로가 직접 검사할 수 있고, 거부 사유(description)가
+      # 로그에 남으며, 실패가 잡 실패로 드러나 감시견이 재시도할 수 있다.
+      - name: Telegram 발송 (응답 ok 검증)
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          shopt -s nullglob
+          files=(out/msg*.txt)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::error::out/msg*.txt 없음 — 보낼 내용이 없다 (프롬프트가 발송본을 쓰지 않았음)"
+            exit 1
+          fi
+          # msg10 이 msg2 보다 앞서지 않도록 숫자 정렬
+          mapfile -t files < <(printf '%s\n' "${files[@]}" | sort -V)
+
+          failed=0
+          for f in "${files[@]}"; do
+            sent=0
+            for attempt in 1 2 3; do
+              resp=$(curl -sS --max-time 30 \
+                "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                -d "chat_id=${TELEGRAM_CHAT_ID}" \
+                --data-urlencode "text@${f}") || resp='{"ok":false,"description":"curl 실패(네트워크/타임아웃)"}'
+              if printf '%s' "$resp" | python3 -c 'import json,sys; sys.exit(0 if json.load(sys.stdin).get("ok") else 1)' 2>/dev/null; then
+                echo "$f 발송 완료 ($(wc -c < "$f") bytes)"
+                sent=1
+                break
+              fi
+              # 응답 원문은 찍지 않는다 — sendMessage 성공 응답에는 chat 정보(이름·chat_id)가
+              # 들어 있고 이 저장소는 public 이라 로그가 그대로 공개된다. description 만 남긴다.
+              why=$(printf '%s' "$resp" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("description","(설명 없음)"))' 2>/dev/null || echo "JSON 아닌 응답 — Telegram API 장애 가능")
+              echo "::warning::$f 발송 실패 ($attempt/3) — $why"
+              if [ "$attempt" -lt 3 ]; then sleep $((attempt * 5)); fi
+            done
+            [ "$sent" -eq 1 ] || failed=1
+          done
+
+          if [ "$failed" -ne 0 ]; then
+            echo "::error::Telegram 발송 실패 — 위 경고의 사유 확인 (토큰 만료·chat_id 변경·봇 차단 등)"
+            exit 1
+          fi
+
+      # 발송본을 눈으로 확인할 수 있게 워크플로가 직접 출력한다(세션 안 cat은 로그에 안 남음).
       - name: 실제 발송본 출력 (형식 사후 검증)
         if: always() && steps.guard.outputs.skip != 'true'
         run: |
