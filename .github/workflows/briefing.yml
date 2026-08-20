@@ -81,9 +81,21 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python scripts/collect.py --slot "${{ steps.slot.outputs.slot }}" --out pool.json
 
+      # npm 이 패키지는 깔았는데 플랫폼 네이티브 바이너리가 안 딸려오는 경우가 있다.
+      # 2026-08-20 midmorning 이 그랬다 — npm install 은 성공했는데 claude 를 실행하니
+      # "claude native binary not installed" 로 즉시 죽었고, 그 슬롯은 통째로 누락됐다.
+      # 설치했다고 넘어가지 말고 실제로 실행되는지 확인하고, 안 되면 postinstall 을
+      # 직접 돌려 복구한다. 그래도 안 되면 여기서 실패시켜 원인을 눈에 띄게 남긴다.
       - name: Claude Code 설치
         if: steps.guard.outputs.skip != 'true'
-        run: npm install -g @anthropic-ai/claude-code
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          if claude --version; then exit 0; fi
+          echo "::warning::claude 실행 실패 — postinstall 을 직접 돌려 네이티브 바이너리를 받는다"
+          node "$(npm root -g)/@anthropic-ai/claude-code/install.cjs"
+          if claude --version; then exit 0; fi
+          echo "::error::claude 설치 실패 — 네이티브 바이너리를 받지 못했다 (패키지 배포 문제 가능)"
+          exit 1
 
       - name: 브리핑 선별·작성 (Claude 헤드리스 → out/msg*.txt)
         if: steps.guard.outputs.skip != 'true'
