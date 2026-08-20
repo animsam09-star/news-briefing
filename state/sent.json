@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "미분양 2909채 쌓이고 관광객 8만4000명 줄었다… 제주경제 '이중 한파'",
-   "url": "http://www.fnnews.com/news/202608160904071624"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "1억으로 수도권 아파트 매매?···'지분적립형'주택 이르면 4분기 공급",
-   "url": "https://magazine.hankyung.com/business/article/202608163733b"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "다가구 한층 더·일조권 풀어 공급 늘리지만…빌라시장 회복",
-   "url": "https://www.news1.kr/realestate/general/6259786"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "정비사업 유찰 반복에 사업 지연…재입찰 줄여 공급 속도낸다",
-   "url": "https://www.news1.kr/realestate/general/6259386"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "세제 개편에 매물 늘지만…대출·거래 규제에 \"살 사람이 없다\" [집슐랭]",
-   "url": "https://www.sedaily.com/article/20079889?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "인천 쿠팡 화재에도…서울서 안전점검 결과 위반사항 42건 적발",
-   "url": "https://n.news.naver.com/mnews/article/016/0002684422?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "'20~30억원' 1주택 종부세 부담, 왜 줄이나…세제개편안이 던지는 화두 [경제직설]",
-   "url": "https://n.news.naver.com/mnews/article/022/0004151229?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "\"가격 뛸텐데 몸테크 쯤이야\"…소형 중저가 재건축 단지 잇단 고가낙찰",
-   "url": "https://www.mk.co.kr/article/12128826"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "월세도 관리비도 올랐다…청년 \"저축할 돈이 없다\"",
-   "url": "https://n.news.naver.com/mnews/article/417/0001155510?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "'닥공' 속도전 현실성 있나...보상·협의·입법 '암초'",
-   "url": "https://n.news.naver.com/mnews/article/052/0002393919?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "\"돈 급하게 빌리려다 범죄자됐다\"…신종 대출사기 피해 속출, 뭐길래",
-   "url": "https://www.mk.co.kr/article/12128862"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "동전주 퇴출 시계 본격화…관리종목 39개",
-   "url": "http://www.fnnews.com/news/202608160916326650"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "'빌라 샀다가 못 팔면 어떡하나'…청년미래보금자리론 '갈아타기 족쇄' 우려",
-   "url": "https://n.news.naver.com/mnews/article/016/0002684453?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "\"초과수익인데 또 상장폐지\"…반복되는 '액티브 ETF' 상관계수 논란",
-   "url": "https://www.newsis.com/view/NISX20260814_0003749986"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "[비즈앤피플] '만능통장' 기존 혜택 유지·생산적금융 경쟁력에 무게",
-   "url": "https://n.news.naver.com/mnews/article/082/0001394006?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "가상자산 거래소도 '금융사급' 내부통제...20일 개정 특금법 시행",
-   "url": "https://n.news.naver.com/mnews/article/417/0001155511?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "국책은행 지방 이전설에 내부 '술렁'…노조는 총파업 전열",
-   "url": "https://n.news.naver.com/mnews/article/119/0003122187?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "美 7월 CPI 둔화에도...BofA \"연준 3차례 금리 인상 전망\"",
-   "url": "https://www.mk.co.kr/article/12127951"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "민주당 7표에 달린 클래리티법…9월이 '마지막 기회'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003122200?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-16 10:15",
-   "title": "집 사고 주식 사고…2분기 가계빚 얼마나 늘었나[한은 미리보기]",
-   "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01161126645547976"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-08-16 14:52",
    "title": "청년은 빌라 사고 아파트 갈아타라?…5년 뒤 집값 따져보면",
@@ -3036,7 +2916,121 @@
    "sent_kst": "2026-08-20 06:34",
    "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers - TechCrunch",
    "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "PF 자기자본 규제 '뒷걸음' 한 정부…주택공급 vs 건전성 딜레마",
+   "url": "https://n.news.naver.com/mnews/article/648/0000049983?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "[8.13 부동산금융대책] 공공주택 무대, 서울로 확대…중견 건설사 '기대감'",
+   "url": "https://dealsite.co.kr/articles/167422"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "민간 정비사업 속도 제고는 'OK', 용적률·조합원 지위양도 제한 규제 완화는 'NO'",
+   "url": "https://n.news.naver.com/mnews/article/119/0003123246?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "신축 빌라 씨가 말랐다…전체 거래의 13%뿐 [집슐랭]",
+   "url": "https://www.sedaily.com/article/20081075?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "지방은 침체라는데…강릉엔 왜 서울 돈이 모이나",
+   "url": "https://n.news.naver.com/mnews/article/088/0001024351?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "\"강남구민에 대한 갑질 멈춰달라\"…정부에 목소리 내는 강남구",
+   "url": "https://www.hankyung.com/article/2026082013077"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "[8.13 부동산금융대책] 공급부지에서 빠진 용산, 정부·서울시 정면충돌",
+   "url": "https://dealsite.co.kr/articles/167438"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "조합설립 동의율 '깔딱고개' 낮아진다…서울 재개발 조합 16곳 수혜",
+   "url": "https://view.asiae.co.kr/article/2026081920223702280"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "'시장 자극 vs 유일 공급책'…재건축·재개발 득실차는?",
+   "url": "https://n.news.naver.com/mnews/article/648/0000049977?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "[기자수첩] 국민성장펀드 쏠림에 한숨짓는 벤처캐피탈",
+   "url": "https://dealsite.co.kr/articles/167432"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "[Invest]오픈API 빗장 여는 증권업계…뒤따르는 비용·보안 '숙제'",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/19/2026081980116.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "'소극행정' 금융당국…숨통 끊어지는 스타트업",
+   "url": "https://n.news.naver.com/mnews/article/119/0003123250?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "두달 뒤 검사 지휘 사라지는데… '2만 특사경' 새 수사체계는 감감무소식",
+   "url": "https://n.news.naver.com/mnews/article/023/0003993927?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "[은행 기업대출 점검] 시중은행 대기업 향할 때 기업은행 '중기 올인'",
+   "url": "https://dealsite.co.kr/articles/167395"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "가계빚 사상 첫 2000조 돌파…연체율·대출금리까지 '빨간불' [자막뉴스]",
+   "url": "https://n.news.naver.com/mnews/article/052/0002395651?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "주담대 몰두한 당국…총량 풀었지만 '마통·빚투'는 나몰라라",
+   "url": "https://n.news.naver.com/mnews/article/119/0003123251?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "트럼프 \"역외서 운영되는 하이퍼리퀴드 미국 내 합법화 추진\"",
+   "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02604326645549288"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "사모펀드, 올 상반기 1조달러 투자…건수 줄어도 규모는 견조",
+   "url": "https://www.hankyung.com/article/202608201403r"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-20 11:17",
+   "title": "[단독] 박현주 회장 '인수 마무리' 코빗 전직원 직접 만난다",
+   "url": "https://www.mk.co.kr/article/12131863"
   }
  ],
- "updated_kst": "2026-08-20 06:34"
+ "updated_kst": "2026-08-20 11:17"
 }
