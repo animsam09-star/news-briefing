@@ -2,246 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "靑 \"용산공원 금싸라기 땅 이용해야…청년주택 생각 중\"",
-   "url": "https://www.sedaily.com/article/20080718?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "\"집 사는건 당분간 보류합니다\"…서울 '토허제' 신청 4월 대비 반토막",
-   "url": "https://www.mk.co.kr/article/12130842"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "은행권 대출문턱·집값 상승 우려에 정책대출 풍선효과…상반기 보금자리론 2년 전보다 5배 늘어",
-   "url": "https://n.news.naver.com/mnews/article/023/0003993719?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "만지면 커지는 교보증권 PF 우발채무…1조원 넘어",
-   "url": "https://dealsite.co.kr/articles/166580"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "PF 연체율 '역대급'…정부 지원에 2금융권 부실 정리 기대",
-   "url": "https://n.news.naver.com/mnews/article/119/0003122838?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "세금 걱정에 서울 집주인 '술렁'…구청까지 나서 '특별 과외'",
-   "url": "https://www.hankyung.com/article/2026081877731"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "정비사업 발목 잡는 상가·종교시설…\"제도 개선해야\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005401627?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "서울 주택 매매가격 상승 폭 4개월째 확대...7월도 트리플 강세 지속 [스타트 경제]",
-   "url": "https://n.news.naver.com/mnews/article/052/0002395061?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "민주당 국토위, 오늘 당·정 협의회…부동산 공급대책 등 논의",
-   "url": "https://n.news.naver.com/mnews/article/123/0002388571?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "인천시 정비사업 실태와 전망(4)- 계양·서해·남동구",
-   "url": "https://www.housingherald.co.kr/news/articleView.html?idxno=62539"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "기사 악용 85억 꿀꺽… 경제지 기자·회계사 일당 첫 재판",
-   "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000004219&cp=nv"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "몸집 키운 주가조작 합동대응단…증거능력 논란·시장 변동성에",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/18/2026081880125.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "\"퇴직연금으로 한방 노렸다\"...월급쟁이 뭉칫돈 '은행→증권' 대이동",
-   "url": "https://n.news.naver.com/mnews/article/008/0005401632?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "'고위험 주담대' 더 조인다는데… KB·신한은행 LTV 80% 초과 대출 11조",
-   "url": "https://www.news1.kr/finance/general-finance/6261827"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "대출 이력 없어도 OK… 통신·유통 데이터가 신용이 된다",
-   "url": "https://n.news.naver.com/mnews/article/021/0002812184?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "[Invest]대출절벽 막는다던 금융위…가계대출 총량 넉 달 만에 두 배로",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/18/2026081880127.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "중진공, 4억달러 소셜본드 발행…10년만에 외화채 발행",
-   "url": "https://biz.chosun.com/industry/business-venture/2026/08/19/RB7QDE6QD5E7TKNSA3AZOZLFE4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "美 SEC, 가상자산 맞춤형 규제안 발표…가상자산 증권성 꼬리표 뗀다",
-   "url": "https://www.mk.co.kr/article/12130829"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "카카오뱅크·코인원, 실명계좌 계약 1년 연장…'안전 거래' 동맹 지속",
-   "url": "https://n.news.naver.com/mnews/article/029/0003042997?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-19 10:19",
-   "title": "[금융투자 상반기 실적]레버리지가 휩쓴 증시, 증권사 실적은 더 커졌다",
-   "url": "https://n.news.naver.com/mnews/article/648/0000049944?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "가계부채 사상 최대…부동산 정책·빚투 열풍 속 2천조 원 넘어",
-   "url": "https://n.news.naver.com/mnews/article/448/0000634371?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "청약통장 소득공제 일몰 없앤다…가입 이탈 흐름 잡을까",
-   "url": "https://n.news.naver.com/mnews/article/088/0001024212?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "정부가 사들인다는 '로또 청약'…1600가구 중 28가구에 불과",
-   "url": "https://www.newsis.com/view/NISX20260819_0003754162"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "한성숙 \"3기 신도시, 대부분 2030년까지 착공토록 하라\"",
-   "url": "https://n.news.naver.com/mnews/article/079/0004180131?sid=100"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "전세사기 피해자 4만명·지원 7만2000건…김윤덕 \"지원 속도\"",
-   "url": "https://www.news1.kr/realestate/general/6262831"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "'반값아파트' 사전청약자, 자산 늘어도 대출 회수 없다",
-   "url": "https://n.news.naver.com/mnews/article/030/0003458550?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "공사비 5조 넘게 올린 건설사들…치솟는 원가에 수익성 '비상'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001050781?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "8·13 공급대책 발표에도 입주까지 시차…기분양 단지로 눈 돌리는 수요",
-   "url": "https://n.news.naver.com/mnews/article/243/0000101854?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "감과 인맥 통하던 부동산·건설시장…데이터 기업들이 판 흔든다",
-   "url": "https://n.news.naver.com/mnews/article/092/0002434326?sid=105"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "\"공사만 해선 돈 안된다\"…투자·운영까지 '글로벌 디벨로퍼'로 진화",
-   "url": "https://n.news.naver.com/mnews/article/016/0002685551?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "[대출규제 유턴] ② 잔금대출 숨통텄지만…은행별 총량 배분은 '제각각'",
-   "url": "https://n.news.naver.com/mnews/article/138/0002238264?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "\"책임 미룬다\" 비판에… 금융위, 부동산 대출 규제 예외 기준 검토",
-   "url": "https://biz.chosun.com/stock/finance/2026/08/19/Q3HWMLQQOJGPDEIQII2UD5CMIQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "상호금융권도 대출 총량 숨통 트일까…금융위 \"페널티 재검토\"",
-   "url": "https://www.newsis.com/view/NISX20260819_0003753956"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "20일부터 코인거래소 대주주도 사전심사… 두나무·네이버 '시험대'",
-   "url": "https://n.news.naver.com/mnews/article/030/0003458619?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "단일종목 레버리지 신규 투자자, 오늘부터 '모의 거래 5시간' 필수",
-   "url": "https://n.news.naver.com/mnews/article/422/0000897229?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "[단독] 금융사, 앞으로 기초수급자에 빚 독촉 제한…제각각 기준 통일",
-   "url": "https://www.mk.co.kr/article/12130890"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "與 박홍배, 주총 제도 개선 나선다…인프라 개선 2법 발의",
-   "url": "https://www.mk.co.kr/article/12131020"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "구윤철 \"외은지점 외화차입 기준 1억달러 이상으로\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003123053?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "[단독] 신한·하나금융, 서금원 '맞손'…민관 서민금융 지원 거점 전국 확대",
-   "url": "https://news.mtn.co.kr/news-detail/2026081909534923210"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-19 14:49",
-   "title": "기업금융 승부 건 SC제일·씨티銀…기업 부실 확산에 건전성 '시험대'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001050764?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-08-19 21:49",
    "title": "정부 '로또 줍줍' 폐지에 무주택자들 반발…전문가들도 \"실효성 의문\"",
@@ -2394,7 +2154,115 @@
    "sent_kst": "2026-08-23 10:17",
    "title": "법인 가상자산 계정 6천개 넘어섰다…실제 활성계정은 29개 불과",
    "url": "https://n.news.naver.com/mnews/article/029/0003043653?sid=105"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "‘한 채’인데 안 살면 공제 3억 줄인다… 김민석, 정부 종부세안에 제동",
+   "url": "https://n.news.naver.com/mnews/article/661/0000082050?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "“이제와서 공공임대 늘리라니”…광명 철산·하안 재건축 ‘날벼락’",
+   "url": "https://www.mk.co.kr/article/12133957"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "서울 한복판에 45만㎡ 금싸라기…용산 땅 놓고 '격돌' [철길옆집]",
+   "url": "https://www.hankyung.com/article/2026082138096"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "200억짜리도 버젓이…국세청, ‘황제사택’ 칼댄다",
+   "url": "https://n.news.naver.com/mnews/article/029/0003043699?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "레고랜드發 구조조정 끝난 부동산PF…증권사 IB 수익원 재부상",
+   "url": "https://n.news.naver.com/mnews/article/008/0005403360?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "모아타운 4만호 ‘가속페달’…6년 재정비 4.5년으로 단축",
+   "url": "https://n.news.naver.com/mnews/article/029/0003043713?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "달동네에서 '마용성' 핵심주거지로…마포의 현재와 미래",
+   "url": "https://www.hankyung.com/article/202608185654i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "[단독]‘민관협력’ 사회주택에 “임대보증보험 가입 안했다”며 과태료··· 구조적 한계에 사업자 ‘울상’",
+   "url": "https://www.khan.co.kr/article/202608231341001"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "올해 상반기 국내은행 이자이익 32조원 '역대 최대'…당기순익↓",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008717476&plink=ORI&cooper=NAVER"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "금감원, 홈플러스 전단채 피해자 '선배상' 검토…증권사 제재도 속도",
+   "url": "https://www.news1.kr/finance/general-stock/6266600"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "ETF는 30% 크는데 ETN은 제자리…증권사의 숨은 고민",
+   "url": "https://n.news.naver.com/mnews/article/008/0005403407?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "합병가액 시가폐지 다음은?…의무공개매수·신주우선배정 논의 시작",
+   "url": "https://n.news.naver.com/mnews/article/008/0005403425?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "총량제의 덫...은행 가계대출 제한 3배 급증",
+   "url": "https://www.sedaily.com/article/20082215?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "연 50% 쿠폰의 유혹…삼전·하이닉스 ELS로 몰린 한국 개미",
+   "url": "https://www.sedaily.com/article/20082195?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "환율 1300원대 내려오자 달러예금 ‘역대 최대’…금·예금엔 뭉칫돈, ETF·‘빚투’는 감소",
+   "url": "https://n.news.naver.com/mnews/article/023/0003994378?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "'종합금융' 퍼즐 완성한 한국금융지주, 기대반 우려반",
+   "url": "https://www.g-enews.com/view.php?ud=202608211410483130153ddfb15a_1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "‘동전주’ 업체 여신 긴급점검…대출 연장 어려워진다",
+   "url": "https://www.sedaily.com/article/20082221?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-23 14:52",
+   "title": "국민연금 책임투자 확대…연금 지분율 높고 지배구조 개선 기업 주목",
+   "url": "https://n.news.naver.com/mnews/article/022/0004152882?sid=101"
   }
  ],
- "updated_kst": "2026-08-23 10:17"
+ "updated_kst": "2026-08-23 14:52"
 }
