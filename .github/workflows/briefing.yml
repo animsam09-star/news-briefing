@@ -142,6 +142,12 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          # 세션이 일을 백그라운드로 넘기면 기본 600초 상한에서 잘려 죽는다.
+          # 2026-08-24 midmorning 이 그랬다 — "백그라운드 에이전트에 위임했습니다"로
+          # 응답이 끝났고 out/ 은 비어 있었다. 프롬프트에서 위임을 금지했지만,
+          # 그래도 백그라운드가 생기면 잘리지 말고 끝까지 기다리게 한다.
+          # 무한 대기가 되진 않는다 — 잡의 timeout-minutes: 30 이 상한이다.
+          CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS: '0'
         run: |
           claude -p "$(cat "prompts/${{ steps.slot.outputs.slot }}.md")" \
             --dangerously-skip-permissions \
