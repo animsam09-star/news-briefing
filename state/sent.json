@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "서울 집값, 8·13 공급 대책 후 상승 지속…8월 셋째 주 0.13% 올라",
-   "url": "https://www.news1.kr/realestate/general/6265549"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "‘종부세 14억·9억 차등’에 가장 많았다…세제개편안 입법 의견 분석 [뉴스in뉴스]",
-   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8642770&ref=A"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "[단독]주택공급 '고삐'…이르면 26일 '도심 복합사업' 후보지 발표",
-   "url": "https://www.newsis.com/view/NISX20260821_0003757306"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "\"시공사 선정 코앞인데 공공임대?\"…광명 재건축 단지들 '발칵'",
-   "url": "https://www.newsis.com/view/NISX20260821_0003757453"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "동부건설, 재무체력 키운 원동력은 '공공·HJ'",
-   "url": "https://n.news.naver.com/mnews/article/648/0000050033?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "\"사업성 낮은데 1100억 빌려준 농협\"…경감연, 전·현직 임직원 '배임' 고발",
-   "url": "https://n.news.naver.com/mnews/article/138/0002238526?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "서울 아파트 평균 13억원 넘어…공급 감소에 중소형 새 아파트 관심",
-   "url": "https://n.news.naver.com/mnews/article/016/0002686573?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "이지스, 14년 만에 사옥 옮긴다…내년 초 여의도 파크원으로",
-   "url": "https://www.hankyung.com/article/202608214073r"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "\"월세 받듯 따박따박이라더니\"…리츠 투자자, 원금 손실에 '곡소리'",
-   "url": "https://www.newsis.com/view/NISX20260821_0003757361"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "'곰팡이 지옥 될 텐데?'…폐버스 이어 고시원 욕조",
-   "url": "https://n.news.naver.com/mnews/article/374/0000528680?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "은행 연체율 10년 만에 최고… 중소법인 0.92%까지 상승",
-   "url": "https://n.news.naver.com/mnews/article/081/0003672362?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "금감원, 2금융권에 중금리대출 확대 주문…인센티브 확대",
-   "url": "https://www.news1.kr/finance/general-finance/6265452"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "신한운용, 원화 펀드 '토큰화' 채비…기술검증 4자 MOU 체결",
-   "url": "https://www.sedaily.com/article/20081757?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "카카오, 창사 이래 최대 재편…주가는 10%대 '급락'",
-   "url": "https://n.news.naver.com/mnews/article/082/0001394851?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "[Q&A] 추가세수, 빚 상환 대신 미래 투자…\"국채 이자율 이상 운용\"(종합)",
-   "url": "https://n.news.naver.com/mnews/article/001/0016263504?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "'AI 투자 전쟁'이 밀어올리는 국채금리…국채 팔아 회사채 매입?",
-   "url": "https://n.news.naver.com/mnews/article/374/0000528636?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "삼일 김기은 \"비은행 금융그룹 영토 확장 활발…M&A로 판도 바뀐다\" [회계법인 딜메이커]",
-   "url": "https://www.hankyung.com/article/202608202131r"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "한국금융지주, KDB생명 품고 '종합금융그룹' 도약…전통·디지털 금융 다각화 속도",
-   "url": "https://www.newsis.com/view/NISX20260821_0003756846"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "비트고코리아, 해외기업 첫 가상자산사업자",
-   "url": "https://n.news.naver.com/mnews/article/016/0002686678?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-21 14:53",
-   "title": "보험사 예금보험료 7900억 더 내나…예보한도 1억 증액 후폭풍",
-   "url": "https://n.news.naver.com/mnews/article/417/0001155985?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-08-21 21:49",
    "title": "인접 단지 묶어 리모델링…'주택공급 6법' 국회 통과",
@@ -2400,7 +2280,277 @@
    "sent_kst": "2026-08-25 14:52",
    "title": "'복합기업' 벗어난 한화…인적분할 후 기업가치 재평가 받나",
    "url": "https://n.news.naver.com/mnews/article/117/0004097924?sid=103"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "정부, 뉴홈 사전청약자 요구 수용…전용 모기지 ‘원안대로’",
+   "url": "https://n.news.naver.com/mnews/article/022/0004153639?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "올해만 2500곳 줄폐업…지방 건설사 “일감 없어 고사 직전”",
+   "url": "https://www.sedaily.com/article/20083211?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "\"속도·규모 동시에 잡는다\"…HUG·LH 대규모 인력 증원 추진",
+   "url": "https://n.news.naver.com/mnews/article/008/0005404581?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "경기도만의 문제 아니다…전국 지자체 덮친 '취득세 쇼크'",
+   "url": "https://www.hankyung.com/article/2026082522531"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "청약미달 쏟아지는 브랜드 아파트…대형사 '재무체력' 시험대",
+   "url": "https://n.news.naver.com/mnews/article/031/0001052270?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "아파트 공급 부족에…9월 대구 아파트 입주 물량 '0'",
+   "url": "https://n.news.naver.com/mnews/article/088/0001025122?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "주택정책 전면에 선 HUG·LH 수장…미묘한 '공급 주도권' 경쟁",
+   "url": "https://n.news.naver.com/mnews/article/008/0005404583?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "\"상가 분양받았는데 지옥\"…혁신도시 공실률 최고 44% '비명'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002688327?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "삼성물산, '2조원 규모' 여의도 시범아파트 재건축 단독 응찰",
+   "url": "https://n.news.naver.com/mnews/article/215/0001263594?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "정비사업 권한 자치구 이양… 영향권 94%가 非강남",
+   "url": "https://www.fnnews.com/news/202608251836354428"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "금감원 6개 은행에 'CD 발행 늘려라' 행정지도…이자부담 상승 '우려'",
+   "url": "https://n.news.naver.com/mnews/article/374/0000529308?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "\"임추위 역할 부실\"...금감원, 경남은행 내부통제 지적",
+   "url": "https://news.mtn.co.kr/news-detail/2026082516030893461"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "금융계열사 고객정보 공유금지 '족쇄' 11년 만에 풀린다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005404481?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "\"AI 도입 규제 푼다\"...금융위, 마이데이터 발전방안 공개",
+   "url": "https://www.fnnews.com/news/202608250947224904"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "\"국내 MMF 기반 해외 STO 적법\"...ETF 등 확대 기대",
+   "url": "https://n.news.naver.com/mnews/article/215/0001263588?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "\"삼전 주식 소각하게 해주세요\"…주가 급락에 '금산법' 개정 목소리",
+   "url": "https://www.news1.kr/finance/general-stock/6268819"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "쪼개기 상장 금지했더니 인적 분할… 카카오 분사에 주주들 격앙",
+   "url": "https://n.news.naver.com/mnews/article/023/0003994797?sid=105"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "[단독] 200조 성장펀드 집행 더딘데 … 부처별 유사펀드 홍수",
+   "url": "https://www.mk.co.kr/article/12135966"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "시장서 외면받는 '소상공인 재기지원 정책대출'",
+   "url": "https://www.mk.co.kr/article/12135969"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "우리금융, NPL 선두 탈환… 임종룡 '비은행 승부수' 통했다",
+   "url": "https://www.fnnews.com/news/202608251817454556"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "OpenAI Launches AI Futures for Global Governance Research - AI Magazine",
+   "url": "https://aimagazine.com/news/openai-introduces-ai-futures-for-the-strategic-futures-team"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "These AI Researchers Walked Away From Bezos-Backed Prometheus Project To Build An AI For The Real World - Times Now",
+   "url": "https://www.timesnownews.com/technology-science/these-ai-researchers-walked-away-from-bezos-backed-prometheus-project-to-build-an-ai-for-the-real-world-article-155984210"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Cisco partners with Supermicro to expand AI infrastructure - Investing.com",
+   "url": "https://www.investing.com/news/company-news/cisco-partners-with-supermicro-to-expand-ai-infrastructure-93CH-4875241"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "AM Intelligence orders 9,000 Nvidia Rubin GPUs for Hyderabad AI factory - PRESS Insider",
+   "url": "https://pressinsider.com/business/am-intelligence-orders-9000-nvidia-rubin-gpus-for-hyderabad-ai-factory/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "This team accidentally let AIs loose to attack companies — and won't share how bad the problem is - Blaze Media",
+   "url": "https://www.theblaze.com/tech/this-team-accidentally-let-ais-loose-to-attack-companies-and-won-t-share-how-bad-the-problem-is"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Samsung Electronics, SK hynix poised to ride AI boom as memory chip sales seen surging 280% - 헤럴드경제",
+   "url": "https://mbiz.heraldcorp.com/article/10851552"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Boise Transformed by Memory Boom: The Light and Shadow of Micron's Rapid Expansion - finance.biggo.com",
+   "url": "https://finance.biggo.com/news/b3ffa190-a2d0-40f4-8c4f-6996ddefc456"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Germany joins the list of countries interested in exploring Brazil’s critical mineral potential - BNamericas",
+   "url": "https://www.bnamericas.com/en/news/germany-joins-the-list-of-countries-interested-in-exploring-brazils-critical-mineral-potential"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Myriad closes $10.58 million Rush Rare acquisition - Mining.com.au",
+   "url": "https://mining.com.au/myriad-closes-10-58-million-rush-rare-acquisition/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Prabowo Sets Three-Year Target to End Indonesia’s Oil, LPG Imports - Jakarta Globe",
+   "url": "https://jakartaglobe.id/business/prabowo-sets-threeyear-target-to-end-indonesias-oil-lpg-imports"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Kazakhstan cuts 2026 oil-output plan to 96M tons amid CPC attacks - Crypto Briefing",
+   "url": "https://cryptobriefing.com/kazakhstan-cuts-2026-oil-output-plan-to-96m-tons-amid-cpc-attacks/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Hanwha launches new U.S. unit for LNG business - upi.com",
+   "url": "https://www.upi.com/Top_News/World-News/2026/08/25/hamwha-aerospace-LNG-business-US/6481787655846/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "India pivots to US for LPG, LNG as West Asia crisis disrupts Gulf supplies - The Economic Times",
+   "url": "https://m.economictimes.com/industry/energy/oil-gas/india-pivots-to-us-for-lpg-lng-as-west-asia-crisis-disrupts-gulf-supplies/amp_articleshow/133506345.cms"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Boeing Just Sold 3 Businesses in 1 Week. Here's What It Says About the Aerospace Giant's Turnaround. - The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/08/25/boeing-sold-businesses-aerospace-archer-aviation/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "F-47: $3.5 Billion for America’s Next Fighter - MiGFlug",
+   "url": "https://migflug.com/afterburner/es/f-47-3-5-billion-for-americas-next-fighter/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "The Galaxy S27 Ultra Could Be Samsung’s Most Radical Overhaul in Years - Geeky Gadgets",
+   "url": "https://www.geeky-gadgets.com/samsung-galaxy-s27-ultra-rumors-9/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Indian Family Wipeout Over iPhone: The Dangerous Lure Of Consumer Tech Debt - NDTV",
+   "url": "https://www.ndtv.com/india-news/indian-family-wipeout-over-iphone-the-dangerous-lure-of-consumer-tech-debt-11943858"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Kansas and Missouri data center deals could drive 10% rate hikes as utility giant expands gas capacity - The Cool Down",
+   "url": "https://www.thecooldown.com/green-business/data-center-energy-costs-kansas-missouri/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "ArcLight launches $1 billion transmission company - Enlit World",
+   "url": "https://www.enlit.world/library/arclight-launches-1-billion-transmission-company"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Korean Launch Vehicle Nuri Approved for Fifth Mission With 15 Satellites - 조선일보",
+   "url": "https://www.chosun.com/english/industry-en/2026/08/25/7V3SI6FJR5D7LH2ARWKBGYV53M/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Rocket Lab Unveils 'GHOST,' a Game-Changing New Portable Launch System That Can Carry Payloads to Orbit from Anywhere on Earth - The Debrief",
+   "url": "https://thedebrief.org/rocket-lab-unveils-ghost-a-game-changing-new-portable-launch-system-that-can-carry-payloads-to-orbit-from-anywhere-on-earth/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Zelensky sees window for US mediation to end Ukraine war - RTE.ie",
+   "url": "https://www.rte.ie/news/world/2026/0825/1589149-zelensky-sees-window-for-us-mediation-to-end-ukraine-war/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "Palestine weekly: After Kushner departs, Israel escalates Gaza attacks - Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/8/25/palestine-weekly-after-kushner-departs-israel-escalates-gaza-attacks"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "How Criminals Move Millions in USDT Before Tether Can Freeze It - BeInCrypto",
+   "url": "https://beincrypto.com/tether-usdt-freeze-criminals-blacklist/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-08-25 21:48",
+   "title": "How Trump’s Crypto Push Is Linked to Bessent’s Treasury Moves - WSJ",
+   "url": "https://www.wsj.com/finance/currencies/how-trumps-crypto-push-is-linked-to-bessents-treasury-moves-809defdc"
   }
  ],
- "updated_kst": "2026-08-25 14:52"
+ "updated_kst": "2026-08-25 21:48"
 }
