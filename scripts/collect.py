@@ -18,9 +18,11 @@ import argparse
 import html
 import json
 import os
+import random
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -36,7 +38,17 @@ SENT_RETENTION_HOURS = 96  # 금요일 저녁 발송분이 월요일 아침까�
 
 stats = {"naver_queries": 0, "rss_queries": 0, "rejected_out_of_window": 0,
          "decode_fail": 0, "fetch_errors": [], "no_pubdate": 0,
-         "rejected_already_sent": 0, "sent_history_size": 0}
+         "rejected_already_sent": 0, "sent_history_size": 0,
+         "retried": 0, "retry_recovered": 0, "rss_breaker_open": False}
+
+# 일시적 과부하·요청제한. 이 코드들만 재시도한다 — 404·403 은 재시도해도 같다.
+RETRY_STATUS = {429, 500, 502, 503, 504}
+
+# RSS 차단 회로차단기. Google 이 이 러너 IP 를 통째로 막으면 26개 쿼리 × 재시도
+# 3회가 전부 헛돈다(순수 대기만 3분+). 연속 실패가 임계치를 넘으면 그 실행에서는
+# 재시도를 끄고 한 번씩만 찔러 본다 — 결과는 어차피 0건이고, 시간만 아낀다.
+RSS_BREAKER = {"consecutive_fail": 0, "open": False}
+RSS_BREAKER_THRESHOLD = 5
 
 # 직전 슬롯들이 이미 발송한 기사 (state/sent.json에서 로드) — 슬롯 간 중복 차단용
 # SENT_URLS/SENT_TITLES: 기계적 하드 필터 (거의 동일한 제목·URL을 수집 단계에서 제거)
@@ -47,13 +59,32 @@ SENT_INJECT_HOURS = 48   # 프롬프트에 보여줄 범위 (직전 3~4개 슬�
 SENT_INJECT_MAX = 80     # 프롬프트 길이 방어
 
 
-def fetch(url, data=None, headers=None, timeout=25):
-    h = {"User-Agent": UA}
+def fetch(url, data=None, headers=None, timeout=25, attempts=3):
+    """단발 요청에 지수 백오프 재시도를 붙인다.
+
+    2026-08-27 morning 에서 Google News RSS 26쿼리가 전부 HTTP 503 으로 실패해
+    글로벌 브리핑(방식3)이 통째로 0건이 됐다. 재시도가 아예 없어서 순간적인
+    503 한 번이 곧 그 쿼리의 최종 실패였다. 백오프에 지터를 섞어 26개 쿼리의
+    재시도가 같은 순간에 몰리지 않게 한다."""
+    h = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9,ko;q=0.8"}
     if headers:
         h.update(headers)
-    req = urllib.request.Request(url, data=data, headers=h)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="replace")
+    for i in range(attempts):
+        try:
+            req = urllib.request.Request(url, data=data, headers=h)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                body = r.read().decode("utf-8", errors="replace")
+            if i:
+                stats["retry_recovered"] += 1
+            return body
+        except urllib.error.HTTPError as e:
+            if e.code not in RETRY_STATUS or i == attempts - 1:
+                raise
+        except (urllib.error.URLError, TimeoutError, OSError):
+            if i == attempts - 1:
+                raise
+        stats["retried"] += 1
+        time.sleep(min(2 ** i * 2, 8) + random.uniform(0, 1.5))
 
 
 def strip_tags(s):
@@ -239,12 +270,22 @@ def gnews_rss(query, window, lang="en-US", gl="US", ceid="US:en", when=None):
     q = urllib.parse.quote(f"{query} when:{when or rss_when_for(window)}")
     url = f"https://news.google.com/rss/search?q={q}&hl={lang}&gl={gl}&ceid={ceid}"
     stats["rss_queries"] += 1
+    # 26개 쿼리를 쉬지 않고 쏘면 남용 탐지에 걸리기 쉽다. 짧게 간격을 둔다.
+    if not RSS_BREAKER["open"]:
+        time.sleep(random.uniform(0.4, 1.0))
     try:
-        xml_text = fetch(url)
+        xml_text = fetch(url, attempts=1 if RSS_BREAKER["open"] else 3)
         root = ET.fromstring(xml_text)
     except Exception as e:
         stats["fetch_errors"].append(f"rss:{query}:{e}")
+        RSS_BREAKER["consecutive_fail"] += 1
+        if RSS_BREAKER["consecutive_fail"] >= RSS_BREAKER_THRESHOLD and not RSS_BREAKER["open"]:
+            RSS_BREAKER["open"] = True
+            stats["rss_breaker_open"] = True
+            print(f"[rss] 연속 {RSS_BREAKER_THRESHOLD}회 실패 — 이 실행에서는 재시도를 끈다 "
+                  f"(Google 측 차단으로 보임). 남은 쿼리는 1회씩만 시도한다.", file=sys.stderr)
         return []
+    RSS_BREAKER["consecutive_fail"] = 0
     out = []
     for item in root.iter("item"):
         title = strip_tags(item.findtext("title") or "")
