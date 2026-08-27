@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "김민석 체제 첫 고위당정협의회…부동산 세제 등 논의 주목",
-   "url": "https://n.news.naver.com/mnews/article/437/0000507400?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "\"초고가 아파트 겨냥한 세제개편에 20억 원대 '덜 똘똘한 한 채'로 수요 몰려\"",
-   "url": "https://weekly.donga.com/3/all/11/6356149/1"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "여야, 26일 '용산공원 캠프킴법' 처리할까…공감대 속에도 대치",
-   "url": "https://n.news.naver.com/mnews/article/001/0016265106?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "\"당첨됐다고 장땡 아닙니다\"…8월 4만가구 분양, 세금 따라 확 달라진 청약 셈법",
-   "url": "https://www.mk.co.kr/article/12133923"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "과천 경마장 이전 대상지 내달 발표…주민들 28일 '맞불 집회'[주택공급 시험대④]",
-   "url": "https://www.newsis.com/view/NISX20260821_0003758086"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "은마·잠실주공 8354가구 움직인다…강남 빌라 월세로?",
-   "url": "https://n.news.naver.com/mnews/article/417/0001156089?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "공사비 뛰는데 분양가는 한계…지방 주택사업 '딜레마'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001051673?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "외국인 주택 쇼핑 27% 줄었는데… 강남서도 빠졌을까?",
-   "url": "https://n.news.naver.com/mnews/article/029/0003043646?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "신용등급 상향 트리거 넘보는 롯데건설…투자자 경계 심리 '여전'",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431339"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "\"아파트 먼저냐, 타워도 같이냐\"…6조 대한방직 개발 9월 결판",
-   "url": "https://www.joongang.co.kr/article/25455356"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "증권사보다 2배 더 비싼 은행 ETF 수수료 칼질 시동",
-   "url": "https://n.news.naver.com/mnews/article/008/0005403330?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "4대 금융 대출약정 530조…잠재 신용공급 고삐 풀리나",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431347"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "금융당국, '공격적 집단대출 공급' 주문 동시에…\"8~9월 집중 모니터링...\"",
-   "url": "https://www.news1.kr/finance/general-finance/6265455"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "금융당국 '고금리' 지적에…증권사 '매도담보대출' 금리 줄인하",
-   "url": "https://www.newsis.com/view/NISX20260822_0003758397"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "\"PBR 2~3배 올리겠다\"…기업가치 제고 공시 4배 급증",
-   "url": "https://n.news.naver.com/mnews/article/374/0000528850?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "'증시 변동·상장 규제'에 꽁꽁…3분기 새내기주 평균 수익률 -25%",
-   "url": "https://n.news.naver.com/mnews/article/029/0003043649?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "2000억 몸값에 대주주·인허가까지…수협, 증권사 인수 시험대",
-   "url": "https://n.news.naver.com/mnews/article/243/0000102027?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "AI·투자회사로 쪼개는 카카오… 인적분할 핵심 쟁점 일문일답",
-   "url": "https://n.news.naver.com/mnews/article/022/0004152873?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "현대해상, 보험손익 90% 급증…배당주 매력 다시 살아나나",
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=479680"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-23 10:17",
-   "title": "법인 가상자산 계정 6천개 넘어섰다…실제 활성계정은 29개 불과",
-   "url": "https://n.news.naver.com/mnews/article/029/0003043653?sid=105"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-08-23 14:52",
    "title": "‘한 채’인데 안 살면 공제 3억 줄인다… 김민석, 정부 종부세안에 제동",
@@ -3006,7 +2886,127 @@
    "sent_kst": "2026-08-27 06:36",
    "title": "Circle Stock Rallies as Trump Pushes Clarity Act Despite a Q2 Revenue Miss",
    "url": "https://www.tikr.com/blog/circle-stock-rallies-as-trump-pushes-clarity-act-despite-a-q2-revenue-miss?"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "[팩트체크] 10월부터 전세금 정부가 관리한다?…'전월세 안심신탁' 살펴보니",
+   "url": "https://n.news.naver.com/mnews/article/001/0016273367?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "상호금융의 재도약, PF 아닌 지역 밀착형 여신심사에서 시작된다 [서지용의 금융 톡톡]",
+   "url": "https://n.news.naver.com/mnews/article/119/0003125891?sid=110"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "해외건설, 도급 수주서 투자개발로…KIND 글로벌 개발사 육성",
+   "url": "https://www.news1.kr/realestate/general-policy/6266039"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "LH 도심복합사업 설계·시공 '원샷 발주'…주택공급 '물꼬' 튼다",
+   "url": "https://www.housingherald.co.kr/news/articleView.html?idxno=62656"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "'영끌'로 올린 서울 집값 흔들리나…'강제경매' 처분 서울집 44% 급증",
+   "url": "https://n.news.naver.com/mnews/article/002/0002453736?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "'법정단체' 공인중개사협회 \"카르텔 감시센터 운영…임장비도 추진\"",
+   "url": "https://www.news1.kr/realestate/general/6270419"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "해운대 중·좌동, 재건축 넘어 동네 통째로 바꾼다…부산 첫 '도시건축 통합계획' 도입",
+   "url": "https://n.news.naver.com/mnews/article/021/0002814200?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "8월 서울 아파트 매수 1위는 '도봉구'… 강남 꺾이자 외곽 대단지 몰린 이유",
+   "url": "https://n.news.naver.com/mnews/article/022/0004154089?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "청년미래보금자리론 전국 비아파트 거래 80%…서울 65% '4억·85㎡ 이하",
+   "url": "https://www.newsis.com/view/NISX20260827_0003764603"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "군인공제회, 상반기 순익 3431억…해외투자 비중 50% 돌파",
+   "url": "https://www.hankyung.com/article/202608275822r"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "[속보]한은, 기준금리 연 2.75→3.00% 인상…'금리 3%시대' 열렸다",
+   "url": "https://n.news.naver.com/mnews/article/029/0003044596?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "디지털자산기본법 윤곽…거래소 대주주 지분 20% 제한",
+   "url": "https://www.sedaily.com/article/20083751?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "보험사, 시니어 푸드 제조·유통 업무 가능해진다",
+   "url": "https://biz.chosun.com/stock/finance/2026/08/27/DCHV2VAQPBBEXKMO22SFF3OL4Y/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "1표에 갈리는 운명…금융지주 회장 3연임 금지 접고 이사회 '만장일치'...",
+   "url": "https://n.news.naver.com/mnews/article/008/0005405372?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "삼성화재, 주담대 신규 취급 재개…중단 두 달여 만",
+   "url": "https://n.news.naver.com/mnews/article/374/0000529631?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "하나은행, 시중은행 최초 'ICSD 달러 결제'…원화 국제화 선도",
+   "url": "https://n.news.naver.com/mnews/article/029/0003044594?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "[Invest]15조→9조로 몸값 떨어진 두나무…네이버와 '빅딜'도 흔들리나",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/26/2026082680073.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "[Invest]산은, SLL중앙 대출 조건부 만기연장 검토…자구책 이행이 관건",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/26/2026082680115.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "7월 은행 주담대 금리 4.48%…2년 8개월來 최고치",
+   "url": "https://n.news.naver.com/mnews/article/002/0002453732?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-08-27 10:19",
+   "title": "'불씨 아직 안 꺼졌다'…지방이전 대상 금융기관들 정무위 설득전",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/26/2026082680097.html"
   }
  ],
- "updated_kst": "2026-08-27 06:36"
+ "updated_kst": "2026-08-27 10:19"
 }
