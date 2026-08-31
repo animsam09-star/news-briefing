@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "군인공제회, 상반기 순익 3431억…해외투자 비중 50% 돌파",
-   "url": "https://www.hankyung.com/article/202608275822r"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "'영끌'로 올린 서울 집값 흔들리나…'강제경매' 처분 서울집 44% 급증",
-   "url": "https://n.news.naver.com/mnews/article/002/0002453736?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "'법정단체' 공인중개사협회 \"카르텔 감시센터 운영…임장비도 추진\"",
-   "url": "https://www.news1.kr/realestate/general/6270419"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "[오늘 부동산] 오세훈 서울시장 \"탄천에 청년주택 1.3만가구 조성\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003125881?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "10월부터 전세금 정부가 관리한다?…'전월세 안심신탁' 살펴보니",
-   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008724015&plink=ORI&cooper=NAVER"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "8월 서울 아파트 매수 1위는 '도봉구'… 강남 꺾이자 외곽 대단지 몰린 이유",
-   "url": "https://n.news.naver.com/mnews/article/022/0004154089?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "'용산 빼고' 경기도 위주…추가 발표 앞두고 실효성 우려",
-   "url": "https://n.news.naver.com/mnews/article/437/0000508108?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "\"4000세대 단지 25평 전세 1건\" 노도강 전세가율 文때로 회귀 [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002689047?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "청년 첫 집 취득세 추가 감면…오피스텔도 적용",
-   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8647333&ref=A"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "철도지하화 사업 탄력…철도공단·지자체 공동 시행 길 열려",
-   "url": "https://n.news.naver.com/mnews/article/119/0003125968?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "카카오뱅크 노조, 5일 전면 총파업 철회",
-   "url": "https://n.news.naver.com/mnews/article/629/0000527980?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "[Invest]15조→9조로 몸값 떨어진 두나무…네이버와 '빅딜'도 흔들리나",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/26/2026082680073.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "'한번 잡으면 끝' 옛말…550조 퇴직연금 판 흔들린다",
-   "url": "https://n.news.naver.com/mnews/article/119/0003125890?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "[데스크시각] 동양생명 상장폐지에 붙은 '두 개의 가격표'",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=671927"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "코람코인프라리츠, 안양물류센터 우협 선정…삼성증권과 인수 추진",
-   "url": "https://www.hankyung.com/article/202608275880r"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "한화리츠, 공모채 2000억 수요예측 나서…만기구조 장기화",
-   "url": "https://dealsite.co.kr/articles/167771"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "디지털자산기본법 윤곽…거래소 대주주 지분 20% 제한",
-   "url": "https://www.sedaily.com/article/20083751?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "[MD포커스] 산업·기업·하나은행까지…700억 넘은 '외부인 사기' 금융사고",
-   "url": "https://n.news.naver.com/mnews/article/117/0004098776?sid=103"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "급여 2.8억인데 보수 30억…유명순 씨티은행장의 'RSU 마법'",
-   "url": "https://dealsite.co.kr/articles/167790"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-08-27 20:08",
-   "title": "고금리에도 회사채 스프레드 축소…우량채 '캐리 수요' 유입 [시그널]",
-   "url": "https://www.sedaily.com/article/20083571?ref=naver"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-08-28 14:37",
    "title": "“서남선 도시철도 추진… 목동운동장 일대 복합 개발”",
@@ -336,7 +216,115 @@
    "sent_kst": "2026-08-28 21:33",
    "title": "신한글로벌액티브리츠, 고환율 부담 완화…60억 투자여력 확보",
    "url": "https://dealsite.co.kr/articles/167640"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "주금공, PF 공적보증 강화…주택공급 활성화 지원",
+   "url": "https://n.news.naver.com/mnews/article/119/0003127319?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "[어바웃 계룡건설]③ 책임준공 약정 2조 돌파, 우발채무 늘었다",
+   "url": "https://www.bloter.net/news/articleView.html?idxno=671979"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "7월 서울 아파트 매매 15% 감소…수도권 미분양 18개월만에 최대",
+   "url": "https://www.donga.com/news/Economy/article/all/20260831/134574786/1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "여전히 많은 부산지역 준공 후 미분양 주택… 7월 3253가구",
+   "url": "https://n.news.naver.com/mnews/article/658/0000153980?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "SH, 장기전세주택 '시프트' 1381가구 공급…9월 14일부터 청약",
+   "url": "https://www.fnnews.com/news/202608311041479402"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "\"30년 된 아파트도 새집처럼\"…대형 건설사, 리모델링 판 키운다",
+   "url": "https://n.news.naver.com/mnews/article/022/0004155019?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "공실 적은 오피스빌딩 비결은… 주변 보듬어야 '뜬다'",
+   "url": "https://news.mtn.co.kr/news-detail/2026083109352799566"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "삼성물산·압구정4구역, 공사도급계약 체결…2028년 이주 '속도'",
+   "url": "https://news.mtn.co.kr/news-detail/2026083110582568005"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "상상인저축은행 매각 또 무산…KBI, 인수 자진 철회",
+   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432667"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "캠코, 20년 이상 연체채권 3.1조 원 특별소각…4.4만명 재기 지원",
+   "url": "https://www.news1.kr/finance/general-finance/6274809"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "\"법으로 막겠다\"던 3연임 제한…靑 힘 빠지자 출구 찾는 당정",
+   "url": "https://www.hankyung.com/article/202608313651i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "KT \"우리은행 상담 업무 60% AI봇으로 처리한다\"…에이전틱 AICC 구축",
+   "url": "https://n.news.naver.com/mnews/article/030/0003461786?sid=105"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "총량 규제 풀어줘도 못 늘린다…상호금융 중금리대출 '딜레마'",
+   "url": "https://dealsite.co.kr/articles/168027"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "\"공급 늘리면서 대출규제…정부, 부동산 정책 모순\"",
+   "url": "https://n.news.naver.com/mnews/article/021/0002815119?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "[Invest]개각 비껴간 금융당국…ETF 책임론은 오히려 확산",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/08/31/2026083180041.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "네이버·두나무 결합 변수된 디지털자산법…코빗·고팍스도 영향권",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=61550"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "[단독]닥사 시대 막 내리나…당국, 가상자산 심사 법정협회 신설 밑그림",
+   "url": "https://www.newsis.com/view/NISX20260831_0003769251"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-08-31 20:54",
+   "title": "증권업계, 벤처 세컨더리에 3년간 1조원 투입",
+   "url": "https://www.hankyung.com/article/2026083138326"
   }
  ],
- "updated_kst": "2026-08-28 21:33"
+ "updated_kst": "2026-08-31 20:54"
 }
