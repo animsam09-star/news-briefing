@@ -2748,7 +2748,127 @@
    "sent_kst": "2026-09-02 10:17",
    "title": "임종룡 우리금융 회장, 자사주 5000주 매수…\"기업가치 제고 의지\"",
    "url": "https://n.news.naver.com/mnews/article/016/0002691605?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "2026 정비사업 정책방향 권역별 설명회 | 재개발·재건축 '속도전' 돌입… 국토부·HUG 등 전방위 지원",
+   "url": "https://www.arunews.com/news/articleView.html?idxno=66704"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "\"8·13 주택 공급 금융 대책, 실제 착공·준공 전환이 관건\"",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008734208&plink=ORI&cooper=NAVER"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "이형일 \"실거주 중심 정책 유효…주택 공급 위해 금융·세제 총력\"(종합)",
+   "url": "https://view.asiae.co.kr/article/2026090213481616100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "86조 PF 보증 확대에도…건산연 \"보증보다 착공·준공 전환이 중요\"",
+   "url": "https://www.newsis.com/view/NISX20260902_0003772870"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "LH, 공공택지 보상에 344명 투입…수도권 주택 착공 20개월 앞당긴다",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/02/O7FYWO4NFVGNTHB4UM3LPDZXV4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "[단독] 집 지을 땅 없자 17년 묵힌 카드 꺼냈다… LH, 수도권 땅 첫 매입",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/02/JL6UN4IFDBAJLCTSVS3BWXI4EM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "\"단 한 곳 이탈 없었다\"…분당 6.6만가구 재건축 본안 접수 '100% 제출'",
+   "url": "https://www.fnnews.com/news/202609021032504334"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "서울 아파트 매수세, 15억원 이하로 모인다… 9억 미만 비중 가장 늘어",
+   "url": "https://sports.khan.co.kr/article/202609021009003?pt=nv"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "국토부, 내년 예산 정부안 역대 최대 69조원 편성",
+   "url": "https://www.arunews.com/news/articleView.html?idxno=66661"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "세제 개편안 발표 한달…매매 매물 10% 늘었지만 전세 6% 줄어",
+   "url": "https://www.newsis.com/view/NISX20260902_0003773019"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "이찬진 \"기후위기 신성장 기회로\"...한국형 전환금융 안착 추진",
+   "url": "https://www.fnnews.com/news/202609020905415454"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "자동차보험 '8주 룰' 10일 시행…경상환자 장기치료 별도 심사",
+   "url": "https://n.news.naver.com/mnews/article/648/0000050404?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "빗장 푸는 은행권…하나·신한銀, 주담대·전세대출 모집인 접수 재개",
+   "url": "https://www.news1.kr/finance/general-finance/6277573"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "여전사 렌탈 확대 추진에 렌터카업계 반발…\"절차부터 다시\"",
+   "url": "https://n.news.naver.com/mnews/article/629/0000529809?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "정산 60일→35일 단축 추진…유통업계 \"中企 판로 되레 좁아질 수도\"",
+   "url": "https://n.news.naver.com/mnews/article/138/0002239917?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "빨라진 퇴출 시계…흑자기업도 '상폐 사정권' [상폐 강화 그림자 ①]",
+   "url": "https://news.mtn.co.kr/news-detail/2026090213082059412"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "프리마켓 끝나면 자동 취소…NXT 새 주문 나온다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000530791?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "오락가락 ISA 세재개편...증권사도 혼선 우려",
+   "url": "https://n.news.naver.com/mnews/article/629/0000529864?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "대법 결정 놓고 다시 맞선 고려아연·영풍…경영권 방어 적법성 공방",
+   "url": "https://view.asiae.co.kr/article/2026090115073422007"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-02 14:52",
+   "title": "[단독] 토스뱅크, 다음 달 주담대 출시…인뱅 3사 경쟁 본격화",
+   "url": "https://news.mtn.co.kr/news-detail/2026090214005058078"
   }
  ],
- "updated_kst": "2026-09-02 10:17"
+ "updated_kst": "2026-09-02 14:52"
 }
