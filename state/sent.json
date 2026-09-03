@@ -2,336 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "\"이번에 불발되면 내년 시행 어렵다\"...서민금융안정기금 2일 분수령",
-   "url": "https://www.sedaily.com/article/20084811?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "5대 은행 가계대출 목표치 60% 늘어…'오픈런'은 여전",
-   "url": "https://n.news.naver.com/mnews/article/422/0000900879?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "NH농협금융, '상생·성장 펀드 2호' 4000억원으로 확대",
-   "url": "https://www.fnnews.com/news/202608301113292106"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "[단독]금감원, ETF '설명의무 위반' 은행에 6000억 수수료 환급 검토",
-   "url": "https://n.news.naver.com/mnews/article/008/0005406694?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "건설산업연 \"수도권 연 29.4만가구 공급, 민간시장 회복이 관건\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016278734?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "국토부, '8·13대책' 정비사업 정책설명회…9월 1일 서울·3일 대전",
-   "url": "https://view.asiae.co.kr/article/2026083011355925683"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "국토부·금융위, '주택 신속 공급' 위한 협력 체계 가동",
-   "url": "https://n.news.naver.com/mnews/article/658/0000153876?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "금감원, 미래에셋 거점점포 영업실태 검사…스페이스X 초점",
-   "url": "https://n.news.naver.com/mnews/article/079/0004183858?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "내 월세가 해외 배당으로?…'전세의 월세화' 틈타 몰리는 글로벌 큰손들",
-   "url": "https://view.asiae.co.kr/article/2026083010240160868"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "돈 빌렸다가 '이자율 5200%'…불법사금융 수사부터 소송까지 챙긴다",
-   "url": "https://www.hani.co.kr/arti/economy/finance/1275293.html"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "동양·ABL생명 브랜드 통합 작업 '속도'…'우리라이프·우리생명' 후보",
-   "url": "https://n.news.naver.com/mnews/article/030/0003461581?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "레버리지 규제 한 달, 19조→5000억 뚝…뒤늦게 잡은 과열 불씨",
-   "url": "https://n.news.naver.com/mnews/article/469/0000950963?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "서울 장기전세 내년 첫 '20년 만기'…5년간 9361가구 순차 종료",
-   "url": "https://n.news.naver.com/mnews/article/138/0002239465?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "싱가포르에 'K-글로벌 벤처펀드' 조성…2030년 3억달러로 확대",
-   "url": "https://n.news.naver.com/mnews/article/016/0002690175?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "이 대통령 \"집값 폭락 대비, 공공주택용 대량 매입 시스템 준비\"",
-   "url": "https://www.hani.co.kr/arti/politics/bluehouse/1275297.html"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "전세사기 피해주택, 집 안 누수 등 안전관리 지원한다",
-   "url": "https://www.hankyung.com/article/202608291042i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "코스피 업종 상승률 1위 \"나야 나~\"...뜨거운 '건설주'",
-   "url": "https://www.mk.co.kr/article/12139699"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-30 14:51",
-   "title": "홍콩 ELS 재발 막는다… 은행 고위험상품 심사에 외부전문가 참여",
-   "url": "https://n.news.naver.com/mnews/article/469/0000950958?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "\"간편결제 뚫리고, 보험사기 판치고\"…금감원, 금융소비자 피해 관행 손본다",
-   "url": "https://n.news.naver.com/mnews/article/138/0002239485?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "\"글로벌 부동산 바닥쳤다 시니어하우징에 새 기회\"",
-   "url": "https://www.mk.co.kr/article/12139929"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "32 Kenyan families to receive $2.7 million each over 2019 Ethiopian Airlines crash",
-   "url": "https://www.thecitizen.co.tz/tanzania/news/national/32-kenyan-families-to-receive-2-7-million-each-over-2019-ethiopian-airlines-crash-5576260"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "787 Problems: Why Boeing Sent A Senior Executive Inside A Rolls-Royce Factory",
-   "url": "https://simpleflying.com/why-boeing-sent-senior-execuitve-inside-rolls-royce-factory/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "A new recipe unlocks \"impossible\" nanocrystals for LEDs, implants, and superconductors",
-   "url": "http://www.sciencedaily.com/releases/2026/08/260827010510.htm"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "AI Could Soon Improve Its Own Training, Anthropic Research Suggests",
-   "url": "https://www.timesnownews.com/technology-science/ai-could-soon-improve-its-own-training-anthropic-research-suggests-article-156013457"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "AWS Plans 2 Million More Nvidia GPUs for 2027–2028",
-   "url": "https://quasa.io/insights/aws-adds-2-million-nvidia-gpus-its-ai-bet-triples-in-five-months"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch",
-   "url": "https://towardsdatascience.com/agentic-ai-is-rewriting-the-analytics-stack-but-theres-one-skill-it-still-cant-touch/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Apple Sets September 9 Event to Reveal New iPhone Lineup and Anticipated First Foldable Device",
-   "url": "https://www.rswebsols.com/news/apple-sets-september-9-event-to-reveal-new-iphone-lineup-and-anticipated-first-foldable-device/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "BIS Chief: Stablecoins Still Aren't Credible Money at Scale",
-   "url": "https://news.bitcoin.com/crypto-news/bis-chief-stablecoins-tokenized-deposits/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Caracas opens the door to breaking away from OPEC",
-   "url": "https://www.voiceofemirates.com/en/business/2026/08/30/caracas-opens-the-door-to-breaking-away-from-opec-a-move-that-could-redraw-the-map-of-the-oil-market/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Chipmakers Displace Big Tech as AI Era Winners: NVIDIA Quarter Confirms Shift",
-   "url": "https://www.techtimes.com/articles/325971/20260830/chipmakers-displace-big-tech-ai-era-winners-nvidia-quarter-confirms-shift.htm"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Google Introduces Gemini Omni 1.1 Flash",
-   "url": "https://manilashaker.com/google-introduces-gemini-omni-1-1-flash/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "How has life changed for Iranians six months into the war?",
-   "url": "https://www.aljazeera.com/economy/2026/8/30/how-has-life-changed-for-iranians-six-months-into-the-war"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "India Gas Power Usage Jumps 340% on Record Grid Demand",
-   "url": "https://www.whalesbook.com/news/English/energy/India-Gas-Power-Usage-Jumps-340percent-on-Record-Grid-Demand/6a9407f2a703e4a81609da5d"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "LNG upholds nation's vital role as reliable supplier for region",
-   "url": "https://www.theaustralian.com.au/branded-content/lng-upholds-nations-vital-role-as-reliable-supplier-for-region/news-story/21f8db99b332470dbf7f3003e2fc91e5"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "More LNG is not the answer to Bangladesh's energy crisis",
-   "url": "https://www.thedailystar.net/opinion/views/news/more-lng-not-the-answer-bangladeshs-energy-crisis-4258201"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "NASA's Roman Space Telescope Flying on Its Own",
-   "url": "https://science.nasa.gov/blogs/roman/2026/08/30/nasas-roman-space-telescope-flying-on-its-own/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Nvidia Q2 Earnings 2026: Record $96B Revenue & AI Chip Analysis",
-   "url": "https://intellectia.ai/blog/nvidia-q2-earnings-august-2026-analysis"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "OpenAI next-generation model 'Astra' details emerge",
-   "url": "https://www.digitaltoday.co.kr/en/view/97923/openai-next-generation-model-astra-details-emerge"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Russia's Sber eyes USDT loans, questions digital ruble demand",
-   "url": "https://www.tradingview.com/news/cointelegraph:2160b7e9f094b:0-russia-s-sber-eyes-usdt-loans-questions-digital-ruble-demand/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "Russia-Ukraine War Latest News: Death Toll from Deadly Kyiv Strike Climbs to 38",
-   "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-death-toll-from-deadly-kyiv-strike-climbs-to-38-four-missing-as-tensions-escalate-rescue-operation-underway-273313/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "SK hynix says US$4bn Factory will be a Key Production Base",
-   "url": "https://businesschief.com/news/sk-hynix-says-us-4bn-factory-will-be-a-key-production-base"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "THE OTHER SIDE OF THE PIPELINE: Canada Needs U.S. Oil and Gas Too",
-   "url": "https://energynow.ca/2026/08/the-other-side-of-the-pipeline-canada-needs-u-s-oil-and-gas-too/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "[단독] 비상장株 중개 인가 시동…네이버 독점하나",
-   "url": "https://www.sedaily.com/article/20084940?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "[단독]저PBR 기업 압박…'한국형 베어허그' 도입",
-   "url": "https://www.sedaily.com/article/20084941?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "[단독]토스, 포용금융 온투업 진출 추진…개인신용대출 시장 외연 넓힌다",
-   "url": "https://n.news.naver.com/mnews/article/030/0003461605?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "경기 13곳 중 9곳 청약 미달…분양시장 지역별 온도차 뚜렷",
-   "url": "https://www.sedaily.com/article/20084952?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "대출 규제 피하고 신혼부부 혜택… 강북·도봉·노원 등 중저가 아파트 상승세 지속될까",
-   "url": "https://n.news.naver.com/mnews/article/021/0002814908?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "무심코 누른 카드사 마케팅 동의…철회 안내 더 크고 확실하게 바뀐다",
-   "url": "https://n.news.naver.com/mnews/article/022/0004154831?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "보증 부담 던 신탁사, 정비사업 주도권 쥐나",
-   "url": "https://www.fnnews.com/news/202608301809199108"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "엔화 850원대까지 '뚝' 떨어지자… 4대 은행 엔화 예금 1.3조엔 '쑥'",
-   "url": "https://n.news.naver.com/mnews/article/029/0003045086?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "은행권, '코인 자금세탁' 막는다…AI로 의심거래까지 추적",
-   "url": "https://n.news.naver.com/mnews/article/030/0003461611?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "자본시장 불공정거래 잡는 'AI 조사역' 뜬다",
-   "url": "https://www.sedaily.com/article/20084957?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "재건축 불가능한 시대 온다고?",
-   "url": "https://www.mk.co.kr/article/12139910"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
-   "url": "https://www.mk.co.kr/article/12139879"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-08-30 21:50",
-   "title": "해외주식 마케팅 금지에…증권사만 배불려",
-   "url": "https://www.sedaily.com/article/20084978?ref=naver"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-08-31 06:36",
    "title": "'3조 몸값' 딥엑스, 민간에서만 자금 유치 배경엔 국민성장펀드 투자 불발",
@@ -3252,7 +2922,211 @@
    "sent_kst": "2026-09-03 14:49",
    "title": "\"ETF 열어놓고 사지 말라?\"…석 달 만에 거래 92% 날린 규제 [증시는 왜]",
    "url": "https://www.fnnews.com/news/202609030947066420"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "재건축 공사비검증 안하면 과태료 부과 법안 발의",
+   "url": "https://www.hankyung.com/article/2026090327681"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "수도권 주택 착공 '비상'… 올해 20만가구 그칠 전망",
+   "url": "https://www.fnnews.com/news/202609031850290126"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "건자재 전량 미매각·증권사 언더금리…고금리 여건 속 회사채 양극화",
+   "url": "https://n.news.naver.com/mnews/article/008/0005409195?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "약 51조원 규모 용산 프로젝트 본궤도…전자상가 특별계획구역 복합단지 '코르디아' 공급",
+   "url": "https://n.news.naver.com/mnews/article/081/0003676418?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "공공임대 맞아?...\"보증금 무려 14억\" 서울 아파트 전셋값의 2배",
+   "url": "https://n.news.naver.com/mnews/article/008/0005409117?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "\"등록임대 세제혜택 축소\" 비판에…재경부 \"거주주택 비과세 특례 5년 유지 검토\"",
+   "url": "https://n.news.naver.com/mnews/article/009/0005729964?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "무주택자 위한 '버팀목 전세 대출' 대구·경북 1년 새 4700억 감소",
+   "url": "https://www.news1.kr/local/daegu-gyeongbuk/6279075"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "장기전세주택 퇴거자, 평균 6년 9개월 살고, 72% \"내 집 마련\"",
+   "url": "https://www.khan.co.kr/article/202609031716001"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "유동성 우려됐던 하나오피스리츠, 650억 투자받아 재구조화 성공",
+   "url": "https://n.news.naver.com/mnews/article/008/0005409199?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "금융위, 2차 망분리 규제 완화…중소 금융·전금업자 75곳 대상 확대",
+   "url": "https://n.news.naver.com/mnews/article/030/0003463305?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "[단독] 자산 규모 적은 저축銀에 가계대출 추가 한도 배정",
+   "url": "https://biz.chosun.com/stock/finance/2026/09/03/GFOVUANZMVC27D6SLWAK74R6VY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "성장성 큰 소상공인 대출한도 확대",
+   "url": "https://n.news.naver.com/mnews/article/658/0000154453?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "신한銀, 모집인 통한 가계대출 이틀 만에 중단",
+   "url": "https://www.hankyung.com/article/2026090328511"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "서민금융 출연 10년 더 연장…'안정기금 신설'은 결국 빠졌다",
+   "url": "https://www.news1.kr/finance/general-finance/6279248"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "美 클래리티법 9월 15일 분수령…업계는 \"올해는 어렵다\"",
+   "url": "https://n.news.naver.com/mnews/article/123/0002389565?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "신협 또 대출·내부통제 구멍…'수의계약, 선거운동' 규정 위반 덜미",
+   "url": "https://n.news.naver.com/mnews/article/629/0000530446?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "삼성생명·화재, 현금성 실탄만 '5조+α'…전방위 금융사 쇼핑",
+   "url": "https://www.sedaily.com/article/20086956?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "미성년자 '빚투' 위험 관리…KB증권·삼성증권, 미수거래 차단",
+   "url": "https://n.news.naver.com/mnews/article/586/0000137413?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "한컴위드, 두바이에 금 RWA 합작법인 설립…중동 디지털 금융 시장 공략",
+   "url": "https://n.news.naver.com/mnews/article/243/0000102578?sid=105"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "OpenAI Tells Congress It Is Building Automated AI Shutdown Tools",
+   "url": "https://www.technology.org/2026/09/03/openai-automated-ai-shutdown-congress-letter/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Anthropic Battles Dark Web AI Theft Amid China Fears",
+   "url": "https://www.techbuzz.ai/articles/anthropic-battles-dark-web-ai-theft-amid-china-fears"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Nvidia to Invest $1 Trillion in U.S. AI Infrastructure This Year",
+   "url": "https://en.sedaily.com/international/2026/09/03/nvidia-to-invest-1-trillion-in-us-ai-infrastructure-this"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "DEEPX Bets on Open Ecosystems to Take Edge AI from Silicon to Physical Infrastructure",
+   "url": "https://www.eetasia.com/embeddedblog-deepx-bets-on-open-ecosystems-to-take-edge-ai-from-silicon-to-physical-infrastructure/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Conflict of interest concerns as Aria chair joins AI giant Anthropic",
+   "url": "https://www.researchprofessionalnews.com/rr-news-uk-innovation-2026-9-conflict-of-interest-concerns-as-aria-chair-joins-ai-giant-anthropic/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Broadcom Raises AI Chip Forecast to $115B, but $34.8B Q4 Guide Leaves Wall Street Wanting More",
+   "url": "https://www.mexc.com/crypto-pulse/article/broadcom-raises-ai-chip-forecast-to-115b-but-34-8b-q4-guide-leaves-wall-street-wanting-more-146361"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "GlobalFoundries, Startup Prep Gain-Cell Memory",
+   "url": "https://marklapedus.substack.com/p/globalfoundries-startup-prep-gain"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Iraq Hikes Oil Exports via Hormuz in Boon for Asian Refiners",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Hikes-Oil-Exports-via-Hormuz-in-Boon-for-Asian-Refiners.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "OPEC's new threat comes from within",
+   "url": "https://finance.yahoo.com/energy/articles/opec-threat-comes-within-110608062.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "The US Navy Has 11 100,000-ton Nuclear Aircraft Carriers and Can Usually Deploy 4. Only 1 Shipyard in America Can Build or Fix Them.",
+   "url": "https://www.19fortyfive.com/2026/09/the-us-navy-has-11-100000-ton-nuclear-aircraft-carriers-and-can-usually-deploy-4-only-1-shipyard-in-america-can-build-or-fix-them/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "TKMS CEO says F127 frigate is designed to intercept ballistic missiles beyond Earth's atmosphere, first ship possible by mid-2030s",
+   "url": "https://defence-industry.eu/tkms-ceo-says-f127-frigate-is-designed-to-intercept-ballistic-missiles-beyond-earths-atmosphere-first-ship-possible-by-mid-2030s/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Dreame expands consumer tech portfolio at IFA 2026",
+   "url": "https://www.fonearena.com/blog/491370/dreame-products-ifa-2026.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Samsung C&T Picked as Partner for 1.2GW SMR Project in Sweden",
+   "url": "https://en.sedaily.com/finance/2026/09/03/samsung-ct-picked-as-partner-for-12gw-smr-project-in-sweden"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "\"Mutual Sustainment of Wars: A New Model of the Russia–Iran Alliance\"",
+   "url": "https://lansinginstitute.org/2026/09/03/mutual-sustainment-of-wars-a-new-model-of-the-russia-iran-alliance/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-03 21:51",
+   "title": "Iran Defiant as Bessent Says US Likely to Announce Bank Sanctions This Week",
+   "url": "https://english.aawsat.com/world/5313303-iran-defiant-bessent-says-us-likely-announce-bank-sanctions-week"
   }
  ],
- "updated_kst": "2026-09-03 14:49"
+ "updated_kst": "2026-09-03 21:51"
 }
