@@ -3,90 +3,6 @@
  "sent": [
   {
    "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "'1.8조' 목동 12단지 재건축 유찰…GS건설만 입찰",
-   "url": "https://www.news1.kr/realestate/general/6274781"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "50년 만에 벤처로 간 수은…황기연표 '모험금융' 첫발",
-   "url": "https://dealsite.co.kr/articles/167930"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "9월 전국 아파트 2.2만가구 분양…서울 85가구 불과",
-   "url": "https://www.newsis.com/view/NISX20260831_0003769454"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "DL이앤씨, 수익성 '두각'…상반기 영업익 53%↑",
-   "url": "https://n.news.naver.com/mnews/article/016/0002690600?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "[단독]상상인저축은행 매각 다시 원점…KBI, 승인 신청 철회",
-   "url": "https://news.mtn.co.kr/news-detail/2026083110204279406"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "남양주 주택 공급부터 속도전…'기본주택' 확대 관측",
-   "url": "https://n.news.naver.com/mnews/article/016/0002690597?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "레버리지 ETF 규제 한 달…거래 90% 줄었지만 '불씨' 남았다",
-   "url": "https://n.news.naver.com/mnews/article/031/0001053780?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "방시혁 결국 검찰 간다…'1900억 부당이득 혐의' 이번 주 송치",
-   "url": "https://www.mk.co.kr/article/12140285"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "신보, GTX-C노선에 1.5조 보증 지원…단일사업 역대 최대",
-   "url": "https://view.asiae.co.kr/article/2026083112041005044"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "신한·BC카드도 3년 해보니…데이터전문기관 줄반납, 왜?",
-   "url": "https://n.news.naver.com/mnews/article/374/0000530241?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "올 서울 아파트 준공물량 48% 급감",
-   "url": "https://n.news.naver.com/mnews/article/021/0002815103?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "올해 임대차 거래 10건 중 7건이 월세…아파트도 절반 넘어",
-   "url": "https://www.newsis.com/view/NISX20260831_0003768801"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "은행권 '홍콩 ELS 과징금' 다음달 결론… 추가 감경 이뤄질까",
-   "url": "https://biz.chosun.com/stock/finance/2026/08/31/23IPMLGGMNAVZBM56D7KNTXRQQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-08-31 14:48",
-   "title": "헌재 \"부동산 매물 단일가격 표시해야\"...전원일치 합헌",
-   "url": "https://www.sedaily.com/article/20085186?ref=naver"
-  },
-  {
-   "slot": "afternoon",
    "sent_kst": "2026-08-31 20:54",
    "title": "\"30년 된 아파트도 새집처럼\"…대형 건설사, 리모델링 판 키운다",
    "url": "https://n.news.naver.com/mnews/article/022/0004155019?sid=101"
@@ -3114,7 +3030,127 @@
    "sent_kst": "2026-09-04 10:19",
    "title": "정은보 이사장, 뉴욕서 한국 증시 세일즈…NYSE와 양해각서 체결",
    "url": "https://www.newspim.com/news/view/20260904000215"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "\"능력 없으면 집 팔라는 것\"…세제 개편에 '고가 아파트' 매물 늘까",
+   "url": "https://www.newsis.com/view/NISX20260904_0003775973"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "법원, 공인중개사 전세사기 피해 책임 인정…\"최대 70% 배상\"",
+   "url": "https://n.news.naver.com/mnews/article/119/0003129119?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "디벨로퍼협회·KB證, 부동산개발 펀드 조성",
+   "url": "https://n.news.naver.com/mnews/article/016/0002692921?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "\"상업용 부동산 양극화…호텔·데이터센터·시니어리빙 뜬다\" [회계법인 딜메이커]",
+   "url": "https://www.hankyung.com/article/202609016417r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "세제 개편 후 강남·강북 역전…서울 아파트 투자 지형도 바뀐다",
+   "url": "https://www.sedaily.com/article/20087091?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "HUG, 부산 강서구·충남 천안 미분양관리지역 신규 지정",
+   "url": "https://n.news.naver.com/mnews/article/001/0016290349?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "미분양관리지역 묶인 물량 9270가구…한 달 새 36% 늘어",
+   "url": "https://www.hankyung.com/article/202609044544i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "공공기관 20% 통폐합…\"비용 절감 목표 아냐, 80%는 법 개정 필요\"",
+   "url": "https://n.news.naver.com/mnews/article/022/0004156373?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "[지방이전 격랑] 세종·혁신도시 2차 이전…임대차시장 또 요동치나",
+   "url": "https://n.news.naver.com/mnews/article/031/0001055463?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "전국 노후 저층주택 126만 개…도시주택 필지의 절반 달해",
+   "url": "https://www.newsis.com/view/NISX20260904_0003775982"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "금감원, 토스뱅크에 기관주의·과태료 2.4억 부과",
+   "url": "https://n.news.naver.com/mnews/article/079/0004185967?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "시중은행 조이자 전세대출 '풍선효과'…인터넷은행으로 몰렸다 [머니뭐니]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002692837?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "주담대 빗장 풀리지만 '오픈런'은 여전…이자까지 고공행진",
+   "url": "https://www.newsis.com/view/NISX20260904_0003776264"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "스테이블코인 실증 전 제도 공백 '혼란'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002692861?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "매출 수백억 회사 '수천억원'에 인수… 고려아연 모험과 위험 사이",
+   "url": "https://n.news.naver.com/mnews/article/665/0000008091?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "코스닥 상장폐지 시총 상향 6개월 유예…코넥스 이전상장 도입(종합)",
+   "url": "https://www.newsis.com/view/NISX20260904_0003776476"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "'미술품 조각투자' 넘어 주식·채권까지…토큰증권 전면 확대",
+   "url": "https://n.news.naver.com/mnews/article/243/0000102616?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "[단독] 리파인 공개매수에 행동주의펀드 잇단 반발…차파트너스 \"자사주 취득해야\"",
+   "url": "https://www.hankyung.com/article/202609044234r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "\"국민연금, 퇴직연금 시장 진출 부적절\"...자본硏 \"자금 성격 달라\"",
+   "url": "https://n.news.naver.com/mnews/article/123/0002389624?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-04 14:48",
+   "title": "증시 식자 단기조달도 '뚝'…증권사 CP·전단채 두 달 새 23조 감소",
+   "url": "https://www.hankyung.com/article/202609016659r"
   }
  ],
- "updated_kst": "2026-09-04 10:19"
+ "updated_kst": "2026-09-04 14:48"
 }
