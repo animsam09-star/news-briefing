@@ -153,6 +153,20 @@ jobs:
             --dangerously-skip-permissions \
             --model claude-sonnet-5
 
+      # URL 단축도 워크플로가 한다 — 발송과 같은 이유다.
+      #
+      # 2026-09-07 evening 에서 45건 전부가 단축에 실패했다. TinyURL 이 에러를 준 게
+      # 아니라 **모든 요청에 같은 무관 URL 을 200 으로** 돌려줬다. 세션이 알아채고
+      # 원본으로 되돌린 덕에 엉뚱한 링크가 나가지는 않았지만, 브리핑 전체가 긴 URL 로
+      # 나갔고 그 사실은 세션의 최종 응답 한 줄에만 남았다.
+      #
+      # 이제 세션은 원본 URL 만 쓰고, 여기서 is.gd → v.gd → TinyURL 순으로 시도하며
+      # 돌아온 값의 형태·유일성·왕복을 검증한다. 셋 다 실패해도 잡을 죽이지 않는다 —
+      # 원본 URL 로도 기사는 열린다. 링크가 긴 것보다 엉뚱한 데로 가는 것이 나쁘다.
+      - name: URL 단축 (is.gd → v.gd → TinyURL, 응답 검증)
+        if: steps.guard.outputs.skip != 'true'
+        run: python scripts/shorten.py
+
       # 발송은 워크플로가 직접 한다.
       #
       # 왜: `claude -p`는 최종 응답 텍스트만 stdout에 내보내므로, 세션 안에서 쏜 curl의
