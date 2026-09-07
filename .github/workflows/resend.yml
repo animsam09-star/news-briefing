@@ -1,0 +1,163 @@
+name: resend
+
+# 이미 보낸 브리핑을 다시 보낸다 — 새로 만들지 않고, 그때 보낸 것을 그대로.
+#
+# 2026-09-07 evening 이 링크 45건을 전부 원본 긴 URL 로 내보냈다(TinyURL 이 모든
+# 요청에 같은 무관 URL 을 반환). PR #11 로 단축을 고쳤지만, 이미 나간 브리핑은 그대로
+# 남는다. 그걸 다시 만들면 그 사이 sent.json 때문에 같은 기사가 걸러져 다른 브리핑이
+# 되어 버린다 — 사용자가 원한 것은 '그때 그 기사들'이다.
+#
+# 그래서 브리핑 잡이 7일간 보관하는 아티팩트(pool-<slot>-<run_id>)에서 그때의
+# out/msg*.txt 를 그대로 꺼내 쓴다. 단축만 다시 걸고 보낸다.
+#
+# 손으로 고른 기사를 보낼 때도 쓴다(text 입력). 사용자가 기사 목록을 직접 주면서
+# "축약해서 보내" 라고 할 때가 있는데, 그때도 단축·발송·ok 검증 경로는 같아야 한다.
+#
+# 발송 이력(state/sent.json)은 어느 쪽이든 건드리지 않는다. 아티팩트 재발송은 이미
+# 기록된 기사들이고, 손으로 보낸 것은 브리핑 선별을 거치지 않았으므로 중복 판정의
+# 근거로 삼지 않는다.
+
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: '보낼 본문을 직접 넣는다 (비우면 run_id 의 아티팩트를 쓴다)'
+        required: false
+        default: ''
+      run_id:
+        description: '다시 보낼 브리핑 실행의 run_id (Actions 주소 끝 숫자, 7일 이내). text 를 쓰면 비워둔다'
+        required: false
+        default: ''
+      files:
+        description: '보낼 메시지 번호 (공백 구분). 방식1만 = 1, 전체 = all'
+        required: false
+        default: '1'
+      reshorten:
+        description: 'URL 을 다시 단축한다 (그때 실패했다면 이걸로 살아난다)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  actions: read          # 다른 실행의 아티팩트를 읽기 위함
+
+jobs:
+  resend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 슬롯 이름을 모르므로 run_id 로만 맞춘다. merge-multiple 로 out/ 이 그대로 풀린다.
+      - name: 직접 준 본문을 발송본으로
+        if: inputs.text != ''
+        env:
+          TEXT: ${{ inputs.text }}
+        run: |
+          mkdir -p out
+          # printf '%s' 로 쓴다 — echo 는 백슬래시를 해석하는 구현이 있고,
+          # 그러면 본문의 \n 두 글자가 진짜 개행이 되거나 그 반대가 된다.
+          printf '%s\n' "$TEXT" > out/msg1.txt
+          echo "본문 $(wc -c < out/msg1.txt) bytes, $(grep -c '^https\?://' out/msg1.txt) URL"
+
+      - name: 그때의 발송본 내려받기
+        if: inputs.text == ''
+        uses: actions/download-artifact@v4
+        with:
+          pattern: pool-*-${{ inputs.run_id }}
+          merge-multiple: true
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 보낼 메시지 고르기
+        if: inputs.text == ''
+        env:
+          # 입력을 ${{ }} 로 스크립트 본문에 직접 박으면 셸 주입이 된다. env 로 받는다.
+          RUN_ID: ${{ inputs.run_id }}
+          PICK: ${{ inputs.files }}
+        run: |
+          shopt -s nullglob
+          all=(out/msg*.txt)
+          if [ ${#all[@]} -eq 0 ]; then
+            echo "::error::run_id ${RUN_ID} 의 아티팩트에 out/msg*.txt 가 없다 (7일 지나 만료됐거나 그 실행이 발송본을 만들지 못했다)"
+            ls -R . || true
+            exit 1
+          fi
+          echo "아티팩트에 있는 메시지: ${all[*]}"
+
+          if [ "$PICK" = "all" ]; then
+            echo "전체를 보낸다"
+          else
+            keep=""
+            for n in $PICK; do
+              f="out/msg${n}.txt"
+              if [ ! -f "$f" ]; then
+                echo "::error::$f 가 아티팩트에 없다"
+                exit 1
+              fi
+              keep="$keep $f"
+            done
+            # 고르지 않은 것은 지운다 — 다음 스텝들이 out/msg*.txt 를 통째로 읽는다.
+            for f in "${all[@]}"; do
+              case " $keep " in
+                *" $f "*) ;;
+                *) rm -f "$f" ;;
+              esac
+            done
+            echo "보낼 것:$keep"
+          fi
+
+          # sent.json 은 이 워크플로가 쓰지 않지만, 남아 있으면 헷갈린다.
+          rm -f out/sent.json
+
+      - name: URL 단축 (is.gd → v.gd → TinyURL, 응답 검증)
+        if: inputs.reshorten
+        run: python scripts/shorten.py
+
+      # 브리핑 잡과 같은 방식으로 보낸다 — ok 를 직접 검사해야 발송 여부를 알 수 있다.
+      - name: Telegram 발송 (응답 ok 검증)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          shopt -s nullglob
+          files=(out/msg*.txt)
+          mapfile -t files < <(printf '%s\n' "${files[@]}" | sort -V)
+          failed=0
+          for f in "${files[@]}"; do
+            sent=0
+            for attempt in 1 2 3; do
+              resp=$(curl -sS --max-time 30 \
+                "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                -d "chat_id=${TELEGRAM_CHAT_ID}" \
+                --data-urlencode "text@${f}") || resp='{"ok":false,"description":"curl 실패(네트워크/타임아웃)"}'
+              if printf '%s' "$resp" | python3 -c 'import json,sys; sys.exit(0 if json.load(sys.stdin).get("ok") else 1)' 2>/dev/null; then
+                echo "$f 발송 완료 ($(wc -c < "$f") bytes)"
+                sent=1
+                break
+              fi
+              # 응답 원문은 찍지 않는다 — 성공 응답에 수신자 정보가 들어 있고 이 저장소는 public 이다.
+              why=$(printf '%s' "$resp" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("description","(설명 없음)"))' 2>/dev/null || echo "JSON 아닌 응답 — Telegram API 장애 가능")
+              echo "::warning::$f 발송 실패 ($attempt/3) — $why"
+              if [ "$attempt" -lt 3 ]; then sleep $((attempt * 5)); fi
+            done
+            [ "$sent" -eq 1 ] || failed=1
+          done
+          if [ "$failed" -ne 0 ]; then
+            echo "::error::Telegram 발송 실패 — 위 경고의 사유 확인"
+            exit 1
+          fi
+
+      - name: 실제 발송본 출력 (사후 확인)
+        if: always()
+        run: |
+          shopt -s nullglob
+          for f in out/msg*.txt; do
+            echo "───── $f ─────"
+            cat "$f"
+            echo
+          done
