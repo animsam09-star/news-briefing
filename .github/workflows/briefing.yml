@@ -221,6 +221,13 @@ jobs:
       - name: 실제 발송본 출력 (형식 사후 검증)
         if: always() && steps.guard.outputs.skip != 'true'
         run: |
+          # 단축 스텝의 진단. 잡 로그 한가운데 묻히면 나중에 못 읽는다
+          # (2026-09-08 morning 에서 실제로 못 읽었다). 여기로 끌어올린다.
+          if [ -s out/shorten-status.txt ]; then
+            echo "───────── URL 단축 결과 ─────────"
+            cat out/shorten-status.txt
+            echo
+          fi
           shopt -s nullglob
           files=(out/msg*.txt)
           if [ ${#files[@]} -eq 0 ]; then
