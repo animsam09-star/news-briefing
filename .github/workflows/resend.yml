@@ -36,6 +36,10 @@ on:
         description: 'URL 을 다시 단축한다 (그때 실패했다면 이걸로 살아난다)'
         type: boolean
         default: true
+      dry_run:
+        description: '보내지 않고 단축만 돌려 본다 (단축기 진단용)'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -119,7 +123,12 @@ jobs:
         run: python scripts/shorten.py
 
       # 브리핑 잡과 같은 방식으로 보낸다 — ok 를 직접 검사해야 발송 여부를 알 수 있다.
+      # dry_run 은 단축기를 진단하기 위한 것이다. 사용자에게 메시지를 보내지 않고
+      # 러너에서 단축만 돌려, 어느 공급자가 무슨 사유로 실패하는지 본다.
+      # 브리핑을 한 번 더 돌려 확인하려면 사용자에게 중복 브리핑이 가야 한다 —
+      # 그건 진단 비용으로 치기엔 너무 비싸다.
       - name: Telegram 발송 (응답 ok 검증)
+        if: '!inputs.dry_run'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
