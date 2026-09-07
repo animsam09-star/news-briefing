@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "정부 세제개편안 국회로…민주당 양도세 장특공제 등 추가 보완 나서나",
-   "url": "https://www.newsis.com/view/NISX20260903_0003774701"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "서울경찰청, 고삼물류-신한자산신탁 공매 갈등 사건 수사",
-   "url": "https://www.hankyung.com/article/202609031444i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "[위기의 롯데⑤·完] 케미칼이 울린 경고음…롯데, '돈 쓸 곳' 다시 고른다",
-   "url": "https://n.news.naver.com/mnews/article/138/0002240073?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "한국디벨로퍼협회·KB증권, 회원사 1000곳 위한 '에쿼티 펀드' 만든다",
-   "url": "https://www.hankyung.com/article/202609031886i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "LH, '개발' 및 '주거복지'로 기관 쪼갠다…173조 부채 배분은 과제",
-   "url": "https://n.news.naver.com/mnews/article/666/0000121813?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "동대문구, 구청장 직속 정비사업 '신속추진TF'",
-   "url": "https://n.news.naver.com/mnews/article/081/0003676408?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "세제개편에 강남·서초 집값 상승률 뚝... 외곽은 주간 0.5%대 강세",
-   "url": "https://n.news.naver.com/mnews/article/469/0000951892?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "건설공사비, 또 역대 최고…상승폭 줄어도 유가 불안 여전",
-   "url": "https://n.news.naver.com/mnews/article/008/0005408946?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "용산공원특별법·도시정비법, 국회 본회의 상정 재차 연기",
-   "url": "https://www.hankyung.com/article/202609031514i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "7월 서울서 경매로 집주인 바뀐 집합건물 264건... 전월보다 33%↑",
-   "url": "https://www.mk.co.kr/article/12143141"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "투자상품 가입 서류·서명 확 줄인다…반복 설명도 간소화",
-   "url": "https://www.newsis.com/view/NISX20260903_0003774651"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "감사 전 재무제표 제출 위반 76건...전년 대비 46% 급증",
-   "url": "https://www.fnnews.com/news/202609031403277264"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "은행 출연금 가르는 '포용금융 채점표' 곧 윤곽…초기엔 거버넌스 무게",
-   "url": "https://view.asiae.co.kr/article/2026090312443072697"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "관세청 '무역범죄 특수단' 출범...자본시장 교란·보조금 편취 전담 수사",
-   "url": "https://www.fnnews.com/news/202609031353464700"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "하이브 방시혁 '사기적 부정거래' 불구속 송치…2361억원 추징보전",
-   "url": "https://n.news.naver.com/mnews/article/448/0000637239?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "상장사 756곳 밸류업 공시 완료…시총 83% 참여",
-   "url": "https://www.newsis.com/view/NISX20260903_0003775078"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "정무위, 대금 지급기한 단축 '대규모유통업법 개정' 의결",
-   "url": "https://n.news.naver.com/mnews/article/215/0001264737?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "민주당 \"디지털자산기본법, 9월말 공청회 진행\"",
-   "url": "https://www.mk.co.kr/article/12143289"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "한국은행 \"스테이블코인 시장 개방하면 외환시장에 영향 미친다\"",
-   "url": "https://biz.chosun.com/policy/policy_sub/2026/09/03/EZ6KZVW4HVB2VJJCD77JQB5GDY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-03 14:49",
-   "title": "\"ETF 열어놓고 사지 말라?\"…석 달 만에 거래 92% 날린 규제 [증시는 왜]",
-   "url": "https://www.fnnews.com/news/202609030947066420"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-09-03 21:51",
    "title": "재건축 공사비검증 안하면 과태료 부과 법안 발의",
@@ -2178,7 +2058,127 @@
    "sent_kst": "2026-09-07 10:22",
    "title": "대출 막히자 자동차까지 담보로…7개월 만에 5조원 육박",
    "url": "https://n.news.naver.com/mnews/article/119/0003129681?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "부동산 PF에 산업대출 30.6조↑…서비스업 14분기 만에 최대",
+   "url": "https://n.news.naver.com/mnews/article/008/0005410311?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "장부상 흑자냈지만 현금 말라간다…중견건설사 '돈가뭄'",
+   "url": "https://n.news.naver.com/mnews/article/031/0001055994?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "취득세 최대 절반에 주택 수 미포함… 지방 준공 후 미분양, '1억원 안팎' 소액투자처로 뜬다",
+   "url": "https://n.news.naver.com/mnews/article/029/0003046530?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "6조원 '옛 대한방직 복합개발' 프로젝트 '잡음'···도대체 무슨 일 있나",
+   "url": "https://n.news.naver.com/mnews/article/032/0003468860?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "대출 막히고 세금 늘고…경매 낙찰가율·낙찰률 동반 하락",
+   "url": "https://n.news.naver.com/mnews/article/422/0000903523?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "서울 주택 인허가·착공 30%↑…주택공급 '청신호'",
+   "url": "https://n.news.naver.com/mnews/article/029/0003046557?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "종부세는 '서울시민세?' 2030년 서울 25개구 All 20억..결국 증세된 것",
+   "url": "https://n.news.naver.com/mnews/article/052/0002403728?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "지난달 서울 '강남 3구' 거래 비중 연중 최저... '9억 이하' 거래는 활활",
+   "url": "https://n.news.naver.com/mnews/article/469/0000952532?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "\"압구정 10억 빠져도 안 팔린다\" 강남서 '10년 넘은 집' 매도 34% 급증",
+   "url": "https://n.news.naver.com/mnews/article/016/0002693641?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "정부 인정 전세사기 피해 4만건 넘어…8월 658건 추가",
+   "url": "https://n.news.naver.com/mnews/article/666/0000122245?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "금감원, SK이노-SKIET 합병 '제동'…증권신고서 효력 정지",
+   "url": "https://n.news.naver.com/mnews/article/586/0000137625?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "\"큰 수익 난다\" 믿고 비상장 주식 샀는데...5천억이 허공에",
+   "url": "https://www.fnnews.com/news/202609071154121358"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "법인 보험대리점도 금감원 소비자 보호 평가 받는다",
+   "url": "https://biz.chosun.com/stock/finance/2026/09/07/UME5UQPNZJAW7OPY7HCSZOTDYM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "홍콩ELS 판매 은행 제재, 6000억대 과징금 행정소송 가나",
+   "url": "https://n.news.naver.com/mnews/article/417/0001157551?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "'6개월 표류' PEF제도 개선안, 국회 상정 시동? 국정감사 분수령",
+   "url": "https://n.news.naver.com/mnews/article/374/0000531510?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "HUG·HF·SGI, 전세보증금 떼먹은 집주인 정보 공유한다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002693642?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "빚내 집 산 '상위 10%' 경고등…한은 \"금리 1%p 오르면 연체확률 0.81%p 상승\"",
+   "url": "https://n.news.naver.com/mnews/article/123/0002389725?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "기업에 돈 더 풀라는데 부실은 19조…은행권 '생산적 금융' 딜레마",
+   "url": "https://n.news.naver.com/mnews/article/629/0000531287?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "경찰, 한진칼 압수수색…경영권 방어용 자사주 출연 의혹",
+   "url": "https://n.news.naver.com/mnews/article/469/0000952536?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-07 14:50",
+   "title": "[단독]국민은행, 빗썸과 1년 재계약…FIU에 승인 신청",
+   "url": "https://www.hankyung.com/article/202609078160i"
   }
  ],
- "updated_kst": "2026-09-07 10:22"
+ "updated_kst": "2026-09-07 14:50"
 }
