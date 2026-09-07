@@ -1,0 +1,12 @@
+name = "news-briefing-link"
+main = "shortener.js"
+compatibility_date = "2026-01-01"
+
+# KV 네임스페이스. 배포 전에 만들고 id 를 채운다:
+#   npx wrangler kv namespace create LINKS
+[[kv_namespaces]]
+binding = "LINKS"
+id = "여기에_KV_네임스페이스_ID"
+
+# SHORTENER_TOKEN 은 여기에 적지 않는다. 시크릿으로 넣는다:
+#   npx wrangler secret put SHORTENER_TOKEN

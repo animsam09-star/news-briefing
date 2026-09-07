@@ -50,12 +50,57 @@ def say(line):
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
 
-# 순서가 곧 우선순위다. TinyURL 을 마지막에 둔 것은 위 사고 때문이다.
-PROVIDERS = [
-    ("is.gd", "https://is.gd/create.php?format=simple&url={}", "https://is.gd/"),
-    ("v.gd", "https://v.gd/create.php?format=simple&url={}", "https://v.gd/"),
-    ("tinyurl", "https://tinyurl.com/api-create.php?url={}", "https://tinyurl.com/"),
-]
+
+_PROVIDERS_CACHE = []
+
+
+def providers():
+    """(이름, 호출함수, 접두어) 목록. 순서가 곧 우선순위다.
+
+    자체 단축기(Cloudflare Worker)가 설정돼 있으면 그것을 먼저 쓴다.
+
+    무료 공개 단축기는 GitHub Actions 러너에서 못 쓴다. 2026-09-08 에 42건으로
+    실측했다 — is.gd 와 v.gd 는 HTTP 200 에 본문이 'Error, database insert failed'
+    로 **글자 하나까지 같았고**(같은 백엔드로 보인다), TinyURL 은 42건 전부에
+    같은 단축 URL 을 돌려줬다. 데이터센터 IP 를 남용 소스로 보는 것이라 공급자를
+    더 넣어도 같은 벽이다.
+
+    그래도 공개 단축기를 지우지는 않는다. 자체 단축기가 아직 없거나(시크릿 미설정)
+    잠깐 죽었을 때 어쩌다 걸리면 그것대로 이득이고, 실패해도 원본 URL 로 나갈 뿐이다.
+    """
+    if _PROVIDERS_CACHE:
+        return _PROVIDERS_CACHE
+    out = []
+
+    base = (os.environ.get("SHORTENER_URL") or "").strip().rstrip("/")
+    token = (os.environ.get("SHORTENER_TOKEN") or "").strip()
+    if base and token:
+        def call_self(original, _base=base, _token=token):
+            req = urllib.request.Request(
+                _base + "/",
+                data=original.encode("utf-8"),
+                headers={"User-Agent": UA,
+                         "Authorization": "Bearer " + _token,
+                         "Content-Type": "text/plain; charset=utf-8"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=15) as r:
+                return r.read(2048).decode("utf-8", errors="replace").strip()
+        out.append(("self(worker)", call_self, base + "/"))
+    else:
+        say("[shorten] 자체 단축기 미설정 (SHORTENER_URL/SHORTENER_TOKEN 없음) — 공개 단축기만 시도한다")
+
+    for name, template, prefix in (
+        ("is.gd", "https://is.gd/create.php?format=simple&url={}", "https://is.gd/"),
+        ("v.gd", "https://v.gd/create.php?format=simple&url={}", "https://v.gd/"),
+        ("tinyurl", "https://tinyurl.com/api-create.php?url={}", "https://tinyurl.com/"),
+    ):
+        def call_get(original, _t=template):
+            return fetch(_t.format(urllib.parse.quote(original, safe="")))[2]
+        out.append((name, call_get, prefix))
+
+    _PROVIDERS_CACHE.extend(out)
+    return out
 
 # 발송본에서 URL 은 항상 줄 전체를 차지한다(§8 템플릿). 본문 중간의 괄호·따옴표를
 # 주워 담지 않도록 줄 단위로만 바꾼다.
@@ -91,7 +136,7 @@ def shorten_all(urls):
     """{원본: 단축} 를 돌려준다. 못 줄인 것은 키에 없다."""
     out = {}
     remaining = list(urls)
-    for name, template, prefix in PROVIDERS:
+    for name, call, prefix in providers():
         if not remaining:
             break
         say(f"[shorten] {name}: {len(remaining)}건 시도")
@@ -102,11 +147,10 @@ def shorten_all(urls):
         # 한 줄로 보여야 원인이 보인다.
         errs = {}
         for original in remaining:
-            target = template.format(urllib.parse.quote(original, safe=""))
             body = None
             for attempt in (1, 2):
                 try:
-                    _, _, body = fetch(target)
+                    body = call(original)
                     break
                 except Exception as e:
                     if attempt == 2:
@@ -180,7 +224,8 @@ def main():
         say("[shorten] 발송본에 URL 줄이 없음 — 할 일 없음")
         return 0
 
-    already = [u for u in urls if any(u.startswith(p) for _, _, p in PROVIDERS)]
+    prefixes = [p for _, _, p in providers()]
+    already = [u for u in urls if any(u.startswith(p) for p in prefixes)]
     todo = [u for u in urls if u not in already]
     if already:
         say(f"[shorten] 이미 단축된 URL {len(already)}건은 건너뛴다")
@@ -209,7 +254,7 @@ def main():
         # 잡을 실패시키지 않는다. 원본 URL로도 기사는 열린다 — 링크가 길 뿐이다.
         say(f"::warning::URL 단축 실패 {failed}건 — 해당 건은 원본 URL로 발송된다")
     if not mapping:
-        say("::warning::단축기 3곳 모두 실패 — 이번 발송은 전부 원본 URL이다")
+        say(f"::warning::단축기 {len(providers())}곳 모두 실패 — 이번 발송은 전부 원본 URL이다")
     return 0
 
 
