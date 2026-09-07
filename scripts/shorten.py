@@ -33,6 +33,21 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+# 진단은 화면과 파일 양쪽에 남긴다.
+#
+# 2026-09-08 morning 에서 42건이 전부 원본 URL로 나갔는데, 이 스크립트가 무엇을
+# 왜 못 했는지 확인할 수가 없었다. 스텝 출력이 잡 로그 한가운데에 묻혀 있고,
+# 그 구간만 로그 API 로 꺼낼 수가 없었다(tail 이 그 앞까지 닿지 않는다).
+# 그래서 요약을 out/shorten-status.txt 에도 쓰고, 잡 끝의 '발송본 출력' 스텝이
+# 그것을 찍는다 — 거긴 항상 읽을 수 있다.
+LOG = []
+
+
+def say(line):
+    print(line)
+    LOG.append(line)
+
+
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
 
 # 순서가 곧 우선순위다. TinyURL 을 마지막에 둔 것은 위 사고 때문이다.
@@ -79,16 +94,27 @@ def shorten_all(urls):
     for name, template, prefix in PROVIDERS:
         if not remaining:
             break
-        print(f"[shorten] {name}: {len(remaining)}건 시도")
+        say(f"[shorten] {name}: {len(remaining)}건 시도")
         seen = {}
         got = {}
         broken = None
+        # 예외 사유를 종류별로 센다. 42건이 같은 이유로 죽으면 42줄이 아니라
+        # 한 줄로 보여야 원인이 보인다.
+        errs = {}
         for original in remaining:
             target = template.format(urllib.parse.quote(original, safe=""))
-            try:
-                _, _, body = fetch(target)
-            except Exception as e:
-                print(f"[shorten]   실패({original[:60]}…): {e}")
+            body = None
+            for attempt in (1, 2):
+                try:
+                    _, _, body = fetch(target)
+                    break
+                except Exception as e:
+                    if attempt == 2:
+                        key = f"{type(e).__name__}: {str(e)[:80]}"
+                        errs[key] = errs.get(key, 0) + 1
+                    else:
+                        time.sleep(0.5)
+            if body is None:
                 continue
             if not looks_like_short(body, prefix):
                 broken = f"단축 URL 형태가 아닌 응답: {body[:80]!r}"
@@ -101,32 +127,44 @@ def shorten_all(urls):
             got[original] = body
             time.sleep(0.15)  # 무료 단축기는 대체로 초당 몇 건이 상한이다
 
+        for reason, n in sorted(errs.items(), key=lambda kv: -kv[1]):
+            say(f"[shorten]   {name} 요청 실패 {n}건 — {reason}")
         if broken:
-            print(f"[shorten] {name} 버림 — {broken}")
+            say(f"[shorten] {name} 버림 — {broken}")
             continue
         if not got:
-            print(f"[shorten] {name}: 한 건도 못 줄임 — 다음 공급자로")
+            say(f"[shorten] {name}: 한 건도 못 줄임 — 다음 공급자로")
             continue
 
         sample_orig, sample_short = next(iter(got.items()))
         ok = resolves_back(sample_short, sample_orig)
         if ok is False:
-            print(f"[shorten] {name} 버림 — 표본 {sample_short} 가 원본으로 돌아오지 않음")
+            say(f"[shorten] {name} 버림 — 표본 {sample_short} 가 원본으로 돌아오지 않음")
             continue
         if ok is None:
-            print(f"[shorten] {name}: 표본 왕복 확인 불가(네트워크) — 형태·유일성 검사만으로 채택")
+            say(f"[shorten] {name}: 표본 왕복 확인 불가(네트워크) — 형태·유일성 검사만으로 채택")
 
         out.update(got)
         remaining = [u for u in remaining if u not in out]
-        print(f"[shorten] {name}: {len(got)}건 성공, 남은 {len(remaining)}건")
+        say(f"[shorten] {name}: {len(got)}건 성공, 남은 {len(remaining)}건")
 
     return out
+
+
+def flush():
+    """요약을 out/shorten-status.txt 에 남긴다. 발송본 출력 스텝이 이걸 찍는다."""
+    try:
+        os.makedirs("out", exist_ok=True)
+        with open("out/shorten-status.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(LOG) + "\n")
+    except Exception as e:
+        print(f"[shorten] 요약 파일 쓰기 실패(무시): {e}")
 
 
 def main():
     files = sorted(glob.glob("out/msg*.txt"))
     if not files:
-        print("[shorten] out/msg*.txt 없음 — 할 일 없음")
+        say("[shorten] out/msg*.txt 없음 — 할 일 없음")
         return 0
 
     # 파일별 줄을 미리 읽어두고, 등장한 URL을 순서대로 모은다(중복 제거).
@@ -139,14 +177,14 @@ def main():
                 urls.append(m.group(2))
 
     if not urls:
-        print("[shorten] 발송본에 URL 줄이 없음 — 할 일 없음")
+        say("[shorten] 발송본에 URL 줄이 없음 — 할 일 없음")
         return 0
 
     already = [u for u in urls if any(u.startswith(p) for _, _, p in PROVIDERS)]
     todo = [u for u in urls if u not in already]
     if already:
-        print(f"[shorten] 이미 단축된 URL {len(already)}건은 건너뛴다")
-    print(f"[shorten] 대상 {len(todo)}건")
+        say(f"[shorten] 이미 단축된 URL {len(already)}건은 건너뛴다")
+    say(f"[shorten] 대상 {len(todo)}건")
 
     mapping = shorten_all(todo)
 
@@ -166,14 +204,18 @@ def main():
                 f.writelines(new)
 
     failed = len(todo) - len(mapping)
-    print(f"[shorten] 완료 — {changed}줄 교체, 단축 {len(mapping)}/{len(todo)}건, 실패 {failed}건")
+    say(f"[shorten] 완료 — {changed}줄 교체, 단축 {len(mapping)}/{len(todo)}건, 실패 {failed}건")
     if failed:
         # 잡을 실패시키지 않는다. 원본 URL로도 기사는 열린다 — 링크가 길 뿐이다.
-        print(f"::warning::URL 단축 실패 {failed}건 — 해당 건은 원본 URL로 발송된다")
+        say(f"::warning::URL 단축 실패 {failed}건 — 해당 건은 원본 URL로 발송된다")
     if not mapping:
-        print("::warning::단축기 3곳 모두 실패 — 이번 발송은 전부 원본 URL이다")
+        say("::warning::단축기 3곳 모두 실패 — 이번 발송은 전부 원본 URL이다")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        rc = main()
+    finally:
+        flush()
+    sys.exit(rc)
