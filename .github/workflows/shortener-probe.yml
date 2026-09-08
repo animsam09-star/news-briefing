@@ -1,0 +1,26 @@
+name: shortener-probe
+
+# 무료 단축기 후보들이 GitHub Actions 러너에서 실제로 되는지 확인한다.
+#
+# 로컬로는 답이 안 나온다. 무료 단축기는 요청이 어느 IP 에서 오느냐로 갈리기 때문이다 —
+# 2026-09-07 에 같은 코드가 한 러너에서는 TinyURL 로 6/6 을 줄였고 다른 러너에서는
+# 42건 전부 실패했다. 그래서 러너에서 돌려야 한다.
+#
+# 아무것도 보내지 않고 아무것도 바꾸지 않는다. 표만 찍는다.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/probe_shorteners.py

@@ -106,6 +106,33 @@ def providers():
 # 주워 담지 않도록 줄 단위로만 바꾼다.
 URL_LINE = re.compile(r"^(\s*)(https?://\S+)(\s*)$")
 
+# 떼어내도 기사가 그대로 열리는 추적용 파라미터. 단축기가 없어도 되는 순수 이득이라
+# 항상 적용한다 — 조선비즈 URL 이 145자에서 100자가 된다.
+#
+# **보수적으로만 넣는다.** 확실히 추적용인 것만이다. ref·from·sid 같은 것은 매체에
+# 따라 의미가 있을 수 있어(예: news.kbs.co.kr 의 ncd 는 기사 번호다) 건드리지 않는다.
+# 링크가 조금 긴 것보다 안 열리는 것이 훨씬 나쁘다.
+TRACKING_PARAMS = {
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id",
+    "fbclid", "gclid", "igshid", "mc_cid", "mc_eid", "_ga", "spm",
+}
+
+
+def strip_tracking(url):
+    """추적 파라미터만 떼어낸다. 나머지는 순서까지 그대로 둔다."""
+    try:
+        parts = urllib.parse.urlsplit(url)
+    except Exception:
+        return url
+    if not parts.query:
+        return url
+    kept = [(k, v) for k, v in urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+            if k.lower() not in TRACKING_PARAMS]
+    if len(kept) == len(urllib.parse.parse_qsl(parts.query, keep_blank_values=True)):
+        return url
+    return urllib.parse.urlunsplit(
+        (parts.scheme, parts.netloc, parts.path, urllib.parse.urlencode(kept), parts.fragment))
+
 
 def fetch(url, timeout=15, method="GET"):
     req = urllib.request.Request(url, headers={"User-Agent": UA}, method=method)
@@ -146,6 +173,7 @@ def shorten_all(urls):
         # 예외 사유를 종류별로 센다. 42건이 같은 이유로 죽으면 42줄이 아니라
         # 한 줄로 보여야 원인이 보인다.
         errs = {}
+        skipped_longer = []
         for original in remaining:
             body = None
             for attempt in (1, 2):
@@ -167,12 +195,20 @@ def shorten_all(urls):
                 broken = (f"서로 다른 원본에 같은 값을 반환 ({body}) "
                           f"— 2026-09-07 TinyURL 과 같은 고장")
                 break
+            # 단축한 것이 원본보다 길면 쓰지 않는다. 2026-09-08 에 실제로 그랬다 —
+            # workers.dev 주소가 57자라 mk.co.kr(37자)이 '단축' 후 20자 길어졌다.
+            # 42건 중 6건이 그랬다.
+            if len(body) >= len(original):
+                skipped_longer.append(original)
+            else:
+                got[original] = body
             seen[body] = original
-            got[original] = body
             time.sleep(0.15)  # 무료 단축기는 대체로 초당 몇 건이 상한이다
 
         for reason, n in sorted(errs.items(), key=lambda kv: -kv[1]):
             say(f"[shorten]   {name} 요청 실패 {n}건 — {reason}")
+        if skipped_longer:
+            say(f"[shorten]   {name}: {len(skipped_longer)}건은 단축이 더 길어서 원본 유지")
         if broken:
             say(f"[shorten] {name} 버림 — {broken}")
             continue
@@ -213,6 +249,25 @@ def main():
 
     # 파일별 줄을 미리 읽어두고, 등장한 URL을 순서대로 모은다(중복 제거).
     docs = {p: open(p, encoding="utf-8").read().splitlines(keepends=True) for p in files}
+
+    # 먼저 추적 파라미터를 뗀다. 단축기와 무관하게 항상 되는 이득이다.
+    cleaned = 0
+    saved = 0
+    for path, lines in docs.items():
+        for i, line in enumerate(lines):
+            m = URL_LINE.match(line)
+            if not m:
+                continue
+            before = m.group(2)
+            after = strip_tracking(before)
+            if after != before:
+                nl = "\n" if line.endswith("\n") else ""
+                lines[i] = f"{m.group(1)}{after}{nl}"
+                cleaned += 1
+                saved += len(before) - len(after)
+    if cleaned:
+        say(f"[shorten] 추적 파라미터 제거 {cleaned}건 — {saved}자 절약")
+
     urls = []
     for lines in docs.values():
         for line in lines:
@@ -244,9 +299,10 @@ def main():
                 changed += 1
             else:
                 new.append(line)
-        if new != lines:
-            with open(path, "w", encoding="utf-8") as f:
-                f.writelines(new)
+        # 파라미터만 떼고 단축은 안 된 경우에도 저장해야 한다. lines 는 위에서 이미
+        # 제자리 수정됐으므로 항상 쓴다.
+        with open(path, "w", encoding="utf-8") as f:
+            f.writelines(new)
 
     failed = len(todo) - len(mapping)
     say(f"[shorten] 완료 — {changed}줄 교체, 단축 {len(mapping)}/{len(todo)}건, 실패 {failed}건")
