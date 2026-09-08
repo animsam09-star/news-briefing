@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "\"능력 없으면 집 팔라는 것\"…세제 개편에 '고가 아파트' 매물 늘까",
-   "url": "https://www.newsis.com/view/NISX20260904_0003775973"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "법원, 공인중개사 전세사기 피해 책임 인정…\"최대 70% 배상\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003129119?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "디벨로퍼협회·KB證, 부동산개발 펀드 조성",
-   "url": "https://n.news.naver.com/mnews/article/016/0002692921?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "\"상업용 부동산 양극화…호텔·데이터센터·시니어리빙 뜬다\" [회계법인 딜메이커]",
-   "url": "https://www.hankyung.com/article/202609016417r"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "세제 개편 후 강남·강북 역전…서울 아파트 투자 지형도 바뀐다",
-   "url": "https://www.sedaily.com/article/20087091?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "HUG, 부산 강서구·충남 천안 미분양관리지역 신규 지정",
-   "url": "https://n.news.naver.com/mnews/article/001/0016290349?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "미분양관리지역 묶인 물량 9270가구…한 달 새 36% 늘어",
-   "url": "https://www.hankyung.com/article/202609044544i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "공공기관 20% 통폐합…\"비용 절감 목표 아냐, 80%는 법 개정 필요\"",
-   "url": "https://n.news.naver.com/mnews/article/022/0004156373?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "[지방이전 격랑] 세종·혁신도시 2차 이전…임대차시장 또 요동치나",
-   "url": "https://n.news.naver.com/mnews/article/031/0001055463?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "전국 노후 저층주택 126만 개…도시주택 필지의 절반 달해",
-   "url": "https://www.newsis.com/view/NISX20260904_0003775982"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "금감원, 토스뱅크에 기관주의·과태료 2.4억 부과",
-   "url": "https://n.news.naver.com/mnews/article/079/0004185967?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "시중은행 조이자 전세대출 '풍선효과'…인터넷은행으로 몰렸다 [머니뭐니]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002692837?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "주담대 빗장 풀리지만 '오픈런'은 여전…이자까지 고공행진",
-   "url": "https://www.newsis.com/view/NISX20260904_0003776264"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "스테이블코인 실증 전 제도 공백 '혼란'",
-   "url": "https://n.news.naver.com/mnews/article/016/0002692861?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "매출 수백억 회사 '수천억원'에 인수… 고려아연 모험과 위험 사이",
-   "url": "https://n.news.naver.com/mnews/article/665/0000008091?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "코스닥 상장폐지 시총 상향 6개월 유예…코넥스 이전상장 도입(종합)",
-   "url": "https://www.newsis.com/view/NISX20260904_0003776476"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "'미술품 조각투자' 넘어 주식·채권까지…토큰증권 전면 확대",
-   "url": "https://n.news.naver.com/mnews/article/243/0000102616?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "[단독] 리파인 공개매수에 행동주의펀드 잇단 반발…차파트너스 \"자사주 취득해야\"",
-   "url": "https://www.hankyung.com/article/202609044234r"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "\"국민연금, 퇴직연금 시장 진출 부적절\"...자본硏 \"자금 성격 달라\"",
-   "url": "https://n.news.naver.com/mnews/article/123/0002389624?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-04 14:48",
-   "title": "증시 식자 단기조달도 '뚝'…증권사 CP·전단채 두 달 새 23조 감소",
-   "url": "https://www.hankyung.com/article/202609016659r"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-09-04 21:44",
    "title": "韓총리 \"신축매입임대주택, 전월세 안정 핵심 사업…좀 더 속도 내야\"",
@@ -2238,7 +2118,127 @@
    "sent_kst": "2026-09-08 10:21",
    "title": "가상자산거래소 대주주 의결권 제한?…업계 \"탁상공론\"",
    "url": "https://n.news.naver.com/mnews/article/648/0000050560?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "대출 규제·금리 상승에 9월 아파트 분양 시장 먹구름",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/08/NLBIMUQX4RGWJHUFV46OMINNBE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "경매로 넘어간 서울 부동산 역대 최다…'영끌'가구, 금리 1%p 오르면 연체율 상승",
+   "url": "https://n.news.naver.com/mnews/article/022/0004157344?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "서울 아파트 낙찰가율 한달새 4%p '뚝'…외곽은 '딴 세상' [부동산360]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002694229?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "강남3구 거래 비중 급락…서울 아파트 거래 냉각",
+   "url": "https://www.sedaily.com/article/20088274?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "수출금융까지 부산으로?…\"3500억달러 한미투자 차질 우려\"",
+   "url": "https://view.asiae.co.kr/article/2026090813563693562"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "\"읍면지역 아파트라도 특별공급\"…세종 새 정부청사 설계비 286억 반영",
+   "url": "https://www.joongang.co.kr/article/25460015"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "충북 금융조합서 부실대출 의혹 지적한 감사 '직무배제' 논란",
+   "url": "https://www.joongang.co.kr/article/25460049"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "\"서울아레나·창동, 양 축으로 도봉대전환\"",
+   "url": "https://n.news.naver.com/mnews/article/016/0002694346?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "'무기한 연기' 역세권 개발…대전시장 \"무산 대비 전략 세워야\"",
+   "url": "https://n.news.naver.com/mnews/article/001/0016296239?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "마스턴투자운용, 서울투자진흥재단과 맞손 [fn마켓워치]",
+   "url": "https://www.fnnews.com/news/202609081255233110"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "인뱅, 사장님 대출 급증했지만 절반은 '담보·보증'…신용평가 시험대",
+   "url": "https://n.news.naver.com/mnews/article/629/0000531787?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "보험 해지하는 생명보험사 가입자들…수지 적자 15조원 육박",
+   "url": "https://n.news.naver.com/mnews/article/030/0003464745?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "MBK·영풍, 고려아연 의결권 제한 시도 무산…법원, 가처분 전부 기각",
+   "url": "https://n.news.naver.com/mnews/article/117/0004103086?sid=103"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "규제 정비에 문 연 브라질 은행들…가상자산 서비스 확대",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6283237"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "레이어제로, 원화 스테이블코인 'KRW1'에 멀티체인 기술 적용",
+   "url": "https://www.newsis.com/view/NISX20260908_0003780825"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "주주는 갈라놓고 멤버십은 하나로…카카오 인적분할 명분 '갸우뚱'",
+   "url": "https://n.news.naver.com/mnews/article/629/0000531705?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "홍동표 노웨어브릿지 대표, 아시아 핀테크 협력 확대",
+   "url": "https://n.news.naver.com/mnews/article/029/0003046790?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "\"솔라나 토큰 99%가 이 기술 쓴다\"…서울대 디사이퍼, RWA·STO 확장 가능성 주목",
+   "url": "https://n.news.naver.com/mnews/article/138/0002240602?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "\"일자리는 늘었는데 지갑이 안 열린다\"… 제주경제, 관광까지 꺾였다",
+   "url": "https://n.news.naver.com/mnews/article/661/0000082893?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-08 18:37",
+   "title": "화우, 금융위 서기관 출신 마순 변호사 영입 [로앤비즈 브리핑]",
+   "url": "https://www.hankyung.com/article/202609081310i"
   }
  ],
- "updated_kst": "2026-09-08 10:21"
+ "updated_kst": "2026-09-08 18:37"
 }
