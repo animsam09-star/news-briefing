@@ -25,6 +25,7 @@ TinyURL 이 에러를 주지 않고 **아무 URL이나 200으로 돌려주는** 
 """
 
 import glob
+import json
 import os
 import re
 import sys
@@ -90,14 +91,53 @@ def providers():
     else:
         say("[shorten] 자체 단축기 미설정 (SHORTENER_URL/SHORTENER_TOKEN 없음) — 공개 단축기만 시도한다")
 
-    for name, template, prefix in (
-        ("is.gd", "https://is.gd/create.php?format=simple&url={}", "https://is.gd/"),
-        ("v.gd", "https://v.gd/create.php?format=simple&url={}", "https://v.gd/"),
-        ("tinyurl", "https://tinyurl.com/api-create.php?url={}", "https://tinyurl.com/"),
-    ):
+    # 순서는 2026-09-08 러너 실측 결과다(shortener-probe 워크플로). 되는 곳을
+    # 짧은 순으로 앞에 두고, 그날 실패한 곳도 뒤에 남긴다 — 무료 단축기는 요청 IP 로
+    # 갈리므로 다른 러너에서는 살아 있을 수 있고, 실패해도 원본 URL 로 나갈 뿐이다.
+    #
+    #   da.gd     성공  18자   ← 자체 Worker(57자)보다 훨씬 짧고 계정 정보도 안 실린다
+    #   spoo.me   성공  21자
+    #   cleanuri  성공  27자
+    #   v.gd/is.gd 실패  'Error, database insert failed' (둘이 글자까지 같다 — 같은 백엔드)
+    #   tinyurl   실패  서로 다른 원본에 같은 값
+    #   1pt.co    실패  DNS 없음(서비스 폐쇄) · clck.ru HTTP 400 · ulvis.net 타임아웃
+    def get_caller(template):
         def call_get(original, _t=template):
             return fetch(_t.format(urllib.parse.quote(original, safe="")))[2]
-        out.append((name, call_get, prefix))
+        return call_get
+
+    def call_spoo(original):
+        body = urllib.parse.urlencode({"url": original}).encode()
+        req = urllib.request.Request(
+            "https://spoo.me/", data=body, method="POST",
+            headers={"User-Agent": UA, "Accept": "application/json",
+                     "Content-Type": "application/x-www-form-urlencoded"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            text = r.read(4096).decode("utf-8", errors="replace").strip()
+        # spoo.me 는 http:// 로 준다. 우리 발송본에는 https 로 싣는다.
+        return json.loads(text).get("short_url", text).replace("http://", "https://", 1)
+
+    def call_cleanuri(original):
+        body = urllib.parse.urlencode({"url": original}).encode()
+        req = urllib.request.Request(
+            "https://cleanuri.com/api/v1/shorten", data=body, method="POST",
+            headers={"User-Agent": UA,
+                     "Content-Type": "application/x-www-form-urlencoded"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            text = r.read(4096).decode("utf-8", errors="replace").strip()
+        return json.loads(text).get("result_url", text)
+
+    # 길이순이 곧 우선순위다.
+    out += [
+        ("da.gd", get_caller("https://da.gd/shorten?url={}"), "https://da.gd/"),
+        ("spoo.me", call_spoo, "https://spoo.me/"),
+        ("cleanuri", call_cleanuri, "https://cleanuri.com/"),
+        ("is.gd", get_caller("https://is.gd/create.php?format=simple&url={}"), "https://is.gd/"),
+        ("v.gd", get_caller("https://v.gd/create.php?format=simple&url={}"), "https://v.gd/"),
+        ("tinyurl", get_caller("https://tinyurl.com/api-create.php?url={}"), "https://tinyurl.com/"),
+    ]
+
+
 
     _PROVIDERS_CACHE.extend(out)
     return out
@@ -149,14 +189,20 @@ def looks_like_short(value, prefix):
 
 
 def resolves_back(short, original, timeout=15):
-    """표본 검증: 단축 URL을 따라가 원본에 닿는지 본다."""
+    """표본 검증: 단축 URL을 따라가 원본 **도메인**에 닿는지 본다.
+
+    경로까지 같기를 요구하면 안 된다. 매체가 자기네 정규 주소로 한 번 더 보내는 일이
+    흔하다 — 2026-09-08 탐색에서 mk.co.kr/article/12146570 이 세 단축기 모두에서
+    mk.co.kr/news/economy/12146570 으로 끝났고, 그건 mk 쪽 리다이렉트지 단축기
+    문제가 아니었다. 여기서 잡아야 할 것은 '엉뚱한 사이트로 보내는가'다.
+    """
     try:
         _, final, _ = fetch(short, timeout=timeout, method="HEAD")
     except Exception:
         return None  # 판정 불가 — 검증 실패로 치지 않는다
-    a = urllib.parse.urlsplit(final)
-    b = urllib.parse.urlsplit(original)
-    return (a.netloc, a.path) == (b.netloc, b.path)
+    a = urllib.parse.urlsplit(final).netloc.lower().removeprefix("www.")
+    b = urllib.parse.urlsplit(original).netloc.lower().removeprefix("www.")
+    return a == b
 
 
 def shorten_all(urls):
