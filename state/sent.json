@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "17년 만의 LH 해체 수준 구조개혁…택지·임대 공사로 쪼갠다",
-   "url": "https://www.mk.co.kr/article/12144184"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "\"8년간 적용 0건\"…부실시공 시공사 선분양 제한 폐지 추진 [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002692731?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "착공 늘었지만 폐업도 늘었다…건설업계 '온도차'",
-   "url": "https://news.mtn.co.kr/news-detail/2026090406233365756"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "\"고금리에 경매 정말 쏟아지려나\"…서울 집합건물 임의경매 급증한 '이곳'",
-   "url": "https://www.mk.co.kr/article/12144123"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "지을수록 빚 늘어…공공임대 1가구당 부채 2억9000만원",
-   "url": "https://n.news.naver.com/mnews/article/119/0003128998?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "\"쥔 돈 하나도 없는데\" 소득 높단 이유로...공공임대는 '그림의 떡'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005409344?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "세제개편 한 달, 與도 '좌불안석'…등록임대 혜택 폐지 수정론 대두",
-   "url": "https://www.sedaily.com/article/20087003?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "세제개편에도 서울 집값 상승 기대 안 꺾여…지방과 격차 역대 최대",
-   "url": "https://www.news1.kr/economy/trend/6279004"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "군산시, 정부 예산안 1조3천억원 확보…새만금 개발 속도",
-   "url": "https://n.news.naver.com/mnews/article/001/0016289431?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "[르포] '준서울' 광명, 재건축 임대비율도 서울처럼?",
-   "url": "https://n.news.naver.com/mnews/article/648/0000050462?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "'코스피 500억·코스닥 300억' 상폐기준 강화 6개월 늦춘다…코넥스 이전도 허용",
-   "url": "https://n.news.naver.com/mnews/article/016/0002692772?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "금융위는 '세종행 보류'‥금융노조 오늘 총파업",
-   "url": "https://n.news.naver.com/mnews/article/214/0001522022?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "국힘, '레버리지 ETF' 국정조사 요구서 제출…\"김용범 꼬리자르기 의혹\"",
-   "url": "https://www.newsis.com/view/NISX20260904_0003776130"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "[삼성바이오로직스 유상증자] 소액주주 무시한 3조 유증…이찬진 금감원장 판단은",
-   "url": "https://dealsite.co.kr/articles/168323"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "받을 수 있는 이자는 20%에 묶였는데 조달비용은 뛴다…'마지막 급전 창구' 대부업마저 대출 문턱 높아져",
-   "url": "https://n.news.naver.com/mnews/article/023/0003996639?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "중금리대출 규제 풀었지만…차주·상호금융 실익은 '글쎄'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003128914?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "한국만 쏙 빠졌다…골드만·씨티 등 글로벌 은행 21개사 스테이블코인 발행하기로",
-   "url": "https://view.asiae.co.kr/article/2026090316151736915"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "[Invest] 시동 거는 롯데카드 매각…금융지주 참여·MBK 눈높이 변수",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/09/03/2026090380157.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "VIG파트너스, BCG 출신 유신혁 부대표·GE 출신 강성욱 총괄 영입",
-   "url": "https://n.news.naver.com/mnews/article/001/0016289562?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-04 10:19",
-   "title": "정은보 이사장, 뉴욕서 한국 증시 세일즈…NYSE와 양해각서 체결",
-   "url": "https://www.newspim.com/news/view/20260904000215"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-09-04 14:48",
    "title": "\"능력 없으면 집 팔라는 것\"…세제 개편에 '고가 아파트' 매물 늘까",
@@ -2238,7 +2118,127 @@
    "sent_kst": "2026-09-08 06:38",
    "title": "Can a Globally Backed Stablecoin Really Challenge USDT and USDC?",
    "url": "https://crypto-economy.com/globally-backed-stablecoin/"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "17년 만에 첫발 뗀 '토지은행'…수도권 땅 5000억 어치 사둔다",
+   "url": "https://www.hankyung.com/article/202609080387i"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "공사채 시장 최대 발행주체 부상한 LH…\"수급 좌우 전망\"(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016296003?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "\"매년 27만 가구 공급\" 공언했지만…집값, 1년간 文정부 때보다 2배 올라",
+   "url": "https://n.news.naver.com/mnews/article/448/0000638009?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "3기 신도시 '더 많이 더 빨리'… LH, 주택공급 속도전 '총력'",
+   "url": "https://n.news.naver.com/mnews/article/021/0002817031?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "주건협, 주택사업자·금융기관 잇는 'PF 정보 플랫폼' 가동",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/08/UY24SS3GC5DW7EYHTN47NOUTYE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "지식산업센터, 반짝 반등 끝나고 다시 꺾여…2분기 거래액 2000억대로 급감[부동산AtoZ]",
+   "url": "https://view.asiae.co.kr/article/2026090809163072383"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "법원 인가는 끝났다…홈플러스, 이제 시장의 인가 받을 차례 [기자의눈]",
+   "url": "https://www.news1.kr/industry/distribution/6282493"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "85주 연속 오른 서울 아파트값… 중앙일보 \"문재인 정부 때 웃돌아\"",
+   "url": "https://n.news.naver.com/mnews/article/006/0000137599?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "대출 문턱 높아지자 서울 밖으로…경기·인천 아파트 찾는 서울 사람들",
+   "url": "https://n.news.naver.com/mnews/article/119/0003130077?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "\"몇억을 당장 어디서 구해요\"…오락가락 규제에 '대혼란' [시장톡]",
+   "url": "https://www.hankyung.com/article/2026090777206"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "10대 증권사 MTS 전산사고 1년 반 새 57건…접속지연 5년간 22건",
+   "url": "https://www.newsis.com/view/NISX20260908_0003780233"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "한투증권, '전액 손실' 벨기에펀드 2500명 전원 배상…최대 80%",
+   "url": "https://n.news.naver.com/mnews/article/117/0004103016?sid=103"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "'절반의 성공' 퇴직연금 디폴트옵션, 알고도 개선 못한다?",
+   "url": "https://n.news.naver.com/mnews/article/119/0003130050?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "[인사이드 스토리]'숫자'에 갇힌 디지털자산법…줄다리기만",
+   "url": "https://n.news.naver.com/mnews/article/648/0000050564?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "시중 금리 오르자 '10년 이상 금리 고정 주택담보대출' 다시 꺼낸 금융위…결국 관건은 '이자 부담'",
+   "url": "https://n.news.naver.com/mnews/article/023/0003997228?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "[수협은행장 레이스] 현직 FIU 원장 이형주 '깜짝 등판'…행추위 '3대2' 시험대",
+   "url": "https://dealsite.co.kr/articles/168478"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "AI·혁신기업 키운다더니 결국 '삼전닉스'…국민성장펀드 공모형 딜레마",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/09/07/2026090780113.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "5대 은행 잔여 한도 '2000억'…연말 대출 절벽 오나",
+   "url": "https://n.news.naver.com/mnews/article/119/0003130061?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "\"퍼블릭 블록체인 사실상 차단\"…예탁원 토큰증권 가이드라인에 업계 '우려'",
+   "url": "https://www.mk.co.kr/article/12146706"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-08 10:21",
+   "title": "가상자산거래소 대주주 의결권 제한?…업계 \"탁상공론\"",
+   "url": "https://n.news.naver.com/mnews/article/648/0000050560?sid=101"
   }
  ],
- "updated_kst": "2026-09-08 06:38"
+ "updated_kst": "2026-09-08 10:21"
 }
