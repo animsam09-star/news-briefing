@@ -2634,7 +2634,127 @@
    "sent_kst": "2026-09-09 10:19",
    "title": "신한투자증권 JTBC 채권발행 주관한 부서장 경질",
    "url": "https://dealsite.co.kr/articles/168532"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "주택공급 막힐라…PF '자기자본 20%' 규제 2년 미룬다",
+   "url": "https://www.news1.kr/finance/general-finance/6284728"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "금감원, 해외 부동산펀드 '엄격 심사'…손실 이력도 공시 의무화",
+   "url": "https://n.news.naver.com/mnews/article/008/0005411315?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "HUG, 든든전세 매입심사 AI로 자동화…\"10초면 확인 끝\"",
+   "url": "https://www.fnnews.com/news/202609091320492001"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "[단독]\"분사 협의 안해\" LH 노조, 창사 첫 총파업 예고…'닥치고 공급' 흔들",
+   "url": "https://n.news.naver.com/mnews/article/008/0005411428?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "장종태 의원 \"지방 악성 미분양 3만 가구, 지원 대상과 실제 적체 지역 간극 줄여야\"",
+   "url": "https://n.news.naver.com/mnews/article/629/0000532134?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "8월 금융권 가계대출 2.6조 증가…전월보다 증가폭 축소",
+   "url": "https://n.news.naver.com/mnews/article/629/0000532201?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "대구 3위 건설사 태왕, 기업회생절차 심문 오늘 열린다",
+   "url": "https://n.news.naver.com/mnews/article/001/0016299868?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "제이알글로벌리츠, 英 소송 패소…\"해외채무, 국내보다 우선변제\"",
+   "url": "https://www.newsis.com/view/NISX20260909_0003782473"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "목동 절반 넘게 '신탁'인데 압구정은 '0'…재건축 대어 엇갈린 선택",
+   "url": "https://www.news1.kr/realestate/general/6284737"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "서울 비강남 재건축 가속…상계권역 4개 단지 6000가구 재탄생",
+   "url": "https://www.sedaily.com/article/20088761?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "금감원 \"AI해킹, 금융사 생존 위협\"…보안 미흡시 현장점검·경영진 면담",
+   "url": "https://www.newsis.com/view/NISX20260909_0003782656"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "금감원, 금융권에 '다크패턴' 시정 촉구…상시협의체 출범",
+   "url": "https://n.news.naver.com/mnews/article/001/0016299978?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "\"카드 비밀번호 노출 우려\"…금감원, 코엠·토스페이 PG사 검사 착수",
+   "url": "https://n.news.naver.com/mnews/article/029/0003047072?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "금감원 특사경, '선행매매' 현직 기자들 압수수색",
+   "url": "https://n.news.naver.com/mnews/article/422/0000904362?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "\"원금 손실 날 수도\"…금감원, 공모 목표전환형 펀드 '주의보'",
+   "url": "https://n.news.naver.com/mnews/article/029/0003047040?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "핵심 인력만 쏙 빼가도 M&A…공정위, 신고 사각지대 메운다",
+   "url": "https://n.news.naver.com/mnews/article/448/0000638327?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "우리금융 10년 과점주주 체제 종료 수순...차기 회장 선임권은 누가?",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/09/09/2026090980094.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "중앙그룹 채권 투자자들, 홍정도 등 총수일가 고소…\"325억 피해\"",
+   "url": "https://www.news1.kr/finance/general-stock/6284959"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "지역금융 강점의 역설…NH농협은행, 가계·기업 연체율 5대銀 중 '최대'",
+   "url": "https://n.news.naver.com/mnews/article/629/0000532116?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-09 14:50",
+   "title": "3번 유예된 가상자산 과세, 내년엔 시행되나 [2026 국감이슈]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002389851?sid=101"
   }
  ],
- "updated_kst": "2026-09-09 10:19"
+ "updated_kst": "2026-09-09 14:50"
 }
