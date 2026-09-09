@@ -2,282 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "한 총리 \"빠른 주택공급 힘 모아달라\" 주택건설업계 \"인허가 단축\"(종합)",
-   "url": "https://www.newsis.com/view/NISX20260904_0003777326"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "\"모아타운 착공 속도 높여라\"… 서울시, '재개발급' 관리체계 만든다",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/05/D7FQGTM6IZBA3IYUAAV7X6GCJ4/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "LH 유휴부지 매각 본격화…주택공급 속도 올린다",
-   "url": "https://n.news.naver.com/mnews/article/417/0001157431?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "서울 정비사업 평균 12년 소요…구역 지정권 이양만으론 기간 대폭 못 줄여",
-   "url": "https://www.joongang.co.kr/article/25459221"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "\"중장기 재무관리계획상 LH 채권 발행 급증 우려…공사채 상대적 약세 불가피\"",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433584"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "청산 위기 넘긴 홈플러스, 누가 사나…이마트·롯데·쿠팡도 '글쎄'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005409768?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "15억 넘으면 대출 2억 '뚝'…눈에 보이지 않는 경계선 생겨",
-   "url": "https://www.hankyung.com/article/2026090560137"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "신촌은 비고 명동·성수는 찼다…서울 상권 '공실 양극화'[집슐랭]",
-   "url": "https://www.sedaily.com/article/20087397?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "다주택자 양도세 중과세 사각지대 '조정대상지역 등록임대아파트 혜택' 없어진다 [도와줘요 자산관리]",
-   "url": "https://www.sedaily.com/article/20087068?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "강북·경기 아파트값 강세…노원 0.63%·안양 동안구 0.74%↑",
-   "url": "https://n.news.naver.com/mnews/article/008/0005409738?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "\"한번도 경험못한 과징금 10조 시대\"...기업 혁신 막는 '엄벌주의'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005409862?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "홍콩 ELS 제재 결론 이달 말 무게…내주 정례회의 불발",
-   "url": "https://www.newsis.com/view/NISX20260904_0003777131"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "상폐기준 강화에 '소액주주 300만명·보유액 8조원' 영향권",
-   "url": "https://n.news.naver.com/mnews/article/001/0016292035?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "지방 중소기업 다니면 '청년미래적금' 최대 450만원 더 받는다",
-   "url": "https://n.news.naver.com/mnews/article/022/0004156603?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "'비싼 이자 탓' 10년 고정금리 주담대 외면⋯금융당국은 활성화 드라이브",
-   "url": "https://n.news.naver.com/mnews/article/031/0001055677?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "600억대 불법 공매도 글로벌 투자은행…법원 \"과징금 169억 정당\"",
-   "url": "https://n.news.naver.com/mnews/article/374/0000531344?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "서민금융안정기금 내년 도입 사실상 무산…출연 연장만",
-   "url": "https://n.news.naver.com/mnews/article/001/0016292012?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "가상자산 과세 4달 남았는데 세부 기준 없어 …'유예론' 다시 불붙나 [코인 브리핑]",
-   "url": "https://n.news.naver.com/mnews/article/022/0004156607?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "소수주주 이사 선임 길 열린다…집중투표제 10일 시행",
-   "url": "https://n.news.naver.com/mnews/article/001/0016292019?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "美재무부, 이란 제재 확대…튀르키예 금융기관 3곳 추가 제재",
-   "url": "https://www.news1.kr/world/usa-canada/6280818"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Two more newsrooms join the case against OpenAI and Microsoft",
-   "url": "https://thenextweb.com/news/seattle-times-newsday-sue-openai-microsoft-copyright-paywall-bypass-gpai-code-of-practice-copyright-chapter-measure-1-2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "AI tech firms seem to delight in rogue incidents: Watchdog",
-   "url": "https://www.newsnationnow.com/jesse-weber-live/ai-rogue-incidents/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Nvidia's Market Cap Jumped 16x Since 2022 as AI Revenue Crosses $96B",
-   "url": "https://cryptorank.io/news/feed/58c2a-nvidias-market-cap-jumped-16x-since-2022-as-ai-revenue-crosses-96b"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Foxconn Revenue Jumps 52% as Nvidia AI Servers Drive Growth",
-   "url": "https://coinpaper.com/35322/foxconn-revenue-jumps-52-to-291b-as-ai-servers-eclipse-its-apple-era"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "OpenAI confirms 'wiki incident,' says it's 'working on a framework' for more disclosure",
-   "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "The Threat of AI Takeover Is Real",
-   "url": "https://www.thefp.com/p/threat-ai-tyler-cowen-hugging-face"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Samsung, SK Hynix Test China Chip Tools After VEU Ends",
-   "url": "https://tech-insider.org/samsung-sk-hynix-china-chip-tools-veu-2026/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "PM Modi inaugurates Micron Technology's Semiconductor plant at Sanand in Gujarat",
-   "url": "https://newsonair.gov.in/pm-modi-to-inaugurate-micron-technologys-state-of-the-art-semiconductor-atmp-facility-in-gujarat/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Iron could make high-energy sodium-ion batteries last longer",
-   "url": "https://techxplore.com/news/2026-09-iron-high-energy-sodium-ion.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Bradda Head (LSE:BHL) Signs A Battery Anode Tie-Up",
-   "url": "https://kalkinemedia.com/uk/stocks/lithium/bradda-head-lsebhl-signs-a-battery-anode-tie-up-is-a-domestic-us-supply-chain-the-new-angle"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Oil Slides as Middle East Uncertainty Keeps Markets on Edge",
-   "url": "https://energynow.com/2026/04/oil-slides-as-middle-east-uncertainty-keeps-markets-on-edge/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "US-Iran war shock cuts 36% off Iraqi oil shipments",
-   "url": "https://shafaq.com/en/Economy/US-Iran-war-shock-cuts-36-off-Iraqi-oil-shipments"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Europe bets on war's end, then scrambles to fill gas storage as winter nears",
-   "url": "https://biz.chosun.com/en/en-international/2026/09/06/HRZFDKLFKFBFPH6X6BTXKQ5MJ4/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Eneva Completes Swap for Final Coal Power Plant, Gains Full Ownership of Pecém LNG Terminal",
-   "url": "https://en.clickpetroleoegas.com.br/eneva-delivers-its-final-coal-power-plant-and-gains-100-ownership-of-the-pecem-lng-terminal-in-an-up-to-r867-million-swap-with-diamante-phsn84/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "DHL's 1st Converted Boeing 777 Freighter Has Been Delivered",
-   "url": "https://simpleflying.com/dhls-first-converted-777-freighter-has-been-delivered-and-you-can-track-it-live/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Sens. Cruz, Kaine Introduce Bill to Strengthen America's Defense Industrial Base",
-   "url": "https://easttexasradio.com/sens-cruz-kaine-introduce-bill-to-strengthen-americas-defense-industrial-base/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "AMZN Sued Over Alleged 'Greenwashing' Of Seafood Labels",
-   "url": "https://stocktwits.com/news-articles/markets/equity/amzn-sued-over-alleged-greenwashing-of-seafood-labels-consumers-challenge-amazons-sustainability-claims/cZ8xLYTRJ52"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Retail Earnings Just Exposed a Bigger Divide in the U.S. Consumer Economy",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/retail-earnings-just-exposed-bigger-164000064.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "America Is Betting Big on a New Generation of Small Nuclear Reactors",
-   "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/America-Is-Betting-Big-on-a-New-Generation-of-Small-Nuclear-Reactors.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "The Nuclear Energy Boom: Where the Industry Really Stands Heading Into 4Q 2026",
-   "url": "https://www.fool.com/investing/2026/09/05/the-nuclear-energy-boom-where-the-industry-really/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "German space rocket lifts off from Norway base",
-   "url": "https://www.reuters.com/business/media-telecom/german-space-rocket-lifts-off-norway-base-2026-09-05/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Cathie Wood Buys $82M of Rocket Lab and Block as ARK Rotates Out of Palantir",
-   "url": "https://cryptonews.net/news/finance/33400143/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Putin meets with US envoys at the Kremlin for renewed talks on ending the war in Ukraine",
-   "url": "https://apnews.com/article/russia-ukraine-war-kushner-witkoff-visit-36a991feaff241bb8f24857ac159202a"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Al Jazeera reporter challenges Huckabee over Israeli settler pogroms",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/al-jazeera-reporter-challenges-huckabee-over-israeli-settler-pogroms"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Fed stablecoin research exposes how the same dollar could count twice in M1 or M2",
-   "url": "https://cryptorank.io/news/feed/e70a8-fed-economists-stablecoin-research-exposes-how-the-same-dollar-could-count-twice-in-m1-or-m2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-09-06 06:33",
-   "title": "Solana's RWA ecosystem expands past $18.5B with stablecoins, funds, stocks, and commodities",
-   "url": "https://cryptobriefing.com/solana-rwa-ecosystem-expands-18-billion/"
-  },
-  {
    "slot": "midmorning",
    "sent_kst": "2026-09-06 10:20",
    "title": "종묘~한강 '서울 대녹지축'…정부·서울시 갈등 진짜 이유?",
@@ -3024,7 +2748,265 @@
    "sent_kst": "2026-09-09 21:48",
    "title": "Crypto Industry and Banks Battle for Senate Votes on CLARITY Act Ahead of Sept. 15 Test - finance.biggo.com",
    "url": "https://finance.biggo.com/news/538b700e-e7b4-4ddb-8c9b-2dd25fe71142"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "장관 바뀌는 국토부, 용산공원·신규 택지·공공기관 이전 지연 우려··· '경기 라인' 논란도",
+   "url": "https://www.khan.co.kr/article/202609100600041"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "초반 동력 잃은 2차 공공기관 이전… 석유·가스공사 통합 전부터 파열음",
+   "url": "https://n.news.naver.com/mnews/article/081/0003678761?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "목동 49층 재건축 지키기… 서울시, 국토부에 고도제한 '예외 규정' 건의",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/10/R5IAWHY2EJHBFAV56ATTND4QKM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "강남 대신 성북·중랑·노원…서울 집값 상승축 '중저가'로 이동",
+   "url": "https://www.newsis.com/view/NISX20260909_0003783038"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "하이엔드 주거도 '대단지' 시대…희소성에서 규모로",
+   "url": "https://www.newsis.com/view/NISX20260909_0003782373"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "\"규제 전에 팔자\" 10년 버틴 강남 집주인들 움직였다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005411715?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "\"전세난·집값 불안\" 서울 생애최초 주택 구입 비중 역대 최대",
+   "url": "https://n.news.naver.com/mnews/article/001/0016301219?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "금감원, 보험사 '분쟁 민원 관리' 현장점검…KB·DB손보 첫 타자",
+   "url": "https://n.news.naver.com/mnews/article/001/0016301218?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "[단독] 담보 확인도 없이 대출…'918억 사기'에 저축銀 관행 뜯어고친다",
+   "url": "https://www.news1.kr/finance/general-finance/6284990"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "\"사업자대출 받아 부동산 매매\"…용도 외 유용 5년여간 1천167건",
+   "url": "https://n.news.naver.com/mnews/article/001/0016301215?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "토큰증권 시행 앞두고 '상품 부족' 풀릴까…與 법안 주목",
+   "url": "https://n.news.naver.com/mnews/article/001/0016301220?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "주식·채권·조각투자 따로 거래?…STO 유통 '쪼개진 인가'[토큰증권 대해부]⑥",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6284051"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "3년반 기다린 투자계약증권 유통…결론은 또 '연구용역'[토큰증권 대해부]⑤",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6283864"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "\"당신들 시스템 뚫렸다\" 해커가 먼저 신고…속수무책 결제망",
+   "url": "https://www.news1.kr/finance/general-finance/6285294"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "시중금리 0.5%P 오르면… 가계 이자 6조5000억 ↑ [경제 레이더]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004157848?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "나신평 \"주주환원에 생산적금융까지…은행 자본관리 부담 가중\"",
+   "url": "https://www.newsis.com/view/NISX20260909_0003783271"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "얼어붙은 IPO 시장 녹는다…9월 최대 11개 기업 상장 전망",
+   "url": "https://www.news1.kr/finance/general-stock/6285402"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "OpenAI Appoints White House AI Advisor to Nonprofit Board",
+   "url": "https://www.theinformation.com/briefings/openai-appoints-white-house-ai-advisor-nonprofit-board"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "xAI denied injunction against Minnesota AI-nudification law",
+   "url": "https://minnlawyer.com/2026/09/09/xai-minnesota-ai-nudification-law/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Microsoft \"Useful Yield\" Push Puts NVIDIA's AI Economics To The Test",
+   "url": "https://www.foreignpolicyjournal.com/2026/09/09/microsoft-nasdaq-msft-useful-yield-push-puts-nvidias-nasdaq-nvda-ai-economics-to-the-test/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "CoreWeave struggling to keep up with demand for Nvidia chips, CEO says",
+   "url": "https://finance.yahoo.com/markets/article/coreweave-struggling-to-keep-up-with-demand-for-nvidia-chips-ceo-says-145336930.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "url": "https://openai.com/index/gpt-6-astra/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "France's Mistral AI Touts Its Europeanism, But Faces Limits",
+   "url": "https://www.bankinfosecurity.com/frances-mistral-ai-touts-its-europeanism-but-faces-limits-a-32780"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Samsung to help fortify OpenAI's semiconductor supply chain",
+   "url": "https://www.theregister.com/systems/2026/09/09/samsung-to-help-fortify-openais-semiconductor-supply-chain/5295374"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Nvidia and Meta Are Hungry for HBM. SK Hynix Is on the Menu",
+   "url": "https://www.tradingview.com/news/benzinga:811a9a457094b:0-nvidia-and-meta-are-hungry-for-hbm-sk-hynix-is-on-the-menu-these-etfs-could-cash-in/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Kuwait backs OPEC+ output hold at 2.67 mln bpd for Oct",
+   "url": "https://www.arabtimesonline.com/news/kuwait-backs-opec-output-hold-at-267-mln-bpd-for-oct/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Iraq Reports Steady Crude Oil Exports in September",
+   "url": "https://english.globalarabnetwork.com/2026/09/09/iraq-reports-steady-crude-oil-exports-in-september/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Russia has increased gas production at Arctic LNG 2 to a record high",
+   "url": "https://ua.news/en/world/rosiia-rekordno-narostila-vidobutok-gazu-na-arctic-lng-2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Russia's largest LNG producer nearing deal with Vietnam",
+   "url": "https://english.nv.ua/business/russia-s-largest-lng-producer-nearing-deal-with-vietnam-50640047.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Peru can establish itself as key player in critical minerals supply chain",
+   "url": "https://andina.pe/ingles/noticia-minister-peru-can-establish-itself-as-key-player-in-critical-minerals-supply-chain-1091120.aspx"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Cyclic Materials Opens America's First Commercial-Scale Facility Delivering Automated Rare Earth Magnet Recovery",
+   "url": "https://pressreleasehub.pa.media/article/cyclic-materials-opens-americas-first-commercial-scale-facility-delivering-automated-rare-earth-magnet-recovery-82891.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Germany to receive first of 35 Lockheed Martin F-35A fighters next week after maiden flight",
+   "url": "https://defence-industry.eu/germany-to-receive-first-of-35-lockheed-martin-f-35a-fighters-next-week-after-maiden-flight-with-pilot-training-to-begin-in-arkansas/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Lafayette City Council approves tax abatements for $890M Caterpillar expansion",
+   "url": "https://www.wlfi.com/2026/09/09/lafayette-city-council-approves-tax-abatements-890m-caterpillar-expansion/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Apple joins foldable phone race with $1,999 passport-shaped iPhone Duo",
+   "url": "https://www.reuters.com/business/retail-consumer/apple-expected-unveil-first-folding-phone-with-new-ceo-ternus-command-2026-09-09/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Apple Watch's new AI features are normalizing the idea that technology is always listening",
+   "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "'Ghost Demand' Prompts Texas to Halt New Data Center Grid Connections",
+   "url": "https://www.hpcwire.com/aiwire/2026/09/09/ghost-demand-prompts-texas-to-halt-new-data-center-grid-connections/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Data centre bulls challenge energy regulator's official line",
+   "url": "https://www.theaustralian.com.au/business/technology/data-centre-demand-double-forecasts-industry-tells-aemo/news-story/6af40174a8c1fab1dda1526e4a6a5eae?amp"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Arianespace Secures Contract for 10 Ariane 64 Launch Vehicles, Allocating Six Missions to Amazon Leo",
+   "url": "https://satnews.com/2026/09/09/arianespace-secures-contract-for-10-ariane-64-launch-vehicles-allocating-six-missions-to-amazon-leo/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Space Force's $76B Satellite Program Has One Rocket: SpaceX Stands Alone",
+   "url": "https://www.techtimes.com/articles/327126/20260909/space-forces-76b-satellite-program-has-one-rocket-spacex-stands-alone.htm"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Ukraine hits Russian arctic in deepest strike of the war",
+   "url": "https://www.telegraph.co.uk/world-news/2026/09/09/ukraine-hits-russian-arctic-in-deepest-strike-of-the-war/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Trump says Putin wants deal to end war in Ukraine – but many skeptical",
+   "url": "https://tvpworld.com/95308931/trump-says-putin-wants-deal-to-end-war-in-ukraine-but-many-skeptical"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Tether and Fasanara Launch $400 Million Stablecoin Private Credit Fund Targeting $3 Billion",
+   "url": "https://newscord.org/article/tether-and-fasanara-launch-400-million-stablecoin-private-credit-fund-targeting--Story_20260909_TetherFasanaralaunch8c1e81a9"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-10 06:38",
+   "title": "Tether Is Building Yield Infrastructure Around the GENIUS Act's Interest Ban",
+   "url": "https://forkast.news/tether-is-building-yield-infrastructure-around-the-genius-acts-interest-ban-and-it-is-not-alone/"
   }
  ],
- "updated_kst": "2026-09-09 21:48"
+ "updated_kst": "2026-09-10 06:38"
 }
