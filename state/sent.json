@@ -2304,7 +2304,271 @@
    "sent_kst": "2026-09-14 14:54",
    "title": "애프터마켓 첫날, 대형 증권사 'SOR 장애' 잇달아(종합)",
    "url": "https://www.newsis.com/view/NISX20260914_0003788556"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "2조 재초환 청구서…소송전쟁 불붙는다",
+   "url": "https://www.sedaily.com/article/20090752?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "홍지선 \"LH 분리안 그대로 추진\"…직접시행 확대에 \"부채 상승 필연적\"",
+   "url": "https://news.mtn.co.kr/news-detail/2026091417565827810"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "워크아웃 1년 안남은 태영건설, 연장 신청할까",
+   "url": "https://n.news.naver.com/mnews/article/417/0001158263?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "내 집 더 멀어진 2030 … 무주택 64%→71%",
+   "url": "https://www.mk.co.kr/article/12152444"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "건축비 또 올라…공공분양도 국평 7억~8억원대",
+   "url": "https://www.joongang.co.kr/article/25461657"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "빚 못 갚아 법원으로… 수도권 아파트·빌라 경매 2만건 육박",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/09/14/IKO5WMQ5RND7PFCEV2GQ7PMEXM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "부동산 곡소리 대구 \"지방형 세제 처방을\"",
+   "url": "https://n.news.naver.com/mnews/article/088/0001028363?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "[단독]서울 전월세난 2028년 최악…이주 수요가 입주물량 3배",
+   "url": "https://www.donga.com/news/Economy/article/all/20260914/134665248/1"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "아파트 대신 데이터센터 짓는다…'AI PF'에 자금 쏟아붓는 기관들",
+   "url": "https://www.hankyung.com/article/2026091422361"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "산본, 1기 신도시 재건축 첫 시공사 선정 나선다",
+   "url": "https://www.hankyung.com/article/2026091437701"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "[단독] 금지된 '순환투자' 손댄 미래에셋… 금감원 조사 착수",
+   "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000011915&cp=nv"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "[단독]'조 단위' 신정법 과징금 쇼크 오나.. 12개 금융사 떨고 있다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005413482?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "금감원은 '조 단위' 때리고 금융위는 깎아주고..롤러코스터 제재 \"어쩔수가 없다?\"",
+   "url": "https://n.news.naver.com/mnews/article/008/0005413493?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "금감원, 잦은 보험금 지급 분쟁에 '사전적 소비자 보호 강화' 주문",
+   "url": "https://n.news.naver.com/mnews/article/088/0001028370?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "'돈 많으면 프로?'…개인전문투자자 제도 손질론 확산",
+   "url": "https://n.news.naver.com/mnews/article/008/0005413427?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "조각투자 넘어 주식·채권까지… 토큰증권 '자산 쟁탈전' 점화",
+   "url": "https://n.news.naver.com/mnews/article/022/0004158959?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "500조로 커진 ETF시장… \"상품 출시·운용 규제 정비해야\"",
+   "url": "https://www.fnnews.com/news/202609141820381792"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "AI가 대환대출 신청 가능…\"책임은 금융사\"",
+   "url": "https://n.news.naver.com/mnews/article/417/0001158231?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "\"돈 빌려준 캐피탈사가 경쟁자로\"…렌터카업계, 여전사 렌탈 규제 완화 반발",
+   "url": "https://n.news.naver.com/mnews/article/016/0002697007?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "\"미국 또 금리 올리나\"…숨죽인 韓 채권시장, 금리 발작 경계령",
+   "url": "https://n.news.naver.com/mnews/article/029/0003047940?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "UC Berkeley researchers' AI model makes links between DNA, genetic disease easier to predict",
+   "url": "https://www.dailycal.org/news/campus/research-and-ideas/uc-berkeley-researchers-ai-model-makes-links-between-dna-genetic-disease-easier-to-predict/article_3cdb6d5a-b123-4e61-91ac-8d82f8c8448d.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "China rejects Anthropic executive's \"fear-mongering\" and call to stifle its AI growth",
+   "url": "https://www.neowin.net/news/china-rejects-anthropic-executives-fear-mongering-and-call-to-stifle-its-ai-growth/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "NVIDIA and Palantir bring sovereign AI to supply chains",
+   "url": "https://www.eenewseurope.com/en/nvidia-and-palantir-bring-sovereign-ai-to-supply-chains/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Vodafone, Cassava Launch Egypt's First AI Factory",
+   "url": "https://cioafrica.co/vodafone-cassava-launch-egypts-first-ai-factory/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Research: OpenAI Agents Allegedly Attacked RubyGems In May",
+   "url": "https://dataconomy.com/2026/09/14/openai-ai-agents-uploaded-500-malicious-packages-rubygems/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Compute is the new oil: 'The Entropy Trap' author Mickey M Maini on the AI buildout",
+   "url": "https://gulfbusiness.com/en/2026/artificial-intelligence/compute-is-the-new-oil-the-entropy-trap-author-mickey-m-maini-on-the-ai-buildout"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "ASML's $400 million chipmaking machines get a vote of confidence from Intel",
+   "url": "https://www.calcalistech.com/ctechnews/article/xmnsuqleq"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem",
+   "url": "https://beincrypto.com/south-korea-ai-chip-boom-concentration-risk/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Brics leaders call for reliable supply chains for critical minerals",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/brics-leaders-call-for-reliable-supply-chains-for-critical-minerals/articleshow/134240573.cms"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Brent jumps above $104 as fresh supply threats rattle Oil markets",
+   "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2083694-20260914"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Nigeria's oil output rises to 1.68m bpd, meets OPEC quota for fourth month",
+   "url": "https://www.thepointng.com/nigerias-oil-output-rises-to-1-68m-bpd-meets-opec-quota-for-fourth-month/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Petronas signs five year LNG supply deal with Greece's Metlen",
+   "url": "https://greekcitytimes.com/2026/09/14/petronas-lng-deal-greece-metlen/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Samsung Heavy lands $1.2 billion ship deal as Korean shipbuilders chase next LNG boom",
+   "url": "https://www.koreajoongangdaily.com/business/samsung-heavy-lands-12-billion-ship-deal-as-korean-shipbuilders-chase-next-lng-boom/12874865"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Lockheed Martin expands Vectis stealth combat drone production with four more aircraft for future U.S. and allied air operations",
+   "url": "https://defence-industry.eu/lockheed-martin-expands-vectis-stealth-combat-drone-production-with-four-more-aircraft-for-future-u-s-and-allied-air-operations/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Lockheed Martin's $1B Contracts for Missiles, Torpedoes",
+   "url": "https://www.realcleardefense.com/2026/09/14/lockheed_martins_1b_contracts_for_missiles_torpedoes_1205883.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Amazon suspends use of 21 Air, the cargo carrier whose plane careened off Miami runway and killed 5",
+   "url": "https://www.sun-sentinel.com/2026/09/14/amazon-suspends-use-of-21-air-the-cargo-carrier-whose-plane-careened-off-miami-runway-and-killed-5/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Samsung Fights Apple Foldable Push as Counterpoint Projects 25 per Cent Duo Share",
+   "url": "https://www.retailnews.asia/samsung-fights-apple-foldable-push-as-counterpoint-projects-25-per-cent-duo-share"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Rolls-Royce SMR parts to be manufactured at Siemens Energy UK",
+   "url": "https://www.machinery-market.co.uk/news/43414/Rolls-Royce-SMR-parts-to-be-manufactured-at-Siemens-Energy-UK"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Inside Syria's decentralised solar boom",
+   "url": "https://greencentralbanking.com/2026/09/14/inside-syrias-decentralised-solar-boom/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "SES fights compensation battle as final medium Earth orbit satellites launch",
+   "url": "https://www.luxtimes.lu/businessandfinance/ses-fights-compensation-battle-as-final-medium-earth-orbit-satellites-launch/161111630.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Etihad Airways sees strong demand, higher passenger capacity despite Iran war, CEO says",
+   "url": "https://www.reuters.com/world/middle-east/etihad-airways-sees-strong-demand-higher-passenger-capacity-despite-iran-war-ceo-2026-09-14/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Kremlin welcomes Trump's call on Ukraine to halt strikes on diesel facilities",
+   "url": "https://english.alarabiya.net/News/world/2026/09/14/kremlin-welcomes-trump-s-call-on-ukraine-to-halt-strikes-on-diesel-facilities"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "CLARITY Act Senate vote on Tuesday: what to expect",
+   "url": "https://invezz.com/news/2026/09/14/clarity-act-senate-vote-on-tuesday-what-to-expect/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-09-14 21:47",
+   "title": "Coinbase Wires Community Banks Into Stablecoins — And Owns the Rails Underneath",
+   "url": "https://egamers.io/coinbase-wires-community-banks-into-stablecoins-and-owns-the-rails-underneath/"
   }
  ],
- "updated_kst": "2026-09-14 14:54"
+ "updated_kst": "2026-09-14 21:47"
 }
