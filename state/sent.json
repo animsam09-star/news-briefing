@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "226억 흑자인데 통장엔 2.7억원… 대구 3위 태왕이앤씨, 회생 기로",
-   "url": "https://n.news.naver.com/mnews/article/366/0001191743?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "[단독]\"제2의 화천대유\" 우려하고도…3천억 PF대출 강행",
-   "url": "https://n.news.naver.com/mnews/article/079/0004188339?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "주택공급 속도전 나선 캠코, 공공개발 수장에 'PF통' 전진배치",
-   "url": "https://dealsite.co.kr/articles/168807"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "오피스텔 전셋값 15년 만에 최고…아파트 대체수요 집중",
-   "url": "https://n.news.naver.com/mnews/article/011/0004660835?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "\"강남 불패 끝났나\" 9억 뚝 떨어질 때…'이곳'은 13% 폭등했다",
-   "url": "https://n.news.naver.com/mnews/article/014/0005574437?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "블랙스톤, ESR과 수도권 대형 물류센터 투자",
-   "url": "https://n.news.naver.com/mnews/article/016/0002695976?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "글로벌 자산운용사 누빈 \"고금리 장기화에도 부동산 회복 국면 진입\"",
-   "url": "https://n.news.naver.com/mnews/article/374/0000532444?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "\"500세대 인허가권 구청장 이양 반대…난개발 우려\"",
-   "url": "https://n.news.naver.com/mnews/article/016/0002695938?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "LH노조, 분사 방안에 교섭 요구…\"조합원 의견 들어야\"",
-   "url": "https://n.news.naver.com/mnews/article/003/0014183997?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "한국디벨로퍼협회·해외건설협회 맞손… 해외 개발사업 공략 본격화",
-   "url": "https://n.news.naver.com/mnews/article/011/0004660899?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "듀레이션갭·GA 위험도 평가한다… 금융위, 보험 감독규정 개정 예고",
-   "url": "https://n.news.naver.com/mnews/article/003/0014184344?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "1·2세대 실손, 기존 주계약 유지한 채 5세대 전환 가능해진다",
-   "url": "https://n.news.naver.com/mnews/article/016/0002696050?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "금융위, 포용금융 평가체계 시범운영… CIFO 권한 점검",
-   "url": "https://n.news.naver.com/mnews/article/366/0001191724?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "[단독]'2년째 유예'...넥스트레이드, 10개 중 8개 종목 거래량 한도 초과",
-   "url": "https://n.news.naver.com/mnews/article/648/0000050694?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "국민연금 돈 받으려면 주주활동 잘해야…스튜어드십 코드 '실전 평가'로",
-   "url": "https://n.news.naver.com/mnews/article/005/0001872348?sid=100"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "'옵티머스 펀드' 여진 계속…대법 \"NH투자증권 책임 인정\"",
-   "url": "https://n.news.naver.com/mnews/article/374/0000532403?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "\"자본 쌓았는데 수익성은 '뒷걸음'\"…우리금융, '3중 자본수요' 압박",
-   "url": "https://n.news.naver.com/mnews/article/629/0000532971?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "SGC에너지, 'AI 데이터센터' 속도…사모투자합자회사 설립",
-   "url": "https://n.news.naver.com/mnews/article/016/0002696070?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "업비트, 시세 조작 의혹 코인도 상장… \"투자자보다 수익\" 지적",
-   "url": "https://n.news.naver.com/mnews/article/366/0001191785?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-11 14:48",
-   "title": "빚 73% 깎아줬는데 또 연체…새출발기금 매입 6.6조, 회수 0.2조",
-   "url": "https://n.news.naver.com/mnews/article/123/0002390026?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-09-11 21:46",
    "title": "분사 앞둔 LH, 노조 창사 이래 첫 총파업 검토",
@@ -2286,7 +2166,127 @@
    "sent_kst": "2026-09-15 10:19",
    "title": "규제 땜질에도 공백 여전…'삼전닉스 레버리지' 국감 앞둔 증권가 긴장",
    "url": "https://n.news.naver.com/mnews/article/088/0001028480?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "PF 신디케이트론 5조로 확대…금감원, 주택공급 막힌 사업장 금융지원",
+   "url": "https://n.news.naver.com/mnews/article/119/0003132866?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "부실 PF 계속 늘어나는 지역 농협… 97%가 '고위험 사업장'",
+   "url": "https://biz.chosun.com/stock/finance/2026/09/15/2XYBOIJEMJGGXGPYL7ODYPYFP4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "내년까지 주택 착공하면 개발부담금 면제",
+   "url": "https://n.news.naver.com/mnews/article/016/0002697503?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "\"용적률 1.4배 완화는 과도한 인센티브\"…서울 도심공공복합사업 올스톱",
+   "url": "https://view.asiae.co.kr/article/2026091418443213317"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "행안부, 경기도에 공유재산 목록 제출 요청…\"주택공급 목적\"",
+   "url": "https://n.news.naver.com/mnews/article/001/0016311597?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "전월세 안심신탁 안착 방안 여야 머리 맞댄다…HUG, 정책토론회",
+   "url": "https://www.fnnews.com/news/202609151405410468"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "서울 신통기획 '31만채' 뜯어보니… 새로 늘어나는 집은 8만7000채",
+   "url": "https://n.news.naver.com/mnews/article/022/0004159159?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "\"청약통장 있어봤자\" 282만명 떠났는데… 전문가 \"이런 분들은 유지\"",
+   "url": "https://n.news.naver.com/mnews/article/022/0004159149?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "\"전세사기 여파에 경매물건 넘쳐\"…금리인상 반영되면 더 쏟아진다",
+   "url": "https://www.mk.co.kr/article/12153014"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "MBK, 잇단 日 기업 쇼핑…3조원대 임대주택업체 인수 나서",
+   "url": "https://n.news.naver.com/mnews/article/586/0000138226?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "금융권 연말 인사 앞두고 이찬진 경고…\"금융지주 CEO 승계 절차 미흡\"",
+   "url": "https://view.asiae.co.kr/article/2026091514293699664"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "가계대출 규제 풀리나…기업은행, 주담대·전세대출 접수 재개",
+   "url": "https://n.news.naver.com/mnews/article/029/0003048093?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "합병가액 '시가'에서 '공정가액'으로…금융위, 하위법규 개정 예고",
+   "url": "https://www.hankyung.com/article/202609155161r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "금융위, 금감원 특사경 수사 개시 때 수심위 '대면의결' 사실상 의무화",
+   "url": "https://biz.chosun.com/stock/stock_general/2026/09/15/I3UKSBEXPRG7FOXU4X4E2TWELE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "7월 통화량 4225조원..기업 20조↑ 가계는 11조↓",
+   "url": "https://www.fnnews.com/news/202609151047154611"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "3년 새 4배 늘어난 코인 해외 유출…내년 22% 과세에 '탈한국' 가속하나",
+   "url": "https://n.news.naver.com/mnews/article/629/0000533932?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "'빗썸 지주사' 빗썸홀딩스 수장 교체…규제 대응 강화",
+   "url": "https://n.news.naver.com/mnews/article/016/0002697460?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "\"안정보다 미래 택했다\"…KB 이사회, '거수기' 오명 벗고 승계 주도",
+   "url": "https://n.news.naver.com/mnews/article/138/0002241472?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "급할때 1000만원까지 빌려드립니다...두달새 2500억 나간 생활안정대출",
+   "url": "https://www.mk.co.kr/article/12152879"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-15 14:49",
+   "title": "삼성증권 합류한 발행어음 시장…8개 증권사 우량 IB 경쟁 '후끈'",
+   "url": "https://n.news.naver.com/mnews/article/629/0000533929?sid=101"
   }
  ],
- "updated_kst": "2026-09-15 10:19"
+ "updated_kst": "2026-09-15 14:49"
 }
