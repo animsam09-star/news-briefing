@@ -2640,7 +2640,127 @@
    "sent_kst": "2026-09-16 10:18",
    "title": "기업은행, 주담대 문턱 낮춘다…모집인·변동금리·대환 재개",
    "url": "https://n.news.naver.com/mnews/article/119/0003133132?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "홍지선 \"충분할 때까지 주택공급…토허제 연장은 시장 살펴 결정\"",
+   "url": "https://n.news.naver.com/mnews/article/030/0003467350?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "AI가 바꾸는 데이터센터…부동산 투자자도 AIDC를 알아야 하는 이유",
+   "url": "https://www.hankyung.com/article/202609167590O"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "800조 예산도 삼킨 집값…정기국회 '부동산 블랙홀'",
+   "url": "https://www.fnnews.com/news/202609161338580779"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "[단독] LH 신축매입임대, 신청 폭주에도 착공 5%뿐…'공급 병목' 심각",
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1278065.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "토스뱅크 전월세 대출심사 빨라진다…전입정보 온라인 연계",
+   "url": "https://www.newsis.com/view/NISX20260916_0003791670"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "안태준, '복합용도건축 활성화 특별법' 발의…도심 유휴건물 주택 전환 촉진",
+   "url": "https://n.news.naver.com/mnews/article/031/0001058889?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "GS, AI 데이터센터 30조 어떻게 조달할까",
+   "url": "https://n.news.naver.com/mnews/article/648/0000050824?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "모르는 전화로 \"재개발 소유주시죠?\" 섬뜩…줄줄 새는 조합원명부",
+   "url": "https://www.mk.co.kr/article/12154198"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "[단독] 홈플러스 매각 다시 닻 올린다…대형마트·부동산 '투트랙'",
+   "url": "https://www.hankyung.com/article/202609167210r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "\"이젠 오피스텔도 비싸네\"…아파트 대체 수요 몰리자 '트리플 강세'",
+   "url": "https://www.mk.co.kr/article/12154125"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "해외주식 미수거래·담보대출 종목관리 부실…금감원, 삼성·한투證 제재조치",
+   "url": "https://www.mk.co.kr/article/12154219"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "심평원·금감원, 보험사기·부당청구 뿌리 뽑는다",
+   "url": "https://n.news.naver.com/mnews/article/047/0002529170?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "연 6~10% 고정수익 '선박' 조각투자, 장내서 주식처럼 매매…11월 첫선 임박",
+   "url": "https://news.mtn.co.kr/news-detail/2026091610264094313"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "인엑스, 국내 첫 스테이블코인 선불카드 도전…다날과 샌드박스 준비",
+   "url": "https://n.news.naver.com/mnews/article/030/0003467264?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "대출 넘어 투자·성장자본으로…우리금융 비은행 4사, 생산적금융 전면에",
+   "url": "https://n.news.naver.com/mnews/article/008/0005414642?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "'10년은 못 기다린다'…퇴직연금서도 국고채 인기 '시들'",
+   "url": "https://www.hankyung.com/article/202609168563i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "한은, 외화자산 10억달러 주식→채권…'고난도 투자' 키운다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005414573?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "글로벌 핀테크 투자, 대형 M&A 타고 반등",
+   "url": "https://n.news.naver.com/mnews/article/016/0002698095?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "\"AI·딥테크에 4623억 원\" 비상장기업에 돈 몰렸다",
+   "url": "https://magazine.hankyung.com/business/article/202609168529b"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-16 14:50",
+   "title": "가계부채 비율, 약 11년 만에 80% 밑돌 듯…2분기 81% 수준(종합)",
+   "url": "https://www.news1.kr/economy/trend/6292401"
   }
  ],
- "updated_kst": "2026-09-16 10:18"
+ "updated_kst": "2026-09-16 14:50"
 }
