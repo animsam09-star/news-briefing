@@ -2,234 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "정부, 주택공급에 금융지원…주요 내용은?[금알못]",
-   "url": "https://www.newsis.com/view/NISX20260913_0003787421"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "LH, 서울 도심에 3년간 매입임대 2만호 공급",
-   "url": "https://www.arunews.com/news/articleView.html?idxno=67127"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "신탁이 무효이면 위탁자 지위이전에 취득세 부과할 수 없어 [판례연구]",
-   "url": "https://n.news.naver.com/mnews/article/123/0002390105?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "[각자도생 제이알리츠]③ 운용 한계, 제도 공백 드러난 상장리츠 회생",
-   "url": "https://view.asiae.co.kr/article/2026091015395241801"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "\"부동산 세금, 너무 어려워\"…국세청에 양도세 질의 2배 급증",
-   "url": "https://view.asiae.co.kr/article/2026091407530663471"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "서울시내 소규모주택정비사업도 공사비 검증 지원 근거 신설",
-   "url": "https://www.arunews.com/news/articleView.html?idxno=67141"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "[D-피플라운지] \"다 지켰더니 혜택 없애고 집 팔라고\"…아파트 등록임대, 정부에 '뒤통수'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003132163?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "재건축 인허가 칼자루 바뀐다…구청장 무응답 땐 '자동인가'",
-   "url": "https://www.fnnews.com/news/202609101435213113"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "압구정·반포에서 건설사 이름이 사라진다…부촌에 부는 '이 변화'",
-   "url": "https://www.fnnews.com/news/202609140834242260"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "[오늘 부동산] 서울 집값 83주째 상승…文정부 '85주 최장 기록' 턱밑",
-   "url": "https://n.news.naver.com/mnews/article/119/0003132158?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "금감원 임직원 주식투자 규정 위반 6년간 147명…징계는 2%",
-   "url": "https://www.joongang.co.kr/article/25461560"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "韓 스테이블코인 1년새 86조 매수…\"디지털자산기본법은 1년 넘게 제자리\"",
-   "url": "https://www.mk.co.kr/article/12151710"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "'150조 생산금융' 띄웠지만…가계빚·레버리지 복병 갇힌 '이억원호'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003132170?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "'발행어음'으로 60조 쥔 대형 증권사들, '진짜 IB' 시험대",
-   "url": "https://n.news.naver.com/mnews/article/008/0005413110?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "[iM금융 차기 회장 인선] 회추위 가동 초읽기…황병우 연임 도전 '촉각'",
-   "url": "https://dealsite.co.kr/articles/168765"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "마이너스통장 대출 70조원 육박…2021년 말 이후 최고치",
-   "url": "https://n.news.naver.com/mnews/article/030/0003466286?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "[씨티은행 차기 행장 인선] 순익 4배 키웠지만 자본비율 '뚝'…차기 씨티은행장 숙제",
-   "url": "https://dealsite.co.kr/articles/168739"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "[Invest]\"ETF 꺾이니 방카\"…생보사-은행 '위험한 롤오버 동맹'",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/09/11/2026091180132.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "신한자산운용, 캔톤 네트워크 협력 구체화 및 생태계 합류 추진",
-   "url": "https://view.asiae.co.kr/article/2026091408492392556"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-14 10:19",
-   "title": "미래에셋증권, 프리마켓 체결 조회 지연…\"NXT 시스템 문제\"",
-   "url": "https://n.news.naver.com/mnews/article/422/0000905860?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "홍지선 \"주택은 한정 자원, 실거주 중심 세제 바람직\"",
-   "url": "https://www.newsis.com/view/NISX20260914_0003788398"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "미분양 CR리츠 취득세 중과 배제 비아파트로 확대해야",
-   "url": "https://n.news.naver.com/mnews/article/001/0016308456?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "부산시, '모듈러 주택' 카드 만지작…공공주택 공급 새판",
-   "url": "https://www.sedaily.com/article/20090510?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "서울 상가 공실률 9%대…같은 상권인데 왜 내 건물만 빌까?",
-   "url": "https://www.hankyung.com/article/202609119495O"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "재산세 증가분 57%가 강남3구…'공시가 12억 초과' 한강벨트만 65만채",
-   "url": "https://n.news.naver.com/mnews/article/016/0002696894?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "대출 막히자 작은 집으로…서울 59㎡도 '16억'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001058077?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "\"다가구주택, 우선매수권 LH 우선\"…염태영 의원, 전세사기특별법 개정안 발의",
-   "url": "https://view.asiae.co.kr/article/2026091410035601714"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "강남 잡다 수도권 외곽까지 꽁꽁…복기왕 의원, 금융규제 재점검 촉구",
-   "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=51802"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "금융위, 기후금융 활성화 TF 첫 회의…2035년까지 790조 원 공급계획",
-   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008752046&plink=ORI&cooper=NAVER"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "연금저축 수익률 공시 5년간 302건 오류…금융소비자 혼란 가중",
-   "url": "https://n.news.naver.com/mnews/article/119/0003132322?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72%p 내릴 때 실제 금리는 0.15%p 내려",
-   "url": "https://n.news.naver.com/mnews/article/023/0003998322?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "'현직=연임' 공식 깬 KB의 세대교체…금융권 CEO 인사판 흔드나",
-   "url": "https://www.newsis.com/view/NISX20260914_0003788328"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "처브라이프생명, 국채선도서 116억원 평가손실...건전성 압박↑",
-   "url": "https://n.news.naver.com/mnews/article/030/0003466511?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "과점주주 힘 빠진 우리금융…임종룡 2기 '주총 견제' 변수로 부상",
-   "url": "https://n.news.naver.com/mnews/article/629/0000533456?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "美 가상자산법 15일 분수령…스테이블코인 보상 놓고 막판 진통",
-   "url": "https://n.news.naver.com/mnews/article/030/0003466510?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "코인세 반대 청원 또 5만명…정부는 '요지부동'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003132414?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "934억 세탁한 '유령 상품권 업체'... 상품권 거액 거래 허점 노렸다",
-   "url": "https://n.news.naver.com/mnews/article/469/0000953882?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-09-14 14:54",
-   "title": "애프터마켓 첫날, 대형 증권사 'SOR 장애' 잇달아(종합)",
-   "url": "https://www.newsis.com/view/NISX20260914_0003788556"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-09-14 21:47",
    "title": "2조 재초환 청구서…소송전쟁 불붙는다",
@@ -3138,7 +2910,115 @@
    "sent_kst": "2026-09-18 10:13",
    "title": "NH농협은행·iM뱅크, 2027년부터 4년간 경북도 금고 관리",
    "url": "https://www.fnnews.com/news/202609180807365841"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "집값 해법 다 꺼낸 李…당장은 공급·대출, 장기엔 수도권 분산",
+   "url": "https://n.news.naver.com/mnews/article/022/0004160150?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "LH, 집코노미 박람회서 3기 신도시 19만가구 청사진 공개",
+   "url": "https://www.hankyung.com/article/202609183322i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "[단독] 서울 재건축·재개발 아파트 분양가 5년 새 70% 올랐다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002699370?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "\"2년 갱신시점 겹쳐\"…옛 둔촌주공, 토허제 실거주 유예 연장",
+   "url": "https://view.asiae.co.kr/article/2026091809282550065"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "與 '청산조합 정상화 TF' 구성…민주당 단체장 지방정부 전수조사 추진",
+   "url": "https://www.newsis.com/view/NISX20260918_0003795129"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "제이알리츠 정상화 '투트랙'…벨기에 임대연장·美자산 매각 추진",
+   "url": "https://www.hankyung.com/article/202609183869r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "GS, '15조 AI데이터센터' 투자 시동…5년 만에 회사채 복귀",
+   "url": "https://www.fnnews.com/news/202609181034069594"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "보름새 0.35%p 뛴 주담대…사라진 시중은행 4%대 고정금리",
+   "url": "https://www.sedaily.com/article/20092485?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "금감원, 금융소비자보호 성과 보고…\"금융권 단기 실적 관행 여전해\"",
+   "url": "https://n.news.naver.com/mnews/article/448/0000640126?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "李 \"보호장치 부족했다\"…단일종목 레버리지 정책 미흡 인정",
+   "url": "https://dealsite.co.kr/articles/169316"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "넥스트레이드 '낙하산 사각지대'…내년부터 제동?",
+   "url": "https://n.news.naver.com/mnews/article/374/0000533716?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "외화계좌로 빠져나간 보이스피싱 피해금액 이제 반환 가능해진다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002699382?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "[단독] 집값 25억·LTV 40% 초과 주담대…위험가중치 최대 4배 높인다",
+   "url": "https://www.mk.co.kr/article/12156251"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "\"4.9% 두 주주 뭉쳐도 공시 안 해\"…상장사 '5%룰 완화' 반발",
+   "url": "https://n.news.naver.com/mnews/article/016/0002699293?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "정상호 롯데카드·김기덕 JB우리캐피탈 대표, '렌탈채권 부실' 논란에 국감장 오른다",
+   "url": "https://n.news.naver.com/mnews/article/138/0002241974?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "檢, '빗썸 실소유주' 강종현에 징역 20년 구형…빗썸 관계사 주가조작 혐의",
+   "url": "https://www.donga.com/news/Society/article/all/20260918/134695615/1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "\"이재근 첫 인사 시험대\"…이홍구 KB증권 대표, 역대급 실적에도 연임은 안갯속",
+   "url": "https://n.news.naver.com/mnews/article/138/0002241965?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-18 14:55",
+   "title": "[가상자산 지각변동②] 은행·증권·카드까지 줄섰다…두나무에 2조 꽂은 금융권",
+   "url": "https://n.news.naver.com/mnews/article/117/0004106707?sid=103"
   }
  ],
- "updated_kst": "2026-09-18 10:13"
+ "updated_kst": "2026-09-18 14:55"
 }
