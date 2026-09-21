@@ -115,12 +115,25 @@ def compute_windows(slot_cfg, now_kst):
 
     각 슬롯의 시작점이 직전 슬롯의 끝과 정확히 맞물리므로 어떤 시각도
     두 번 수집되지 않는다(중첩 0). 요일별 특례는 prev_run_day 앵커가 흡수한다.
+
+    "today"는 now_kst의 달력 날짜로 해석된다. GitHub cron은 정시 보장이 없어
+    최대 +3시간대 지연이 실측됐는데(briefing.yml 주석 참고), evening(21:30 KST)이
+    그만큼 밀리면 자정을 넘겨 다음 날 새벽에 실행된다 — 이때 "today 21:20"은
+    아직 오지 않은 미래 시각이 되어 윈도우 전체가 미래로 밀리고 수집 결과가
+    통째로 0건이 된다(2026-09-22 evening 실사고). 1차 계산 결과 윈도우 종료가
+    아직 안 왔으면 지연 실행으로 보고 날짜를 하루 되돌려 재계산한다.
     """
-    w1 = slot_cfg["window_m1"]
-    windows = {"m1": (parse_kst_anchor(w1[0], now_kst), parse_kst_anchor(w1[1], now_kst))}
-    if "window_m3" in slot_cfg:
-        w3 = slot_cfg["window_m3"]
-        windows["m3"] = (parse_kst_anchor(w3[0], now_kst), parse_kst_anchor(w3[1], now_kst))
+    def _resolve(anchor_now):
+        w1 = slot_cfg["window_m1"]
+        windows = {"m1": (parse_kst_anchor(w1[0], anchor_now), parse_kst_anchor(w1[1], anchor_now))}
+        if "window_m3" in slot_cfg:
+            w3 = slot_cfg["window_m3"]
+            windows["m3"] = (parse_kst_anchor(w3[0], anchor_now), parse_kst_anchor(w3[1], anchor_now))
+        return windows
+
+    windows = _resolve(now_kst)
+    if windows["m1"][1] > now_kst:
+        windows = _resolve(now_kst - timedelta(days=1))
     return windows
 
 
