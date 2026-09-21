@@ -1008,7 +1008,271 @@
    "sent_kst": "2026-09-22 01:45",
    "title": "New laws coming to South Africa put R2.2 billion deals on hold",
    "url": "https://businesstech.co.za/news/finance/876458/proposed-laws-put-r2-2-billion-deals-on-hold/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "'샬롯' 1.2조 상환한 롯데건설…PF 부담 덜고 실적도 살아났다",
+   "url": "https://magazine.hankyung.com/business/article/202609155606b"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "PF로 먹고살던 한양증권, 1조원 대출상품 주선... 사업 다각화 골몰",
+   "url": "https://biz.chosun.com/stock/market_trend/2026/09/22/644C7EMBI5CE3P2NE36YWIH4KU/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "땅은 공공, 건물은 민간…사회주택 보증금 보호의 빈틈",
+   "url": "https://www.hani.co.kr/arti/society/society_general/1278971.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "투기목적 농지 강제 처분, 관행적 임대는 농지은행에 맡겨 경작",
+   "url": "https://www.donga.com/news/Economy/article/all/20260922/134715003/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "삼성·SK 품고도 집값 7% 뚝…분당과 39.8%p 벌어진 평택·이천 [숫자 뒤의 진실]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004160906?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "美아파트 임대업자 대출 10년간 2천475조원 만기…차환 비상",
+   "url": "https://n.news.naver.com/mnews/article/001/0016328081?sid=104"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "강남엔 안 짓고 왜 우리 동네만? '깜깜이 착공'에 번진 데이터센터 공포",
+   "url": "https://n.news.naver.com/mnews/article/469/0000955425?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "중견 건설사는 '스타 마케팅'…대형사는 BI·CI로 승부",
+   "url": "https://www.news1.kr/realestate/general/6297919"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "농지 거래 위축 3년째인데…이제야 특별법 만든다는 정부",
+   "url": "https://n.news.naver.com/mnews/article/654/0000201978?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "국내은행 대출 연체율 7월 기준 0.63%…10년 만에 최고치",
+   "url": "https://n.news.naver.com/mnews/article/079/0004191837?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "'생산적 금융'에 5대은행 기술금융대출 4%↑…신용대출 12% 그쳐",
+   "url": "https://n.news.naver.com/mnews/article/001/0016328116?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "DCDS, 불완전판매로 신규 중단 10년…아직 63만명 가입, 수수료 1.2조",
+   "url": "https://n.news.naver.com/mnews/article/008/0005417016?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "지방대출 여력 21조 증가, 은행은 머뭇",
+   "url": "https://n.news.naver.com/mnews/article/417/0001158959?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "5대 은행 가계대출, 늘린 총량 목표도 초과…바닥난 대출 여력",
+   "url": "https://n.news.naver.com/mnews/article/001/0016328114?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "'네번째 유예'냐 '강행'이냐…기로에 선 가상자산 과세",
+   "url": "https://n.news.naver.com/mnews/article/079/0004191826?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "신한금융그룹, 자회사 대표이사 승계 절차 개시",
+   "url": "https://biz.chosun.com/stock/finance/2026/09/21/EUUA7Y4MEJAADMP5MKABSQJOSA/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "[르포] 하나금융 '청라 시대' 개막…10개 계열사 대이동",
+   "url": "https://n.news.naver.com/mnews/article/001/0016328140?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "'워크아웃' 중앙일보 인수전에 삼프로TV 등 6곳 참전",
+   "url": "https://weekly.khan.co.kr/article/202609212209001"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "'큰 손' 연기금도 AI 리스크…\"AI 아닌 자산 없어 분산투자 불가능\"",
+   "url": "https://www.sedaily.com/article/20093659?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "OpenAI proposes development of global AI standards to guide alignment, RSI",
+   "url": "https://www.cnbc.com/2026/09/21/open-ai-alignment-rsi.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Gartner: Worldwide AI Spending to Reach $2.67 Trillion in 2026",
+   "url": "https://thejournal.com/articles/2026/09/21/gartner-worldwide-ai-spending-to-reach-2-67-trillion-in-2026.aspx"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Nvidia DSX Ready qualifies Tesla Megapacks",
+   "url": "https://blockchain.news/ainews/nvidia-dsx-ready-qualifies-tesla-megapacks"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Perpetual underdog AMD nips at Nvidia's heels as it joins the $1T club",
+   "url": "https://www.theregister.com/systems/2026/09/21/perpetual-underdog-amd-nips-at-nvidias-heels-as-it-joins-the-1t-club/5297998"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "OpenAI Creates Independent Math Panel as It Claims 100+ Problem Solutions",
+   "url": "https://www.unite.ai/openai-creates-independent-math-panel-as-it-claims-100-plus-problem-solutions/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "SK Hynix in talks with Intel to make chips in US for the first time",
+   "url": "https://www.thedailystar.net/business/global-economy/news/sk-hynix-talks-intel-make-chips-us-the-first-time-4274861"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Construction Manager Chosen for $4B AI Memory Plant in Indiana",
+   "url": "https://www.enr.com/articles/63680-construction-manager-chosen-for-4b-ai-memory-plant-in-indiana"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Where Is OPEC Riyadh and Moscow's Silence Is Becoming Deafening",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Moscow oil refinery output halted after Sunday drone attack, sources say",
+   "url": "https://www.reuters.com/business/energy/moscow-oil-refinery-output-halted-after-sunday-drone-attack-sources-say-2026-09-21/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Canada sees scope for France LNG partnership, minister says",
+   "url": "https://www.devdiscourse.com/article/international/3980165-canada-sees-scope-for-france-lng-partnership-minister-says"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Power sector eats up 37pc, LNG 91pc in just 2.5 months",
+   "url": "https://today.thefinancialexpress.com.bd/first-page/power-sector-eats-up-37pc-lng-91pc-in-just-25-months-1790013306"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Smackover Lithium lays out $1.5 billion project plans at Lafayette County meeting",
+   "url": "https://www.camdenarknews.com/news/2026/sep/21/smackover-lithium-lays-out-15-billion-project/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "China emerges as the world's sodium battery powerhouse ahead of US, France as Africa eyes a new role",
+   "url": "https://africa.businessinsider.com/local/markets/china-emerges-as-the-worlds-sodium-battery-powerhouse-ahead-of-us-france-as-africa/ce13t07"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "China making progress on finalizing Boeing purchases announced in May",
+   "url": "https://www.reuters.com/business/autos-transportation/china-making-progress-finalizing-boeing-purchases-announced-may-2026-09-21/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Hanwha Defense investing $2.2B for manufacturing campus at Pine Bluff Arsenal",
+   "url": "https://katv.com/news/local/hanwha-defense-investing-22b-for-manufacturing-campus-at-pine-bluff-arsenal"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "META Stock Set For Best Day In 13 Months On Muse Popularity As Amazon Moves to Block It",
+   "url": "https://www.tradingview.com/news/stocktwits:2a91a8bdd094b:0-meta-stock-set-for-best-day-in-13-months-on-muse-popularity-as-amazon-moves-to-block-it/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Amazon Prime settlement expands as more are eligible for refunds up to $200",
+   "url": "https://www.baltimoresun.com/2026/09/21/amazon-prime-settlement-expands-as-more-are-eligible-for-refunds-up-to-200/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "California tightens rules on AI data center energy and water use",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "International Alliances Fuel U.S. Nuclear Growth",
+   "url": "https://seekingalpha.com/article/4948432-international-alliances-fuel-us-nuclear-growth"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.",
+   "url": "https://www.barrons.com/articles/rocket-lab-stock-price-rating-spacex-a520b568"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Rocket Lab Shares Rise After Launching New Earth-Observation Satellite for Synspective",
+   "url": "https://www.marketscreener.com/news/rocket-lab-shares-rise-after-launching-new-earth-observation-satellite-for-synspective-ce785adbd188f526"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Why Israel Wants More One-Ton Bombs From the U.S. and Why the Sale Is Controversial",
+   "url": "https://www.nytimes.com/2026/09/16/world/middleeast/israel-one-ton-bombs-us.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Russian losses in the war with Ukraine. Mediazona count, updated",
+   "url": "https://en.zona.media/article/2026/09/21/casualties_eng-trl"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "Circle Opens Bitcoin-Backed USDC Borrowing To Mint Clients, Routed Through Morpho",
+   "url": "https://thedefiant.io/news/defi/circle-opens-bitcoin-backed-usdc-borrowing-to-mint-clients-on-morpho"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-09-22 06:32",
+   "title": "The OCC Just Approved Three Digital-Asset Bank Charters in One Day. That's the Real Story.",
+   "url": "https://forkast.news/the-occ-just-approved-three-digital-asset-bank-charters-in-one-day-thats-the-real-story/"
   }
  ],
- "updated_kst": "2026-09-22 01:45"
+ "updated_kst": "2026-09-22 06:32"
 }
