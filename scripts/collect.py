@@ -39,6 +39,7 @@ SENT_RETENTION_HOURS = 96  # 금요일 저녁 발송분이 월요일 아침까�
 stats = {"naver_queries": 0, "rss_queries": 0, "rejected_out_of_window": 0,
          "decode_fail": 0, "fetch_errors": [], "no_pubdate": 0,
          "rejected_already_sent": 0, "sent_history_size": 0,
+         "rejected_media_not_allowed": 0,
          "retried": 0, "retry_recovered": 0, "rss_breaker_open": False}
 
 # 일시적 과부하·요청제한. 이 코드들만 재시도한다 — 404·403 은 재시도해도 같다.
@@ -258,14 +259,23 @@ def naver_search(query, window, domain_map, display=50):
             src2, ok2 = media_name(it["link"], domain_map)
             if ok2:
                 src, allowed, orig = src2, True, it["link"]
+        # 허용 매체가 아니면 여기서 버린다. 네 슬롯의 프롬프트가 전부
+        # "allowed_media: false 제외"로 못박고 있으므로 이 기사들은 풀에 실려도
+        # 선별 대상이 될 수 없다. 그런데 세션은 pool.json 을 통째로 Read 하고
+        # 이후 모든 턴이 그 내용을 다시 싣고 가므로, 버려질 기사 하나가
+        # "턴 수만큼" 토큰을 먹는다. 수집 단계에서 자르는 편이 정확히 그만큼 싸다.
+        # (서브도메인은 media_name() 이 이미 접미 매칭으로 허용 처리한다 —
+        #  프롬프트의 "명백한 서브도메인이면 포함 가능" 예외는 코드가 이미 흡수한 상태다.)
+        if not allowed:
+            stats["rejected_media_not_allowed"] += 1
+            continue
         title = strip_tags(it["title"])
         rec = {
             "title": title,
             "url": orig,
             "source": src,
-            "allowed_media": allowed,
+            "allowed_media": True,
             "pub_kst": pub.astimezone(KST).strftime("%Y-%m-%d %H:%M"),
-            "matched_query": query,
         }
         # 네이버 API는 긴 제목을 "..."로 절단해 반환 → 복원 대상 표시 + 네이버뉴스 링크 보존
         if title.endswith("..."):

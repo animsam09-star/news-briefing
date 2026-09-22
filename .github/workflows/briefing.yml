@@ -149,9 +149,17 @@ jobs:
           # 무한 대기가 되진 않는다 — 잡의 timeout-minutes: 30 이 상한이다.
           CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS: '0'
         run: |
+          # --output-format json 으로 받아서 report_usage.py 가 최종 응답을 그대로
+          # 다시 찍고, 그 밑에 이번 세션이 먹은 토큰을 한 줄 남긴다. 주간 한도가
+          # 어디로 가는지 슬롯별로 보이게 하려는 것이다(2026-09-19~21 한도 소진으로
+          # 브리핑 3일치가 누락됐는데, 무엇을 줄여야 할지 볼 근거가 없었다).
+          # pipefail 없이는 claude 가 죽어도 파이프 끝의 python 종료코드만 남는다.
+          set -o pipefail
           claude -p "$(cat "prompts/${{ steps.slot.outputs.slot }}.md")" \
             --dangerously-skip-permissions \
-            --model claude-sonnet-5
+            --model claude-sonnet-5 \
+            --output-format json \
+            | python3 scripts/report_usage.py
 
       # URL 단축도 워크플로가 한다 — 발송과 같은 이유다.
       #
