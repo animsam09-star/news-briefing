@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "서울 집값 최장 상승 기록 눈앞…신임 국토부 장관, '공급 실행력' 시험대",
-   "url": "https://www.newsis.com/view/NISX20260923_0003802274"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "서울 빌라 전셋값 4년7개월만 고점 뚫었다",
-   "url": "https://n.news.naver.com/mnews/article/031/0001061146?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "[李 정부의 부동산 역설①] 4개월 만에 바꾸고 한 달 만에 되돌리고…정책 '오락가락'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003136150?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "[기자의눈] 중산층 품는 공공주택, 디테일에 달렸다",
-   "url": "https://www.sedaily.com/article/20094530?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "신생아 특례대출 11조 늘었는데 한도는 4억… 소득 2억 벽 그대로",
-   "url": "https://n.news.naver.com/mnews/article/088/0001030446?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "LH, 수도권 토지 5000억 규모 매입…수급조절용 비축 17년 만",
-   "url": "https://www.news1.kr/realestate/general/6300494"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "추석 이후 4만8829가구 일반분양…10월에만 3만가구 몰린다",
-   "url": "https://n.news.naver.com/mnews/article/119/0003136153?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "서울 아파트 입주 물량 들쭉날쭉 왜?…올해 7천가구, 내년 5천가구 증가",
-   "url": "https://www.hani.co.kr/arti/economy/property/1279361.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "'전월세난' 더 심해지나…추석 이후 부동산 민심 어디로? [몇층이세요]",
-   "url": "https://n.news.naver.com/mnews/article/052/0002410820?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "[영상] \"25년 봤지만 내년 전월세가 최악\" 부동산 전문가, 2030에 집부터 사라는 이유 [헤럴드머니페스타 2026]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002701557?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "국회 상임위 통과한 의무공개매수제도… M&A 시장판도 흔드나?",
-   "url": "https://n.news.naver.com/mnews/article/022/0004161516?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "중도상환수수료 1.7%→0.6%…3억 대출 갈아타면 160만원 절감",
-   "url": "https://n.news.naver.com/mnews/article/088/0001030452?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "\"호미로 막겠다\" 한은이 제시한 선제인상 연구 보니…'조건 3가지' 필요",
-   "url": "https://n.news.naver.com/mnews/article/016/0002701600?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "금감원 과당경쟁 경고…다음 달 25조 전남광주 시금고 판세 영향 줄까",
-   "url": "https://news.mtn.co.kr/news-detail/2026092311040129724"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "美 지니어스법 시행 4개월 앞…'규제 시차' 부작용 우려 커진다",
-   "url": "https://www.news1.kr/finance/blockchain-fintech/6300317"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "[단독] '레버리지 ETF' 손실 규모 첫 확인…개인 투자자, 증권사 1곳서만...",
-   "url": "https://n.news.naver.com/mnews/article/448/0000641207?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "안심차단 318만명, 신청 5분·해제는 창구… 대출·통장 원천봉쇄",
-   "url": "https://n.news.naver.com/mnews/article/088/0001030444?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "우리은행 영업점 10곳 통폐합…오프라인 채널 효율화",
-   "url": "https://n.news.naver.com/mnews/article/001/0016334413?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "기보, 5년간 대신 갚아준 돈 3배 늘었는데 회수도 못했다",
-   "url": "https://www.fnnews.com/news/202609240141383807"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-24 10:18",
-   "title": "주금공, 자금조달 부담 '껑충'…보금자리론 금리 인상에 서민은 '팍팍'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003136138?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-09-24 14:53",
    "title": "실거주 세제 형평성·162조 기금 운용 도마…세입·재정정책 쟁점은 [미리보는 국감-경제]",
@@ -2238,7 +2118,127 @@
    "sent_kst": "2026-09-28 06:37",
    "title": "Bridge, Lead Leverage Earthquake Sanctions Relief to Operate in Venezuela",
    "url": "https://fintechbusinessweekly.substack.com/p/bridge-lead-leverage-earthquake-sanctions"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "당정, '5년 내 2번' 반복담합 땐 영업정지·등록취소 제도 도입",
+   "url": "https://n.news.naver.com/mnews/article/629/0000537058?sid=100"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "금리 다시 오르는데…BNK캐피탈, 지방 PF '경고등'",
+   "url": "https://dealsite.co.kr/articles/169522"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "리파인 76% 장악한 리얼티파인…1350억 차입에 전량 담보",
+   "url": "https://dealsite.co.kr/articles/169502"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "LH, 표준시장단가 적용 확대…\"2030년까지 공사비 4000억 절감\"",
+   "url": "https://www.newsis.com/view/NISX20260928_0003804801"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "[낭비된 공공임대]②서울인데도…1년 넘게 빈 매입임대 400여채",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051097?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "\"대출·보증 규제 강타한 전세 시장…올 하반기 세입자 부담 최고조\"",
+   "url": "https://www.newsis.com/view/NISX20260923_0003801871"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "매물 품귀에 서울 아파트 전세보증금 2년 전보다 8천만 원 상승",
+   "url": "https://n.news.naver.com/mnews/article/052/0002411764?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "5.8조 현대차 새만금 AIDC 가시화…3.5조 '딜' 등장에 금융권 촉각",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/09/23/2026092380180.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "한국부동산원 \"공사비 검증으로 과도한 인상 예방\"",
+   "url": "https://www.arunews.com/news/articleView.html?idxno=67519"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "\"다주택 규제 피하자\"…집합건물 다소유자 7년9개월만 '최저'",
+   "url": "https://n.news.naver.com/mnews/article/422/0000910238?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "연소득 한도 규제 비켜간 생활안정대출…중·저신용자 몰렸다",
+   "url": "https://n.news.naver.com/mnews/article/119/0003136663?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "웨이브릿지·지토, 국내외 8개 기관과 디지털자산 현물 ETF 청사진 제시",
+   "url": "https://n.news.naver.com/mnews/article/030/0003470203?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "\"50년 만기 5.2%\"..주택금융공사, 10월 보금자리론 금리 \"또 동결\"",
+   "url": "https://www.fnnews.com/news/202609280909476634"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "[단독] 적립금 12조 쌓아두고도…손실 두려워 '2% 예금'에 방치한 사립대",
+   "url": "https://www.hankyung.com/article/2026092776431"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "'멍드는 농심, 탐내는 금고' 농협, 25조 통합금고 노리지만…농민 피눈물 외면",
+   "url": "https://www.sedaily.com/article/20095380?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "한국 증시, 할인 꼬리표 뗄까…'코리아 프리미엄 위크' 오늘 개막",
+   "url": "https://n.news.naver.com/mnews/article/629/0000537037?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "은행 안 가고 집 산다…인뱅이 바꾼 '비대면 주담대'",
+   "url": "https://n.news.naver.com/mnews/article/119/0003136662?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "정부가 물타기 막고 등 떠밀어…개인들만 낭떠러지로",
+   "url": "https://dealsite.co.kr/articles/169229"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "카드론 돌려막기 1.7조원…올해 들어 23%↑",
+   "url": "https://n.news.naver.com/mnews/article/374/0000534971?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-09-28 10:24",
+   "title": "2분기 가계대출 1인당 9천790만원…다중채무자 비중 10년 최고",
+   "url": "https://n.news.naver.com/mnews/article/374/0000535014?sid=101"
   }
  ],
- "updated_kst": "2026-09-28 06:37"
+ "updated_kst": "2026-09-28 10:24"
 }
