@@ -2238,7 +2238,127 @@
    "sent_kst": "2026-09-28 10:24",
    "title": "2분기 가계대출 1인당 9천790만원…다중채무자 비중 10년 최고",
    "url": "https://n.news.naver.com/mnews/article/374/0000535014?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "10월19일부터 보금자리론 '결혼 페널티' 없앤다…신혼부부 소득 완화",
+   "url": "https://www.news1.kr/finance/general-finance/6303297"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "\"주택 공급 확대 총력\"…주금공, PF대출 갈아타기로 준공 보증",
+   "url": "https://www.news1.kr/finance/general-finance/6303265"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "재건축·재개발 조합 설립 전부터 온라인 총회·투표 허용되나",
+   "url": "https://www.newsis.com/view/NISX20260928_0003805209"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "집값 역대 최장 '85주 상승'…홍지선號, 공급 실행력 시험대",
+   "url": "https://n.news.naver.com/mnews/article/022/0004162300?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "\"이 집 진짜 공공임대 맞나요?\"…84㎡에 고급 마감재까지, 중산층도 들어간다",
+   "url": "https://www.mk.co.kr/article/12162482"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "\"강남 재건축 수억씩 빠진다…비강남은 신고가\"",
+   "url": "https://www.sedaily.com/article/20095417?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "강남 하락하자 경기도 자산가 잇단 '갈아타기'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002702521?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "거래 절벽에 중개업소 '한숨'…휴·폐업 증가",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8672543&ref=A"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "서울 전세난 '도미노'…경기·인천까지 번졌다",
+   "url": "https://n.news.naver.com/mnews/article/031/0001061567?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "10월 전국 아파트 3만8032가구 분양...전년 대비 61% 증가",
+   "url": "https://www.mk.co.kr/article/12162577"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "금융당국, 검사·제재 쇄신책 내놓는다…중간발표 원칙 제한",
+   "url": "https://www.newsis.com/view/NISX20260928_0003805286"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "예금 비교·추천 플랫폼 제도권으로…3곳 이상 상품 비교 의무화",
+   "url": "https://n.news.naver.com/mnews/article/119/0003136840?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "내년부터 금융사 휴면자산 환급실적 공개…잠든 돈 1.5조원 돌려준다",
+   "url": "https://n.news.naver.com/mnews/article/030/0003470302?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "신기사 해외 펀드 투자, 고유업무로 인정…글로벌 투자 길 넓어진다",
+   "url": "https://n.news.naver.com/mnews/article/030/0003470369?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "정은보 거래소 이사장 \"24시간 거래 체계·결제주기 T+1 단축 추진\"",
+   "url": "https://www.newsis.com/view/NISX20260928_0003805430"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "금감원, '도이치 특혜 대출 의혹' 수협 제재 준비… 심사 과정 확인",
+   "url": "https://biz.chosun.com/stock/finance/2026/09/28/NBPDO5RUVBEDJL2AVFD7RYSONY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "거래소, ETF LP 알고리즘거래계좌 미신고 미래에셋증권 회원경고",
+   "url": "https://n.news.naver.com/mnews/article/374/0000535046?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "[단독]하나銀, 군과 협의없이 장병 급여계좌 변경시스템 운영…11일만에 중단",
+   "url": "https://n.news.naver.com/mnews/article/008/0005419086?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "[단독]10대 증권사 예탁금 수익, 투자자 몫 36%뿐",
+   "url": "https://n.news.naver.com/mnews/article/021/0002821599?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-28 14:48",
+   "title": "메리츠證, 9번째 발행어음 사업자 합류",
+   "url": "https://n.news.naver.com/mnews/article/016/0002702496?sid=101"
   }
  ],
- "updated_kst": "2026-09-28 10:24"
+ "updated_kst": "2026-09-28 14:48"
 }
