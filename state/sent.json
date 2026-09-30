@@ -2664,7 +2664,127 @@
    "sent_kst": "2026-09-30 10:17",
    "title": "이래서 서울대 가나? 경영 동아리 카르텔, M&A 정보 공유",
    "url": "https://n.news.naver.com/mnews/article/021/0002822067?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "서울 집값 역대 최장 상승 눈앞…규제 넘어 공급 시험대",
+   "url": "https://www.newsis.com/view/NISX20260930_0003808005"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "작년 준공 절벽… 1000세대 대단지 42개 증발[부동산 정책, 문제는 공급이다]",
+   "url": "https://n.news.naver.com/mnews/article/021/0002822220?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "KB국민은행, 4.3조 규모 'GTX-C노선 민간투자사업' 금융약정 체결",
+   "url": "https://www.fnnews.com/news/202609301420087080"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "DL이앤씨, '공사비 2조' 성수2지구 위해 10개 금융기관과 맞손",
+   "url": "https://n.news.naver.com/mnews/article/016/0002703606?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "서울 재건축·재개발 60곳 뭉쳤다… \"규제 벽 허물고 사업 속도전\"",
+   "url": "https://n.news.naver.com/mnews/article/029/0003050693?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "LH, 지방 공공분양 '잔여물량 털기' 안간힘",
+   "url": "https://n.news.naver.com/mnews/article/016/0002703650?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "서울 전세수급 5년 만에 최고…4분기 전월세 강세 이어진다",
+   "url": "https://n.news.naver.com/mnews/article/022/0004162966?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "서울 전세 갱신 50.8%…'주거 봉쇄' 현실화",
+   "url": "https://www.sedaily.com/article/20096393?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "내일부터 '일시적 2주택' 3년→2년… 기존 집 2년 안에 팔아야",
+   "url": "https://n.news.naver.com/mnews/article/661/0000084092?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "남광토건, 대우건설 컨소시엄으로 용인 반도체 국가산단 1공구 낙찰자 선정",
+   "url": "https://www.hankyung.com/article/202609304283O"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "운용사들, 의무공개매수 정무위안 공개 반발⋯\"대주주 선행매수 빼야\"",
+   "url": "https://n.news.naver.com/mnews/article/031/0001062344?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "외국계 증권사 해외차입 문턱 낮춘다…재경부, 글로벌 투자자 의견 청취",
+   "url": "https://n.news.naver.com/mnews/article/016/0002703731?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "글로벌 투자자들 \"주식 결제일 T+1 단축, 충분한 시범운영 거쳐야\"",
+   "url": "https://n.news.naver.com/mnews/article/029/0003050698?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "금투협, CD수익률 기초자료 제출기관 10곳 선정…iM증권 진입",
+   "url": "https://www.newsis.com/view/NISX20260930_0003808324"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "[단독] 한화생명, 센트로이드 손잡고 애큐온캐피탈 인수…SPA 체결",
+   "url": "https://www.hankyung.com/article/202609304102i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "통신사가 보이스피싱 배상하라고?…\"불법 감청 강요하는 꼴\"",
+   "url": "https://n.news.naver.com/mnews/article/092/0002439297?sid=105"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "8월 은행 주담대금리 4.66%…3년 9개월만 최고치",
+   "url": "https://www.donga.com/news/Economy/article/all/20260930/134759026/1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "기금형 퇴직연금 '진통'…정부-사업자 회동 또 불발",
+   "url": "https://n.news.naver.com/mnews/article/374/0000535579?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "\"규제 파편화 막자…'ESG 기본법' 제정해야\"",
+   "url": "https://magazine.hankyung.com/business/article/202609304674b"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-09-30 14:48",
+   "title": "스테이블코인 18개월 연속 해외 순유출…14조원 규모",
+   "url": "https://n.news.naver.com/mnews/article/422/0000911086?sid=101"
   }
  ],
- "updated_kst": "2026-09-30 10:17"
+ "updated_kst": "2026-09-30 14:48"
 }
