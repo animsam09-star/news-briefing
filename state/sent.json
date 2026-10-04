@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "[단독]다주택자 규제 이후, 4개월 만에 4000억 대출 회수…만기대출 6% 연체",
-   "url": "https://view.asiae.co.kr/article/2026092918085913228"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "\"먼저 약정했는데 지원은 제외\"…LH 신축매입 사업자 금융비용",
-   "url": "https://www.news1.kr/realestate/general/6305113"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "부동산 세제 특례 줄인다…조정지역 '일시적 2주택' 처분 기한 단축",
-   "url": "https://n.news.naver.com/mnews/article/374/0000535475?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "'닥공' 속도전은 알겠는데…계속 집 지어야 하는 LH, 2030년엔 이자만 7조",
-   "url": "https://www.mk.co.kr/article/12164352"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "수도권 준공 물량 22% 감소…올해 인허가·착공은 증가",
-   "url": "https://n.news.naver.com/mnews/article/422/0000911013?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "지방도 움직일까…대구·울산·경북 본격 미분양 해소",
-   "url": "https://www.hankyung.com/article/2026093034706"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "10월 아파트 4만6000가구 분양 대기…작년의 2.7배",
-   "url": "https://www.hankyung.com/article/2026093036226"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "'은마는 4억 내고 잠실5단지는 8억 받는다' 재건축 분담금 희비 [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002703531?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "\"4분기 주택시장, 임대차 강세·소비심리 회복에 매수세↑\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016345579?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "'경기 집값 맞아?' 화성·광명·의왕 평균가격, 구로·도봉 추월했다[부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002703395?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "8월 기업 직접금융 조달액 16.3조원…전월 대비 38% 감소",
-   "url": "https://www.hankyung.com/article/202609303280r"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "올해 초과세수 63조원 더 걷힌다…미래대응기금 재원 220조원 육박",
-   "url": "https://view.asiae.co.kr/article/2026093009033537287"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "KKR, 탱크터미널 분리 매각…국내는 베인이 인수 [시그널]",
-   "url": "https://www.sedaily.com/article/20096407?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "GA 부당승환·보험사기·사이버 보안…2금융권 국감 쟁점은",
-   "url": "https://www.newsis.com/view/NISX20260929_0003807771"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "올 상반기 사기이용계좌 6만개 육박…작년 전체의 72%",
-   "url": "https://n.news.naver.com/mnews/article/023/0004001231?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "[1mm금융톡]금감원 이전론 한풀 꺾였나…내부서도 낙관론",
-   "url": "https://view.asiae.co.kr/article/2026092915365028078"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "[금융당국의 잣대] 채무자대리인 8911건 지원 예산 짜놓고…절반만 해도 '목표 달성'",
-   "url": "https://dealsite.co.kr/articles/169418"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "[대출규제 역설] 대부업 문 두드린 고신용자…저신용자는 문전박대",
-   "url": "https://n.news.naver.com/mnews/article/119/0003137707?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "고위험 대출로 몸집 키운 지방은행…소액대출 연체율 3% 눈앞",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051181?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-09-30 10:17",
-   "title": "이래서 서울대 가나? 경영 동아리 카르텔, M&A 정보 공유",
-   "url": "https://n.news.naver.com/mnews/article/021/0002822067?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-09-30 14:48",
    "title": "서울 집값 역대 최장 상승 눈앞…규제 넘어 공급 시험대",
@@ -2286,7 +2166,97 @@
    "sent_kst": "2026-10-04 06:33",
    "title": "Citi and Coinbase Expand Stablecoin Payments for Institutional Customers",
    "url": "https://newsaffinity.com/citi-and-coinbase-expand-stablecoin-payments-for-institutional-customers/"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "보금자리론 '결혼 페널티' 없앴지만…수도권 신혼부부엔 '그림의 떡'",
+   "url": "https://www.news1.kr/finance/general-finance/6309318"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "중기부, 정책자금 받아 부동산 사업 벌인 업체 40곳 적발",
+   "url": "https://n.news.naver.com/mnews/article/001/0016356209?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "'반도체머니' 영통보다 더 올랐다…올해 15% 뛴 이곳 어디?",
+   "url": "https://www.sedaily.com/article/20097794?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "청주, 목포.. 인구 감소 시대에도 살아 남는 지방 부동산의 공통점",
+   "url": "https://n.news.naver.com/mnews/article/023/0004001984?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "같은 동네인데 2~3억원 차이…'물 보이는 집'이 비싼 이유",
+   "url": "https://n.news.naver.com/mnews/article/119/0003139316?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "직원용 시스템 노린 해킹, 금융권 줄줄이 뚫렸다…금융당국 오늘 CEO 긴급 소집",
+   "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000019584&cp=nv"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "[단독]카드깡 불법광고 1만4000건 적발했지만…처벌규정 없어 수사의뢰 안 해",
+   "url": "https://www.newsis.com/view/NISX20261002_0003813046"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "[단독] 국민연금은 '계산 제외'라던 기권표…주총선 찬성률 낮췄다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002705274?sid=100"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "토스뱅크 엔화 환전 사고, '오류냐 아니냐'…금융당국 법리 검토",
+   "url": "https://n.news.naver.com/mnews/article/008/0005421911?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "보험사 M&A, 계륵에서 화수분으로…'시간 운용' 능력이 관건",
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1280778.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "세수 늘리려다 코인시장 태울라…22% 과세의 역설",
+   "url": "https://n.news.naver.com/mnews/article/119/0003139328?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "[코인 슈퍼위크] 발행길 열린 토큰증권, 원장에 갇혔다",
+   "url": "https://n.news.naver.com/mnews/article/119/0003139326?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "美 기관 코인 투자 문턱 낮아진다…SEC, '셀프 커스터디' 허용 추진",
+   "url": "https://www.newsis.com/view/NISX20261002_0003812825"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "4분기 IPO 20여 곳 출격…증권사 '공모 흥행' 시험대",
+   "url": "https://n.news.naver.com/mnews/article/243/0000103838?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-04 10:19",
+   "title": "막바지 편입 앞둔 WGBI…외국인 공백 이후 연말 채권수급 촉각",
+   "url": "https://n.news.naver.com/mnews/article/001/0016356208?sid=101"
   }
  ],
- "updated_kst": "2026-10-04 06:33"
+ "updated_kst": "2026-10-04 10:19"
 }
