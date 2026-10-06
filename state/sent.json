@@ -1980,7 +1980,283 @@
    "sent_kst": "2026-10-06 10:25",
    "title": "문페이·KB국민카드, 외국인 '스테이블코인 결제' 추진",
    "url": "https://n.news.naver.com/mnews/article/030/0003472409?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "안 팔린 상가·업무용지에 공공분양… '준공 후 5년' 제한 푼다",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/10/05/WU5OSZURVVEK5EP5Y2CYIP6YLI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "[단독]농지은행 年 매입 농지, 투기의심 30만ha의 1%도 안돼",
+   "url": "https://www.donga.com/news/Politics/article/all/20261006/134789259/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "농지 전수조사 후 총 거래 금액 절반 가까이 감소",
+   "url": "https://n.news.naver.com/mnews/article/087/0001222088?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "[생생확대경]새 부동산 정책라인, '초고속 월세화' 먼저 살펴 봐야",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01908966645610296&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "[서울광장] 용산에 집을 짓는 순서",
+   "url": "https://n.news.naver.com/mnews/article/081/0003686230?sid=110"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "'몇만가구 공급'보다 중요한 건 입주…용산 주택공급 묘수는",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01813846645610296&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "주택 공급 늘린다는데…LH엔 5년 넘게 안 팔린 토지·주택 7조원",
+   "url": "https://n.news.naver.com/mnews/article/008/0005422227?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "광주는 반도체로 뚫었는데…TK신공항 6년째 '평행선'",
+   "url": "https://n.news.naver.com/mnews/article/119/0003139535?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "군공항 이전, 한미 협의 불가피…美 '메모리팹 건설' 압박 활용할 수도",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01659686645610296&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "84㎡ 가격 넘보는 59㎡…매매가 격차 350만원 그치는 단지도 나와",
+   "url": "https://www.sedaily.com/article/20098233?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "은행 가계대출 기준, 20개월새 149회 바꿔",
+   "url": "https://www.donga.com/news/Economy/article/all/20261005/134788540/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "내국인 주담대 옥죄는데…외국인 '해외자금' 주택매입 규제 한계",
+   "url": "https://www.news1.kr/realestate/general/6309751"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "토허제 묶여도 삼전 대출 풀려…다시 뛰는 동탄",
+   "url": "https://www.joongang.co.kr/article/25467292"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "카뱅엔 열어주고 땡겨요는 닫고…한쪽만 막힌 금산분리",
+   "url": "https://n.news.naver.com/mnews/article/243/0000103876?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "갚으면 다시 못 빌릴라…수수료 깎아줘도 중도상환 안한다",
+   "url": "https://www.joongang.co.kr/article/25467291"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "롯데카드·손보 다시 매물로…관건은 몸값",
+   "url": "https://n.news.naver.com/mnews/article/417/0001160100?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "변호사 목소리 알고보니 AI…은행 CEO도 1430억 털렸다",
+   "url": "https://www.joongang.co.kr/article/25467348"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "AI로 주문부터 투자 조언까지… 'MTS' 차별화 나선 증권가",
+   "url": "https://n.news.naver.com/mnews/article/008/0005422207?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "증권사 고금리 경쟁에…IMA·발행어음 완판 행진",
+   "url": "https://news.mtn.co.kr/news-detail/2026100521214282765"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "은행보다 1~2%P 높다…'5% 이자' 증권사 특판 러시",
+   "url": "https://www.joongang.co.kr/article/25467293"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Anthropic launches Claude Frontier Academy to train 10,000 AI engineers",
+   "url": "https://dig.watch/updates/anthropic-claude-frontier-academy"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "AI whistleblowers join Google, Meta, OpenAI at NYC hearing",
+   "url": "https://abc7ny.com/post/google-meta-openai-among-firms-appearing-nyc-ai-hearing/19909409/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Nvidia lines up Wall Street giants for a $500 billion AI financing push",
+   "url": "https://cryptobriefing.com/nvidia-500-billion-ai-financing-push/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "AI Infrastructure's Next Phase: Capital, Power and the Right to Build",
+   "url": "https://www.datacenterfrontier.com/machine-learning/news/55409580/ai-infrastructures-next-phase-capital-power-and-the-right-to-build"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "6 of 9 AI chatbots pass chat titles or links to trackers, IMDEA finds",
+   "url": "https://ppc.land/6-of-9-ai-chatbots-pass-chat-titles-or-links-to-trackers-imdea-finds/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "OpenAI's Sam Altman says AI benefits justify accepting some risks",
+   "url": "https://www.foxbusiness.com/technology/openais-sam-altman-says-ai-benefits-justify-accepting-some-risks.amp"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "AMD's Lisa Su Returns to Korea for Gamer Day Event",
+   "url": "https://en.sedaily.com/technology/2026/10/06/amds-lisa-su-returns-to-korea-for-gamer-day-event"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "The AI boom is making the world's cheapest smartphones disappear",
+   "url": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War",
+   "url": "https://energynow.com/2026/04/opec-lowers-second-quarter-global-oil-demand-forecast-on-iran-war/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "IN TALKS: Williams in Talks on $5.5 Billion Deal for Momentum Midstream – Report",
+   "url": "https://energynow.com/2026/06/in-talks-williams-in-talks-on-5-5-billion-deal-for-momentum-midstream-report/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "China Isn't Importing Any US LNG, But It's Still in the Game: Bousso",
+   "url": "https://energynow.com/2026/02/china-isnt-importing-any-us-lng-but-its-still-in-the-game-bousso/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "US Natgas Prices Climb 4% as LNG Export Flows Hit One-Month High",
+   "url": "https://energynow.com/2026/08/us-natgas-prices-climb-4-as-lng-export-flows-hit-one-month-high-2/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "The EV boom puts battery safety to the test",
+   "url": "https://www.ntnews.com.au/business/stockhead/the-ev-boom-is-accelerating-and-so-is-the-race-to-keep-batteries-safe/news-story/95033f59c7d01302b91c0ef1006ac474"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "The Science Enabling a Steady Supply of Critical Minerals",
+   "url": "https://newscenter.lbl.gov/2026/10/05/the-science-enabling-a-steady-supply-of-critical-minerals/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Hanwha Ocean, Once a Star Performer in K-Defense ETFs, Turns into a Drag This Year",
+   "url": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092171434"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Boeing Lands Multi-Billion-Dollar Contract to Build Mystery Jet for U.S. Navy",
+   "url": "https://www.designdevelopmenttoday.com/industries/aerospace/news/22975768/boeing-lands-multibilliondollar-contract-to-build-mystery-jet-for-us-navy"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Pinterest stock dips as company names Amazon veteran as CFO",
+   "url": "https://www.streetinsider.com/General+News/Pinterest+stock+dips+as+company+names+Amazon+veteran+as+CFO/27149241.html"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "California Signs Nation-Leading AI Chatbot and Social Media Laws: What Businesses Need to Know",
+   "url": "https://www.retailconsumerproductslaw.com/2026/10/california-signs-nation-leading-ai-chatbot-and-social-media-laws-what-businesses-need-to-know/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "NRC grants TVA first U.S. construction permit for a BWRX-300 small modular reactor at Clinch River, Tennessee",
+   "url": "https://energiesmedia.com/nrc-bwrx-300-permit-clinch-river/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Holtec submits preliminary safety analysis report for two SMR-300 reactors at Palisades",
+   "url": "https://energynews.pro/en/holtec-submits-preliminary-safety-analysis-report-for-two-smr-300-reactors-at-palisades"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Nuri Rocket Carrying Record 15 Satellites Set for Launch",
+   "url": "https://www.chosun.com/english/industry-en/2026/10/06/FZS2TSCINBA47EK7ZSX52DTBKY/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "NordSpace's First Satellite Succeeds in Orbit, Becomes First Canadian Launch Company Operating Hardware in Space",
+   "url": "https://www.lohud.com/press-release/story/237440/nordspaces-first-satellite-succeeds-in-orbit-becomes-first-canadian-launch-company-operating-hardware-in-space/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "In Russia-occupied Oleshky, Ukrainians face hunger, drones and landmines",
+   "url": "https://www.aljazeera.com/news/2026/10/5/in-russia-occupied-oleshky-ukrainians-face-hunger-drones-and-landmines"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "US pulls bombers from UK base: Is Iran manoeuvring Trump's war plans?",
+   "url": "https://www.aljazeera.com/news-analysis/2026/10/5/us-pulls-bombers-from-uk-base-is-iran-maneouvering-trumps-war-plans"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "New Stablecoin Open USD (OUSD) Goes Live With Plans to Take on Circle and Tether",
+   "url": "https://www.fool.com/investing/2026/10/05/new-stablecoin-open-usd-ousd-goes-live-with-plans/"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-10-06 11:01",
+   "title": "Stripe to expand stablecoin cards to 100 countries as Privy's Henri Stern takes charge of crypto",
+   "url": "https://www.coindesk.com/business/2026/10/01/stripe-to-expand-stablecoin-cards-to-over-100-countries-by-the-end-of-the-year"
   }
  ],
- "updated_kst": "2026-10-06 10:25"
+ "updated_kst": "2026-10-06 11:01"
 }
