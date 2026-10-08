@@ -11,6 +11,7 @@ stdin 이 JSON 이 아니면(설치 실패·한도 초과 등으로 claude 가 �
 그대로 통과시킨다 — 진단 메시지를 삼키면 안 된다.
 """
 import json
+import os
 import sys
 
 
@@ -61,9 +62,21 @@ def main():
     if isinstance(cost, (int, float)):
         parts.append(f"${cost:.3f}")
 
+    line = " · ".join(parts)
     print()
     print("───────── 이번 세션 사용량 ─────────")
-    print(" · ".join(parts))
+    print(line)
+
+    # out/usage.txt 에도 남긴다. 워크플로의 "발송본 출력" 스텝이 잡 로그 끝에서
+    # 이 줄을 한 번 더 찍어 주기 때문이다 — 위 출력은 발송본 수십~수백 줄에 묻혀
+    # 잡 로그를 끝에서부터 읽을 때 400줄 가까이 긁어야 닿는다(2026-10-08 실측).
+    # 아티팩트(out/)에도 같이 올라간다. 쓰기에 실패해도 발송을 막아서는 안 된다.
+    try:
+        os.makedirs("out", exist_ok=True)
+        with open("out/usage.txt", "w", encoding="utf-8") as fh:
+            fh.write(line + "\n")
+    except OSError as e:
+        print(f"::warning::out/usage.txt 기록 실패 — {e}")
 
     # claude 는 한도 초과·중단도 is_error 로 알린다. 잡을 실패시켜 워치독이 보게 한다.
     if data.get("is_error"):
