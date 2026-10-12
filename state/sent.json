@@ -2184,7 +2184,283 @@
    "sent_kst": "2026-10-12 14:51",
    "title": "\"수법은 고전적·속도는 AI\"…금융권 노린 '웹쉘' 해킹 재등장",
    "url": "https://www.sedaily.com/article/20100479?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "서울시, 2030년까지 신속 재개발 '모아통합기획' 후보지 100곳 선정한다",
+   "url": "https://www.khan.co.kr/article/202610122037005"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "서울 핵심지에 조합없이 LH가 직접 재개발…정부 믿고 들어가볼까 [부동산 손품노트]",
+   "url": "https://www.mk.co.kr/article/12173983"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "주택사업 인허가만 8년도 걸리는데…5년내 승인 못받으면 稅폭탄",
+   "url": "https://www.mk.co.kr/article/12173902"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "아파트 지을 땅 사놨다가 … 종부세 폭탄에 공급 좌초",
+   "url": "https://www.mk.co.kr/article/12173923"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "시동 걸린 도심 공공주택 복합사업…시장은 '관망'",
+   "url": "https://www.sedaily.com/article/20100652?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "한 채당 건설비 부담 비율, 정부가 정한 기준은 14%인데 실제론 '50%'…LH, 공공임대 지을수록 '눈덩이 손실'",
+   "url": "https://www.khan.co.kr/article/202610122049005"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "PF '돈맥경화'…해운대 옛 홈플·세가사미 개발 잇단 좌초",
+   "url": "https://n.news.naver.com/mnews/article/658/0000158232?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "제이알글로벌리츠, 배당 끊고 채무 상환…해외자산 매각도 카드 [fn마켓워치]",
+   "url": "https://www.fnnews.com/news/202610121451492298"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "강북도 10억…내년 입주 절벽에 더 뛴다",
+   "url": "https://www.mk.co.kr/article/12171516"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "여의도 수정 7억·압구정 3구역 5억…공사비 뛰자 분담금 '천정부지'",
+   "url": "https://www.hankyung.com/article/2026101268981"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "[단독]李 대통령도 지적한 매담대 293% 폭증…한 달새 67조 신규대출",
+   "url": "https://n.news.naver.com/mnews/article/008/0005425037?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "토스뱅크, 입금오류 닷새만에야 정정안내…당국 \"피해 파악중\"(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016371821?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "4천억 홈플 전단채 사태…하나증권·신영증권 제재 유보, 이유는?",
+   "url": "https://n.news.naver.com/mnews/article/374/0000537330?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "금감원, '스페이스X 0주' 미래에셋 검사 16일까지 연장",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8683288&ref=A"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "은행 해킹에 '전면 집단소송법' 입법 탄력",
+   "url": "https://www.fnnews.com/news/202610121826309933"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "농협은행, 장기 대출 기준금리 변경…이자 부담 커진다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000537378?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "증권사들 '빚투'에 이자 놀이... 신용공여이자 2조, 미수거래 이자도 껑충",
+   "url": "https://n.news.naver.com/mnews/article/469/0000958982?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "\"예금은 찾았는데, 아버지 코인은 어디에\"… 58조원대 가상자산 시장, 상속 조회는 '깜깜'",
+   "url": "https://n.news.naver.com/mnews/article/081/0003688154?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "금융사기 피해 3년 새 3배↑…구제는 사각지대",
+   "url": "https://n.news.naver.com/mnews/article/215/0001268913?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "초대형 證 3사 ROE 대폭 개선…IMA 경쟁 불붙는다",
+   "url": "https://www.sedaily.com/article/20100640?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "HCLTech signs pact with Anthropic to set up dedicated AI business unit",
+   "url": "https://www.business-standard.com/companies/news/hcltech-signs-pact-with-anthropic-to-set-up-dedicated-ai-business-unit-126101200830_1.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Google DeepMind's Nature Study on Watermarking AI-Designed Proteins Validated with Carterra HT-SPR",
+   "url": "https://www.aol.com/articles/google-deepmind-nature-study-watermarking-120000000.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Lenovo AI Express with NVIDIA Accelerates Path to Hybrid AI Factory in Weeks",
+   "url": "https://www.wazzup.ph/lenovo-ai-express-nvidia-hybrid-ai-factory/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "insidepacket Launches the AI Access Platform: One On-Ramp Between Enterprises and GPU Clouds",
+   "url": "https://finance.yahoo.com/technology/ai/articles/insidepacket-launches-ai-access-platform-110000625.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Anthropic AI system files fake murder tip-off to US police",
+   "url": "https://dangerousminds.net/weird-news/ai-system-files-fake-murder-tip-off-to-us-police/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
+   "url": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Micron Stock Falls as China Memory Chip Threat Gets Serious",
+   "url": "https://www.barrons.com/articles/micron-stock-price-cxmt-china-memory-chip-51baf6e0"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "S.Korean stocks slide as chip selloff deepens, foreign selling persists",
+   "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202610120003"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Opec chief: Saudi investment helped avert deeper oil market crisis",
+   "url": "https://www.upstreamonline.com/energy-security/opec-chief-saudi-investment-helped-avert-deeper-oil-market-crisis/2-1-2057210"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "OPEC lowers 2026 oil demand growth forecast to 400,000 bpd",
+   "url": "https://www.investing.com/news/commodities-news/opec-lowers-2026-oil-demand-growth-forecast-to-400000-bpd-93CH-4943727"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "ADNOC Inks Multi-Year LNG Sales Agreement with Thailand's Gulf Group",
+   "url": "https://www.indexbox.io/blog/adnoc-signs-multi-year-lng-supply-deal-with-thailands-gulf-group-1/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "India shields city gas users as Hormuz crisis threatens South Asia's LNG demand",
+   "url": "https://m.economictimes.com/industry/energy/oil-gas/india-shields-city-gas-users-as-hormuz-crisis-threatens-south-asias-lng-demand/articleshow/134890394.cms"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "POSCO Future M Targets In-House Supply of LFP Battery Materials",
+   "url": "https://www.thelec.net/news/articleView.html?idxno=14533"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Battery Chemicals Market Gains Momentum as Sila Secures USD 300 Million for Advanced Anode Manufacturing",
+   "url": "https://www.openpr.com/news/4658456/battery-chemicals-market-gains-momentum-as-sila-secures-usd-300"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Aircraft lessor Avolon orders 250 Airbus and Boeing aircraft",
+   "url": "https://avitrader.com/2026/10/12/aircraft-lessor-avolon-orders-250-airbus-and-boeing-aircraft/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Lockheed Martin expands metro-Denver presence after landing job-growth tax incentives",
+   "url": "https://www.9news.com/article/money/business/lockheed-martin-highlands-ranch-expansion/73-0576a420-09dd-49d7-87d4-b6efa65e03e7"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Global Smartphone Shipments Hit a New Low with 20% YoY Decline, Lowest in 14 Years as Continued Memory Constraints Tighten Supply",
+   "url": "https://counterpointresearch.com/en/insights/global-smartphone-shipments-hit-a-new-low-with-20-percent-yoy-decline-lowest-in-14-years"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Realme Raises Phone Prices, AIMRA Warns Of Consumer Pushback",
+   "url": "https://www.outlookbusiness.com/corporate/realme-raises-phone-prices-aimra-warns-of-consumer-pushback"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Trontek targets 12 GWh BESS capacity by 2028",
+   "url": "https://www.manufacturingtodayindia.com/trontek-targets-12-gwh-bess-capacity-by-2028"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Africa's next energy breakthrough could be the grid that connects it",
+   "url": "https://www.greenbuildingafrica.co.za/africas-next-energy-breakthrough-could-be-the-grid-that-connects-it/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Amazon Reaches 1,000-Satellite Milestone As It Gets Ready to Launch Its New Space Internet Service This Year",
+   "url": "https://cordcuttersnews.com/amazon-reaches-1000-satellite-milestone-as-it-gets-ready-to-launch-its-new-space-internet-service-this-year/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Rocket Lab (NASDAQ: RKLB) Gains As NASA Chief Says Moon Race With China Is \"Months, Not Years\" Away",
+   "url": "https://www.foreignpolicyjournal.com/2026/10/12/rocket-lab-nasdaq-rklb-gains-as-nasa-chief-says-moon-race-with-china-is-months-not-years-away/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "First Thing: Zelenskyy blindsided after Trump announces 'energy ceasefire' in Ukraine war",
+   "url": "https://www.theguardian.com/us-news/2026/oct/12/first-thing-zelenskyy-blindsided-trump-announces-energy-ceasefire-ukraine-war-russia"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Ukraine's FM: Russia's war budget makes the case for using frozen assets now",
+   "url": "https://www.politico.eu/article/ukraine-fm-andrii-sybiha-russias-war-budget-makes-the-case-for-using-frozen-assets-now/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Ledger Thief Moved $93 Million: Tether Froze $10 Million, Circle Could Freeze $5.35 Million More",
+   "url": "https://financefeeds.com/ledger-thief-moved-93-million-tether-froze-10-million-circle-could-freeze-5-35-million-more/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-12 21:50",
+   "title": "Coinbase brings USDC to Samsung Wallet in the US",
+   "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/coinbase-and-samsung-bring-usdc-to-samsung-wallet-in-the-us"
   }
  ],
- "updated_kst": "2026-10-12 14:51"
+ "updated_kst": "2026-10-12 21:50"
 }
