@@ -2,384 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "[단독] 메달리스트 ‘특혜 청약’도 전면 손본다",
-   "url": "https://n.news.naver.com/mnews/article/081/0003687397?sid=100"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "‘공급 속도전’ LH, 기존 사업은 지지부진",
-   "url": "https://n.news.naver.com/mnews/article/022/0004165303?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "세종은 10000%·서울은 3%…\"지역별 공공임대 공급률 격차 심각\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016367115?sid=100"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "LH 임대주택 ‘6개월 이상 빈집’ 4만 호 넘었다…지역별 공가율 천차만별",
-   "url": "https://n.news.naver.com/mnews/article/081/0003687379?sid=100"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "[2026 국감] 리츠 자금조달 관행 17년째 그대로",
-   "url": "https://n.news.naver.com/mnews/article/119/0003141082?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "전세 감소 '메가트렌드'되나…13개 지역 중 12곳 매물 줄어",
-   "url": "https://www.news1.kr/realestate/general/6314590"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "부동산플래닛 “8월 서울 오피스빌딩 거래량·금액 동반 감소, 사무실 거래량 256.6% 늘고 거래금액 93.2% 줄어”",
-   "url": "https://sports.khan.co.kr/article/202610082232003?pt=nv"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "집 여러 채 갖고 있다 결국…다주택자 비율 8년 만에 최저, 더 줄어드나",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424172?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "'되는 곳'에만 몰렸다…서울 60대1인데 부산 0.6대1[청약, 선별의 시대①]",
-   "url": "https://www.newsis.com/view/NISX20261008_0003819632"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "서울 빌라값 오르는데 경매는 찬바람…엇갈린 '회복 신호'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001064690?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "2개→35개, 해킹 의심 IP 급증…금감원 “IP 차단만으론 한계”",
-   "url": "https://www.joongang.co.kr/article/25468341"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "'AI 해킹' 신한은행, 은행장에 내부통제 성과급 4억 지급 논란",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424130?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "기은, 쇄신책 내고도 또 1147억 금융사고…장민영 \"외부 통제장치 강화\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424140?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "은행권 연쇄 해킹 신용위험도 부각⋯신평사, 평가 강화 검토",
-   "url": "https://n.news.naver.com/mnews/article/031/0001064687?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "카드 대신 현금 쓰면 할인 받나… ‘차별 금지’ 완화 재추진",
-   "url": "https://biz.chosun.com/stock/finance/2026/10/09/PUXYTKMTRFH5PMKWWO2EFHAONA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "\"디지털자산기본법 표류 원인은 '대주주 지분제한 규정'…YB입김 의심\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424157?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "설익은 ‘부실 기업 상장폐지’, 법원이 제동… 애꿎은 개미 돈만 묶였다",
-   "url": "https://n.news.naver.com/mnews/article/023/0004002910?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "엄마 구하다 숨졌는데 어리다고 보험 지급 제외…정부 나섰다",
-   "url": "https://www.joongang.co.kr/article/25468284"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "김광일 MBK 부회장, 홈플러스 관리인 물러난다 [시그널]",
-   "url": "https://www.sedaily.com/article/20099842?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "덕산家 형제 나란히 자회사 IPO…중복상장 규제 실효성 논란",
-   "url": "https://www.news1.kr/finance/general-stock/6314787"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Futures: AI Stocks Skid On OpenAI; SpaceX Move Hits Telecom Rivals - Investor's Business Daily",
-   "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-tumble-openai-news-spacex-verizon-att/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "OpenAI vs. Anthropic: Two very different stories in the AI race - Yahoo Finance",
-   "url": "https://finance.yahoo.com/video/openai-vs-anthropic-two-very-203544667.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Firmus Technologies IPO Delay Highlights Nvidia's (NVDA) Strategic AI Infrastructure Role - GuruFocus",
-   "url": "https://www.gurufocus.com/news/9116063/firmus-technologies-ipo-delay-highlights-nvidias-nvda-strategic-ai-infrastructure-role"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect - TechCrunch",
-   "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Terence Tao and the AI Math Backlash: Discovery Doesn’t Need Permission - Kingy AI",
-   "url": "https://kingy.ai/blog/terence-tao-ai-math-backlash-gatekeeping/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Samsung, SK Hynix record earnings fuel South Korea spending on AI, youth - Nikkei Asia",
-   "url": "https://asia.nikkei.com/business/tech/semiconductors/samsung-sk-hynix-record-earnings-fuel-south-korea-spending-on-ai-youth"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Applied Materials Posts Record Fiscal Third-Quarter Revenue of $9.115 Billion - www.tokenpost.com",
-   "url": "https://www.tokenpost.com/news/business/28390"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Levack restart puts Magna on two-mine track in Ontario - Mining.com",
-   "url": "https://www.mining.com/levack-restart-puts-magna-on-two-mine-path/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "US opens first lithium plant in 50 years, targets 3,000 tons annually - Interesting Engineering",
-   "url": "https://interestingengineering.com/energy/us-opens-first-lithium-plant"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "The Oil Crisis America Saw Coming - The Atlantic",
-   "url": "https://www.theatlantic.com/newsletters/2026/10/us-oil-energy-crisis-1987-middle-east-hormuz/688937/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Gulf Oil Flows Recover, But Numbers Veil High Costs - Energy Intelligence",
-   "url": "https://www.energyintel.com/000001a1-1672-ded0-ade1-9fffac7d0000"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "FACING DOUBTS: What is Alaska LNG and Why Does the Project Face Doubts? - EnergyNow.com",
-   "url": "https://energynow.com/2026/10/what-is-alaska-lng-and-why-does-the-project-face-doubts/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Galveston Wharves Board approves lease for $250M LNG facility on Pelican Island - Houston Public Media",
-   "url": "https://www.houstonpublicmedia.org/articles/news/local/galveston/2026/10/08/563920/galveston-lng-facility-pelican-island/?amp=1"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Lockheed Martin says Javelin production capacity nearly doubled to meet global demand - Defence Industry Europe",
-   "url": "https://defence-industry.eu/lockheed-martin-says-javelin-production-capacity-nearly-doubled-to-meet-global-demand/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Apple names insider Steve Smith as new M&A chief, memo shows - Central Oregon Daily",
-   "url": "https://www.centraloregondaily.com/news/consumer/apple-names-insider-steve-smith-as-new-m-a-chief-memo-shows/article_45dfc8ee-fa56-5889-8e0f-c21a5d7d7eea.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Data centers' 'flexible' power usage could save the grid billions. Can they scale? - Reuters",
-   "url": "https://www.reuters.com/business/energy/data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-2026-10-08/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "SaskPower: Large nuclear plants won't stop development of SMRs - SaskToday.ca",
-   "url": "https://www.sasktoday.ca/southeast/estevan-mercury/saskpower-large-nuclear-plants-wont-stop-development-of-smrs-12872590"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Amazon builds 1,000th satellite, says space internet service is weeks away - The Next Web",
-   "url": "https://thenextweb.com/news/amazon-leo-1000th-satellite-europe"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "US space tracking alert helps Bangladesh's satellite avoid Indian satellite debris - The Business Standard",
-   "url": "https://www.tbsnews.net/tech/us-space-tracking-alert-helps-bangladeshs-satellite-avoid-indian-satellite-debris-1565871"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Kremlin: Russia agrees with Rubio that Ukraine conflict is in a stalemate - Yahoo News Singapore",
-   "url": "https://sg.news.yahoo.com/kremlin-russia-agrees-rubio-ukraine-210058154.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "U.S., Ukrainians, Europeans to discuss ‘new ideas’ to end war - CTV News",
-   "url": "https://www.ctvnews.ca/world/russia-ukraine-war/article/us-ukrainians-europeans-to-discuss-new-ideas-to-end-war/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "Polkadot Launches USDT-Backed dotUSD Under OpenGov - The Defiant",
-   "url": "https://thedefiant.io/news/defi/polkadot-launches-usdt-backed-dotusd-under-opengov"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-09 06:35",
-   "title": "USDT's share in Asia-Pacific stablecoin payments falls to 91% as compliance-focused coins gain ground - Pluang",
-   "url": "https://pluang.com/en/news-feed/pangsa-pasar-stablecoin-asia-pasifik-usdt-menurun"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "LH, 수도권 공공택지 미분양 매입확약 추가 시행…1.8만가구 대상",
-   "url": "https://www.news1.kr/realestate/general/6314691"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "\"시골 논밭, 불법이지만 처분은 안해도 됩니다\" 이유는? [Pick코노미]",
-   "url": "https://www.sedaily.com/article/20099833?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "[농지, 다시 묻다①] 투기 색출에서 관행 구제까지…농지 전수조사 7개월의 진통",
-   "url": "https://www.newsis.com/view/NISX20261008_0003819831"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "부실 벌점 상위업체 2247억원 수주 논란…조달청 \"제도 개선 검토\"",
-   "url": "https://n.news.naver.com/mnews/article/119/0003141107?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "쫓겨난 빈집에서 월세 '쏠쏠'...전세 피해자 숨통 틔울 '착한 임대' 나온다",
-   "url": "https://n.news.naver.com/mnews/article/029/0003052188?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "\"분양가 또 오른다 했더니\"…아파트 짓는 값 5년 새 28%↑",
-   "url": "https://n.news.naver.com/mnews/article/016/0002707276?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "삼성물산·현대건설 선점한 여의도…DL이앤씨도 첫 입성 도전",
-   "url": "https://www.news1.kr/realestate/general/6314678"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "빈 사무실 늘어나는데…국민연금은 서울 빌딩에 수천억 '베팅'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424182?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "끊이지 않는 LH아파트 하자...\"소송 배상액 5년간 2328억 원\"",
-   "url": "https://n.news.naver.com/mnews/article/659/0000047594?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "경기 남부 아파트값‥반도체 성과급에 '들썩'",
-   "url": "https://n.news.naver.com/mnews/article/214/0001528063?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "\"2%대에 집 샀는데 7% 낼 판\"…165조 주담대 '금리 리셋' 비상",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424186?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "\"15세 미만 보상 배제 족쇄 푼다\"...정부·보험업계, \"예외 인정\"",
-   "url": "https://n.news.naver.com/mnews/article/666/0000126691?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "[단독]거래대금 18분의1로 줄었는데…'삼전닉스 2배' 운용보수 월 10억",
-   "url": "https://n.news.naver.com/mnews/article/008/0005424205?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "산업은행, 중소기업 자금 공급 수도권에만 절반 이상 집중",
-   "url": "https://n.news.naver.com/mnews/article/374/0000537009?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "'예금 독주' 깨졌다…가계 주식·펀드, 현금·예금의 90% 육박",
-   "url": "https://www.news1.kr/economy/trend/6314875"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "시가총액 미달 증시 퇴출 유예…이미 버스 떠난 원풍물산·수성웹툰",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051446?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "[K게임 파고든 차이나머니] 흔들리는 K게임 주도권…지분 넘어 이사회·핵심사업까지 차이나머니",
-   "url": "https://dealsite.co.kr/articles/169652"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "'내 정보 다 아는' 대출 사기꾼…7만건 유출, 2차 피해 막으려면?",
-   "url": "https://www.news1.kr/finance/general-finance/6314844"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "스틱, 영유아 플랫폼 키즈노트 인수…교공 조영민 작품",
-   "url": "https://dealsite.co.kr/articles/170175"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-09 10:18",
-   "title": "판매 6일 만에 4060억원 몰려…국민참여성장펀드, 목표액 68% 소진",
-   "url": "https://n.news.naver.com/mnews/article/123/0002391566?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-09 14:57",
    "title": "서울 모든 도로 '토허구역' 지정…지분 쪼개기 차단",
@@ -2448,7 +2070,127 @@
    "sent_kst": "2026-10-13 06:34",
    "title": "Polkadot mandate picks dotUSD as favored stablecoin while it runs on Tether",
    "url": "https://www.cryptopolitan.com/polkadot-picks-dotusd-as-favored-stablecoin/"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "기업형 민간임대 다시 기지개…1%의 벽 뚫으려면",
+   "url": "https://www.sedaily.com/article/20100760?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "현실화율 동결한다더니…공시가격 '꼼수 인상' 논란 [박상길의 부동산톡]",
+   "url": "https://n.news.naver.com/mnews/article/029/0003052689?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "\"주거 안정의 핵심은 전·월세… 강남 집값이 정책 기준 아냐\"",
+   "url": "https://www.sedaily.com/article/20100529?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "올해도 4분기 집중되나…공공주택 착공 '연말 쏠림' 고질병",
+   "url": "https://n.news.naver.com/mnews/article/119/0003141979?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "대구시의회 대구 건축 규제 완화 시동…재개발·재건축 문턱 낮추고 노후 주거지 정비 속도 낸다",
+   "url": "https://n.news.naver.com/mnews/article/031/0001065375?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "[단독] 정부 \"장기 지연 산단환경개선 사업 7건\"…다시 계산하니 18건",
+   "url": "https://www.news1.kr/politics/assembly/6317417"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "주택 공급 '등잔 밑'된 전화국 부지…서남권 개발 지도 나왔다 [집슐랭]",
+   "url": "https://www.sedaily.com/article/20100688?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "\"2027년 서울 부동산 대격변…공급 절벽에 전월세 올라 매매가 받쳐줄 것\"",
+   "url": "https://www.newsis.com/view/NISX20261012_0003821419"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "[2026 3Q 리그테이블] [부동산] 국민연금·NH '큰손' 부상…1.5조 쓸어담...",
+   "url": "https://dealsite.co.kr/articles/170268"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "[인사이드 스토리]중도금대출 '못 갚은' 또 다른 이유",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051519?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "저신용자 대출금리 역전?…'통계착시'에 금융위, 공시 손질한다",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051531?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "\"상장 포기\" 투자금 도로 뱉었다…중복상장 규제에 마른 기업 자금줄",
+   "url": "https://n.news.naver.com/mnews/article/008/0005425242?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "\"주택연금 줬는데 돈 못 돌려받아\"…미회수액 5년 새 10배 폭증",
+   "url": "https://n.news.naver.com/mnews/article/079/0004197976?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "피해 없어도 바로 차단…당국, 미신고 코인업체 27곳 접속 막는다",
+   "url": "https://n.news.naver.com/mnews/article/029/0003052715?sid=105"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "신한투자증권·라임운용, 우리은행에 453억 배상 판결 확정",
+   "url": "https://n.news.naver.com/mnews/article/001/0016372550?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "6년만에 발행어음 재등판하는 메리츠, 종금 시절과 달라진 셈법",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051532?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "채권운용 실패한 현대차증권…IB 조직도 2본부 재편 쇄신",
+   "url": "https://dealsite.co.kr/articles/169177"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "신한금융, 인도네시아 금융지주 출범…국내 금융그룹 최초",
+   "url": "https://n.news.naver.com/mnews/article/119/0003142068?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "네이버·토스 왜 싸우나…이면엔 '데이터 주도권' 경쟁",
+   "url": "https://www.mk.co.kr/article/12174177"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-13 10:19",
+   "title": "KIC 첫 노조 출범 배경엔 '지방이전'…국부 운용 경쟁력 도마 [fn마켓워치]",
+   "url": "https://www.fnnews.com/news/202610130855391205"
   }
  ],
- "updated_kst": "2026-10-13 06:34"
+ "updated_kst": "2026-10-13 10:19"
 }
