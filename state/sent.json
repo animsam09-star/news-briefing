@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "한은, 집값·가계대출 불안에 '정책 일관성' 강조",
-   "url": "https://n.news.naver.com/mnews/article/586/0000139760?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "[2026 국감] LH 부채 372조 전망…분사·공급 지연 질타",
-   "url": "https://n.news.naver.com/mnews/article/031/0001065096?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "개발호재 인근 농지 413㎡ (124평) 주인이 109명… '쪼개기 투기' 의심",
-   "url": "https://n.news.naver.com/mnews/article/021/0002824434?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "서울 아파트 경매 식는데…경기 남부는 감정가 웃돌아",
-   "url": "https://n.news.naver.com/mnews/article/016/0002708078?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "'명품 아파트' 지을 돈이 조합장 주머니로?…정비사업 '무더기' 법령위반",
-   "url": "https://www.mk.co.kr/article/12173561"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "\"이자 폭탄 맞을 판\"…시공사 싸움판에 조합원들 '날벼락' [시장톡]",
-   "url": "https://www.hankyung.com/article/2026100801036"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "외국인이 피부·성형 등에 1.7조 쓰자, 강남 호텔 객실 빼고 병원 넣었다 [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002708142?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "객실 하나가 얼마를 버나…호텔 투자자는 평당가보다 이것을 본다",
-   "url": "https://www.hankyung.com/article/202610082143O"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "'분당 우량주' 양지마을, '3인 수장' 체제로...첫 3.3㎡당 1억 거래도",
-   "url": "https://www.fnnews.com/news/202610101223411256"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "반도체 호황에 올들어 14.7%↑…영통구 집값 흔드는 2030",
-   "url": "https://n.news.naver.com/mnews/article/016/0002708076?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "금융당국, 소액 연체채권 소멸시효 연장 관행에 제동",
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494477"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "금감원, PEF 운용사 30곳 내부통제 손질…'무늬만 준법감시' 근절",
-   "url": "https://n.news.naver.com/mnews/article/088/0001033692?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "신현송 한은 총재 \"레버리지 ETF 위험 경고 부족…국민께 송구\"",
-   "url": "https://www.joongang.co.kr/article/25468945"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "[Invest]세 번 미뤄진 네이버·두나무 결합…공정위",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/12/2026101280036.html"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "금융사고 1년 반 동안 6200억 발생해도 제재는 '0건'",
-   "url": "https://n.news.naver.com/mnews/article/016/0002708143?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "국책은행 해킹 시도 7년새 500만건…올해 9개월 만에 역대 최대",
-   "url": "https://n.news.naver.com/mnews/article/243/0000104119?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "신현송 \"해외 크립토카드, 규제 우회 위험…관계기관과 협의\"",
-   "url": "https://www.sedaily.com/article/20100395?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "[단독]금융공공기관 퇴직자 공적 마일리지 5000만원 상당…10만점 이상은 모두 고위직",
-   "url": "https://www.newsis.com/view/NISX20261012_0003821810"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "툭하면 전산 말썽인 금융사 20곳, 작년 보안예산 집행률 70%도 안돼",
-   "url": "https://www.sedaily.com/article/20100421?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-12 14:51",
-   "title": "\"수법은 고전적·속도는 AI\"…금융권 노린 '웹쉘' 해킹 재등장",
-   "url": "https://www.sedaily.com/article/20100479?ref=naver"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-10-12 21:50",
    "title": "서울시, 2030년까지 신속 재개발 '모아통합기획' 후보지 100곳 선정한다",
@@ -3114,7 +2994,127 @@
    "sent_kst": "2026-10-16 10:20",
    "title": "쏟아지는 핀플루언서 'ETF 영상'...해외는 사전승인 vs 한국은 회색지대",
    "url": "https://n.news.naver.com/mnews/article/648/0000051651?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "'집주인이 유치원생?'…5세 이하 주택 소유 1440명, 56명은 다주택",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538207?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "이개호 \"농협 상호금융 공동대출 연체율 17.5%…정상적인 금융이라 보기 어려워\" [2026 국감]",
+   "url": "https://n.news.naver.com/mnews/article/138/0002244977?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "HUG '미분양 안심환매' 승인율 16% 털컥",
+   "url": "https://n.news.naver.com/mnews/article/088/0001034778?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "빌라 더 짓게 규제 풀지만… 민간 매수 수요 회복은 물음표",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/10/16/N4ZNTZ7NHFHIZKOPUUZB3EFAII/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "일주일에 한번씩 건설현장 찾는 국토부 장관…\"직접 챙기겠다\"",
+   "url": "https://view.asiae.co.kr/article/2026101501041200033"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "경기도 아파트 56주 연속 상승… 규제지역 상승폭 서울 웃돌아",
+   "url": "https://view.asiae.co.kr/article/2026101519255203872"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "복기왕 의원, 정비사업 공사비 검증서 4조1600억원 감액",
+   "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52342"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "서울시 주택정책 20년백서…\"박원순 재임때 43만호 기획 사라져\"(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016381108?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "인천 원도심 고도제한 확 푼다…건축 높이 26m까지 완화",
+   "url": "https://n.news.naver.com/mnews/article/119/0003143547?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "KB운용, 롯데마트 5개점 매각…밸류애드·운영 투트랙 전략",
+   "url": "https://dealsite.co.kr/articles/170464"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "\"코스피 7거래일 새 20% 급락\"…정부, 채권·외환시장 전이까지 점검",
+   "url": "https://n.news.naver.com/mnews/article/138/0002244971?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "농협, MBK에 2조 6000억 원 자금 집행…김선교 \"설립 취지 맞지 않아\"",
+   "url": "https://www.news1.kr/local/gyeonggi/6322195"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "해킹 당한 신한은행, 보안 예산 10% 줄였다…5대 은행 중 최저",
+   "url": "https://n.news.naver.com/mnews/article/469/0000959878?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "\"대주주 먼저\" 의무공개매수에 개미도 반발…재검토 국민청원",
+   "url": "https://view.asiae.co.kr/article/2026101611583968065"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "[단독]\"신청도 안 했는데 대출 조회\"…DB저축銀, 개인정보 142명 유출 추정",
+   "url": "https://www.news1.kr/finance/general-finance/6322233"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "9월 전 금융권 가계대출 2.2조 감소…주담대 증가폭도 축소",
+   "url": "https://n.news.naver.com/mnews/article/422/0000916284?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "신용대출부터 조였다…3.7% 넘긴 가산금리, 올 들어 최고",
+   "url": "https://view.asiae.co.kr/article/2026101610014352178"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "\"안정형 고객에 더 위험한 채권 팔았다\"…하나증권, 과태료 3.4억 처분 받아",
+   "url": "https://n.news.naver.com/mnews/article/138/0002244970?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "\"7년 공들였는데 결국 손실\"…JKL, 롯데손보 서둘러 판 이유",
+   "url": "https://n.news.naver.com/mnews/article/016/0002710201?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-16 14:51",
+   "title": "금융위 \"'무기한 선물', 투자금 전액 잃을 위험\"",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538208?sid=101"
   }
  ],
- "updated_kst": "2026-10-16 10:20"
+ "updated_kst": "2026-10-16 14:51"
 }
