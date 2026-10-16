@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "[국감브리핑] LH 공공택지 유찰률 45%…장기 미매각 토지 707필지",
-   "url": "https://www.news1.kr/realestate/general/6316356"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "코람코자산신탁, 여의도 ABL타워 인수 우선협상대상자로 선정",
-   "url": "https://n.news.naver.com/mnews/article/374/0000537172?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "대구시, 지방 주택시장 맞춤형 처방 정부 건의",
-   "url": "https://n.news.naver.com/mnews/article/016/0002707785?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "서울 아파트 거래 절반 이상 '전고점 회복'…분당은 94%",
-   "url": "https://www.newsis.com/view/NISX20261012_0003821442"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "올 상반기 지방 아파트 거래 5년만에 최대…분양시장 시험대",
-   "url": "https://www.newsis.com/view/NISX20261011_0003821014"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "LH 임대주택 150만가구 돌파…가구당 연 392만원 주거비 절감",
-   "url": "https://n.news.naver.com/mnews/article/119/0003141593?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "평당 514만원이라니…호남 반도체 산단 '땅값'부터 비상",
-   "url": "https://www.hankyung.com/article/202610125165H"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "[국감브리핑] 30년 넘은 공공임대 2배로…리모델링 예산은 3분의 1",
-   "url": "https://www.news1.kr/realestate/general/6316292"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "서울 아파트 매매 7.7%가 계약 해제…5년새 2배 늘어",
-   "url": "https://www.newsis.com/view/NISX20261012_0003821324"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "삼성물산, 반포푸르지오 입찰제안…'넥스트 리모델링' 첫 적용",
-   "url": "https://view.asiae.co.kr/article/2026101209394193056"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "정부 주문은 늘고 은행 셈법은 제각각…차기 은행연합회장 '조정력' 시험대",
-   "url": "https://n.news.naver.com/mnews/article/243/0000104095?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "①라이나생명, GA 판매 점검했더니…해지 등 필수 설명 누락 수두룩",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051482?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "1800만원 넣으면 최대 2255만원…청년미래적금 오늘부터 전체 신청",
-   "url": "https://n.news.naver.com/mnews/article/665/0000008341?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "\"대부업체가 보험사까지\"…OK금융, 금융영토 확장 속도낸다",
-   "url": "https://www.news1.kr/finance/insurance-card/6314795"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "\"외화 채권 발행 주관하려면 한국 면허 따라\"…재경부 방침에 논란 확대",
-   "url": "https://n.news.naver.com/mnews/article/023/0004003276?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "美 은행 보안인력 韓 최대 47배…체급별 방어망 구축 시급",
-   "url": "https://www.sedaily.com/article/20100229?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "한화투자증권, 日 GI캐피털 증권 부문 주식매매계약 체결",
-   "url": "https://www.sedaily.com/article/20100324?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "韓 주도 국제 탄소시장 내년 출범 [ESG 뉴스 5]",
-   "url": "https://magazine.hankyung.com/business/article/202610125362b"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "김민석 \"5대 은행장 국감 증인 채택..해킹 강력 대응\"",
-   "url": "https://www.fnnews.com/news/202610120917487272"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-12 10:17",
-   "title": "영풍·MBK \"최윤범, 선행투자에 측근 동원…'사전 기획 배임'\"",
-   "url": "https://view.asiae.co.kr/article/2026101209375839875"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-12 14:51",
    "title": "한은, 집값·가계대출 불안에 '정책 일관성' 강조",
@@ -3114,7 +2994,127 @@
    "sent_kst": "2026-10-16 06:33",
    "title": "Ex-Trump crypto adviser profited after helping pass stablecoin bill: WSJ",
    "url": "https://www.tradingview.com/news/cointelegraph:3b39f5ec6094b:0-ex-trump-crypto-adviser-profited-after-helping-pass-stablecoin-bill-wsj/"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[10·15대책 1년]②공급도 규제도 '믿을 수 있나'",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051642?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[PF 자기자본 규제] 보증 의존 줄이고 자본 확충…내년 비주거부터 적용",
+   "url": "https://dealsite.co.kr/articles/170290"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[단독] 세금도 못내는 좀비기업에 1100억원 대출…농협 부실 PF 논란",
+   "url": "https://news.mtn.co.kr/article/2026101601474615281"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "LH, 신길 등 도심복합 3곳 5032가구 공급 속도…시공사 선정 추진",
+   "url": "https://www.news1.kr/realestate/general/6322043"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "대구시, 2차 공공기관 이전 대비 43개 지원 계획 마련",
+   "url": "https://www.hankyung.com/article/202610165725h"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "\"서울 집주인들 비상\"…부동산 경매 44% 급증, 집값도 흔들리나",
+   "url": "https://www.newsis.com/view/NISX20261015_0003827200"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "\"우리 동네 빼고 다 올라요\"…같은 1기 신도시인데 속 타는 '이 동네'",
+   "url": "https://www.mk.co.kr/article/12177504"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "강남3구 약세 지속에도…경기 남부 반도체 벨트는 '불장'[집슐랭]",
+   "url": "https://www.sedaily.com/article/20102210?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[Invest]'10MW 규제' 피한 9MW 꼼수…수도권에 소형 데이터센터 난립 우려",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/15/2026101580184.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "씨 마른 전세 \"차라리 사자\"→매매시장 요동…집값 좌우할 변수는?",
+   "url": "https://n.news.naver.com/mnews/article/008/0005427207?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[단독] 은행 빗장 걸자 보험사로…생애최초 대출 1.3조 몰렸다",
+   "url": "https://www.sedaily.com/article/20102061?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "반값에 샀지만…신한, 롯데손보 인수 '증자 청구서'",
+   "url": "https://n.news.naver.com/mnews/article/243/0000104277?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[단독]5만명 정보 털린 예가람저축銀, 10년 된 DB 사용…보안점검도 '미흡'",
+   "url": "https://www.news1.kr/finance/general-finance/6320826"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "금감원, 한국투자증권 거점점포 검사 돌입…PB 과당매매 등 점검",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538147?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "은행은 코인 거래, 거래소는 예금·대출…허물어지는 크립토·전통금융 경계",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6321427"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "88주 연속 오른 서울 집값…오늘부터 주담대 변동금리 오른다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538112?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "한국투자증권, 베슬AI와 GPU 파이낸싱 협약…AI 인프라 금융 지원 확대",
+   "url": "https://www.fnnews.com/news/202610160921041123"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[Invest]국고채 PD 담합 결론 지연에 증권사·은행들 속앓이…\"연내 결론 안 날 수도\"",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/15/2026101580183.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "[단독]풍수해보험 부지급 5년간 5624건…농협손보, 가입 대비 비율 최고",
+   "url": "https://www.newsis.com/view/NISX20261015_0003827949"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-16 10:20",
+   "title": "쏟아지는 핀플루언서 'ETF 영상'...해외는 사전승인 vs 한국은 회색지대",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051651?sid=101"
   }
  ],
- "updated_kst": "2026-10-16 06:33"
+ "updated_kst": "2026-10-16 10:20"
 }
