@@ -3114,7 +3114,271 @@
    "sent_kst": "2026-10-16 14:51",
    "title": "금융위 \"'무기한 선물', 투자금 전액 잃을 위험\"",
    "url": "https://n.news.naver.com/mnews/article/374/0000538208?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "금융위, 주택공급 활성화 위해 이주비 대출 더 푼다",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=05356246645613576&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "전월세 불안 잡기 총력…내년까지 10만호 입주",
+   "url": "https://n.news.naver.com/mnews/article/422/0000916469?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "용산공원에 결국 아파트?…여당, 용산공원법 바꾼다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538279?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "서울시·국토부, 수장 회동 전 차관·부시장 면담 추진…주택공급 조율",
+   "url": "https://www.news1.kr/realestate/general/6322905"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "정부, 연말 수도권 최대 23.5만호 착공…목표 대비 3.3만호 부족",
+   "url": "https://n.news.naver.com/mnews/article/031/0001066760?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "\"주택공급 정례브리핑, 지방은 없었다\"",
+   "url": "https://n.news.naver.com/mnews/article/088/0001034831?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "[단독]말 뿐인 저축銀 PF 정상화 펀드…부실사업장 93% 미매각",
+   "url": "https://www.sedaily.com/article/20102646?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "[단독] \"돈 넣어둔 사람 많은데\"…'368곳' 경고등 켜졌다",
+   "url": "https://www.hankyung.com/article/2026101671461"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "3년이면 짓는데 인허가에 7년 걸려…정부는 \"단가 더 낮춰라\" 요구",
+   "url": "https://www.sedaily.com/article/20102629?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "LH, 'AI 대전환' 선언…혁신처 신설",
+   "url": "https://n.news.naver.com/mnews/article/215/0001269440?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "[단독] 금감원, 한투운용 조사 착수…스페이스X 비중 초과 논란",
+   "url": "https://n.news.naver.com/mnews/article/215/0001269434?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "[위클리크립토] 국감서 윤곽 드러난 원화 스테이블코인, 과세는 유예 공방 外",
+   "url": "https://it.donga.com/109714/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "금융위 \"텔레그램 코인지갑, 국내 영업시 신고 대상…미신고 땐 엄정 대응\"",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6322586"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "[단독]고인이 남긴 코인도 한 번에 찾는다…금융위, 상속 통합조회 추진",
+   "url": "https://www.news1.kr/finance/blockchain-fintech/6322647"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "[단독] JT저축·JT친애, 日그룹서 분리 검토…다음 수순은?",
+   "url": "https://news.mtn.co.kr/article/2026101616122765782"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "CJ, 다우키움과 중앙일보 인수전 참여할 듯",
+   "url": "https://www.donga.com/news/Economy/article/all/20261016/134857519/1"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "트루블루·엔베스터, 조선부품사 케이씨 3천억에 인수 추진",
+   "url": "https://www.mk.co.kr/article/12177830"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "한화시스템, 한화오션 지분 7.2% 유동화…1조4천억원 조달(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016382196?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "LG엔솔·LGD, 배임 혐의 늑장 공시…불성실공시법인 지정 예고",
+   "url": "https://n.news.naver.com/mnews/article/031/0001066848?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "한미 재무·통화수장 첫 '2+2' 면담…\"외부 금융충격 땐 신속 공조\"(종합)",
+   "url": "https://www.news1.kr/economy/trend/6322971"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Anthropic's IPO could be the biggest ever. Your AI budget helps explain why",
+   "url": "https://fortune.com/2026/10/16/anthropics-ipo-could-be-the-biggest-ever-your-ai-budget-helps-explain-why/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Anthropic co-founder backs 'common sense standards' for AI regulation",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/anthropic-co-founder-backs-common-sense-standards-for-ai-regulation"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Honeywell Launches Forge Cognition with NVIDIA and Dell",
+   "url": "https://www.bisinfotech.com/honeywell-teams-up-with-nvidia-and-dell-to-launch-ai-platform-for-buildings-and-factories/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Buying GPUs is the easy part: The infrastructure challenges behind enterprise AI",
+   "url": "https://datacentre.solutions/blogs/24366-buying-gpus-is-the-easy-part-the-infrastructure-challenges-behind-enterprise-ai"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "OpenAI says research model spent another wallet's testnet ETH without authorization on coding task",
+   "url": "https://www.theblock.co/news/business/2026-10-16-openai-says-research-model-spent-another-wallets-testnet-eth-without-authorization-on-coding-task-418798"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Rogue AI 'broke into firm's live systems undetected' as chilling warning issued",
+   "url": "https://www.aol.com/articles/rogue-ai-broke-firms-live-113200000.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "SK hynix denies playing hardball with Trump admin over 3D NAND fab",
+   "url": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "U.S. Foundry Race Intensifies Among Global Firms",
+   "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=279034"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "OPEC's Smallest Member Rewrites Oil Law to Encourage Exploration",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/opec-s-smallest-member-rewrites-oil-law-to-encourage-exploration"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Africa needs $125 billion refining investment from 2026 to 2050: OPEC",
+   "url": "https://gazettengr.com/africa-needs-125-billion-refining-investment-from-2026-to-2050-opec/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "US FERC launches first LNG authorization program",
+   "url": "https://lngprime.com/americas/us-ferc-launches-first-lng-authorization-program/198547/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "IGX gets PNGRB nod for LNG terminal capacity booking platform",
+   "url": "https://m.economictimes.com/industry/energy/oil-gas/igx-gets-pngrb-nod-for-lng-terminal-capacity-booking-platform/articleshow/134994615.cms"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "US Firms Team Up on Silicon-Sulfur Battery Platform",
+   "url": "https://www.electronicsforyou.biz/industry-buzz/us-firms-team-up-on-silicon-sulfur-battery-platform/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Trina Solar buys 1.6% of film maker Baijia Niandai for $5.98M",
+   "url": "https://app.dealroom.co/news/note/trina-solar-buys-1-6-of-film-maker-baijia-niandai-for-5-98m"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Lockheed Martin delivers C-130J-30 to Navy for nuclear command role",
+   "url": "https://www.streetinsider.com/Corporate+News/Lockheed+Martin+delivers+C-130J-30+to+Navy+for+nuclear+command+role/27195878.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Turkish Airlines signs memorandum for more than 300 engines",
+   "url": "https://ua.news/en/world/turkish-airlines-pidpisala-memorandum-shchodo-ponad-300-dviguniv-aerotime"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Is Apple's foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+   "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Nuclear energy could help Iowa compete for data centers, industry",
+   "url": "https://www.businessrecord.com/nuclear-energy-could-help-iowa-compete-for-data-centers-industry/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Telangana Power Demand Hits Record 20,003 MW as Hyderabad Load Surges",
+   "url": "https://urbanacres.in/telangana-power-demand-hits-record-20003-mw-as-hyderabad-load-surges/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Rocket Lab pushes 1st launch of next-gen Neutron rocket to 2027",
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "India in contact with Russian interlocutors to expedite Ukraine peace efforts: Ambassador Vinay Kumar",
+   "url": "https://www.aninews.in/news/world/europe/india-in-contact-with-russian-interlocutors-to-expedite-ukraine-peace-efforts-ambassador-vinay-kumar20261016173728"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Ukraine War, Day 1,695: White House Ordered Restriction of Starlink to Kyiv",
+   "url": "https://eaworldview.com/2026/10/ukraine-war-starlink-white-house-ordered-restriction/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Marqeta partners with Coinbase for stablecoin-backed cards",
+   "url": "https://uk.investing.com/news/stock-market-news/marqeta-partners-with-coinbase-for-stablecoinbacked-cards-93CH-4914376"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-16 21:48",
+   "title": "Circle targets 40 new markets as stablecoin demand surges globally",
+   "url": "https://cryptobriefing.com/circle-targets-40-new-markets-usdc/"
   }
  ],
- "updated_kst": "2026-10-16 14:51"
+ "updated_kst": "2026-10-16 21:48"
 }
