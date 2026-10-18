@@ -2,276 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "\"거래 줄었는데 신고가\"…입주절벽에 분양권·입주권 몸값 '껑충'",
-   "url": "https://www.newsis.com/view/NISX20261013_0003823939"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "임기근 \"부동산 안정에 정부·국회·국민 모두 올코트 프레싱 필요\"(종합)",
-   "url": "https://www.news1.kr/politics/president/6318942"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "'법정관리 졸업 1년' 신동아건설, 정비사업·자체개발로 재도약 시동",
-   "url": "https://n.news.naver.com/mnews/article/629/0000541753?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "집값 급등에… 장기전세 분양전환 갈등",
-   "url": "https://n.news.naver.com/mnews/article/008/0005425854?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "'닥공'한다지만 LH 착공률 25% 불과…LH 이성훈, '수요 억제' 발언 논란",
-   "url": "https://n.news.naver.com/mnews/article/448/0000644689?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "8월 전국 주택 낙찰가율 평균 70%… 21년 여만에 최저 수준으로 떨어져",
-   "url": "https://n.news.naver.com/mnews/article/023/0004003666?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "분양가 25%만 내고 입주… GH '지분적립형 주택' 연내 첫선",
-   "url": "https://n.news.naver.com/mnews/article/081/0003688688?sid=102"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "[단독] 기업들 살리던 산은, 청년 집에도 돈 댄다",
-   "url": "https://n.news.naver.com/mnews/article/081/0003688699?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "서울 집값 평균 이제 17억…1년 만에 1.5억 뛰었다",
-   "url": "https://www.joongang.co.kr/article/25469531"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "\"부동산 개발 업무, AI가 척척… 컨설팅 비용 수억원 절약\"",
-   "url": "https://n.news.naver.com/mnews/article/023/0004003667?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "[단독] 최태원 지분 5440억 사들인 '전략적 투자자'는 마이클 델",
-   "url": "https://www.sedaily.com/article/20101220?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "은행 밖 그림자금융 6천213조원…4년새 1천277조원 늘어",
-   "url": "https://n.news.naver.com/mnews/article/001/0016374690?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "영업익 계산 바꾼 새 회계기준…27조 흑자가 661억 적자로",
-   "url": "https://www.joongang.co.kr/article/25469466"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "韓, 시총 하나로 증시 퇴출… 美·日은 개선 유도",
-   "url": "https://n.news.naver.com/mnews/article/023/0004003648?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "\"주식 5% 미만이면 안 보여\"…한경협, 지분공시 사각지대 개선 촉구",
-   "url": "https://n.news.naver.com/mnews/article/119/0003142429?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "팔리지 않던 보험사 줄줄이 새 주인…금융권 '몸집 불리기' 경쟁",
-   "url": "https://www.news1.kr/finance/insurance-card/6318781"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "업비트 점유율 흔들리는데…두나무, 합병 지연에 성장동력 '발목'",
-   "url": "https://n.news.naver.com/mnews/article/629/0000541750?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "[단독] 카카오, 웹툰·음원·카카오T에 스테이블코인 결제 연동…소설 원작 AI 애니 제작도",
-   "url": "https://n.news.naver.com/mnews/article/030/0003474717?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "금융권 해킹 잇따르자…금융당국, 오늘 보안대책 논의",
-   "url": "https://n.news.naver.com/mnews/article/374/0000537639?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "[단독]농민들 못갚은 빚 2조624억, 9개월새 50% 급증",
-   "url": "https://www.donga.com/news/Economy/article/all/20261014/134837222/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "OpenAI, Anthropic Brace for AI Disasters Within 12 Months",
-   "url": "https://www.chosun.com/english/industry-en/2026/10/14/2TNNJQ2FNZHWNLVTJTKZDDIECU/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "AI in your oven? Anthropic warns models 'months away' from self-replication on smart devices",
-   "url": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Lenovo, NVIDIA fast-track enterprise AI",
-   "url": "https://tribune.net.ph/2026/10/13/lenovo-nvidia-fast-track-enterprise-ai"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Vietnam's FPT Joins NAVER Cloud to Expand AI Factory Services Across Asia",
-   "url": "https://www.techrepublic.com/article/news-fpt-naver-cloud-ai-factory-partnership-apac-vietnam/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Judge Grants Apple Expedited Discovery in OpenAI Trade Secrets Case",
-   "url": "https://www.unite.ai/judge-grants-apple-expedited-discovery-in-openai-trade-secrets-case/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "OpenAI and Anthropic face cooling developer traffic as models get smarter",
-   "url": "https://cryptobriefing.com/openai-anthropic-developer-traffic-declining/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Samsung's 'Semiconductor Triple Super Gap' Floated...HBM5 and other new technologies will be unveiled in large numbers",
-   "url": "https://www.mk.co.kr/en/business/12175072"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "India in 'beautiful spot' to build semiconductor supply chains, says Tata Sons Chairman Chandrasekaran",
-   "url": "https://electronics.economictimes.indiatimes.com/news/leadership-strategy/india-in-beautiful-spot-to-build-semiconductor-supply-chains-says-tata-sons-chairman-chandrasekaran/134913090"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Nigeria's Crude Oil Production To Hit 3 Million Barrels Per Day In 2027 – JTF",
-   "url": "https://thetrumpet.ng/nigerias-crude-oil-production-to-hit-3-million-barrels-per-day-in-2027-jtf/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "OPEC+ ministers warn shipping disruptions",
-   "url": "https://kuwaittimes.com/article/51557/kuwait/other-news/opec-ministers-warn-shipping-disruptions/amp"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Local gas-reservation policy: Gas exporters to be forced to prevent Australian shortfalls under new laws",
-   "url": "https://www.smh.com.au/business/consumer-affairs/gas-exporters-to-be-forced-to-prevent-australian-shortfalls-under-new-laws-20261014-p6159r.html"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "EXCLUSIVE: Guyana may scale back LNG plans as Exxon needs more gas for its wells",
-   "url": "https://www.reuters.com/business/energy/guyana-may-scale-back-lng-plans-exxon-needs-more-gas-its-wells-sources-say-2026-10-13/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Xi Jinping Says Africa's Mineral Resources Belong to Africa",
-   "url": "https://www.newsofbahrain.com/en/article/xi-jinping-says-africas-mineral-resources-belong-to-africa"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "JPMorgan names critical minerals chief for $1.5T push",
-   "url": "https://www.mining.com/jpmorgan-names-critical-minerals-chief-for-1-5t-push/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Avio to manufacture engines for Lockheed Martin missiles in the US — Breaking Defense",
-   "url": "https://ua.news/en/world/avio-vigotovliatime-dviguni-dlia-raket-lockheed-martin-u-ssha-breaking-defense"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Amazon Acetaminophen Recall Aurobindo Pharma: Over 112,000 Bottles Pulled Following Reports Of Discoloured Tablets",
-   "url": "https://sundayguardianlive.com/trending/amazon-acetaminophen-recall-aurobindo-pharma-over-112000-bottles-pulled-following-reports-of-discoloured-tablets-305164/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "What does Amazon think it knows about you? Here's how to find it and why it affects what you buy",
-   "url": "https://www.wcpo.com/money/consumer/dont-waste-your-money/what-does-amazon-think-it-knows-about-you-heres-how-to-find-it-and-why-it-affects-what-you-buy"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "OKLO Builds on Groves Progress to Expand Isotope Business",
-   "url": "https://www.tradingview.com/news/zacks:2b65a001c094b:0-oklo-builds-on-groves-progress-to-expand-isotope-business/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Entergy tackles power plant labor shortage with Mississippi training program",
-   "url": "https://www.power-eng.com/business/people/entergy-power-plant-labor-shortage-mississippi-training-program/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "NASA Launches CubeSats to Test Communications, Build Experience",
-   "url": "https://www.nasa.gov/blogs/smallsatellites/2026/10/13/nasa-launches-cubesats-to-test-communications-build-experience/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "SpaceX launches NASA science and cargo to the International Space Station",
-   "url": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Russia Ends Kyiv's Last Safe Hours With 24/7 Drone and Missile Strikes",
-   "url": "https://www.latintimes.com/russia-ends-kyivs-last-safe-hours-24-7-drone-missile-strikes-600107"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Fallout from war in Ukraine: Suspected Russian drones hit two ships off Bulgaria, 11 missing",
-   "url": "https://today.rtl.lu/news/world/11-missing-after-ships-struck-off-bulgaria-in-latest-black-sea-attack-1010871619"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Tether Freezes $10M in USDT Linked to CryptoBilis Ledger Drain",
-   "url": "https://www.altcoinbuzz.io/tether-freezes-10m-in-usdt-linked-to-cryptobilis-ledger-drain"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-10-14 06:35",
-   "title": "Mastercard Launches Open USD Stablecoin on Solana for Cross-Border Payments",
-   "url": "https://pluang.com/en/news-feed/mastercard-luncurkan-stablecoin-open-usd-di-solana-untuk-pembayaran-antar-negara"
-  },
-  {
    "slot": "midmorning",
    "sent_kst": "2026-10-14 10:24",
    "title": "신탁사 지방 노후도시 재건축사업 외면…왜?",
@@ -2598,7 +2328,97 @@
    "sent_kst": "2026-10-18 06:31",
    "title": "USDT Hits $183B and USDC Holds $73B as No Other Stablecoin Breaks the $5B Mark",
    "url": "https://cryptonews.net/news/altcoins/33606917/"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "[토허구역 확대 1년] 지정 전후 경기 12곳 중 11곳서 집값 상승 확대",
+   "url": "https://n.news.naver.com/mnews/article/001/0016383257?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "실거래가 아닌데…주간 아파트값 통계 결론 '지지부진'",
+   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439771"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "올해 서울 일반분양 1만가구 넘는다… 작년의 2.7배",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/10/18/3MHN7CXNLZG57IGAXXLRZG5KKE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "내년에 안 팔면 세금 3배…8년 임대 끝난 아파트 어떡해",
+   "url": "https://n.news.naver.com/mnews/article/023/0004004427?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "강남 주춤하자 외곽이 '펄펄'…전셋값 뛰더니 매매가도 '쑥↑'",
+   "url": "https://n.news.naver.com/mnews/article/215/0001269516?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "금감원, 2금융권 제도 개선…영업 기반 확대·자본건전성 강화",
+   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439778"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "[단독]'고위험' 레버리지 ETF 광고에 5억8100만원…출시 두 달 만에 '제동'",
+   "url": "https://www.newsis.com/view/NISX20261016_0003829316"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "신한증권, 추천 안한 주식에도 '종목추천 이용료'…금감원 지적",
+   "url": "https://n.news.naver.com/mnews/article/001/0016383251?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "[단독]말로만 '크레딧 빌드업'...정책대출 다 갚아도 은행 이용 2년새 30%↓",
+   "url": "https://n.news.naver.com/mnews/article/008/0005427810?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "CJ제일제당 전분당 분리매각 21일 본입찰…연매출급 과징금이 변수 [M&A복덕방]",
+   "url": "https://www.mk.co.kr/article/12178643"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "신한은행, 중저신용자 대출 금리 0.3%p 추가 인하…최고 연 6.9% 상한",
+   "url": "https://n.news.naver.com/mnews/article/468/0001273248?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "주담대 변동금리 상단 6% 줄줄이 돌파…연말까지 165조원 금리 바뀐다",
+   "url": "https://n.news.naver.com/mnews/article/022/0004167487?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "[2026 국감] '감시망' 걸린 보이스피싱 2배 급증…5대 은행서 8760건",
+   "url": "https://n.news.naver.com/mnews/article/119/0003143883?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "내리막 걷던 한국 성장잠재력…40년 만에 반전 신호",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538353?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-18 10:19",
+   "title": "전문가 11명 전원 \"10월 금리 동결\"…9명 \"최종금리 3.5%\"",
+   "url": "https://n.news.naver.com/mnews/article/008/0005427825?sid=101"
   }
  ],
- "updated_kst": "2026-10-18 06:31"
+ "updated_kst": "2026-10-18 10:19"
 }
