@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "'내 돈 5% 이하' PF 사업장 70%…PF 구조개혁 헛바퀴",
-   "url": "https://n.news.naver.com/mnews/article/374/0000537874?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "\"수도권은 민간·지방은 공공\"…건설현장 지역별 온도차 '뚜렷'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003142897?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "[단독] 국토부, 서울시 제동에도 분상제 지역 도심복합 후보지 강행",
-   "url": "https://view.asiae.co.kr/article/2026101418375605411"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "중동 1기 신도시 5개 마을 특별정비계획 공개… 총 1만7,000여세대로 탈바꿈",
-   "url": "https://www.arunews.com/news/articleView.html?idxno=68010"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "[국감브리핑] 정비사업 공사비 검증 99% 감액…5년간 4.2조원",
-   "url": "https://www.news1.kr/realestate/general/6320554"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "주택도시보증공사 미분양 주택 매입 당초 목표의 16% 그쳐",
-   "url": "https://n.news.naver.com/mnews/article/417/0001160971?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "HUG '지방 미분양 안심환매 사업' 실적 저조…정희용 \"현장 목소리 반영해야\"",
-   "url": "https://n.news.naver.com/mnews/article/016/0002709481?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "HUG가 1.6조원어치 매입한 든든전세…입주는 23% 그쳐",
-   "url": "https://www.newsis.com/view/NISX20261015_0003826722"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "[오늘 부동산] \"국민평형도 부담\"…치솟는 분양가에 청약시장 '소형 선호'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003142889?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "전세사기에 무너진 청년 주거…피해자 4명 중 3명이 2030",
-   "url": "https://www.hankyung.com/article/2026101529726"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "[단독] 167조원으로 커졌는데…금감원 PEF 검사 역량 '제자리'",
-   "url": "https://view.asiae.co.kr/article/2026101414485757585"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "디지털자산기본법 11월 통과?…해외는 판 다 깔았다",
-   "url": "https://n.news.naver.com/mnews/article/119/0003142903?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "에스원, 4500억원 공개매수…보유분도 소각 추진",
-   "url": "https://www.fnnews.com/news/202610150823291982"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "홈플러스 위기에 농가 판로 흔들…농협은 MBK에 2조 6천억 원 투입",
-   "url": "https://n.news.naver.com/mnews/article/057/0001973516?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "크레센도 4000억 무산된 이유…넥스플렉스 경영권 변수",
-   "url": "https://dealsite.co.kr/articles/170610"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "[Invest]메리츠 1조 택한 신세계, 차환 리스크에 후속 조달 부담까지",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/15/2026101580003.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "NH농협은행, 美 천연가스 파이프라인 금융참여…6000만달러 대출 실행",
-   "url": "https://n.news.naver.com/mnews/article/029/0003053247?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "[속보] 고점에 '리밸런싱' 못한 국민연금…코스피 급락에도 '찔끔 매수'",
-   "url": "https://n.news.naver.com/mnews/article/666/0000127530?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "'금리 오르면 취약 차주가 가장 어렵다'…60대 취약 차주 빚 1인당 9787만원",
-   "url": "https://n.news.naver.com/mnews/article/022/0004166845?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-15 10:18",
-   "title": "금융지주·은행 사외이사 66명 중 'IT보안' 전문가 0명",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051609?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-15 14:53",
    "title": "10·15 대책 1년 됐지만 서울 아파트값 88주 연속 올랐다",
@@ -2274,7 +2154,127 @@
    "sent_kst": "2026-10-19 06:39",
    "title": "BIS Paper Ties Higher Deposit Rates to Slower Stablecoin Growth, with USDC Most Exposed",
    "url": "https://finance.biggo.com/news/f73c0793-dbe1-4ef4-8b0b-505453507975"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "\"주택 공급 위해 '분상제' 해제\" 민원…서울시 \"신중 검토\"",
+   "url": "https://www.newsis.com/view/NISX20261007_0003818079"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "저축은행 PF 후유증 여전…토지대출 연체율 35%",
+   "url": "https://n.news.naver.com/mnews/article/243/0000104374?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "\"2021년 집값 하락 직전과 똑같다\"…부동산 시장 '끝물' 신호라는 한문도",
+   "url": "https://www.fnnews.com/news/202610190849204558"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "\"감정가 50억 아파트, 40억 낙찰\"…서울 부동산 이상 징후, 무슨일",
+   "url": "https://n.news.naver.com/mnews/article/448/0000645580?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "해외 부동산펀드 수익률 수년째 부진…지난해 말에도 0.2% 그쳐",
+   "url": "https://n.news.naver.com/mnews/article/023/0004004596?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "3.3㎡당 4000만원 육박한 경기 분양가…안산·시흥까지 눈 돌리는 실수요자",
+   "url": "https://www.mk.co.kr/article/12179225"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "구미시 투자 열기에 아파트 분양 시장도 후끈?",
+   "url": "https://n.news.naver.com/mnews/article/088/0001035140?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "현대엔지니어링, 주택수주 빈자리 채운 에너지·데이터센터",
+   "url": "https://dealsite.co.kr/articles/170822"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "'기피시설' 철탑의 변신…LH, 경관 친화 디자인 도입",
+   "url": "https://www.newsis.com/view/NISX20261019_0003831010"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "송파구, '재건축·재개발 신속 추진' 등 100대 공약사업 확정",
+   "url": "https://n.news.naver.com/mnews/article/016/0002711027?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "[단독]저축은행 부실자산 커지는데…금감원, 제재 또 유예",
+   "url": "https://n.news.naver.com/mnews/article/079/0004199973?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "[단독] 오리온, 행동주의 캠페인 직면…\"중앙일보 인수 중단하라\" [시그널]",
+   "url": "https://www.sedaily.com/article/20103084?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "추천주 무관 거래에도 추가 수수료…금감원, 신한투자증권에 제재성 경고 [2026년 국감]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392088?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "상호금융 '자본 취약' 조합 368곳…3년 반 새 36% 급증 [2026년 국감]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392079?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "거래소 대주주 지분 규제, 기업들 구조 재편 불가피한가[엠블록레터]",
+   "url": "https://www.mk.co.kr/article/12179141"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "정부, 20일 5대 가상자산 거래소 대표 소집…과세 유예 의견 듣는다",
+   "url": "https://www.news1.kr/finance/general-finance/6324014"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "'6억원 한도' 걸렸는데…5대 은행 임직원 235명, 주택대출 1615억 [2026년 국감]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392094?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "[2026국감]금융권 사고 나고도 몰랐다…롯데손보 902일·토스뱅크 670일 뒤 인지",
+   "url": "https://view.asiae.co.kr/article/2026101909265329839"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "정책서민금융 갚아도 은행 문턱 높아…'크레딧 빌드업' 공염불 [2026년 국감]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392090?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-19 10:23",
+   "title": "내 통장에 돈 보내고 허위 신고…상반기 '통장묶기' 피해 추정 6500건, 계좌 풀리는 데 최대 18.6일",
+   "url": "https://n.news.naver.com/mnews/article/023/0004004598?sid=101"
   }
  ],
- "updated_kst": "2026-10-19 06:39"
+ "updated_kst": "2026-10-19 10:23"
 }
