@@ -2274,7 +2274,127 @@
    "sent_kst": "2026-10-19 10:23",
    "title": "내 통장에 돈 보내고 허위 신고…상반기 '통장묶기' 피해 추정 6500건, 계좌 풀리는 데 최대 18.6일",
    "url": "https://n.news.naver.com/mnews/article/023/0004004598?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "조정지역 매입임대아파트 공공에 팔면…양도세 추가 감면 검토",
+   "url": "https://n.news.naver.com/mnews/article/119/0003144228?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "[10·15대책 1년]③부작용 간과할 수 있나",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051714?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "구리·부천도 분양가 4000만원 육박… 집값에 꺾이는 '청년 미래'",
+   "url": "https://n.news.naver.com/mnews/article/021/0002826137?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "[단독] 짓다 만 PF 116곳, LH 임대주택 전환 추진",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538539?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "[더 리더] 최인호 HUG주택도시보증공사 사장 \"'전월세 안심신탁' 본격화, 주거 안정의 새로운 미래를 열다\"",
+   "url": "https://news.mtn.co.kr/article/2026101910193043313"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "송미령 장관 \"농지 전수조사 상담센터에 하루 100∼150건 문의\"",
+   "url": "https://n.news.naver.com/mnews/article/001/0016385169?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "영남권 메가프로젝트 TF, 부총리 주재로 격상…핵심 과제 직접 조율",
+   "url": "https://n.news.naver.com/mnews/article/119/0003144226?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "강북 전세 갱신 10건 중 9건 보증금 인상…중랑 95%·노원 92%",
+   "url": "https://www.news1.kr/realestate/general/6324414"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "경기 남부부터 지방 아파트까지 '반도체 특수'",
+   "url": "https://www.fnnews.com/news/202610191351408355"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "\"3000만원 더 내고 좁은 집 간다니\"…30대 직장인 '한숨' [시장톡]",
+   "url": "https://www.hankyung.com/article/2026101665756"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "금감원, 금융권 보안규제 강화…징벌적 과징금·정보보호 공시 추진",
+   "url": "https://n.news.naver.com/mnews/article/030/0003476291?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "이찬진 \"SK하이닉스 '솔리다임' 중복상장 저촉…유권 해석 대기\"",
+   "url": "https://www.fnnews.com/news/202610191356425835"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "\"금감원 불법 공매도 전담인력 7명뿐\"…이찬진 \"금융위에 요청할 것\"",
+   "url": "https://n.news.naver.com/mnews/article/008/0005428310?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "산림조합, 상반기 적자 370억…부실채권 비율도 8.78%",
+   "url": "https://www.newsis.com/view/NISX20261019_0003831631"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "은행채 발행 벌써 작년 추월…대출금리 압박",
+   "url": "https://n.news.naver.com/mnews/article/016/0002711194?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "가짜수출 찾고 중복대출 막는다…무역사기 잡는 '데이터 파수꾼'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005428146?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "인뱅 대출받고 폐업한 자영업자 5년 반동안 4만명…연체율 9.5%",
+   "url": "https://n.news.naver.com/mnews/article/001/0016385067?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "\"내 노후자금 어떡해\"…삼전닉스 폭락에 국민연금 3분기 보유주식 182조원 '증발'",
+   "url": "https://www.sedaily.com/article/20103133?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "중앙그룹 채권 피해자들, 금감원에 회계법인 감리 요구...\"돌려막기 규명\"",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392123?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-19 14:50",
+   "title": "이찬진 \"전산오류 사고, 내부통제 가이드라인으론 한계…법 보완\"",
+   "url": "https://www.news1.kr/finance/general-finance/6324419"
   }
  ],
- "updated_kst": "2026-10-19 10:23"
+ "updated_kst": "2026-10-19 14:50"
 }
