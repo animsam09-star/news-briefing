@@ -2244,7 +2244,277 @@
    "sent_kst": "2026-10-20 14:53",
    "title": "핀다, 저축은행 인수 코앞… 이르면 내일 금융위 최종 의결",
    "url": "https://biz.chosun.com/stock/finance/2026/10/20/A5K44LAP35F5JBEGFYW36AP454/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "서울역 '동자동 쪽방촌'에 2,150가구 공급‥공공주택지구 지정",
+   "url": "https://n.news.naver.com/mnews/article/214/0001530267?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "[단독] 또 청년 울린 전세사기…임대인 송치·중개사도 수사",
+   "url": "https://n.news.naver.com/mnews/article/422/0000917660?sid=161"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "'1조원 조성' PF 개발앵커리츠, 50곳 지원...다음달 첫 투자집행 예정",
+   "url": "https://www.fnnews.com/news/202610201430514341"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "제이알글로벌리츠, 채무 상환 계획 확정…다음달 공모 사채권자 집회 개최",
+   "url": "https://www.hankyung.com/article/202610203928r"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "건설경기 반등에도 주택 공급 '한파'…준공 27% 감소",
+   "url": "https://n.news.naver.com/mnews/article/031/0001067622?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "목동·성수·광명…12兆 '재건축 큰장' 선다",
+   "url": "https://www.hankyung.com/article/2026102039611"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "쏟아지는 부동산 경매…'역대 최다' 찍는다",
+   "url": "https://www.hankyung.com/article/2026102041551"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "건설불황에 커지는 지방은행 빈자리…지역 주택업계 버팀목 절실",
+   "url": "https://n.news.naver.com/mnews/article/656/0000190112?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "공격 투자 나선 코람코, 오피스·물류센터 개발·투자 '드라이브'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005429113?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "[단독] \"공모가 5000원→735원\"…뿔난 마스턴리츠 소액주주, 박시영 교수 이사 추천",
+   "url": "https://n.news.naver.com/mnews/article/138/0002245345?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "경찰, 금융기관 해킹사건 중수청에 통보키로…'중대범죄' 판단(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016389573?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "금융위원장 \"대출 한도 추가 축소 사실 아냐…허위 사실 수사 의뢰\"",
+   "url": "https://n.news.naver.com/mnews/article/374/0000538860?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "정부, 채권시장 안정 위해 4분기 발행량 줄인다",
+   "url": "https://view.asiae.co.kr/article/2026102017495141772"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "'역차별 논란' 가상자산 과세 두 달 앞으로⋯유예 논의 '제자리'",
+   "url": "https://n.news.naver.com/mnews/article/031/0001067632?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "넥스트레이드, 내년 1월부터 프리마켓 시가 단일가매매 도입",
+   "url": "https://view.asiae.co.kr/article/2026102020524635875"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "4년 전 막힌 '증권사 BDC'…금투협, 국회 설득 나섰다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005429161?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "한화의 KAI 인수설, KAI는 선 긋고 최대주주 수은은 여지",
+   "url": "https://n.news.naver.com/mnews/article/031/0001067752?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "[단독] 예보, 해외 은닉재산 적발하고도 75% 회수 못 해",
+   "url": "https://n.news.naver.com/mnews/article/022/0004168248?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "카카오 \"블록딜·유상증자 없다\"…3천억원 주주환원",
+   "url": "https://n.news.naver.com/mnews/article/001/0016389291?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "코스피, 3.7% 급락한 5,552 마감…최근 이틀 반등분 모두 반납(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016389236?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Anthropic co-founder says the singularity is underway",
+   "url": "https://www.therundown.ai/articles/anthropic-co-founder-says-the-singularity-is-underway"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Google DeepMind's Gemini 4 Argon AI agents beat Minecraft in 27 hours",
+   "url": "https://www.storyboard18.com/amp/digital/google-deepminds-gemini-4-argon-ai-agents-beat-minecraft-in-27-hours-112981.htm"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Aolani commits 500MW AI data center capacity in Malaysia",
+   "url": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/aolani-commits-500mw-ai-data-center-capacity-in-malaysia/135069160?utm_source=top_news&utm_medium=homepage"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Morgan Stanley forecasts $1.58 tn AI boom as Nvidia (NVDA) exposure hits 92%",
+   "url": "https://beinsure.com/news/morgan-stanley-forecasts-1-58-tn-ai-boom-as-nvidia-exposure-hits/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "OpenAI took 112 days to publish a misalignment case it found in June",
+   "url": "https://mixed-news.com/en/openai-misalignment-reports-october-15-disclosure-gap/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Reading all of Claude's output would take half an Anthropic worker's week",
+   "url": "https://mixed-news.com/en/anthropic-claude-output-half-work-week-meta-work/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "SK hynix leads a memory chip rebound after Chey Tae-won's AI demand call",
+   "url": "https://startupfortune.com/sk-hynix-leads-a-memory-chip-rebound-after-chey-tae-wons-ai-demand-call/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Samsung, SK Hynix stocks fall as US chip shares rally: why Korea is still selling?",
+   "url": "https://invezz.com/nz/news/2026/10/20/samsung-sk-hynix-stocks-fall-as-us-chip-shares-rally-why-korea-is-still-selling/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Evolve Royalties Acquires $6.2M Canadian Copper Royalty Portfolio",
+   "url": "https://www.indexbox.io/blog/evolve-royalties-expands-copper-exposure-with-canadian-royalty-portfolio/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Ensorcia Group To Acquire Argentina Wildcats To Expand Lithium Development Program",
+   "url": "https://pulse2.com/ensorcia-group-to-acquire-argentina-wildcats-to-expand-lithium-development-program/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Marco Rubio's Jamnagar visit underscores Reliance's growing role in US energy strategy",
+   "url": "https://indianexpress.com/article/explained/explained-economics/marco-rubio-jamnagar-visit-reliance-us-10929298/lite/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "WTI rises above $99.00 as Iran warns of wider blockade",
+   "url": "https://www.fxstreet.com/news/wti-rises-above-9900-as-iran-warns-of-wider-blockade-202610200615"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Qatar is ramping up liquefied natural gas exports as prices surge",
+   "url": "https://www.semafor.com/article/10/20/2026/qatar-is-ramping-up-liquefied-natural-gas-exports-as-prices-surge"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "LNG Canada Nears Crucial Phase 2 Decision as First Expansion Year Builds Momentum",
+   "url": "https://energynow.ca/2026/06/lng-canada-nears-crucial-phase-2-decision-as-first-expansion-year-builds-momentum/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Boeing Launches Microsoft-Backed AI Platform Dataliner",
+   "url": "https://www.marketscreener.com/news/boeing-launches-microsoft-backed-ai-platform-dataliner-ce785cd8d881ff21"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Boeing 737 Max 10 set for FAA certification after years of delays",
+   "url": "https://seekingalpha.com/news/4654557-boeing-737-max-10-set-for-faa-certification-after-years-of-delays"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Apple commits up to $100 million for US titanium in domestic manufacturing push",
+   "url": "https://www.reuters.com/business/retail-consumer/apple-commits-up-100-million-us-titanium-domestic-manufacturing-push-2026-10-20/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Amazon backs 960 MW small nuclear project; Doosan, Hyundai, DL, other Korean suppliers stand to benefit",
+   "url": "https://www.kedglobal.com/energy/newsView/ked202610200010"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "How energy autonomy solves the data centre capacity question",
+   "url": "https://www.enlit.world/library/how-energy-autonomy-could-solve-data-centre-capacity"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9",
+   "url": "https://www.manilatimes.net/2026/10/20/tmt-newswire/globenewswire/wisesatspace-and-sealsq-advance-satellite-cybersecurity-hardening-as-fossa-launches-new-6u-satellite-aboard-spacex-falcon-9/2449718"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "A $200K prelaunch bond for satellites could prevent a space junk disaster in orbit, scientists say",
+   "url": "https://www.space.com/space-exploration/satellites/could-satellite-deorbit-deposits-prevent-a-space-debris-disaster"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Is Russia stalking satellites which help Ukraine from space?",
+   "url": "https://www.aljazeera.com/news/2026/10/20/is-russia-stalking-satellites-which-help-ukraine-from-space"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Kremlin Hopes Witkoff Will 'Brief' Putin on Talks With Ukraine and Europe",
+   "url": "https://www.themoscowtimes.com/2026/10/20/kremlin-hopes-witkoff-will-brief-putin-on-talks-with-ukraine-and-europe-a94029"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "Tether Claims Wallet Freezes Cut Iran-Linked Stablecoin Activity by 94% Amid US Senate Scrutiny",
+   "url": "https://financefeeds.com/tether-claims-wallet-freezes-cut-iran-linked-stablecoin-activity-by-94-amid-us-senate-scrutiny/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-20 21:46",
+   "title": "USDC is EU's first 'significant' stablecoin, Circle defends economics",
+   "url": "https://coingeek.com/usdc-is-eu-first-significant-stablecoin-circle-defends-economics/"
   }
  ],
- "updated_kst": "2026-10-20 14:53"
+ "updated_kst": "2026-10-20 21:46"
 }
