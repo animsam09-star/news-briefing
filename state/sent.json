@@ -2646,7 +2646,127 @@
    "sent_kst": "2026-10-21 10:22",
    "title": "\"GPU 투자금 조달 길 찾는다\"…한국투자증권, 삼일PwC와 AI 인프라 금융 협력",
    "url": "https://n.news.naver.com/mnews/article/138/0002245417?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "李 대통령, 3기신도시 속도전 주문에도… 입주 2년 넘게 밀린 왕숙2·교산",
+   "url": "https://view.asiae.co.kr/article/2026102019310998069"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "정부는 집값 안정된다는데… 경기 상승률, 서울 앞질렀다",
+   "url": "https://n.news.naver.com/mnews/article/021/0002826726?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "경기 규제지역 확대에도 서울 거주자 원정 매입 4년 만에 최고[부동산AtoZ]",
+   "url": "https://view.asiae.co.kr/article/2026101920104221463"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "민경선 고양시장, 국토부장관에 5대 현안 지원 건의",
+   "url": "https://n.news.naver.com/mnews/article/417/0001161609?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "중앙기관 2차 이전에 집 부족 우려…조상호 시장 \"6만 4000가구 남아\"",
+   "url": "https://www.news1.kr/local/sejong-chungbuk/6327045"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "LH 미분양 주택 4851호…8개월만 작년치 넘어",
+   "url": "https://n.news.naver.com/mnews/article/016/0002712348?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "조상호 세종시장 \"행정수도 특별법 연내 제정 총력\"",
+   "url": "https://n.news.naver.com/mnews/article/629/0000544007?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "\"집 한 채가 전 재산인데 노후 생활비는?\"…주택연금, 올해 달라진 4가지",
+   "url": "https://n.news.naver.com/mnews/article/138/0002245467?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "삼성 \"국제학교·8차선도로, 호남 반도체 팹 성공에 필수요건\"",
+   "url": "https://n.news.naver.com/mnews/article/081/0003691040?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "[영상]\"용인 반도체 산단 벌목 중단하라\"",
+   "url": "https://n.news.naver.com/mnews/article/047/0002532963?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "[단독] '삼전닉스 레버리지 ETF' 개인투자자 손실 6.3조 집계...\"특검해야...\"",
+   "url": "https://n.news.naver.com/mnews/article/052/0002421634?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "[단독]증권사 직원 주식매매 7개월만에 17조…내부통제 '시험대'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005429598?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "수협은행, 증권사 인수 추진 중인데...관료 출신 은행장 '업무 제한' 변수",
+   "url": "https://n.news.naver.com/mnews/article/016/0002712341?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "1조 낮춰도 안 팔리는 롯데카드…카드사 재통합론에 '설상가상'",
+   "url": "https://dealsite.co.kr/articles/171017"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "망분리 규제 완화 기준 낮췄지만… 수도권 저축銀 42곳중 7곳만 충족",
+   "url": "https://biz.chosun.com/stock/finance/2026/10/21/Y4QCZOACTZG3VD3PQHHDI4S7GU/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "[2026 국감] 5대 은행, 대출 금융사고 규모 449억원…국민은행이 90%",
+   "url": "https://n.news.naver.com/mnews/article/119/0003145098?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "[단독]해외 금융사고, 터진 곳서 또 터져…피해액 94%는 못 건졌다",
+   "url": "https://view.asiae.co.kr/article/2026102015534017796"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "증권사 금융사고 10년간 2953억원…신한투자증권이 절반 차지 [2026년 국감]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392287?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "가산금리 올리고 우대금리 줄였다...금리상승 부추긴 은행들",
+   "url": "https://n.news.naver.com/mnews/article/437/0000516789?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-21 14:50",
+   "title": "[단독]'2兆 규모' 中企퇴직연기금…운용기관 차등배분 2년째 0%대",
+   "url": "https://view.asiae.co.kr/article/2026102110102108016"
   }
  ],
- "updated_kst": "2026-10-21 10:22"
+ "updated_kst": "2026-10-21 14:50"
 }
