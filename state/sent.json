@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "[PF 자기자본 규제] 디벨로퍼협회, 사업비 산정·지분투자 규제 개선 건의",
-   "url": "https://dealsite.co.kr/articles/170783"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "HUG \"공적보증 연간 100조로 늘려…정부 주택 공급 확대 뒷받침\"",
-   "url": "https://www.sedaily.com/article/20104086?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "[In&Out] [하나증권] PF 부실 털고 발행어음 인가…강성묵 대표 3연임 조준",
-   "url": "https://dealsite.co.kr/articles/170954"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "'집값 급락론' 띄운 정부…실수요자는 대출 한파에 이자 폭탄",
-   "url": "https://n.news.naver.com/mnews/article/119/0003144936?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "서울 A급 오피스 3분기 공실률 3.1%…전분기 대비 소폭 하락",
-   "url": "https://n.news.naver.com/mnews/article/001/0016390414?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "서울 꼬마빌딩 평균가 44억…원베일리 25평보다 못한 이유는 [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002712195?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "서울 집값 멈추자 중저가·반도체 벨트 폭등…\"영끌 매수는 위험\"",
-   "url": "https://www.newsis.com/view/NISX20261020_0003833540"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "피해자 80명, 100억 넘게 뜯겼다…'30만' 부동산 유튜버, 사기 피소",
-   "url": "https://n.news.naver.com/mnews/article/008/0005429381?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "제이알글로벌리츠 \"2029년까지 빚 다 갚겠다\"…주주연대 \"빚내 빚 갚는 구조\" 반발",
-   "url": "https://n.news.naver.com/mnews/article/138/0002245398?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "남산 규제 풀렸더니 또 세계유산 규제… 중구 주민 3500명 등재 반대",
-   "url": "https://n.news.naver.com/mnews/article/023/0004005046?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "[단독] \"몸값 3조라며\"…에이블리 vs SC증권, 中알리바바 투자 자문료 분쟁",
-   "url": "https://view.asiae.co.kr/article/2026101916075343441"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "\"15억 이상 주담대 전면 금지\"…금융위, '허위정보' 규정, 수사 의뢰 방...",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392265?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "李대통령 '증시 정상화 조치' 예고…시장안정·주주보호 후속책 주목",
-   "url": "https://www.fnnews.com/news/202610201558105372"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "'금감원 이전시 이직 고려 85.6%'…이찬진 \"금감원은 현장에 있어야\"",
-   "url": "https://n.news.naver.com/mnews/article/021/0002826547?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "안철수 \"국민연금, 솔리다임 상장 반대 표결해야\"",
-   "url": "https://www.edaily.co.kr/News/Read?newsId=02781446645615216&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "부동산 간접투자 稅혜택 대상, 2년 새 70% 감소…\"존속 여부 고민해야\" [조세硏 특례 평가]",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392255?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "메리츠증권, 옵티미즘과 '토큰화 금융자산' 사업 협력",
-   "url": "https://n.news.naver.com/mnews/article/016/0002712198?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "핫라인 개통한 이재용과 조셉 배…1조씩 주고 받았다",
-   "url": "https://dealsite.co.kr/articles/170966"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "정규직 4080명↓ 비정규직 1048명↑...5대 은행 고용 변화",
-   "url": "https://www.fnnews.com/news/202610210902241813"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-21 10:22",
-   "title": "\"GPU 투자금 조달 길 찾는다\"…한국투자증권, 삼일PwC와 AI 인프라 금융 협력",
-   "url": "https://n.news.naver.com/mnews/article/138/0002245417?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-21 14:50",
    "title": "李 대통령, 3기신도시 속도전 주문에도… 입주 2년 넘게 밀린 왕숙2·교산",
@@ -2424,7 +2304,127 @@
    "sent_kst": "2026-10-25 10:18",
    "title": "초대형GA 코스닥 진입 시동…프라임에셋, 상장 플랜 착수",
    "url": "https://n.news.naver.com/mnews/article/030/0003478281?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "3기 신도시 교통망 구축도 속도전… 국토부 '직접 인허가' 사업 확대",
+   "url": "https://n.news.naver.com/mnews/article/008/0005431265?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "‘공급 속도전’ 외치고는 있는데…정작 ‘모듈러 특별법’은 10개월째 ‘쿨쿨’",
+   "url": "https://www.mk.co.kr/article/12184997"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "\"집값보다 전셋값이 미쳤어요\"…서울 끝자락도 13억",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01853206645616528&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "\"전세도 매매도 쉽지 않다\"…금리 6%에 흔들리는 부동산 시장",
+   "url": "https://www.newsis.com/view/NISX20261025_0003839844"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "\"집 대신 건물 샀다\"… 강남 빌딩에 4.5조 뭉칫돈",
+   "url": "https://n.news.naver.com/mnews/article/029/0003055060?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "서울 아파트 평균 임대료, 월 317만원꼴...1년 사이 13.5% 상승",
+   "url": "https://n.news.naver.com/mnews/article/001/0016398864?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "관리비 비리 의심 아파트 7851곳 잡고도…정부는 '뒷짐'",
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498188"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "'방 1개' 39㎡가 20억…강남은 초소형도 '20억 클럽'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005431260?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "노원도 성북도 연일 신고가...서대문·중랑도 ‘신났다’",
+   "url": "https://www.mk.co.kr/article/12185012"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "건설사 품은 인테리어업계, 신축·노후단지 동시 공략",
+   "url": "https://n.news.naver.com/mnews/article/417/0001161959?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "연이자 6800% '이실장' AI로 다시 추적했더니…피해 규모 2배",
+   "url": "https://n.news.naver.com/mnews/article/469/0000961490?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "금융위 세종행에 금감원·국책은행도 긴장…지방이전 갈등 재점화",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01577686645616528&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "금융당국, 무위험지표금리 점차 확대…기업대출 상품 1조원 출시",
+   "url": "https://www.newsis.com/view/NISX20261025_0003839750"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "\"또 연기\" 청와대, '가상자산 과세' 4번째 유예…청년 여론 등 고려",
+   "url": "https://n.news.naver.com/mnews/article/449/0000365195?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "SK하이닉스, 솔리다임 IPO 중단에도 낸드 투자 지속…자금 조달 다변화 모색",
+   "url": "https://www.fnnews.com/news/202610251115445474"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "ETF 애프터마켓 거래 논의 사실상 '올스톱'...증권사들도 '난색'",
+   "url": "https://www.fnnews.com/news/202610241819224855"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "한화는 인수, HD현대는 신설..마스가 승자는?",
+   "url": "https://www.fnnews.com/news/202610251204039661"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "'연 25조원' 전남광주통합특별시 금고지기 누가될까…26일 가린다",
+   "url": "https://www.news1.kr/local/gwangju-jeonnam/6329924"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "이달 10대그룹 시총 1100조원 증발…SK 30.1% 감소↓",
+   "url": "https://n.news.naver.com/mnews/article/079/0004202413?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-25 14:48",
+   "title": "스테이블코인 이자 지급 규제 마련한 미국…디지털자산법 발의도 못한 한국 [크립토360]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002713946?sid=101"
   }
  ],
- "updated_kst": "2026-10-25 10:18"
+ "updated_kst": "2026-10-25 14:48"
 }
