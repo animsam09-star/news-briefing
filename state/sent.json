@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "주금공, PF 보증사고 2564억원 대신 갚고 91% 못 받았다 [2026년 국감]",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392361?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "이형일 \"인허가·착공 등 선행지표 늘어…부동산 시장 점점 안정될 것\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005430125?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "[PF 2막 ⑥] 박종문號 삼성증권, PF 위험관리 '선택과 집중'…중·후순위 19%·해외 7%",
-   "url": "https://n.news.naver.com/mnews/article/138/0002245601?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "재개발·재건축 정비사업 '인허가 타임아웃제' 도입 필요",
-   "url": "https://www.housingherald.co.kr/news/articleView.html?idxno=63108"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "서울 아파트값 89주 연속 상승 '역대 최장'…외곽이 더 올랐다",
-   "url": "https://www.hankyung.com/article/2026102284116"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "지방 아파트 공급 14년 만에 최저…연말 재개발·재건축 분양에 관심",
-   "url": "https://www.sedaily.com/article/20104819?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "최저입찰가보다 5억 웃돈 낙찰…아파트 노린 빌라경매에 몰린다",
-   "url": "https://n.news.naver.com/mnews/article/016/0002712948?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "집값 뛴 경기 '셔세권' 팔고 강남 진입…올해만 4115명",
-   "url": "https://n.news.naver.com/mnews/article/016/0002712878?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "시장 침체 속 집값 상승률 1위 '전북'…전주 견인에 익산·군산 인접지도 기대감",
-   "url": "https://www.mk.co.kr/article/12182603"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "日자민, 대도시 아파트값 폭등에 '양도세 중과' 검토",
-   "url": "https://n.news.naver.com/mnews/article/374/0000539239?sid=104"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "신현송 \"금리 동결, '호미질 결실'…긴축 기조는 이어가야\"",
-   "url": "https://view.asiae.co.kr/article/2026102214261523879"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "이억원 \"솔리다임 美 상장 시 중복상장 규제…5대 의무 이행\"",
-   "url": "https://n.news.naver.com/mnews/article/586/0000140601?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "법 개정에도 은행 가산금리 ↑…금감원 '금리 공시' 검토",
-   "url": "https://news.mtn.co.kr/article/2026102214224094051"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "'DSR 미적용' 사내대출 1조원 육박…금융위, 규제 논의",
-   "url": "https://news.mtn.co.kr/article/2026102214280186559"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "[2026 국감] 퇴임해도 억대 보수…금융당국, '그림자 임원' 손본다",
-   "url": "https://dealsite.co.kr/articles/171135"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "해외점포 '맹탕 감사'에 금감원 감독 공백…은행 동남아 줄사고, 美선 '과징금 폭탄'",
-   "url": "https://view.asiae.co.kr/article/2026102114454475802"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "영풍, 고려아연 이사 상대 8370억 대표소송 1심 패소",
-   "url": "https://n.news.naver.com/mnews/article/586/0000140597?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "핀다, 핀테크 최초 저축은행업 진출…예금·대출 직접 설계",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392386?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "[단독] 英 행동주의펀드 AVI \"다우기술의 중앙일보 인수, 반대\"",
-   "url": "https://www.mk.co.kr/article/12182768"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-22 14:49",
-   "title": "'1682억 세금 반환' 론스타, 파기환송심서 패소...정부·서울시 승소",
-   "url": "https://www.fnnews.com/news/202610221025070712"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-10-22 21:45",
    "title": "한 총리 \"도심 유휴부지 활용해 청년·신혼부부 주거지원…주택공급 속도내야\"(종합)",
@@ -2292,7 +2172,127 @@
    "sent_kst": "2026-10-26 10:21",
    "title": "[Invest]이자만 연 500억 신창재 교보생명 회장, '제2의 SBI' 새 우군 유...",
    "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380174.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "LH, 매입임대 제3자 문의 기록…2회 땐 매입 중단",
+   "url": "https://www.fnnews.com/news/202610261353571297"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "'억' 소리 나는 부담금…서울 1만8000가구 '재초환 비상'",
+   "url": "https://n.news.naver.com/mnews/article/586/0000140845?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "후보지 선정 5년 만에 보상…서울 쌍문·연신내 1800가구 공급 속도",
+   "url": "https://n.news.naver.com/mnews/article/448/0000646993?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "부천시 '괴안·소사본동' 재건축 4개 구역 지정…4732세대 들어선다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005431637?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "대구시, 건축·주택·정비사업 인허가 '통합심의'로 속도전",
+   "url": "https://www.hankyung.com/article/202610265247h"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "태영건설, 공공 중심 포트폴리오 재편… 재무구조 개선·주택사업 성과",
+   "url": "https://biz.chosun.com/industry/business_info/2026/10/26/AILJRRBUS5HVFMMKWE4ZJGVH4U/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "강남 집값, 버티던 '59㎡'도 꺾였다…하락세 확산 조짐",
+   "url": "https://www.newsis.com/view/NISX20261026_0003841204"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "강북권 아파트 매매 12억·전세 6억 첫 돌파…집 사기도 세 들기도 부담",
+   "url": "https://www.news1.kr/realestate/general/6331780"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "수도권 물류센터 공실률 2.5%P 하락…남부권 4년 만에 최저점",
+   "url": "https://www.hankyung.com/article/202610264564r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "[박상길의 부동산톡] 전층 설치 아니면 면제…소방법 사각지대 놓인 노후 건물",
+   "url": "https://n.news.naver.com/mnews/article/029/0003055237?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "예보료 3.3배 인상안에 보험업계 반발… 요율 확정 해 넘기나",
+   "url": "https://biz.chosun.com/stock/finance/2026/10/26/XTEOJLN5QBCYVM2MNUNGC6W534/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "홍콩 ELS식 '제재 엇박' 손질…금융위·금감원 사전조율 정례화 추진",
+   "url": "https://n.news.naver.com/mnews/article/117/0004118337?sid=103"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "국회 '대기업 진출' 제동에…4대 금융 온투업 진출 '잠잠'",
+   "url": "https://www.mk.co.kr/article/12185496"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "보험사·핀테크까지 저축은행 인수전 가세…업계 지각변동 본격화",
+   "url": "https://n.news.naver.com/mnews/article/138/0002245988?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "군인 빚투 수단 '충성론·병장론' 이제 막힌다…당국·대부업계 연내 금지키로",
+   "url": "https://www.newsis.com/view/NISX20261026_0003840810"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "금융당국도 해킹 표적…사이버공격 작년보다 이미 두배 늘어 [금융당국 백브리핑]",
+   "url": "https://www.hankyung.com/article/202610264922i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "가계·기업 신용위험 비상..한은 \"4분기 은행 대출 문턱 더 높인다\"",
+   "url": "https://www.fnnews.com/news/202610261124530917"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "\"3년 흑자 기업 76곳도 상폐\"…코스닥 퇴출 '300억 잣대' 논란 가열",
+   "url": "https://n.news.naver.com/mnews/article/138/0002245989?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "규제에 막힌 韓 기업 해외 IPO…현대차·두산·LG전자도 타격받나",
+   "url": "https://n.news.naver.com/mnews/article/629/0000545534?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-26 14:52",
+   "title": "'금융 안전망' KOFR 이자율스와프 중앙청산 1년 만에 492조 달성",
+   "url": "https://www.news1.kr/finance/general-stock/6331982"
   }
  ],
- "updated_kst": "2026-10-26 10:21"
+ "updated_kst": "2026-10-26 14:52"
 }
