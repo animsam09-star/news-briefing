@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "금융위, 여전사 부동산 대출 규제 강화…PG사 점검 의무·렌탈 한도 완화",
-   "url": "https://www.news1.kr/finance/general-finance/6329394"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "'15억원 이상 주담대 전면금지' 루머에...이억원 \"절대 없다\" 일축 [2026년 국감]",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392442?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "\"주택 공급 전격전 펼쳐라\" 강조한 李대통령…'원형지 분양' 먹힐까",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440721"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "민간 도심복합개발 용적률 700% 기대했는데… 세부 운영기준 발표 지연",
-   "url": "https://news.mtn.co.kr/article/2026102218273528008"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "아파트 문턱 높아지니 빌라값도 고공행진…핀셋 규제 회피 움직임도",
-   "url": "https://www.mk.co.kr/article/12183767"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "내년 4월부턴 집주인 마음 바뀐다…\"급매 잡으려면 1~3월이 기회\"",
-   "url": "https://www.mk.co.kr/article/12182998"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "[단독] 화재 '불쏘시개' 샌드위치 패널…시중 인증 제품도 못 믿어",
-   "url": "https://n.news.naver.com/mnews/article/057/0001974784?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "\"반포에서도 사겠다는 사람이 없어요\"…대형 아파트의 굴욕 [시장톡]",
-   "url": "https://www.hankyung.com/article/2026102171946"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "\"밀리면 또 1년\"…분당 재건축 순번에 추진위 '촉각'",
-   "url": "https://n.news.naver.com/mnews/article/119/0003145992?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "\"1억이요? 나 어떡해\"… 서울 전세입자들 '렌트 푸어' 내몰리나",
-   "url": "https://www.kmib.co.kr/article/20261023500025"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "금감원, KB금융·국민은행 정기검사 2주 연장",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440754"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "금감원, 금융그룹 추가위험평가 결과 공유…'신규 지정' 토스 첫 참석",
-   "url": "https://www.newsis.com/view/NISX20261023_0003838040"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "[단독] 은행 포용금융 성적따라 출연금 20% 가감…과징금 감경도",
-   "url": "https://www.mk.co.kr/article/12183784"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "8월 은행 연체율 0.69%로 상승…중소기업 1%·중소법인 1.1%",
-   "url": "https://n.news.naver.com/mnews/article/008/0005430526?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "총량규제 여파? '포용금융'도 발목…3분기 은행 중금리대출 14%↓",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051872?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "신협, 자산관리회사 설립 금융위 출자 승인...부실채권 정리 속도",
-   "url": "https://www.fnnews.com/news/202610230914187002"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "주식·채권 품는 토큰증권 시대 눈앞… '온체인 금융' 완성할 후속 입법은 과제로",
-   "url": "https://n.news.naver.com/mnews/article/022/0004169056?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "\"日 마루베니가 공개매수 한다\"…'롬앤' 아이패밀리에스씨 상한가",
-   "url": "https://n.news.naver.com/mnews/article/008/0005430558?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "'형들 고마워'…김동선 사장, 한화M&S 최대주주 굳힌다",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051868?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-23 10:22",
-   "title": "8200만대 갤럭시가 송금 창구로…삼성, 스테이블코인 시장 공략",
-   "url": "https://dealsite.co.kr/articles/171009"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-23 14:50",
    "title": "홍지선 \"주택시장 대응책 마련 중\"…특공 제도도 재검토",
@@ -2412,7 +2292,127 @@
    "sent_kst": "2026-10-27 10:18",
    "title": "25억 더 돌려받았다가 73억 지급…메리츠화재 '매도프 악연' 종지부",
    "url": "https://dealsite.co.kr/articles/171252"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "이 대통령 \"주택공급 확대, 필요하면 재정 지원\"",
+   "url": "https://n.news.naver.com/mnews/article/417/0001162237?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "부동산개발 인허가 협의 지원 45일 내 결과 통보…국무회의 의결",
+   "url": "https://www.newsis.com/view/NISX20261027_0003842151"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "분당 재건축 1만3429가구 '제동'…신상진 \"국토부가 발목 잡아\"",
+   "url": "https://www.hankyung.com/article/202610277555h"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "서울시, 재개발·재건축 인허가 기준 통일… 사업시행자 지정 '30일 컷'",
+   "url": "https://n.news.naver.com/mnews/article/029/0003055525?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "모듈러주택, 공기 30% 줄지만 공사비도 30% 비싸…정부 \"가구당 3500만원 지원\"",
+   "url": "https://www.hankyung.com/article/202610277883i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "서울 중저가 전셋값, 고가보다 더 뛰었다…올해 10%대 상승",
+   "url": "https://www.newsis.com/view/NISX20261027_0003842711"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "3분기 전국 땅값 0.62% 상승…토지 거래량은 15.6% 줄어",
+   "url": "https://www.newsis.com/view/NISX20261027_0003842781"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "\"지방 아파트 30채 팔아야 강남 1채\" 전국 집값 격차 역대 '최대'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002714793?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "AI 데이터센터 신성장 동력 부상...건설사 수주 경쟁 본격화",
+   "url": "https://www.g-enews.com/view.php?ud=2026102710150949492aa6f4cdad_1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "충남 미분양 9579호 '비수도권 최다'…천안·아산에 72% 집중",
+   "url": "https://n.news.naver.com/mnews/article/629/0000545858?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "미래에셋생명 해킹 이틀째…금감원 \"유출 규모 파악 중\" 현장점검 착수",
+   "url": "https://www.donga.com/news/Society/article/all/20261027/134916565/2"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "금감원, 증권사 빚투 관리에 쓴소리…\"자율관리 미흡 땐 추가 규제\"",
+   "url": "https://n.news.naver.com/mnews/article/082/0001404251?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "루센트블록, 조각투자 인가 절차 문제 제기…\"법적 대응도 검토\"",
+   "url": "https://n.news.naver.com/mnews/article/374/0000539993?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "'순익 -28%' BNK금융, 증시 급락·충당금에 직격탄",
+   "url": "https://news.mtn.co.kr/article/2026102618474719058"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "신한지주, 누적 순익 5조원 돌파…3분기는 1.5조 그쳐",
+   "url": "https://n.news.naver.com/mnews/article/648/0000051973?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "토스뱅크, 연립·다세대까지 주담대 확대…전 과정 비대면",
+   "url": "https://www.g-enews.com/view.php?ud=202610271201285570cd0bfacc1c_1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "영풍-MBK 콜옵션 조건 공개…'손실·배임 가능성' 놓고 논란",
+   "url": "https://www.hankyung.com/article/202610277372g"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "정부 정책에 칼 빼든 공수처…국민연금·ETF 고발 건 결국 수사행",
+   "url": "https://n.news.naver.com/mnews/article/654/0000207697?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "퇴직연금 ETF 위험등급 표시 강화…'투자한도 100%' 오인 막는다",
+   "url": "https://www.sedaily.com/article/20106565?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-27 14:48",
+   "title": "\"자택까지 담보로 제공\"…MBK, 오스템·홈플러스 비판에 정면 반박",
+   "url": "https://n.news.naver.com/mnews/article/629/0000545971?sid=101"
   }
  ],
- "updated_kst": "2026-10-27 10:18"
+ "updated_kst": "2026-10-27 14:48"
 }
