@@ -2826,7 +2826,283 @@
    "sent_kst": "2026-10-28 14:50",
    "title": "'1천800억 펀드 부실판매' 피델리스자산운용 경영진 2심도 무죄",
    "url": "https://n.news.naver.com/mnews/article/001/0016406327?sid=102"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "당정, 도정법 연내 처리… 재개발 용적률 민간 120%·공공 130%로 상향",
+   "url": "https://www.fnnews.com/news/202610281821389088"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "'강남 재초환 1호' 반포현대 부담금 1억 넘을 듯",
+   "url": "https://www.sedaily.com/article/20107367?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "\"가을 분양 막차 타자\"…11월 전국 5만6533가구 분양 돌입",
+   "url": "https://www.sedaily.com/article/20107384?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "강남 집값 주춤한 사이 외곽은 급등… 서민 주거 부담 가중",
+   "url": "https://www.kmib.co.kr/article/20261028501956"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "'균형 발전' 외치지만 지방은 잔금 마련도 깜깜… 입주 못 해 발 동동",
+   "url": "https://n.news.naver.com/mnews/article/469/0000962189?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "서울 리모델링·역세권 개발로 621가구 신규 공급",
+   "url": "https://www.sedaily.com/article/20107382?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "\"용인 반도체 국가산단 공사 중단 촉구\"…천막농성 돌입",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8697576&ref=A"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "'블록처럼 착착 쌓아 공기 30% 단축'‥모듈러 아파트 살기에는?",
+   "url": "https://n.news.naver.com/mnews/article/214/0001532018?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "반도체공장 일감 늘자 실적 웃었다…삼성물산 건설 영업익 2.5배 '껑충'",
+   "url": "https://www.fnnews.com/news/202610281825323504"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "불탄 구룡마을…李정부, 이재민에 임대주택 2년 무상 지원",
+   "url": "https://n.news.naver.com/mnews/article/629/0000546456?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "이달들어 매주 한번꼴 털렸지만…'디지털금융안전법' 2년째 낮잠",
+   "url": "https://www.sedaily.com/article/20107374?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "與, 30일 가상자산 업계와 간담회…과세 고시는 연기 수순",
+   "url": "https://n.news.naver.com/mnews/article/374/0000540368?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "농협금융 3분기 누적순익 2조5278억원…역대 최대",
+   "url": "https://n.news.naver.com/mnews/article/374/0000540371?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "SK하이닉스, 3분기 영업이익 83조 원 '역대 최대'‥주주환원은 통 크게",
+   "url": "https://n.news.naver.com/mnews/article/214/0001532010?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "李대통령도 운띄운 의무공개매수제…국회처리 앞두고 곳곳서 반발",
+   "url": "https://www.mk.co.kr/article/12188767"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "금융위, 15년 묵은 빚 4.9조 정리…은행 17곳 줄 세워 '꼴찌'엔 불이익",
+   "url": "https://news.mtn.co.kr/article/2026102812071092042"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "피델릭스, 5년간 허위 매출 151억원… 증선위, 전 대표 등 고발",
+   "url": "https://biz.chosun.com/stock/stock_general/2026/10/28/MVU6KJLMWVFEJFNZ2MVBE75YJI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "이정재·정우성 투자 정보로 12.5억 부당이득…증선위, 관련자 고발",
+   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441706"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "LG화학, 2.5조원 규모 LG엔솔 주식 매각…4000억으로 주주환원",
+   "url": "https://www.sedaily.com/article/20107400?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "SK이노-SKIET 합병비율 유지…외부평가 추가 검증",
+   "url": "https://www.fnnews.com/news/202610281745195792"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Anthropic Weighs Up to 20% of Its IPO for Retail Investors",
+   "url": "https://fourweekmba.com/ai-anthropic-weighs-up-to-20-of-its-ipo-for-retail-investors/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Photo Studios Are Closing as the Fashion Industry Embraces Generative AI",
+   "url": "https://petapixel.com/2026/10/28/photo-studios-are-closing-as-the-fashion-industry-embraces-generative-ai/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "NVIDIA and Meta expand collaboration on AI models and infrastructure",
+   "url": "https://www.engineering.com/nvidia-and-meta-expand-collaboration-on-ai-models-and-infrastructure/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Tech giants helping finance their own AI boom, raising questions about who bears risk",
+   "url": "https://www.bizpacreview.com/2026/10/27/tech-giants-helping-finance-their-own-ai-boom-raising-questions-about-who-bears-risk-1665087/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "DeepSeek Model Disabled Its Shutdown Script in 39% of Warned Test Runs",
+   "url": "https://www.technology.org/2026/10/28/deepseek-v4-1-flash-1017-shutdown-safety-tests-fangcun/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "OpenAI announces three new findings in mathematics, computer science, and physics",
+   "url": "https://gigazine.net/gsc_news/en/20261027-openai-three-new-discoveries/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "TSMC Could Charge Up to 20% More for CoWoS Packaging Amid AI Crunch",
+   "url": "https://www.techpowerup.com/354217/tsmc-could-charge-up-to-20-more-for-cowos-packaging-amid-ai-crunch"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Anduril Teams Up With Qualcomm on Military-Grade Laptop, With TSMC's Arizona Fab Making the Core Chips",
+   "url": "https://finance.biggo.com/news/3439d8ba-2fe1-4117-b285-18bbf4d46e13"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Machine learning simulations trace how plastic turns into hard carbon atom by atom",
+   "url": "https://bioengineer.org/machine-learning-simulations-trace-how-plastic-turns-into-hard-carbon-atom-by-atom/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Column: Boosting Western supply of refined critical metals means de-risking investment",
+   "url": "https://mining.com.au/column-boosting-western-supply-of-refined-critical-metals-means-de-risking-investment/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Oil rises on supply disruption concerns; Houthis claim attack on Saudi Ras Tanura complex",
+   "url": "https://www.icis.com/explore/resources/news/2026/10/28/11239093/oil-rises-on-supply-disruption-concerns-houthis-claim-attack-on-saudi-ras-tanura-complex"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Why China isn't the new OPEC",
+   "url": "https://www.oxfordenergy.org/publications/why-china-isnt-the-new-opec/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "The U.S. will increase natural gas production in 2026, driven by global demand for LNG and data center consumption",
+   "url": "https://informat.ro/en/international/us-gas-production-to-reach-new-record-in-2026-145636"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Eni Awards Key Contracts for Cronos Gas Project",
+   "url": "https://www.rigzone.com/news/eni_awards_key_contracts_for_cronos_gas_project-28-oct-2026-184949-article/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Boeing sees air cargo traffic doubling by 2045",
+   "url": "https://www.investing.com/news/stock-market-news/boeing-sees-air-cargo-traffic-doubling-by-2045-4978947"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Boeing CFO Says 787 Margins Will Top 2018 Levels by 2029, While 737 Recovery Falls Short of Past Highs",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62650162/boeing-cfo-says-787-margins-will-top-2018-levels-by-2029-while-737-recovery-falls-short-of-past-highs"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Apple expected to show first touchscreen laptops amid product blitz",
+   "url": "https://www.reuters.com/business/retail-consumer/apple-expected-show-first-touchscreen-laptops-amid-product-blitz-2026-10-28/"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "South Korea media commission fines Google and Apple over app payment systems",
+   "url": "https://www.centraloregondaily.com/news/consumer/south-korea-media-commission-fines-google-and-apple-over-app-payment-systems/article_40134fe7-5aef-5682-afa0-53c30be9a888.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "SMR Buyers Face a Fuel Supply Still Under Construction",
+   "url": "https://www.environmentenergyleader.com/articles/45474-smr-buyers-face-a-fuel-supply-still-under-construction"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Can larger batteries safely power residential buildings?",
+   "url": "https://canada.constructconnect.com/dcn/news/resource/2026/10/can-larger-batteries-safely-power-residential-buildings"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "ISRO's GSLV-F18 To Carry NVS-03, Next-Gen NavIC Satellite With Homegrown Atomic Clock, On 30 October",
+   "url": "https://swarajyamag.com/news-brief/isros-gslv-f18-to-carry-nvs-03-next-gen-navic-satellite-with-homegrown-atomic-clock-on-30-october"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Rocket Lab's $515 Million Military Satellite Order Hits the Factory Floor as 8 of 18 Spacecraft Enter Build",
+   "url": "https://finance.biggo.com/news/145d4809-13d8-4a56-8f43-fd8cbd56d544"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Norwegian Prime Minister Defends Phone Call With Vladimir Putin",
+   "url": "https://www.themoscowtimes.com/2026/10/28/norwegian-prime-minister-defends-phone-call-with-vladimir-putin-a94104"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Israel's election has no clear winner — but Benjamin Netanyahu looks far from defeated again",
+   "url": "https://www.nbcnews.com/world/israel/israel-election-results-netanyahu-eisenkot-arab-parties-trump-iran-war-rcna606060"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "USDC surpasses USDT in euro stablecoin trading, capturing 56% market share amid EU regulations",
+   "url": "https://pluang.com/en/news-feed/usdc-lebih-unggul-dari-usdt-pasar-eropa-perdagangan-euro"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-10-28 21:46",
+   "title": "Treasury Secretary Scott Bessent Just Called the Genius Act a 'Watershed Moment in American Finance.'",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/8497310/treasury-secretary-scott-bessent-just-called-the-genius-act-a-watershed-moment-in-american-finance-heres-whats-next-for-stablecoins/"
   }
  ],
- "updated_kst": "2026-10-28 14:50"
+ "updated_kst": "2026-10-28 21:46"
 }
