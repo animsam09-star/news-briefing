@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "3기 신도시 교통망 구축도 속도전… 국토부 '직접 인허가' 사업 확대",
-   "url": "https://n.news.naver.com/mnews/article/008/0005431265?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "‘공급 속도전’ 외치고는 있는데…정작 ‘모듈러 특별법’은 10개월째 ‘쿨쿨’",
-   "url": "https://www.mk.co.kr/article/12184997"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "\"집값보다 전셋값이 미쳤어요\"…서울 끝자락도 13억",
-   "url": "https://www.edaily.co.kr/News/Read?newsId=01853206645616528&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "\"전세도 매매도 쉽지 않다\"…금리 6%에 흔들리는 부동산 시장",
-   "url": "https://www.newsis.com/view/NISX20261025_0003839844"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "\"집 대신 건물 샀다\"… 강남 빌딩에 4.5조 뭉칫돈",
-   "url": "https://n.news.naver.com/mnews/article/029/0003055060?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "서울 아파트 평균 임대료, 월 317만원꼴...1년 사이 13.5% 상승",
-   "url": "https://n.news.naver.com/mnews/article/001/0016398864?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "관리비 비리 의심 아파트 7851곳 잡고도…정부는 '뒷짐'",
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498188"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "'방 1개' 39㎡가 20억…강남은 초소형도 '20억 클럽'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005431260?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "노원도 성북도 연일 신고가...서대문·중랑도 ‘신났다’",
-   "url": "https://www.mk.co.kr/article/12185012"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "건설사 품은 인테리어업계, 신축·노후단지 동시 공략",
-   "url": "https://n.news.naver.com/mnews/article/417/0001161959?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "연이자 6800% '이실장' AI로 다시 추적했더니…피해 규모 2배",
-   "url": "https://n.news.naver.com/mnews/article/469/0000961490?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "금융위 세종행에 금감원·국책은행도 긴장…지방이전 갈등 재점화",
-   "url": "https://www.edaily.co.kr/News/Read?newsId=01577686645616528&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "금융당국, 무위험지표금리 점차 확대…기업대출 상품 1조원 출시",
-   "url": "https://www.newsis.com/view/NISX20261025_0003839750"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "\"또 연기\" 청와대, '가상자산 과세' 4번째 유예…청년 여론 등 고려",
-   "url": "https://n.news.naver.com/mnews/article/449/0000365195?sid=100"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "SK하이닉스, 솔리다임 IPO 중단에도 낸드 투자 지속…자금 조달 다변화 모색",
-   "url": "https://www.fnnews.com/news/202610251115445474"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "ETF 애프터마켓 거래 논의 사실상 '올스톱'...증권사들도 '난색'",
-   "url": "https://www.fnnews.com/news/202610241819224855"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "한화는 인수, HD현대는 신설..마스가 승자는?",
-   "url": "https://www.fnnews.com/news/202610251204039661"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "'연 25조원' 전남광주통합특별시 금고지기 누가될까…26일 가린다",
-   "url": "https://www.news1.kr/local/gwangju-jeonnam/6329924"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "이달 10대그룹 시총 1100조원 증발…SK 30.1% 감소↓",
-   "url": "https://n.news.naver.com/mnews/article/079/0004202413?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-10-25 14:48",
-   "title": "스테이블코인 이자 지급 규제 마련한 미국…디지털자산법 발의도 못한 한국 [크립토360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002713946?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-10-25 21:45",
    "title": "[단독]F4+α 참여하는 통합시장점검회의 신설…월 2회 개최",
@@ -3108,7 +2988,127 @@
    "sent_kst": "2026-10-29 10:18",
    "title": "'변호사 비용' 축소에 운전자보험 직격탄…판매량 44% 줄었다",
    "url": "https://n.news.naver.com/mnews/article/030/0003479915?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "그린벨트 풀어 수도권 7.7만호 추가 공급…집값 안정 관건은 '속도'",
+   "url": "https://n.news.naver.com/mnews/article/022/0004170805?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "서울 아파트값, 90주 연속 상승… 강남3구 낙폭은 더 커졌다",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/10/29/ONLBLAZA7BCFVHWA3BMQE7SZSQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "내년 건설수주 241조원 전망…공공·비주거는 늘고 민간 주거 줄어 '엇갈림'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002716158?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "17년 '센텀 맞수' 종지부…신세계, 롯데 센텀시티점 품는다",
+   "url": "https://n.news.naver.com/mnews/article/079/0004204369?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "서울 오피스 공실률 5.0%로 하락…임대료는 1년 새 4.3% 상승",
+   "url": "https://n.news.naver.com/mnews/article/138/0002246522?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "'소비 부진'에 상가 공실률 역대 최고…1층 공실도 6.9%로 상승",
+   "url": "https://www.newsis.com/view/NISX20261029_0003846156"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "\"적법절차\" \"일방적 매각\"…골프존카운티 매각 놓고 1·2대주주 공방",
+   "url": "https://n.news.naver.com/mnews/article/001/0016408273?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "금리에 얼어붙은 유럽 오피스…거래액 17년 만에 최저",
+   "url": "https://www.mk.co.kr/article/12189796"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "현대건설, 1조5000억 규모 압구정5구역 재건축 도급계약 체결",
+   "url": "https://n.news.naver.com/mnews/article/022/0004170814?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "MBK 검찰 수사 답보 상태…민병덕 \"홈플러스 정상화 끝까지 함께할 것\"",
+   "url": "https://n.news.naver.com/mnews/article/215/0001270933?sid=103"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "부실금융기관 4일 만에 '신속정리'…뱅크런 막는다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002716141?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "지배구조 개선안 7개월째 표류… 금감원장 '승계 절차 점검' 거듭 경고",
+   "url": "https://biz.chosun.com/stock/finance/2026/10/29/VW6PJC7PCZFOPFBEUUNWMQRKWM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "퇴직연금 '잠자는 돈' 깨운다…위험자산 70% 족쇄 풀고 IMA 투자 허용",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392885?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "가계대출 금리 5% 육박…주담대 4.88%·신용대출 6.49%",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392887?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "[단독] 신한은행 해킹 피해자 29명 소송전 돌입…추가 손배소 예고",
+   "url": "https://n.news.naver.com/mnews/article/079/0004204370?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "[단독] 빗썸 '황제 사택' 의혹에 또 압수수색…임원 사적 유용 수사",
+   "url": "https://www.news1.kr/society/court-prosecution/6336360"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "[단독] 시총 1조2500억 증발한 케이뱅크…'KT 그늘'서 최우형 후임 물색",
+   "url": "https://news.mtn.co.kr/article/2026102910242240551"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "32조 사학연금 최초 주거래은행 공개입찰…6대 은행 '군침'",
+   "url": "https://n.news.naver.com/mnews/article/374/0000540534?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "삼성 등 플랫폼 잡은 우리銀…은행권 '페이 수신전쟁' 선두 노린다",
+   "url": "https://n.news.naver.com/mnews/article/629/0000546776?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-10-29 14:53",
+   "title": "'삼성물산 합병으로 손실' 개인 주주들 1심 패소",
+   "url": "https://n.news.naver.com/mnews/article/052/0002425513?sid=102"
   }
  ],
- "updated_kst": "2026-10-29 10:18"
+ "updated_kst": "2026-10-29 14:53"
 }
