@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "[단독] 與 '정비사업 자치구 이양'에…입법조사처 \"지역 격차·난개발 우려\" [SEOUL NOW]",
-   "url": "https://n.news.naver.com/mnews/article/029/0003055000?sid=100"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "재경위 \"주택 종부세율 올리면 임차인에 세금 부담 전가 가능성\"",
-   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008813643&plink=ORI&cooper=NAVER"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "'강남 1호' 재건축초과이익 부담금 연내 부과 예고…시장 긴장",
-   "url": "https://n.news.naver.com/mnews/article/001/0016398557?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "'30조 목동' 속속 시공사 확정…남은 9개 단지 놓고 건설사 눈치싸움",
-   "url": "https://www.newsis.com/view/NISX20261020_0003833609"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "정부는 '닥공' 외치는데…\"지을수록 적자\" 폐업건설사 역대 최고",
-   "url": "https://www.joongang.co.kr/article/25472529"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "대형 건설사들, 중대재해 영업정지에 '취소소송' 후 계속 수주",
-   "url": "https://n.news.naver.com/mnews/article/001/0016398414?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "서울 새 아파트 공급 가뭄…'신축 희소성' 커진다",
-   "url": "https://n.news.naver.com/mnews/article/119/0003146647?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "삼성 대출에 성과급 기대까지…경기 남부 집값 불붙었다[부동산 머니무브②]",
-   "url": "https://www.newsis.com/view/NISX20261023_0003839212"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "병점·동탄 집값 한 주 새 1%↑…서울·경기 상승폭 확대",
-   "url": "https://n.news.naver.com/mnews/article/008/0005431176?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "\"매물 반토막에, 집값 오름폭 제쳐\"… 무주택자 덮친 '전세의 역습'",
-   "url": "https://n.news.naver.com/mnews/article/029/0003054969?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "은행 '자율'이라더니 강제 규제?…대출총량 초과 7곳 한도 깎았다 [2026년 국감]",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392518?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "'최고 3.3배' 예보료율 인상안 재논의…업계 반발에 수정안 주목",
-   "url": "https://n.news.naver.com/mnews/article/119/0003146651?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "가상자산 과세 두 달 앞으로…'2년 유예론' 부상",
-   "url": "https://n.news.naver.com/mnews/article/422/0000919197?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "국회 \"정부, 가업상속공제 한도 600억원→1000억원…역진적 심화\"",
-   "url": "https://n.news.naver.com/mnews/article/016/0002713894?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "호남 반도체 '2030년 시간표'…노동특례·인허가, 29일 당정 시험대",
-   "url": "https://www.newsis.com/view/NISX20261024_0003839727"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "재경부 '금융위 견제설'에 연임용 소송 논란까지…수협은행장 인선 '점입가경'",
-   "url": "https://view.asiae.co.kr/article/2026102420041882059"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "\"곧 대출 막힌대요, 빨리 사야겠네요\" '삼성맨' 사내대출 규제 검토에 '막차 수요' 몰리나[부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002713889?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "PBR 낮은 종목 다음달 2일 공개…62개사 개선계획 냈다",
-   "url": "https://n.news.naver.com/mnews/article/417/0001161954?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "고려아연 감사위, 최윤범 회장 이해상충 의혹 조사 검토",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=676636"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-25 10:18",
-   "title": "초대형GA 코스닥 진입 시동…프라임에셋, 상장 플랜 착수",
-   "url": "https://n.news.naver.com/mnews/article/030/0003478281?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-25 14:48",
    "title": "3기 신도시 교통망 구축도 속도전… 국토부 '직접 인허가' 사업 확대",
@@ -3108,7 +2988,127 @@
    "sent_kst": "2026-10-29 06:34",
    "title": "Coinbase sets October 30, 2026 deadline for non-compliant stablecoins in EEA",
    "url": "https://pluang.com/en/news-feed/coinbase-tetapkan-batas-waktu-30-oktober-untuk-stablecoin-terbatas-eea"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "[토허제 1년, 규제의 역설①] 거래는 묶였는데 집값은 올랐다…실효성 ‘글쎄’",
+   "url": "https://n.news.naver.com/mnews/article/119/0003148438?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "LH, 3기 신도시 보상 앞당긴다…이주 거부자 소송 외부 위탁",
+   "url": "https://www.news1.kr/realestate/general/6335839"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "산본은 시공사 뽑는데 일산은 사업성 고민…1기 신도시 재건축 ‘온도차’",
+   "url": "https://n.news.naver.com/mnews/article/119/0003148436?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "노인 5명 중 1명인데 주택은 부족…'고령화'가 바꾼 서울 개발 공식",
+   "url": "https://n.news.naver.com/mnews/article/119/0003148452?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "멀어지는 '서울 자가'의 꿈…입주 물량 13년 만에 '최저'",
+   "url": "https://www.hankyung.com/article/2026102921906"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "[Invest]부실기업 급증에 깐깐해진 유암코, 19조 은행 NPL '헐값 매각전...'",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/28/2026102880141.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "대치·개포 이주 폭탄…강남 빌라 전셋값 곧 폭등합니다 [더 머니이스트-최원철의 미래집]",
+   "url": "https://www.hankyung.com/article/202610265156Q"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "\"아파트에 웬 아이스링크\"…'호화 커뮤니티'에 제동 걸리나 [시장톡]",
+   "url": "https://www.hankyung.com/article/2026102808446"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "[클릭 e종목]\"신규수주 밀릴 수도\"…내년에 실적 살아날 건설사",
+   "url": "https://view.asiae.co.kr/article/2026102816254967573"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "부동산 PF 발행 급감에 3분기 자산유동화증권 발행 12.5조원…전년比 5.7%↓",
+   "url": "https://n.news.naver.com/mnews/article/016/0002715790?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "연준, 선거 앞두고 일단 '정중동'…월가 \"12월 인상 유력\"(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016407529?sid=104"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "미래에셋, 日 증권사 품는다…산코증권 425억에 인수[닛케이]",
+   "url": "https://n.news.naver.com/mnews/article/029/0003055947?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "이억원, 해킹 대응 간담회 내달 5일 확정…5대 은행장·금융협회장 소집",
+   "url": "https://www.news1.kr/finance/general-finance/6335769"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "이형일 \"11월 국고채 발행 신중 검토\"…주식결제 T+1도 의견 수렴",
+   "url": "https://www.sedaily.com/article/20107556?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "퇴직금 회사 밖에 쌓는다…2030년 모든 사업장 퇴직연금 의무화",
+   "url": "https://n.news.naver.com/mnews/article/079/0004204179?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "국내 사모펀드 공식 협회 생긴다…내년 초 출범 앞둬",
+   "url": "https://n.news.naver.com/mnews/article/016/0002715868?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "금감원 \"JYP 공개매수 예의주시…불공정거래 의심시 조사\"",
+   "url": "https://n.news.naver.com/mnews/article/021/0002828597?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "퓨리오사AI, 8200억 투자 유치 완료…기업가치 3.8조",
+   "url": "https://www.sedaily.com/article/20107546?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "월 165만명 쓰는 빗썸 뚫렸다...고객정보 유출 여부 '깜깜'",
+   "url": "https://www.sedaily.com/article/20107424?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-29 10:18",
+   "title": "'변호사 비용' 축소에 운전자보험 직격탄…판매량 44% 줄었다",
+   "url": "https://n.news.naver.com/mnews/article/030/0003479915?sid=101"
   }
  ],
- "updated_kst": "2026-10-29 06:34"
+ "updated_kst": "2026-10-29 10:18"
 }
