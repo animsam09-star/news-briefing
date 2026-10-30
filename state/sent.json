@@ -2,108 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "[PF 자기자본 규제] 개발업계 '보릿고개'…금융권 20% 요구에 자본조달...",
-   "url": "https://dealsite.co.kr/articles/170681"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "\"짓다 만 아파트, 누가 완공하나요\" 지방 곳곳 '유령 아파트' 속출 [부동산360]",
-   "url": "https://n.news.naver.com/mnews/article/016/0002714070?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "LH, 쌍문역·연신내 역세권에 1796가구 공급…2028년 착공",
-   "url": "https://n.news.naver.com/mnews/article/629/0000545356?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "세종 스마트시티, 8년만 구체화...11월 대단지 공급",
-   "url": "https://www.fnnews.com/news/202610260849393128"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "서울 신축 쏠림…수도권 1순위 청약자 63.9% 서울로",
-   "url": "https://www.fnnews.com/news/202610260910521991"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "재건축 대안 떠오른 '리모델링'…판 커질까",
-   "url": "https://n.news.naver.com/mnews/article/119/0003146783?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "[현장너머]부동산만 때리고 주식·코인엔 세금 0원",
-   "url": "https://view.asiae.co.kr/article/2026102607305240553"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "금감원, 제재 쌓이고 수시검사 늘고…정작 정기검사는?",
-   "url": "https://n.news.naver.com/mnews/article/648/0000051923?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "[Invest]금융위, MBK 징계 앞두고 홈플러스 RCPS 투자자 피해 재점검",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380173.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "예탁원, 전자의결권 플랫폼 오픈",
-   "url": "https://view.asiae.co.kr/article/2026102609071221638"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "가상자산 과세, 네 번째 유예 가능성…청와대 유예 검토",
-   "url": "https://n.news.naver.com/mnews/article/092/0002442329?sid=105"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "'스페이스X 0주' 후폭풍…미래에셋증권, 임원 책임까지 번지나",
-   "url": "https://n.news.naver.com/mnews/article/123/0002392547?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "증권보다 손보 택한 신한금융…달라지는 비은행 지원 셈법",
-   "url": "https://dealsite.co.kr/articles/171162"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "보험사 인수전 달아오르는데…외국계 보험사는 '매각 한파'",
-   "url": "https://dealsite.co.kr/articles/171190"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "[은행 임추위 돋보기] [NH농협은행] 행장 뽑는 데 고작 70분…농협은행...",
-   "url": "https://dealsite.co.kr/articles/171029"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "[Invest]계산기만 두드리는 한투금융, '업보' 감당 못할 KDB생명 딜",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380170.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-10-26 10:21",
-   "title": "[Invest]이자만 연 500억 신창재 교보생명 회장, '제2의 SBI' 새 우군 유...",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/10/23/2026102380174.html"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-10-26 14:52",
    "title": "LH, 매입임대 제3자 문의 기록…2회 땐 매입 중단",
@@ -3096,7 +2994,127 @@
    "sent_kst": "2026-10-30 06:37",
    "title": "Majority partners with zerohash on stablecoin remittances",
    "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/majority-selects-zerohash-for-stablecoin-remittances-to-latin-america"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "\"설계 잘못인데 신탁사가 160억 배상?\"…세종, 2심도 승소",
+   "url": "https://www.fnnews.com/news/202610300930170681"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "충남도, 도내 15개 시군 2만6491필지 개별공시지가 공시",
+   "url": "https://www.news1.kr/local/daejeon-chungnam/6337208"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "'10억 적으려다 100억'…법원경매 입찰표 양식 전면개선",
+   "url": "https://n.news.naver.com/mnews/article/001/0016411027?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "GS건설, 허윤홍표 신사업 잇단 손상…투자성과 물음표 ② [기업분석]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002392932?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "서울 주요 단지 10곳 중 4곳은 20~30년차…30년 이상도 24.1%",
+   "url": "https://www.mk.co.kr/article/12191212"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "쿠팡CLS, 부산에 420억 투자…스마트 물류 거점 만든다",
+   "url": "https://www.fnnews.com/news/202610300941594990"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "GS건설, 3분기 매출 2조7442억…영업익 955억(상보)",
+   "url": "https://www.news1.kr/realestate/general/6337413"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "용인시, 반도체 양대 산단 공사 '교통대란' 막는다…2만대 주차장·우회로 추진",
+   "url": "https://view.asiae.co.kr/article/2026103007121933712"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "폐점 대형마트 부지, 주거단지로 재탄생…안산·동대문 분양 예고",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=03362006645618168&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "[PF 2막 ⑦] 강진두號 KB증권, 홈플러스 영등포점 개발 지분 투자…2500억 차환 부담도",
+   "url": "https://n.news.naver.com/mnews/article/138/0002246629?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "몸집 키우는 금감원 특사경…금융위는 수사권 확대에 '난색'",
+   "url": "https://n.news.naver.com/mnews/article/119/0003149157?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "하준경 \"레버리지 ETF 손실 국민께 송구\"…정책 실패엔 선 그어",
+   "url": "https://www.hankyung.com/article/2026103048747"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "대체거래소 성장 가로막는 15% 한도…규제 완화 시험대",
+   "url": "https://n.news.naver.com/mnews/article/243/0000104950?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "[단독] 前 삼성전자 부회장 차남, 주가조작 징역형 집유 확정",
+   "url": "https://www.mk.co.kr/article/12191155"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "라가르드 ECB 총재, 내년 2월 조기 사임…후임 인선 두고 佛·獨 신경전",
+   "url": "https://n.news.naver.com/mnews/article/016/0002716452?sid=104"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "법원·검찰·금감원 '대동단결'‥정장 입은 '피싱 조직'",
+   "url": "https://n.news.naver.com/mnews/article/214/0001532393?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "스위스 최대 은행 美로 떠나나…UBS, 해외 이전 검토",
+   "url": "https://n.news.naver.com/mnews/article/119/0003149191?sid=104"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "프라뱅 해킹에 가상자산 1억원 탈취…거래소 보안관리 도마",
+   "url": "https://n.news.naver.com/mnews/article/030/0003480353?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "세계 최대 가상화폐 거래소 바이낸스 '수십억 달러 해킹 피해'설",
+   "url": "https://n.news.naver.com/mnews/article/001/0016410789?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-10-30 10:25",
+   "title": "[금융지주 임원 인사 전망] [신한금융] 신한금융 계열사 12곳 CEO 임기 만료…진옥동의 재신임 셈법",
+   "url": "https://dealsite.co.kr/articles/171485"
   }
  ],
- "updated_kst": "2026-10-30 06:37"
+ "updated_kst": "2026-10-30 10:25"
 }
