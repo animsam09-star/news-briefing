@@ -2358,7 +2358,127 @@
    "sent_kst": "2026-11-01 10:27",
    "title": "쌀 때 빌리자…환율 내리자 달러대출 '쑥'",
    "url": "https://n.news.naver.com/mnews/article/374/0000540972?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "李정부 주택공급 엇박자…서울 착공 늘고 준공은 줄었다",
+   "url": "https://n.news.naver.com/mnews/article/629/0000547594?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "수억대 재건축 초과이익 환수 현실화?…부담금 예고에 주민 반발",
+   "url": "https://n.news.naver.com/mnews/article/422/0000921644?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "부동산 대책은 반복되는데 왜 주거불안은 계속되는가",
+   "url": "https://n.news.naver.com/mnews/article/047/0002534190?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "강남3구 집값 열기 식는데…강북·경기 남부는 뜨겁다",
+   "url": "https://n.news.naver.com/mnews/article/138/0002246809?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "강원지역 상가 공실률 역대 최고, 투자수익률 감소",
+   "url": "https://n.news.naver.com/mnews/article/087/0001227681?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "대구 상가 공실률 18.4%로 전국 최고 수준···상권 침체 장기화",
+   "url": "https://n.news.naver.com/mnews/article/657/0000056909?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "전주 충경로 공실률 34.6%.. \"전국 평균보다 20%p 높아\"",
+   "url": "https://n.news.naver.com/mnews/article/659/0000048314?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "\"GTX가 바꾸는 수도권 교통권\"…교수가 짚은 '대서울권'의 미래",
+   "url": "https://www.newsis.com/view/NISX20261101_0003849564"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "\"대한민국 교통의 핵심은 철도\"… 제주서 '철도 르네상스' 선언",
+   "url": "https://n.news.naver.com/mnews/article/047/0002534186?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "50년 넘게 빌려 쓴 공장 땅, 이제 살 수 있다…허성무 \"분양 부담 낮춰야\"",
+   "url": "https://www.sedaily.com/article/20108671?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "금융권 전체로 번진 해킹…당국, 5일 긴급 보안점검 회의",
+   "url": "https://n.news.naver.com/mnews/article/029/0003056345?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "FATF, 가상자산 자금세탁방지 이행 집중 점검…한국도 평가 대상",
+   "url": "https://view.asiae.co.kr/article/2026110112024412101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "금감원 불법공매도 의심거래조사 착수 \"5개 안팎 종목 조사\"",
+   "url": "https://n.news.naver.com/mnews/article/079/0004205136?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "거래소, 저PBR기업 151사 첫 공표…유가증권 96사·코스닥 55사",
+   "url": "https://view.asiae.co.kr/article/2026103020390682366"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "안도걸, 자본금 5조 원 규모 서남권투자공사 설립 법안 발의",
+   "url": "https://n.news.naver.com/mnews/article/660/0000120363?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "시중은행 임직원 1년 새 900명 감소… \"역대급 이익에도 고용 인색\"",
+   "url": "https://n.news.naver.com/mnews/article/088/0001037598?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "[속보] FBI, 바이낸스 해킹 배후 北 특정…\"추가 자금 세탁 있을 것\"",
+   "url": "https://n.news.naver.com/mnews/article/002/0002463703?sid=104"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "오세진 디지털엑스 대표 사의…미래에셋 인수 후 경영진 재편",
+   "url": "https://view.asiae.co.kr/article/2026110113443475429"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "외환위기급 '롤러코스피' 반복…지난달 16% 급락",
+   "url": "https://n.news.naver.com/mnews/article/119/0003149820?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-01 14:49",
+   "title": "농협금융, 미소금융사업 신규 참여 협약…1천억 출연",
+   "url": "https://www.fnnews.com/news/202610301142012877"
   }
  ],
- "updated_kst": "2026-11-01 10:27"
+ "updated_kst": "2026-11-01 14:49"
 }
