@@ -39,7 +39,7 @@ SENT_RETENTION_HOURS = 96  # 금요일 저녁 발송분이 월요일 아침까�
 stats = {"naver_queries": 0, "rss_queries": 0, "rejected_out_of_window": 0,
          "decode_fail": 0, "fetch_errors": [], "no_pubdate": 0,
          "rejected_already_sent": 0, "sent_history_size": 0,
-         "rejected_media_not_allowed": 0,
+         "rejected_media_not_allowed": 0, "rejected_opinion": 0,
          "retried": 0, "retry_recovered": 0, "rss_breaker_open": False}
 
 # 일시적 과부하·요청제한. 이 코드들만 재시도한다 — 404·403 은 재시도해도 같다.
@@ -163,6 +163,46 @@ def norm_title(t):
     return re.sub(r"[\s\W_]+", "", t, flags=re.UNICODE).lower()[:40]
 
 
+# ─── 칼럼·사설 제외 (2026-11-01 사용자 지침: "칼럼 가져오지마") ───
+#
+# 필자의 주장·논평이 본문인 글은 사실을 전하는 기사가 아니라 브리핑에 쓸 수 없다.
+# 여기서 거르는 것은 "말머리"와 "URL 경로"뿐인 기계적 1차 필터다. 둘 다 안 걸리는
+# 칼럼(매체 고유 말머리 `[○○의 눈]` 류, 말머리 없는 논설)은 각 프롬프트 §절대 금지
+# 규칙이 선별 단계에서 다시 걸러낸다 — 이 함수는 그 규칙의 보조 수단이지 전부가 아니다.
+#
+# 오탐(실제 기사가 탈락)이 미탐보다 나쁘므로 좁게 잡는다:
+#  · 제목은 맨 앞 괄호 말머리 안에서만 찾는다. 제목 전체를 보면 "증권사 칼럼니스트
+#    영입" 같은 사실 보도가 같이 떨어진다.
+#  · 경로는 경로 문자열만 본다(도메인·질의문자열 제외). `/opinion`·`/column` 류는
+#    국내외 매체가 오피니언 섹션에 공통으로 쓰는 경로다.
+_OPINION_TAG_WORDS = ("칼럼", "사설", "기고", "시론", "시평", "논단", "논설",
+                      "데스크", "기자수첩", "취재수첩", "오피니언", "독자",
+                      "opinion", "editorial", "column")
+_OPINION_PATH_WORDS = ("/opinion", "/column", "/editorial", "/oped",
+                       "/commentary", "/breakingviews")
+# 영문 통신사는 괄호 말머리 대신 "Opinion: …"·"Column: …" 처럼 콜론 접두어를 쓴다.
+# Analysis·Explainer 는 사실 해설이라 포함하므로 여기에 넣지 않는다.
+_OPINION_PREFIX_RE = re.compile(
+    r"^\s*(opinion|editorial|commentary|column|op-?ed|viewpoint|guest\s+view)\s*[:\-\u2013\u2014|]",
+    re.IGNORECASE)
+
+
+def is_opinion(url, title):
+    """칼럼·사설로 보이는가. 말머리 또는 URL 경로 중 하나라도 걸리면 True."""
+    lead = _LEAD_TAG_RE.match(title or "")
+    if lead:
+        tag = lead.group(0).lower()
+        if any(w in tag for w in _OPINION_TAG_WORDS):
+            return True
+    if _OPINION_PREFIX_RE.match(title or ""):
+        return True
+    try:
+        path = urllib.parse.urlparse(url or "").path.lower()
+    except Exception:
+        return False
+    return any(w in path for w in _OPINION_PATH_WORDS)
+
+
 def load_sent_history(now_kst):
     """직전 슬롯들이 발송한 기사 지문을 로드. 파일이 없으면 조용히 빈 집합."""
     global SENT_URLS, SENT_TITLES
@@ -253,6 +293,9 @@ def naver_search(query, window, domain_map, display=50):
         if already_sent(orig, strip_tags(it["title"])):
             stats["rejected_already_sent"] += 1
             continue
+        if is_opinion(orig, strip_tags(it["title"])):
+            stats["rejected_opinion"] += 1
+            continue
         src, allowed = media_name(orig, domain_map)
         # 네이버뉴스 링크만 있으면 네이버뉴스로 인정
         if not allowed and "naver.com" in (it.get("link") or ""):
@@ -327,6 +370,11 @@ def gnews_rss(query, window, lang="en-US", gl="US", ceid="US:en", when=None):
         # 이 시점에는 경유 URL뿐이라 URL 대조는 불가 — 제목 지문으로만 걸러진다
         if already_sent(None, title):
             stats["rejected_already_sent"] += 1
+            continue
+        # URL 은 아직 경유 링크라 경로를 볼 수 없다 — 말머리만으로 1차 판정하고,
+        # 디코딩 뒤 원문 URL 경로는 main() 에서 한 번 더 본다.
+        if is_opinion(None, title):
+            stats["rejected_opinion"] += 1
             continue
         out.append({"title": title, "gnews_url": link, "source": source,
                     "pub_kst": pub.astimezone(KST).strftime("%Y-%m-%d %H:%M")})
@@ -415,6 +463,10 @@ def main():
             else:
                 stats["decode_fail"] += 1
         arts = [a for a in arts if a.get("url")]
+        # 원문 URL 이 생겼으니 경로로 칼럼 여부를 한 번 더 본다 (RSS 단계는 제목만 봤다).
+        kept = [a for a in arts if not is_opinion(a["url"], a["title"])]
+        stats["rejected_opinion"] += len(arts) - len(kept)
+        arts = kept
         print(json.dumps({"theme": args.theme, "articles": dedup(arts),
                           "stats": stats}, ensure_ascii=False, indent=1))
         return
@@ -461,6 +513,11 @@ def main():
             for a in acc[: args.decode_per_theme]:
                 u = decode_gnews_url(a["gnews_url"])
                 if u:
+                    # 원문 URL 이 생겼으니 경로로 칼럼 여부를 한 번 더 본다
+                    # (RSS 단계는 경유 링크뿐이라 제목만 봤다).
+                    if is_opinion(u, a["title"]):
+                        stats["rejected_opinion"] += 1
+                        continue
                     a["url"] = u
                     a.pop("gnews_url", None)
                     decoded.append(a)
