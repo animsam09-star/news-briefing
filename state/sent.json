@@ -2328,7 +2328,127 @@
    "sent_kst": "2026-11-02 10:21",
    "title": "KB캐피탈, 영업익 늘었다지만…금융자산 빼면 '뒷걸음'",
    "url": "https://dealsite.co.kr/articles/171797"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "한국 부동산 투명성 세계 24위…2년 새 3계단 상승",
+   "url": "https://www.hankyung.com/article/202611029535r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "내년 현실화율 동결 전망에도 '공시가격' 오를 듯[연말 부동산 전망]",
+   "url": "https://view.asiae.co.kr/article/2026110211294450588"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "LH, 신축매입임대 공급 속도 높인다…현장·실적 점검",
+   "url": "https://www.news1.kr/realestate/general/6339698"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "스마트폰 판매 호조에 대구경북 경기 개선… 건설업은 부진",
+   "url": "https://n.news.naver.com/mnews/article/088/0001037788?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "영끌족, 대출이자 '비명'… 임의경매 2배↑",
+   "url": "https://n.news.naver.com/mnews/article/021/0002829559?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "정인이법부터 빌라왕 방지법까지… 졸속 입법의 그늘 [법안의 낮잠⑥]",
+   "url": "https://n.news.naver.com/mnews/article/665/0000008477?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "종부세 아끼려다 취득세까지…'관리신탁' 광고 믿었다가 낭패",
+   "url": "https://n.news.naver.com/mnews/article/138/0002246893?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "대전역세권 개발, '난항' …한화건설 컨소시엄 사업포기 선언",
+   "url": "https://n.news.naver.com/mnews/article/586/0000141368?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "다가구주택 '유령 호실' 악용해 27억 꿀꺽…총책 등 11명 검거",
+   "url": "https://www.newsis.com/view/NISX20261102_0003850826"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "창원 최초 중고층 대규모 재건축단지 들어서나?",
+   "url": "https://n.news.naver.com/mnews/article/002/0002463846?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "2028년부터 주식 판 돈 '다음날' 받는다…결제주기 이틀서 하루로 단축",
+   "url": "https://n.news.naver.com/mnews/article/030/0003481101?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "'5극3특' 중기 3년간 보증부대출 4.5조…외담대 정산 주기 60일로",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826477&plink=ORI&cooper=NAVER"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "영풍 \"고려아연 자금, 카카오 거쳐 최윤범 투자사로…150억 불어났다\"",
+   "url": "https://n.news.naver.com/mnews/article/030/0003481131?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "'공공기관 지정' 기로 선 금감원…9일 공운위에 쇄신안 보고",
+   "url": "https://www.newsis.com/view/NISX20261102_0003850935"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "장외 증권 안전장치 없다…거래소, 중앙청산제도 도입 속도전",
+   "url": "https://n.news.naver.com/mnews/article/374/0000541112?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "티머니 등 '낙전수익' 공개 의무화…선불충전금 환급 여부도 확대 공시",
+   "url": "https://n.news.naver.com/mnews/article/374/0000541154?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "고금리·내수 부진 이중고… 5대銀 부실채권 8년 반 만에 최대",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/02/HDPE5DORDFCFJE3GIUFRJ56NGM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "5대은행 10월 가계대출 2.7조↑…중기 2년7개월만에 최대폭 증가",
+   "url": "https://n.news.naver.com/mnews/article/001/0016416197?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "미래에셋생명 해킹에 퇴직연금·임직원 정보까지 유출…금감원 점검 연...",
+   "url": "https://www.news1.kr/finance/insurance-card/6339653"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-02 14:49",
+   "title": "청년, 부모차 무사고운전·군경력 인정…금감원, 車보험 가입체계 개편",
+   "url": "https://view.asiae.co.kr/article/2026110210301481641"
   }
  ],
- "updated_kst": "2026-11-02 10:21"
+ "updated_kst": "2026-11-02 14:49"
 }
