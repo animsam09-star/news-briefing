@@ -2574,7 +2574,127 @@
    "sent_kst": "2026-11-04 06:35",
    "title": "은행권 3000억 특별출연 분담 윤곽…기업銀 600억·5대 은행 각 300억",
    "url": "https://www.news1.kr/finance/general-finance/6341641"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "LH, 2030년까지 모듈러주택 1.8만호 발주…4.8조 투입",
+   "url": "https://www.newsis.com/view/NISX20261104_0003853956"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "\"과천은 시장 1인 시위, 김포는 지옥철\"…16만가구 공급 '난항'",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=03325926645642440&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "[단독]분사 갈등 속 LH 노조 선거…95% 지지에 '총파업' 가능성↑",
+   "url": "https://n.news.naver.com/mnews/article/008/0005436242?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "인천 재개발·재건축 '속도전'… 사전컨설팅 6개월→대폭 단축, 내년엔 '선택제' 전환",
+   "url": "https://n.news.naver.com/mnews/article/016/0002718524?sid=100"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "수도권 분양가 1년 새 25.7%↑…국평 30억 '턱밑'",
+   "url": "https://www.fnnews.com/news/202611040908302022"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "\"9월 오피스 거래액 9762억\"…전월比 36%↑·거래량 6건",
+   "url": "https://n.news.naver.com/mnews/article/138/0002247179?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "서울 아파트 매물 8만개 돌파…강남 이어 강북까지 확산",
+   "url": "https://www.newsis.com/view/NISX20261104_0003853730"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "GH 전국 최초 '지분적립형 분양주택'…9일부터 청약",
+   "url": "https://view.asiae.co.kr/article/2026110409014886107"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "GS건설, 1000억 투자받고 사업 철수…'투자자'와 법적분쟁 초읽기",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/03/2026110380137.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "KIND, 우즈벡 타슈켄트 신공항 주주협약…2031년 개항 목표",
+   "url": "https://www.fnnews.com/news/202611040812247062"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "홍콩 ELS 제재안 오늘 금융위 상정…과징금 3000억원대로 감경될까",
+   "url": "https://www.kmib.co.kr/article/20261104500151"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "[금융지주 임원 인사 전망] [하나금융] 회장 후보 추천 1년여 앞…3인 부회장 체제 향방 주목",
+   "url": "https://dealsite.co.kr/articles/171875"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "저축은행·자산운용 품은 교보생명, 악사손보 인수 앞두고 '멈칫'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005436241?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "한화투자증권 4000억 신종자본증권에 산업은행·DB손보 등 참여",
+   "url": "https://biz.chosun.com/stock/market_trend/2026/11/04/JZHNIWBIYZBPTAMSPSFYEHJJ7M/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "공모가 37% 밑돌고 채권매각익은 영업익 절반…최우형 케이뱅크 행장 '연임 먹구름?'",
+   "url": "https://n.news.naver.com/mnews/article/076/0004462959?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "공모주 청약금 이자, 대신증권만 준다...금융위는 3개월째 '검토중'",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052253?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "동원파츠 일반청약 1219대 1…증거금 8조원 몰렸다",
+   "url": "https://www.hankyung.com/article/202611044460r"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "시중은행에 고객 뺏길라...저축은행 연 4%대 예금, 두 달 새 6배 급증",
+   "url": "https://n.news.naver.com/mnews/article/023/0004007675?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "이 대통령, 사이버보안 차르 기구 구성 검토 지시",
+   "url": "https://n.news.naver.com/mnews/article/092/0002443730?sid=105"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-04 10:22",
+   "title": "카카오뱅크, 3분기 누적 순익 4698억 '역대 최대'…25.2%↑",
+   "url": "https://n.news.naver.com/mnews/article/119/0003151003?sid=101"
   }
  ],
- "updated_kst": "2026-11-04 06:35"
+ "updated_kst": "2026-11-04 10:22"
 }
