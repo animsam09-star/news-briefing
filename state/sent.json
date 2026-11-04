@@ -2694,7 +2694,127 @@
    "sent_kst": "2026-11-04 10:22",
    "title": "카카오뱅크, 3분기 누적 순익 4698억 '역대 최대'…25.2%↑",
    "url": "https://n.news.naver.com/mnews/article/119/0003151003?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "부동산 전쟁 1년… ‘세금폭탄’ 고가주택 내리고 중저가는 올랐다",
+   "url": "https://n.news.naver.com/mnews/article/021/0002830265?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "강남 재건축, 세부담에 ‘다운사이징’ 확산",
+   "url": "https://n.news.naver.com/mnews/article/016/0002718736?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "서울 상위 10개 대단지 6.6만가구서 전세매물 고작 2392건",
+   "url": "https://n.news.naver.com/mnews/article/016/0002718705?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "공사안했는데 실적으로… 건설공제조합 ‘묻지마 보증’",
+   "url": "https://n.news.naver.com/mnews/article/021/0002830218?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "분당 30년 구축도 ‘국평 20억’… 경기남부 갈아타기 수요 몰린다",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/04/B76VYH3FIJAI3B66JT3VCG5RMI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "대기업 사업장 있는 화성·천안아산 아파트 거래 증가…지방 분양 이어져",
+   "url": "https://www.mk.co.kr/article/12196215"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "미분양 1.6만가구 쌓였는데…대구·경북·경남 전월세 41% '뚝'",
+   "url": "https://n.news.naver.com/mnews/article/008/0005436341?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "상지건설 최대주주, 일반공모 추가 참여… 2576억 자산가치에 베팅",
+   "url": "https://n.news.naver.com/mnews/article/008/0005436397?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "품질 높여봤자 입주 대상 바뀌면 도루묵… 李 정부 '보편형 공공임대'의 빈틈",
+   "url": "https://n.news.naver.com/mnews/article/665/0000008490?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "주택법 개정으로 달라지는 지역주택조합 시장… 조합원 피해 예방·사업 투명성 강화 주목",
+   "url": "https://edu.donga.com/news/articleView.html?idxno=113486"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "기업은행, 한국금융지주 지분 전량 처분",
+   "url": "https://n.news.naver.com/mnews/article/016/0002718693?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "금융지주 회장 3연임 땐 주주 75% 동의해야…문턱 높인다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000541592?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "카카오뱅크, 신용카드·증권업 M&A 검토…기술 분야에 2700억 투자(종합)",
+   "url": "https://www.news1.kr/finance/bank/6342666"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "잇단 정보 유출에도 금융사 보안 공시 저조… 당국, 의무제 준비 착수",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/04/44533FN4PRHKZPX4KCB6P76HTI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "전자주총 의무화…예탁결제원, 전자의결권 플랫폼 공개",
+   "url": "https://n.news.naver.com/mnews/article/374/0000541655?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "가상자산 과세 유예 기운다…與 \"2년 미뤄야\" 사실상 결론",
+   "url": "https://news.mtn.co.kr/article/2026110412222868290"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "시중은행, 마진 높여줄 '저원가예금'이 사라진다",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052261?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "제도권 넘보는 증권사 MTS '코인 정보', 규제 사각지대 우려 키우나",
+   "url": "https://n.news.naver.com/mnews/article/629/0000548695?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "프리미어, 한국펀드파트너스 85% 인수 눈앞…ETF 성장에 '베팅' [fn마켓워치]",
+   "url": "https://www.fnnews.com/news/202611040903304791"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-04 14:56",
+   "title": "해외 유망기업 투자 문 넓힌다…한투, 누버거와 상품 개발 맞손",
+   "url": "https://www.fnnews.com/news/202611041333556228"
   }
  ],
- "updated_kst": "2026-11-04 10:22"
+ "updated_kst": "2026-11-04 14:56"
 }
