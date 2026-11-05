@@ -2,264 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "\"부동산 중심 지역경제의 구조적 문제… 개인 노력만으론 못 막아\" [전세사기, 끝나지 않은 고통]",
-   "url": "https://n.news.naver.com/mnews/article/082/0001405072?sid=102"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "집값 상승 기대심리, 고점은 7월이었다?",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052156?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "고객재산 관리하는 신탁회사…대법 \"유류분 반환의무 없다\"",
-   "url": "https://www.hankyung.com/article/2026110184791"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "재개발 구역 밖 우후죽순 원룸·오피스텔, 사기의 늪이었다 [전세사기, 끝나지 않은 고통]",
-   "url": "https://n.news.naver.com/mnews/article/082/0001405073?sid=102"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "공동담보의 덫 '부산형 전세사기'에 짓밟힌 청춘 [전세사기, 끝나지 않은 고통]",
-   "url": "https://n.news.naver.com/mnews/article/082/0001405078?sid=102"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "\"청약 과열에 분상제 추가지정될라\" 재건축 조합들 촉각",
-   "url": "https://www.fnnews.com/news/202611011856050728"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "압구정 급매가 만든 착시?… 서울 강남 하락세 지속될까",
-   "url": "https://www.kmib.co.kr/article/20261101501096"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "稅부담·대출규제에…강남권 매물 1년새 2배 증가",
-   "url": "https://www.sedaily.com/article/20108763?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "드디어 GTX 뚫리나…\"서울역 10분 만에 간다\" 들썩이는 동네 [철길옆집]",
-   "url": "https://www.hankyung.com/article/2026102937186"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "유암코, NPL 매입 '1조 클럽' 입성 [fn마켓워치]",
-   "url": "https://www.fnnews.com/news/202610300830188276"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "'스페이스X 0주' 미래에셋 제재 초읽기…\"연내 사전통지 목표\"",
-   "url": "https://www.sedaily.com/article/20108812?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "[단독] MMF 수익률 몰아주기·ETF 순환투자…금감원, 편법운용 '경고'",
-   "url": "https://www.sedaily.com/article/20108781?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "자금세탁방지기구, 북한 '자금세탁·테러자금 고위험 국가' 지위 유지",
-   "url": "https://n.news.naver.com/mnews/article/422/0000921738?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "총량규제 안받는 '사잇돌대출' 나온다",
-   "url": "https://www.mk.co.kr/article/12192934"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "회사채 '캡티브 영업' 제동…기업 조달금리 오르나 [fn마켓워치]",
-   "url": "https://www.fnnews.com/news/202611010849263424"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "[단독] 인도네시아, 해외정부 첫 아리랑본드 시동 [시그널]",
-   "url": "https://www.sedaily.com/article/20108722?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "25조 '제2 월급'의 배신 … 코스피보다 못한 커버드콜ETF",
-   "url": "https://www.mk.co.kr/article/12192880"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "6조원대로 커진 임팩트투자…자금 70% 초기 집중, '성장사다리'는 부족",
-   "url": "https://www.joongang.co.kr/article/25474751"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "DTCC, 증권 토큰화 서비스 출시…국내 제도 정비는 과제",
-   "url": "https://news.mtn.co.kr/article/2026110115293970234"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "한투·SBI, 10조 펀드로 日데이터센터 짓는다[韓日, 데이터센터 펀드 조성]",
-   "url": "https://www.fnnews.com/news/202611011808461053"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Major AI companies back one website signal for rejecting model training",
-   "url": "https://www.netnewsledger.com/2026/11/01/major-ai-companies-back-one-website-signal-for-rejecting-model-training/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Mathematicians warn AI firms are keeping vital research in the field secret",
-   "url": "https://observer.co.uk/news/national/article/mathematicians-warn-ai-firms-are-keeping-vital-research-in-the-field-secret"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Obscure neocloud lenders, not Nvidia, are where the AI bubble could burst first",
-   "url": "https://startupfortune.com/obscure-neocloud-lenders-not-nvidia-are-where-the-ai-bubble-could-burst-first/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "President Donald Trump's Bull Market Is Banking on the AI Infrastructure Build-Out, but the Bond Market Has a Reality Check for Investors",
-   "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/8579094/president-donald-trump-s-bull-market-is-banking-on-the-ai-infrastructure-build-out-but-the-bond-market-has-a-reality-check-for-investors/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Self-improving AI the key step towards AGI but safety is key: Z.ai founder",
-   "url": "https://www.scmp.com/tech/tech-trends/article/3372834/self-improving-ai-key-step-towards-agi-safety-key-zai-founder"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "\"Looks harmless\": Claude agents got past a safety check in an Anthropic test",
-   "url": "https://mixed-news.com/en/anthropic-claude-agents-training-data-safety-monitor-experiment/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "South Korea's Exports Surge 94% To Record $115.3B In October As AI Chip Demand Soars",
-   "url": "https://forbesmiddleeast.com/industry/economy/south-koreas-exports-surge-937-to-record-high-on-semiconductor-boom-1"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "US critical minerals push delivers a gold rush — for Washington lobbyists",
-   "url": "https://www.ft.com/content/e89a420d-3a93-402f-ab0d-461476cf23ce?syn-25a6b1a6=1"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "China exempts sodium-ion batteries from tax as Hina targets 10 GWh commerical EV push",
-   "url": "https://carnewschina.com/2026/11/01/china-exempts-sodium-ion-batteries-from-tax-as-hina-targets-10-gwh-commercial-ev-push/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "OPEC+ set to keep oil output targets steady, sources say",
-   "url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-targets-steady-sources-say-2026-11-01/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "UAE Crude Output Nears Record Following OPEC Exit, Sources Say",
-   "url": "https://energynow.com/2026/07/uae-crude-output-nears-record-following-opec-exit-sources-say/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Trump Expected to Announce $54 Billion South Korea Investment in Alaska LNG, Sources Say",
-   "url": "https://energynow.ca/2026/09/trump-expected-to-announce-54-billion-south-korea-investment-in-alaska-lng-sources-say/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Qatar LNG carrier struck by 'unidentified objects' in Gulf",
-   "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Defense Giant Lockheed Martin Just Got a Little Bigger",
-   "url": "https://www.fool.com/investing/2026/11/01/defense-giant-lockheed-martin-just-got-a-little-bi/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "TOTE selects Hanwha for $269M US Navy landing ship",
-   "url": "https://defensehere.com/en/tote-hanwha-269m-us-navy-landing-ship/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "TikTok Shop Targets 13.2% Share Across Southeast Asia E-Commerce",
-   "url": "https://retailnews.asia/tiktok-shop-targets-13-2-share-across-southeast-asia-e-commerce"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Tennessee has bet big on data centers. But what if the AI boom busts?",
-   "url": "https://www.tennessean.com/story/news/local/2026/11/01/tva-data-center-boom-uncertainty/91280272007/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Rwanda, Russian state corporation sign nuclear development deal",
-   "url": "https://www.trtafrika.com/article/3b405a048718"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "ISRO successfully launches NVS-03 satellite via GSLV rocket, sets record with 56 days turnaround",
-   "url": "https://m.economictimes.com/science/isro-successfully-launches-nvs-04-satellite-via-gslv-rocket-sets-record-with-56-days-turnaround/articleshow/135425959.cms"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Reunited after 1,711 days: Oleshky evacuees return to Ukraine under Melania Trump-brokered ceasefire",
-   "url": "https://www.egyptindependent.com/reunited-after-1711-days-oleshky-evacuees-return-to-ukraine-under-melania-trump-brokered-ceasefire/"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
-   "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Tether USDt price stays near $1 as reserve buffer nearly doubles",
-   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/tether-usdt-price-stays-near-1-as-reserve-buffer-nearly-doubles/70441375"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-01 21:44",
-   "title": "Coinbase Stock Faces Revenue Test After Q3 Earnings",
-   "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-stock-faces-revenue-test-101112455.html"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-11-02 06:32",
    "title": "공급 위축에 미분양 줄었지만… 살 사람이 없다 [심층기획-지방 주택시장 여전히 찬바람]",
@@ -2778,7 +2520,127 @@
    "sent_kst": "2026-11-05 14:55",
    "title": "한화생명, 호실적에도 법정준비금 규제…배당 여력 '안갯속'",
    "url": "https://www.newsis.com/view/NISX20261104_0003853756"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "[단독] 정부 '주택 신속 공급 특례법' 검토…지방정부 인허가권 직권 행...",
+   "url": "https://www.news1.kr/politics/president/6344709"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "홍지선 국토장관 \"수도권 5년간 150만호 공급…서울 공급 방안 총동원\"",
+   "url": "https://n.news.naver.com/mnews/article/374/0000541961?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "이 대통령, SNS 통해 정책 성과 부각…\"부동산 범죄 3,565명 단속\"",
+   "url": "https://n.news.naver.com/mnews/article/422/0000923266?sid=100"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "美 앰코, 광주 반도체 증설…英 엔스케일은 구미에 AIDC",
+   "url": "https://www.sedaily.com/article/20110898?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "쌍용건설, 두바이 와슬그룹과 3.6조원 규모 개발 사업 협력",
+   "url": "https://n.news.naver.com/mnews/article/629/0000549245?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "서울 재개발 90%가 민간…서울시 \"죄악시해선 공급 못 늘려\"",
+   "url": "https://n.news.naver.com/mnews/article/016/0002719520?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "서울 공공재개발 새 후보지 3년간 고작 3곳…\"임대부담 낮춰 사업성 높여야\"",
+   "url": "https://www.sedaily.com/article/20110903?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "SK에코, 반도체·AI 인프라 강화…주택은 위축 우려",
+   "url": "https://www.hankyung.com/article/2026110589811"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "'한진칼 최대주주' 호반, 추가 매입 여력은…건설 현금흐름 '축소'",
+   "url": "https://www.news1.kr/realestate/general/6344203"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "5일 걸리던 PF보고서, AI로 4시간 만에 완성",
+   "url": "https://www.sedaily.com/article/20110877?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "[단독] 금융지주 '독립이사 주주추천제' 도입 가닥…법 개정 대신 '모범관행'",
+   "url": "https://news.mtn.co.kr/article/2026110515503819241"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "[우리금융 인사 기상도] 해킹 피한 정진완, 연임 무게…임종룡 2기 '안정' 택할까",
+   "url": "https://n.news.naver.com/mnews/article/138/0002247457?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "에스원 자사주 공개매수 목표치의 28.7% 그쳐…삼성 금융 4사 지분 매각",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/05/2026110580194.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "정부, 가상자산 과세 2년 유예키로… 손실 이월공제도 추진",
+   "url": "https://n.news.naver.com/mnews/article/081/0003696180?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "[단독] IMM PE 에어퍼스트 컨티뉴펀드에 유럽 최대 사모펀드 EQT 그룹 투자 받는다",
+   "url": "https://www.mk.co.kr/article/12198805"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "증시 한파 못 피한 한국금융지주, 3분기 순익 2818억…전분기比 72% 뚝",
+   "url": "https://www.sedaily.com/article/20110857?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "롯데손보 해외부실 최대 2000억…\"관리 가능한 수준\"",
+   "url": "https://www.sedaily.com/article/20110833?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "주담대보다 5.6배 빨리 늘어난 신용대출⋯가계 이자 부담 커지나",
+   "url": "https://n.news.naver.com/mnews/article/031/0001072635?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "\"대출금리 6% 육박하는데 연체까지\"… 지방은행 중기대출 빨간불 '번쩍'",
+   "url": "https://n.news.naver.com/mnews/article/029/0003057425?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-05 21:44",
+   "title": "'블록딜 사전공시제' 여파…대주주 주식처분 위축됐다",
+   "url": "https://www.sedaily.com/article/20110760?ref=naver"
   }
  ],
- "updated_kst": "2026-11-05 14:55"
+ "updated_kst": "2026-11-05 21:44"
 }
