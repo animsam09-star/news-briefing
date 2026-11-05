@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "李정부 주택공급 엇박자…서울 착공 늘고 준공은 줄었다",
-   "url": "https://n.news.naver.com/mnews/article/629/0000547594?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "수억대 재건축 초과이익 환수 현실화?…부담금 예고에 주민 반발",
-   "url": "https://n.news.naver.com/mnews/article/422/0000921644?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "부동산 대책은 반복되는데 왜 주거불안은 계속되는가",
-   "url": "https://n.news.naver.com/mnews/article/047/0002534190?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "강남3구 집값 열기 식는데…강북·경기 남부는 뜨겁다",
-   "url": "https://n.news.naver.com/mnews/article/138/0002246809?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "강원지역 상가 공실률 역대 최고, 투자수익률 감소",
-   "url": "https://n.news.naver.com/mnews/article/087/0001227681?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "대구 상가 공실률 18.4%로 전국 최고 수준···상권 침체 장기화",
-   "url": "https://n.news.naver.com/mnews/article/657/0000056909?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "전주 충경로 공실률 34.6%.. \"전국 평균보다 20%p 높아\"",
-   "url": "https://n.news.naver.com/mnews/article/659/0000048314?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "\"GTX가 바꾸는 수도권 교통권\"…교수가 짚은 '대서울권'의 미래",
-   "url": "https://www.newsis.com/view/NISX20261101_0003849564"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "\"대한민국 교통의 핵심은 철도\"… 제주서 '철도 르네상스' 선언",
-   "url": "https://n.news.naver.com/mnews/article/047/0002534186?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "50년 넘게 빌려 쓴 공장 땅, 이제 살 수 있다…허성무 \"분양 부담 낮춰야\"",
-   "url": "https://www.sedaily.com/article/20108671?ref=naver"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "금융권 전체로 번진 해킹…당국, 5일 긴급 보안점검 회의",
-   "url": "https://n.news.naver.com/mnews/article/029/0003056345?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "FATF, 가상자산 자금세탁방지 이행 집중 점검…한국도 평가 대상",
-   "url": "https://view.asiae.co.kr/article/2026110112024412101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "금감원 불법공매도 의심거래조사 착수 \"5개 안팎 종목 조사\"",
-   "url": "https://n.news.naver.com/mnews/article/079/0004205136?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "거래소, 저PBR기업 151사 첫 공표…유가증권 96사·코스닥 55사",
-   "url": "https://view.asiae.co.kr/article/2026103020390682366"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "안도걸, 자본금 5조 원 규모 서남권투자공사 설립 법안 발의",
-   "url": "https://n.news.naver.com/mnews/article/660/0000120363?sid=100"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "시중은행 임직원 1년 새 900명 감소… \"역대급 이익에도 고용 인색\"",
-   "url": "https://n.news.naver.com/mnews/article/088/0001037598?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "[속보] FBI, 바이낸스 해킹 배후 北 특정…\"추가 자금 세탁 있을 것\"",
-   "url": "https://n.news.naver.com/mnews/article/002/0002463703?sid=104"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "오세진 디지털엑스 대표 사의…미래에셋 인수 후 경영진 재편",
-   "url": "https://view.asiae.co.kr/article/2026110113443475429"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "외환위기급 '롤러코스피' 반복…지난달 16% 급락",
-   "url": "https://n.news.naver.com/mnews/article/119/0003149820?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-01 14:49",
-   "title": "농협금융, 미소금융사업 신규 참여 협약…1천억 출연",
-   "url": "https://www.fnnews.com/news/202610301142012877"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-11-01 21:44",
    "title": "\"부동산 중심 지역경제의 구조적 문제… 개인 노력만으론 못 막아\" [전세사기, 끝나지 않은 고통]",
@@ -2778,7 +2658,127 @@
    "sent_kst": "2026-11-05 10:27",
    "title": "실손 부지급률 하락…'5세대 전환'은 여전히 과제",
    "url": "https://view.asiae.co.kr/article/2026110414133147851"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "강남3구 동반 하락에도 서울 아파트값 91주 연속 상승…전주比 0.07%↑",
+   "url": "https://n.news.naver.com/mnews/article/008/0005437081?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "서울 아파트 분양전망 14.3p 급락…3개월 연속 하락, 기준선 밑돌아",
+   "url": "https://n.news.naver.com/mnews/article/374/0000541898?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "HUG 미분양관리지역 4곳 지정…이천 '묶이고' 오산·천안 '풀렸다'",
+   "url": "https://n.news.naver.com/mnews/article/029/0003057349?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "전국 아파트 경매 12년 7개월 만에 최다…서울 아파트도 양극화",
+   "url": "https://www.sedaily.com/article/20110578?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "서울 오피스 거래액 한 달 새 36% 뛰었다…평당 '5306만원' 시대",
+   "url": "https://www.mk.co.kr/article/12198108"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "\"돈 만져보기도 전에 부담금 내라니\"…전국 재건축 조합들, 재초환 폐지 건의",
+   "url": "https://www.mk.co.kr/article/12198259"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "\"멈춘 공장에 7000억 꽂혔다\"… 안산 산단, 데이터센터 성지로",
+   "url": "https://n.news.naver.com/mnews/article/029/0003057362?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "'노원구' 거래량 54% 급증…'마용성'은 58% 급감",
+   "url": "https://n.news.naver.com/mnews/article/016/0002719255?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "거래량 줄었다는데…서울 토지거래허가 두 달 연속 '반등'",
+   "url": "https://n.news.naver.com/mnews/article/586/0000141618?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "청약 경쟁률 상위 30곳 중 29곳 '학세권'…11월 신규 분양 이어져",
+   "url": "https://www.mk.co.kr/article/12198262"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "AI해킹에 개인정보 47만건 유출…당국, 580개 금융사 전수점검·망분리 해제 착수",
+   "url": "https://n.news.naver.com/mnews/article/088/0001038528?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "iM금융 차기 회장 선임 절차 돌입…황병우 회장 연임 여부 관심 '투서 논란'",
+   "url": "https://n.news.naver.com/mnews/article/076/0004463553?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "[수협은행장 레이스] '정책통' 기대했지만 업무 제약 우려…'외부 카드' 딜레마",
+   "url": "https://dealsite.co.kr/articles/172076"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "대폭 깎인 ELS 과징금…은행 쌓아둔 3000억 이익으로 돌아온다",
+   "url": "https://www.news1.kr/finance/general-finance/6343960"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "기업지배구조 공시 강화…집중투표제 꼼수 막고 주주보호",
+   "url": "https://n.news.naver.com/mnews/article/030/0003482563?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "3대 국책은행, 7000억원 규모 '글로벌 스케일업 펀드' 운용사 선정",
+   "url": "https://n.news.naver.com/mnews/article/119/0003151716?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "LG화학, 2.5조 PRS 금리 연 5.25%…증권사 경쟁에 가산금리 뚝",
+   "url": "https://www.hankyung.com/article/202611045045r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "TPG, 롯데렌탈 인수 3개월 만에 성료…에쿼티·인수금융 병행",
+   "url": "https://n.news.naver.com/mnews/article/016/0002719300?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "새내기주 '따상 찍고 급락' 사라질까…코너스톤 제도 13일 시행",
+   "url": "https://www.hankyung.com/article/2026110569716"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-05 14:55",
+   "title": "한화생명, 호실적에도 법정준비금 규제…배당 여력 '안갯속'",
+   "url": "https://www.newsis.com/view/NISX20261104_0003853756"
   }
  ],
- "updated_kst": "2026-11-05 10:27"
+ "updated_kst": "2026-11-05 14:55"
 }
