@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "한국 부동산 투명성 세계 24위…2년 새 3계단 상승",
-   "url": "https://www.hankyung.com/article/202611029535r"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "내년 현실화율 동결 전망에도 '공시가격' 오를 듯[연말 부동산 전망]",
-   "url": "https://view.asiae.co.kr/article/2026110211294450588"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "LH, 신축매입임대 공급 속도 높인다…현장·실적 점검",
-   "url": "https://www.news1.kr/realestate/general/6339698"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "스마트폰 판매 호조에 대구경북 경기 개선… 건설업은 부진",
-   "url": "https://n.news.naver.com/mnews/article/088/0001037788?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "영끌족, 대출이자 '비명'… 임의경매 2배↑",
-   "url": "https://n.news.naver.com/mnews/article/021/0002829559?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "정인이법부터 빌라왕 방지법까지… 졸속 입법의 그늘 [법안의 낮잠⑥]",
-   "url": "https://n.news.naver.com/mnews/article/665/0000008477?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "종부세 아끼려다 취득세까지…'관리신탁' 광고 믿었다가 낭패",
-   "url": "https://n.news.naver.com/mnews/article/138/0002246893?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "대전역세권 개발, '난항' …한화건설 컨소시엄 사업포기 선언",
-   "url": "https://n.news.naver.com/mnews/article/586/0000141368?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "다가구주택 '유령 호실' 악용해 27억 꿀꺽…총책 등 11명 검거",
-   "url": "https://www.newsis.com/view/NISX20261102_0003850826"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "창원 최초 중고층 대규모 재건축단지 들어서나?",
-   "url": "https://n.news.naver.com/mnews/article/002/0002463846?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "2028년부터 주식 판 돈 '다음날' 받는다…결제주기 이틀서 하루로 단축",
-   "url": "https://n.news.naver.com/mnews/article/030/0003481101?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "'5극3특' 중기 3년간 보증부대출 4.5조…외담대 정산 주기 60일로",
-   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826477&plink=ORI&cooper=NAVER"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "영풍 \"고려아연 자금, 카카오 거쳐 최윤범 투자사로…150억 불어났다\"",
-   "url": "https://n.news.naver.com/mnews/article/030/0003481131?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "'공공기관 지정' 기로 선 금감원…9일 공운위에 쇄신안 보고",
-   "url": "https://www.newsis.com/view/NISX20261102_0003850935"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "장외 증권 안전장치 없다…거래소, 중앙청산제도 도입 속도전",
-   "url": "https://n.news.naver.com/mnews/article/374/0000541112?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "티머니 등 '낙전수익' 공개 의무화…선불충전금 환급 여부도 확대 공시",
-   "url": "https://n.news.naver.com/mnews/article/374/0000541154?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "고금리·내수 부진 이중고… 5대銀 부실채권 8년 반 만에 최대",
-   "url": "https://biz.chosun.com/stock/finance/2026/11/02/HDPE5DORDFCFJE3GIUFRJ56NGM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "5대은행 10월 가계대출 2.7조↑…중기 2년7개월만에 최대폭 증가",
-   "url": "https://n.news.naver.com/mnews/article/001/0016416197?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "미래에셋생명 해킹에 퇴직연금·임직원 정보까지 유출…금감원 점검 연...",
-   "url": "https://www.news1.kr/finance/insurance-card/6339653"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-02 14:49",
-   "title": "청년, 부모차 무사고운전·군경력 인정…금감원, 車보험 가입체계 개편",
-   "url": "https://view.asiae.co.kr/article/2026110210301481641"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-11-02 21:47",
    "title": "20년 만에 재초환 부활?‥부담금 떠넘기기 '이중가격'까지 등장",
@@ -2496,7 +2376,127 @@
    "sent_kst": "2026-11-06 10:27",
    "title": "[Invest] 회원 자금 이탈에 놀란 공제회들, 내년에도 유동성 관리에 중점",
    "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680003.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "[단독] 공공택지 새 아파트로 보상때 양도세 40% 감면…1회 전매허용",
+   "url": "https://www.sedaily.com/article/20111158?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "건설공사비-소비자물가 상승률 격차 확대…정비사업 공사비 갈등 우려",
+   "url": "https://www.donga.com/news/Economy/article/all/20261106/134977633/1"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "[단독] 은마도 1인당 4.6억 재초환 부담금 통지…재건축 단지 초비상",
+   "url": "https://www.mk.co.kr/article/12200292"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "강남3구서 일주일 새 5% 이상 하락거래 16건…30% 하락도",
+   "url": "https://www.newsis.com/view/NISX20261106_0003857433"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "장동현 물러난 SK에코플랜트…IPO 접고 김영식 원톱 '반도체' 집중",
+   "url": "https://www.news1.kr/realestate/general/6345573"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "제이알글로벌리츠, 2028년까지 채무 전액 상환 추진…1년 앞당겨",
+   "url": "https://n.news.naver.com/mnews/article/001/0016425780?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "비용은 '쑥', 수요는 '뚝'…LX하우시스·KCC, 3분기 나란히 고전",
+   "url": "https://view.asiae.co.kr/article/2026110608285919826"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "수주전 붙으면 진흙탕…건설사 간 법적공방 되풀이",
+   "url": "https://www.newsis.com/view/NISX20261106_0003857546"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "새만금에 국내 첫 'K-푸드 수출 전진기지' 생긴다…2조4200억원 투입",
+   "url": "https://www.news1.kr/local/jeonbuk/6345577"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "삼부토건, 소송 전담 법인 '물적분할' 회생 종결 속도",
+   "url": "https://www.bloter.net/news/articleView.html?idxno=677936"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "증시 급락에 신용융자 담보비율 140% 유지 의무 3개월 면제…9일부터",
+   "url": "https://n.news.naver.com/mnews/article/022/0004173078?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "정보유출 금융사 37곳으로 늘어…10억 탈취도",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8705951&ref=A"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "채무조정하면 은행도 부담 던다…금융당국 자본 규제완화 추진",
+   "url": "https://www.mk.co.kr/article/12200226"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "2002억원대 무허가 보증보험 발행 법인 해산명령…10년간 불법 영업",
+   "url": "https://www.news1.kr/society/court-prosecution/6345426"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "국민성장펀드, 현대차 새만금 AI 데이터센터에 1.7조 '마중물'…SPC 지분 최대 49%",
+   "url": "https://view.asiae.co.kr/article/2026110610283654337"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "디지털 보험사 줄줄이 합병하는데…카카오페이손보 '나홀로 성장'",
+   "url": "https://dealsite.co.kr/articles/172068"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "\"산정 과정 공개하라\" vs \"못 한다\"… 예보·보험업계 예보료율 협의 난항",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/06/CS6DXJMD5NAZNCUV5JKEXEHWIE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "카뱅은 '주주환원 50%'…케이뱅크는 수익성 개선 우선",
+   "url": "https://n.news.naver.com/mnews/article/243/0000105291?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "MSCI 회장 \"韓, 선진국 지수 편입 빨라질 수도…원화 결제 개선 관건\"",
+   "url": "https://n.news.naver.com/mnews/article/123/0002393530?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-06 14:55",
+   "title": "카드사 순익 10% 늘었지만…대손·조달비용 관리 '고심'",
+   "url": "https://www.newsis.com/view/NISX20261106_0003857606"
   }
  ],
- "updated_kst": "2026-11-06 10:27"
+ "updated_kst": "2026-11-06 14:55"
 }
