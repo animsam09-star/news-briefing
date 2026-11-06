@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "[빚의 역습] 정책대출 맞나…5%대 보금자리론 수요 '뚝'",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442426"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "LH·HUG, 민간참여 공공주택 첫 금융지원…연 4.7% 대출",
-   "url": "https://n.news.naver.com/mnews/article/001/0016414922?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "인천시, 노후도시 재건축 '주민 대표권' 기준 마련…단지별 인원 차등 배분",
-   "url": "https://www.fnnews.com/news/202611020940439434"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "\"내 노후자금으로 임대주택을?\"…국민연금이 '쌈짓돈'인가",
-   "url": "https://shindonga.donga.com/3/all/13/6438184/1"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "'로또 줍줍'도 정부가 가져간다...10억 차익, 과천 무순위 오늘 접수",
-   "url": "https://www.fnnews.com/news/202611020730100174"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "[단독] 제이알리츠 주주연대, 임시주총 소집 청구…운용사 교체 나선다",
-   "url": "https://n.news.naver.com/mnews/article/138/0002246850?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "[리츠 실적 모니터] [KB스타리츠] 벨기에 투자지분 660억 손상",
-   "url": "https://dealsite.co.kr/articles/171458"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "서울 정비사업 1184곳 추진…신규 분양에 청약자 몰려",
-   "url": "https://n.news.naver.com/mnews/article/629/0000547674?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "11월 전국 4.4만 가구 분양…서울 일반분양 73%는 '반포 한 단지'",
-   "url": "https://www.news1.kr/realestate/general/6339333"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "3분기 서울 상업용 부동산 거래액 20%↑…대형 오피스가 견인",
-   "url": "https://n.news.naver.com/mnews/article/001/0016414652?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "금감원, 케이뱅크 4년 만에 정기검사…내부통제·지배구조 '칼날'",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442437"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "금감원장, '거수기' 지적한 금융지주 사외이사…내부 평가는 '최우수'",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052164?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "[길 잃은 의무공개매수] 공청회 패싱에 기습 합의…'100→50%' 후퇴 막전막후",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=677221"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "'같은 대출인데' 신한 596개 vs 우리 471개…생산적 금융 제각각 잣대",
-   "url": "https://n.news.naver.com/mnews/article/243/0000105062?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "퇴직연금 사외 적립 2030년 의무화…돈 없는 영세기업은 어떻게 하나",
-   "url": "https://n.news.naver.com/mnews/article/016/0002717352?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "'저원가성 예금' 빠져나가자 조달비용 껑충…은행 이자마진 갉아먹었다",
-   "url": "https://n.news.naver.com/mnews/article/119/0003149891?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "비은행 44%까지 키운 KB…이재근이 찾는 '새 성장동력'은?",
-   "url": "https://n.news.naver.com/mnews/article/243/0000105065?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "분배금도 못 버는 농협생명…'이익으로 자본 확충' 구상 흔들",
-   "url": "https://dealsite.co.kr/articles/171705"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "8000억 넘긴 온투업 연계대출…토스 참전에 업계 '긴장'",
-   "url": "https://n.news.naver.com/mnews/article/029/0003056507?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-02 10:21",
-   "title": "KB캐피탈, 영업익 늘었다지만…금융자산 빼면 '뒷걸음'",
-   "url": "https://dealsite.co.kr/articles/171797"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-11-02 14:49",
    "title": "한국 부동산 투명성 세계 24위…2년 새 3계단 상승",
@@ -2496,7 +2376,127 @@
    "sent_kst": "2026-11-06 06:32",
    "title": "‘대출뒤 삶 나아졌나’… 포용금융 평가방식 개정",
    "url": "https://www.donga.com/news/Economy/article/all/20261105/134974551/2"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "GS건설, 국내 PF 두 곳에 8635억 신용보강…엇갈린 사업 진척 ④ [기업분석]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002393473?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "고급주택 취득세 중과 기준 9억→12억원으로 완화",
+   "url": "https://n.news.naver.com/mnews/article/016/0002719731?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "'분양가 25%만 내고 입주' 공공 지분적립형 아파트…실수요자 단비될까",
+   "url": "https://www.fnnews.com/news/202611041423311294"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "'닥공'하겠다며 토지보상 1년→2달 줄이라는데",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052347?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[단독] 농지은행도 전답 못 팔아…9년째 매각 실적 '0건' [Pick코노미]",
+   "url": "https://www.sedaily.com/article/20110950?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "김포아라 3.7만가구·산단·물류 '한 생활권'으로…국토부 구상 중심에 선 고촌 한강변",
+   "url": "https://n.news.naver.com/mnews/article/081/0003696419?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "서초구 \"재초환은 주택공급 위축\"…정부에 폐지 건의",
+   "url": "https://www.hankyung.com/article/202611058319i"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[건설 CEO 성적표] [IPARK현대산업개발] 정경구 대표, 단독 체제서 자체사업 '승부'",
+   "url": "https://dealsite.co.kr/articles/171990"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "성남시, 오리역세권 제4테크노밸리 개발 가이드라인 공고",
+   "url": "https://www.news1.kr/local/gyeonggi/6345143"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[건설 CEO 성적표] [삼성E&A] 남궁홍 대표, 연임 첫해 수주·영업익 '결실'",
+   "url": "https://dealsite.co.kr/articles/172065"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[단독] 국민은행, 해킹 사고에 '망분리 예외' 또 탈락…농협銀, 카카오·토스페이 등 선정",
+   "url": "https://view.asiae.co.kr/article/2026110607380691848"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "'보험업계 첫 해킹' 미래에셋생명…보안 관리·내부통제 시험대",
+   "url": "https://n.news.naver.com/mnews/article/243/0000105273?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[금융지주 임원 인사 전망] [하나금융] 함영주 이후 연임 '0명'…이호성 하나은행장, 전례 깰까",
+   "url": "https://dealsite.co.kr/articles/172166"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "정책대출 저금리의 청구서…정부 이자 지원 2.8조, 6년 새 4배",
+   "url": "https://n.news.naver.com/mnews/article/016/0002719683?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[Invest] 잘 나가던 ETF에 금감원 '경고장'…사고 잇따른 운용업계 긴장",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680002.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "렌터카 경쟁 늘려 가격 낮춘다는데…캐피털사 사업 확대에 업계 반발, 정부도 이견",
+   "url": "https://n.news.naver.com/mnews/article/023/0004008133?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "포용금융 주문에 카드사 중금리대출 출시 '눈치게임'",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052352?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[단독] 코스피 폭락·서킷브레이커 발동에 F4 긴급 회동…이틀 연속 시장 점검",
+   "url": "https://www.newsis.com/view/NISX20261106_0003857415"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "장종환 농협캐피탈 대표, 임기 끝자락 '순익 반토막'…연임 '안갯속'",
+   "url": "https://dealsite.co.kr/articles/172009"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-06 10:27",
+   "title": "[Invest] 회원 자금 이탈에 놀란 공제회들, 내년에도 유동성 관리에 중점",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680003.html"
   }
  ],
- "updated_kst": "2026-11-06 06:32"
+ "updated_kst": "2026-11-06 10:27"
 }
