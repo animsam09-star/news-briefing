@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "국내 상업용 부동산 거래 21% 감소…5분기 연속 증가세 마감",
-   "url": "https://www.hankyung.com/article/202611046050r"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "홍지선 \"정비사업 속도 높여 서울 10만9000가구 착공\"",
-   "url": "https://n.news.naver.com/mnews/article/629/0000548864?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "경기 토허제 89% 해제했지만…\"주택시장 파급력은 미미할 듯\"",
-   "url": "https://www.mk.co.kr/article/12196527"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "분양·입주권도 거래 절벽…강남3구는 4개월새 80% 급감",
-   "url": "https://www.sedaily.com/article/20110326?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "[단독] 당정 '모듈러주택 특별법' 연내 입법…분리발주·관급자재 구매 규제 푼다",
-   "url": "https://www.sedaily.com/article/20110317?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "서울 거래량 톱50 중 42곳이 외곽... 소형 '생존 매수' 몰리며 가격 들썩",
-   "url": "https://www.fnnews.com/news/202611041827280207"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "서울 주요 단지 신고가 5배 급증… 외곽 주도에 송파도 가세",
-   "url": "https://www.fnnews.com/news/202611041827214694"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "서울 아파트 임대 2채중 1채는 '월세'… 중랑구 85%로 최다",
-   "url": "https://www.fnnews.com/news/202611041814557957"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "전셋값 39개월째 오르는데⋯5대 은행 전세대출 14개월 연속 감소",
-   "url": "https://n.news.naver.com/mnews/article/031/0001072169?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "'벌써 35조, 아직 10조 남았다' 목동·성수·여의도 수주전 달아오른다",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718851?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "홍콩 ELS 불완전판매 제재 확정…은행·증권사 13곳에 과징금 3700억",
-   "url": "https://www.donga.com/news/Economy/article/all/20261104/134965951/1"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "보험사 경영실태평가에 듀레이션 갭·GA 운영위험 신설",
-   "url": "https://n.news.naver.com/mnews/article/008/0005436553?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "[단독] 美·日은 하는 'GPU 담보대출'…韓, 준비 계획조차 없어",
-   "url": "https://www.sedaily.com/article/20110289?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "김동선 사장, 한화M&S 공개매수 마무리…1838억원 들여 최대주주로",
-   "url": "https://n.news.naver.com/mnews/article/081/0003695832?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "[단독]금융위 \"주택가격 상승세 당분간 계속…대출규제 유지 불가피\"",
-   "url": "https://www.donga.com/news/Politics/article/all/20261104/134965588/1"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "[단독] 25조 PRS 제동…대기업 자금조달 비상",
-   "url": "https://www.hankyung.com/article/2026110464251"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "DL그룹, 의료용 합성고무 1위 카리플렉스 1.8兆에 매각 추진",
-   "url": "https://biz.chosun.com/industry/company/2026/11/04/U3LEJYX2OFH4NLBMECJHJD5RLU/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "카뱅은 비은행·해외로, 케뱅은 소호·국내제휴로…전략 갈린 인뱅",
-   "url": "https://n.news.naver.com/mnews/article/008/0005436670?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "[단독] 넘치는 삼전닉스 돈 … 기업예금 1천조 돌파",
-   "url": "https://www.mk.co.kr/article/12196702"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-04 21:42",
-   "title": "제2 '스페이스X ETF 사태' 없도록 점검 확대",
-   "url": "https://www.fnnews.com/news/202611041816026950"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-11-05 06:31",
    "title": "전세금 HUG가 보관… 집주인엔 年 4.35% 지급",
@@ -1428,7 +1308,127 @@
    "sent_kst": "2026-11-08 14:57",
    "title": "AI 데이터센터 위험 커지자…공동 대응 나선 보험사들",
    "url": "https://view.asiae.co.kr/article/2026110615415567129"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "LH, 서울시 공공재개발 비판에 재반박…\"부정부패 소지 없다\"",
+   "url": "https://www.fnnews.com/news/202611081641479781"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "신규택지 발표했지만 … 지자체들은 \"임대주택 비율 줄여달라\"",
+   "url": "https://www.mk.co.kr/article/12201888"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "재건축했더니 \"7억 내세요\"…5조3000억 청구서 날아든다",
+   "url": "https://www.hankyung.com/article/2026110833101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "옛 방사청 등 용산공원 3곳에 7048채 검토…서울시 반대·법 개정 넘어야",
+   "url": "https://www.donga.com/news/Society/article/all/20261108/134987492/1"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "막힌 서울전세 숨통 트였다… 한달새 11% 늘어 2.2만건",
+   "url": "https://n.news.naver.com/mnews/article/029/0003057748?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "공급 메말랐던 서울…두달간 12곳서 3800가구 쏟아진다",
+   "url": "https://www.sedaily.com/article/20111658?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "8주째 서울 앞지른 경기 아파트값…경매장엔 33명 몰려 웃돈 낙찰[부동산AtoZ]",
+   "url": "https://view.asiae.co.kr/article/2026110814371847452"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "금융지주 부동산신탁 자회사 건설한파에 3년 연속 적자 늪",
+   "url": "https://www.mk.co.kr/article/12201847"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "대구도 1억…미분양 허덕이는 지방까지 '날벼락'",
+   "url": "https://www.hankyung.com/article/2026110832111"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "1300만 손님 묵을 곳 없네… 서울 호텔 객실 6년째 '제자리'",
+   "url": "https://www.fnnews.com/news/202611081838385842"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "[단독] 보험설계사 '근로자성' 인정 땐…업계 추가부담 최소 1조",
+   "url": "https://www.sedaily.com/article/20111624?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "카뱅·토뱅도 애플페이 … 현대카드 독점 깨진다",
+   "url": "https://www.mk.co.kr/article/12201942"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "[단독] K민생지킴대출, 예상 손실률 52.4%…\"10년간 1.5조 사라져\"..금융위는 예산 증액 요청",
+   "url": "https://www.fnnews.com/news/202611081123053209"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "\"IT보안=CEO이슈\" CEO 책무구조도 제재 첫 사례 나오나",
+   "url": "https://n.news.naver.com/mnews/article/008/0005438110?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "폭락장 반대매매 막아라…신용융자 담보비율 의무 면제(종합)",
+   "url": "https://n.news.naver.com/mnews/article/658/0000160681?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "IMM '컨티뉴펀드' 국내외 큰손들 눈독…에어퍼스트에 출자",
+   "url": "https://www.mk.co.kr/article/12201816"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "4대 금융지주 주주환원율 50% 시대로",
+   "url": "https://www.mk.co.kr/article/12201846"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "본업보다 짭짤… 자산운용 키우는 보험사들",
+   "url": "https://www.fnnews.com/news/202611081801401588"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "변동형보다 낮아진 주담대 고정금리…한달새 0.45%P 하락",
+   "url": "https://www.sedaily.com/article/20111620?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-08 21:46",
+   "title": "은행·저축銀, 채무조정 부동의율 확대",
+   "url": "https://www.sedaily.com/article/20111590?ref=naver"
   }
  ],
- "updated_kst": "2026-11-08 14:57"
+ "updated_kst": "2026-11-08 21:46"
 }
