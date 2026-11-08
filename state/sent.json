@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "부동산 전쟁 1년… ‘세금폭탄’ 고가주택 내리고 중저가는 올랐다",
-   "url": "https://n.news.naver.com/mnews/article/021/0002830265?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "강남 재건축, 세부담에 ‘다운사이징’ 확산",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718736?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "서울 상위 10개 대단지 6.6만가구서 전세매물 고작 2392건",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718705?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "공사안했는데 실적으로… 건설공제조합 ‘묻지마 보증’",
-   "url": "https://n.news.naver.com/mnews/article/021/0002830218?sid=102"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "분당 30년 구축도 ‘국평 20억’… 경기남부 갈아타기 수요 몰린다",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/04/B76VYH3FIJAI3B66JT3VCG5RMI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "대기업 사업장 있는 화성·천안아산 아파트 거래 증가…지방 분양 이어져",
-   "url": "https://www.mk.co.kr/article/12196215"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "미분양 1.6만가구 쌓였는데…대구·경북·경남 전월세 41% '뚝'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005436341?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "상지건설 최대주주, 일반공모 추가 참여… 2576억 자산가치에 베팅",
-   "url": "https://n.news.naver.com/mnews/article/008/0005436397?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "품질 높여봤자 입주 대상 바뀌면 도루묵… 李 정부 '보편형 공공임대'의 빈틈",
-   "url": "https://n.news.naver.com/mnews/article/665/0000008490?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "주택법 개정으로 달라지는 지역주택조합 시장… 조합원 피해 예방·사업 투명성 강화 주목",
-   "url": "https://edu.donga.com/news/articleView.html?idxno=113486"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "기업은행, 한국금융지주 지분 전량 처분",
-   "url": "https://n.news.naver.com/mnews/article/016/0002718693?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "금융지주 회장 3연임 땐 주주 75% 동의해야…문턱 높인다",
-   "url": "https://n.news.naver.com/mnews/article/374/0000541592?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "카카오뱅크, 신용카드·증권업 M&A 검토…기술 분야에 2700억 투자(종합)",
-   "url": "https://www.news1.kr/finance/bank/6342666"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "잇단 정보 유출에도 금융사 보안 공시 저조… 당국, 의무제 준비 착수",
-   "url": "https://biz.chosun.com/stock/finance/2026/11/04/44533FN4PRHKZPX4KCB6P76HTI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "전자주총 의무화…예탁결제원, 전자의결권 플랫폼 공개",
-   "url": "https://n.news.naver.com/mnews/article/374/0000541655?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "가상자산 과세 유예 기운다…與 \"2년 미뤄야\" 사실상 결론",
-   "url": "https://news.mtn.co.kr/article/2026110412222868290"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "시중은행, 마진 높여줄 '저원가예금'이 사라진다",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052261?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "제도권 넘보는 증권사 MTS '코인 정보', 규제 사각지대 우려 키우나",
-   "url": "https://n.news.naver.com/mnews/article/629/0000548695?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "프리미어, 한국펀드파트너스 85% 인수 눈앞…ETF 성장에 '베팅' [fn마켓워치]",
-   "url": "https://www.fnnews.com/news/202611040903304791"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-04 14:56",
-   "title": "해외 유망기업 투자 문 넓힌다…한투, 누버거와 상품 개발 맞손",
-   "url": "https://www.fnnews.com/news/202611041333556228"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-11-04 21:42",
    "title": "국내 상업용 부동산 거래 21% 감소…5분기 연속 증가세 마감",
@@ -1434,7 +1314,121 @@
    "sent_kst": "2026-11-08 10:27",
    "title": "반도체 호황에…'10억원 초과 예금' 1000조 육박",
    "url": "https://n.news.naver.com/mnews/article/029/0003057669?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "중개사 등록 4년 새 12% 줄었다…올해 3분기 급감 이유는",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01866326645643752&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "정부는 '닥공' 외치는데…토지보상·공사 여건에 발목 잡힌 사업장 여전",
+   "url": "https://www.fnnews.com/news/202611080015107780"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "김용석 대광위원장,\"3기 신도시 하남교산 주요 교통시설 적기 구축에 총력 기울일 것\"",
+   "url": "https://www.hankyung.com/article/202611082960i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "대구, '주택시장 정상화' 추가 대책···재개발·재건축 정비사업 활성화 지원",
+   "url": "https://www.khan.co.kr/article/202611081413001"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "\"재건축 어려운데 이사도 쉽지 않고\"…'쑥쑥' 자라는 주택 리모델링 시장",
+   "url": "https://www.mk.co.kr/article/12201660"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "서울시, 정비사업 속도낸 자치구·조합 포상…\"31만호 달성 뒷받침\"",
+   "url": "https://n.news.naver.com/mnews/article/001/0016428660?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "최근 1년간 공공주택 변경승인 71%가 기간 연장…최대 6년 늦어져",
+   "url": "https://www.fnnews.com/news/202611080003212983"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "백화점·마트 폐점한 부지, 아파트 들어선다",
+   "url": "https://www.newsis.com/view/NISX20261106_0003858151"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "제5차 국가철도망 계획 수립 앞두고 의견수렴…산업·주택 연계 논의",
+   "url": "https://www.news1.kr/realestate/general/6346035"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "금감원, 특사경 확대 앞두고 인력 배분 고심…자본시장 특사경 증원폭 줄어들 듯",
+   "url": "https://n.news.naver.com/mnews/article/023/0004008377?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "적은 수요·건전성 개선에…저축銀 연내 7차 공동펀드 조성 보류",
+   "url": "https://www.news1.kr/finance/general-finance/6346657"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "\"빚 갚으면 이자 환급\" 금융위 파격 카드",
+   "url": "https://magazine.hankyung.com/business/article/202611082787b"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "새도약기금, 2736개사 채권매입 마무리…대부업권은 장기전",
+   "url": "https://n.news.naver.com/mnews/article/008/0005438093?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "은행지주 배당, 4년간 이익보다 1.5배 빨리 늘었다",
+   "url": "https://n.news.naver.com/mnews/article/030/0003483287?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "'우협 줄다리기'에 위기 맞은 KDB생명…'인수자 북적' 기대 품은 JTBC",
+   "url": "https://www.mk.co.kr/article/12201625"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "기업은행, 연내 CIFO 도입 추진",
+   "url": "https://www.sedaily.com/article/20111526?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "보험사, 후순위채 발행 98% 급감…기본자본 관리 '특명'",
+   "url": "https://n.news.naver.com/mnews/article/030/0003483286?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "\"금리 1%P 오르면 생명보험사 자본 8조 감소\"…보험연구원 발표 '주목'",
+   "url": "https://www.mk.co.kr/article/12201658"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-08 14:57",
+   "title": "AI 데이터센터 위험 커지자…공동 대응 나선 보험사들",
+   "url": "https://view.asiae.co.kr/article/2026110615415567129"
   }
  ],
- "updated_kst": "2026-11-08 10:27"
+ "updated_kst": "2026-11-08 14:57"
 }
