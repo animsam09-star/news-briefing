@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "민간공급 속도…국토부, 주택공급 통합지원센터 국장급으로 신설",
-   "url": "https://n.news.naver.com/mnews/article/001/0016425250?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "'2033년 첫 입주' 10만호 대책…실효성 논란 속 \"수요 분산 시급\"",
-   "url": "https://www.newsis.com/view/NISX20261105_0003856083"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "李 요청한 ‘주택공급 3법’ 처리 1주일 미뤄져",
-   "url": "https://www.donga.com/news/Politics/article/all/20261106/134975468/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "전세가 사라졌다…서울 아파트 임대차 절반이 ‘반전세’",
-   "url": "https://www.kmib.co.kr/article/20261105502172"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "현대·삼성·롯데·HDC는 핵심 재건축, GS·DL·대우·포스코는 신사업…영토 넓히는 건설사 [SS포커스]",
-   "url": "https://n.news.naver.com/mnews/article/468/0001278581?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "‘강남 집값 10주째 하락’ 실체 뜯어보니… 128억 신현대 92억 급락 속",
-   "url": "https://n.news.naver.com/mnews/article/022/0004172946?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "서울 매수자 비중 1년 새 2배 가까이…인천 부평 몰리는 이유",
-   "url": "https://www.news1.kr/realestate/general/6344489"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "강원 아파트 분양 물량 5년 새 5분의 1 토막···주택 공급 위축 심화",
-   "url": "https://n.news.naver.com/mnews/article/087/0001228950?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "전세 매물 부족한데 4800가구 이주 앞둬…북아현·상계 전셋값 불안",
-   "url": "https://www.news1.kr/realestate/general/6344416"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "“우리 손주는 구김없이 커야지”…미성년에 물려준 부동산, 1.4조 육박",
-   "url": "https://www.mk.co.kr/article/12199678"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "우대금리 공시 세분화… 금감원, 대출금리 '꼼수산정' 손본다",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437419?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "망분리 규제 해제 '시동'…기술적 난제·프레임워크 부재는 과제",
-   "url": "https://n.news.naver.com/mnews/article/138/0002247479?sid=105"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "“내년부터 중복상장-유상증자 때 ‘주주 보호조치’ 공개해야”",
-   "url": "https://www.donga.com/news/Economy/article/all/20261105/134974553/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "호반 공세 받는 조원태, ‘통합 대한항공’ 성적이 경영권 방어 시험대",
-   "url": "https://biz.chosun.com/industry/company/2026/11/06/CXWQSZXRWJAS7N54OGWDT7JQNA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "돌아온 저축은행 ‘연 4%대 예금’… 두 달 만에 20개→127개",
-   "url": "https://n.news.naver.com/mnews/article/022/0004172965?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "신용점수 만점자도 '인뱅 마통' 금리 7% 육박…시중은행보다 1%p 높아",
-   "url": "https://www.newsis.com/view/NISX20261105_0003856780"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "우리은행, 중기대출 연체율 4대 은행 '최고'…충당금 방어력도 급락",
-   "url": "https://n.news.naver.com/mnews/article/629/0000549293?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "TPG, 8300억 들여 롯데렌탈 잔여지분 공개매수…상장폐지 추진",
-   "url": "https://www.mk.co.kr/article/12199335"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "SK디스커버리, 7년 만에 에코플랜트 PRS 정리…3800억 확보 전망 [시그널]",
-   "url": "https://www.sedaily.com/article/20110682?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-06 06:32",
-   "title": "‘대출뒤 삶 나아졌나’… 포용금융 평가방식 개정",
-   "url": "https://www.donga.com/news/Economy/article/all/20261105/134974551/2"
-  },
-  {
    "slot": "midmorning",
    "sent_kst": "2026-11-06 10:27",
    "title": "GS건설, 국내 PF 두 곳에 8635억 신용보강…엇갈린 사업 진척 ④ [기업분석]",
@@ -1416,7 +1296,127 @@
    "sent_kst": "2026-11-09 21:46",
    "title": "대포통장 막겠다던 '한도계좌', 자동이체엔 무용지물…내달 바뀐다",
    "url": "https://n.news.naver.com/mnews/article/648/0000052439?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "'여의도 2.4배' 파주 평화경제특구, 접경지역 전략산업 지도 확 바꾼다",
+   "url": "https://n.news.naver.com/mnews/article/081/0003697477?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "일산 백송-정발 등 4곳, 특별정비구역 추진",
+   "url": "https://www.donga.com/news/Society/article/all/20261109/134995079/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "서울 전세난에 '준서울' 광명까지 들썩…경기 전셋값 상승률 1위",
+   "url": "https://www.news1.kr/realestate/general/6348061"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "전력 확보 어려워도 수도권으로… 새로 짓는 데이터센터 10건 중 7건",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/10/SJOS6MPUMZGUHGL6BWY3RUSMTA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "페블스톤·AEW, 평택·여주 물류센터 통매각… 이지스운용·베인캐피탈 우협 선정",
+   "url": "https://biz.chosun.com/stock/market_trend/2026/11/10/F6PXHH4IEJFITCMRKE6RH4TO6E/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "'재초환 179억' 반포현대도 소송 가나…강남서 10년 만에 반값 선례",
+   "url": "https://www.news1.kr/realestate/general/6348134"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "주택 공급 급한데… 軍은 8265억 규모 '노는 땅' 방치",
+   "url": "https://n.news.naver.com/mnews/article/081/0003697438?sid=100"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "[단독]보증금 못줘 경매 신청 지방아파트 4년새 6.8배로… 年1000채 육박",
+   "url": "https://www.donga.com/news/Economy/article/all/20261110/134995612/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "\"농지 전수조사로 거래절벽\"…낙찰률·낙찰가율 '역대 최저'",
+   "url": "https://n.news.naver.com/mnews/article/662/0000108041?sid=100"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "강남3구 하락 거래 '중소형' 확산…'강남불패' 무너지나",
+   "url": "https://www.newsis.com/view/NISX20261107_0003858923"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "[금융지주 임원 인사 전망] [하나금융] 6년째 '디지털 키맨' 박근영…함영주의 세 번째 선택은",
+   "url": "https://dealsite.co.kr/articles/172253"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "SK이노·SKIET 합병, 금감원 두 차례 제동에 '삐걱'…주총 일정 변경",
+   "url": "https://n.news.naver.com/mnews/article/092/0002444555?sid=105"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "'빚투 청산' 막으려 대출 담보비율 의무 면제한 정부",
+   "url": "https://n.news.naver.com/mnews/article/023/0004008666?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "'보이스피싱 피해자'에 최대 200만원 긴급생계비 지원",
+   "url": "https://n.news.naver.com/mnews/article/022/0004173866?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "MBK \"고려아연 콜옵션, 엑시트 때만 행사…단가 인하 주장은 여론몰이\" [시그널]",
+   "url": "https://www.sedaily.com/article/20112031?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "저PBR 기업 vs 순자산 80% 미만…'주가누르기 방지법' 격돌",
+   "url": "https://n.news.naver.com/mnews/article/119/0003153153?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "코스닥 상폐 기준 강화에 커지는 우려… 벤기협, 국회서 해법 모색",
+   "url": "https://www.sedaily.com/article/20112105?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "억대 벌어도 대출 막막…라이더 전용대출 나온다",
+   "url": "https://n.news.naver.com/mnews/article/417/0001163756?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "[단독]미래에셋운용, '연기금투자풀' 뚫렸다…정부기금 수익률 유출",
+   "url": "https://n.news.naver.com/mnews/article/079/0004208032?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-10 06:32",
+   "title": "암진단비 보험금, 보상주체 놓고 2차전",
+   "url": "https://n.news.naver.com/mnews/article/008/0005438717?sid=101"
   }
  ],
- "updated_kst": "2026-11-09 21:46"
+ "updated_kst": "2026-11-10 06:32"
 }
