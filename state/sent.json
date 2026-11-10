@@ -2,120 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "[단독] '반포 2억' 재초환, 연기 갈림길…국토부 \"연내 결론\"",
-   "url": "https://n.news.naver.com/mnews/article/374/0000542236?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "800조 호남 반도체 '전력·용수·정주 여건' 협의 본격화",
-   "url": "https://n.news.naver.com/mnews/article/003/0014306757?sid=102"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "서울 빌딩 거래액 1년 새 57.5% '뚝'...거래 건수도 하락",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600655?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "11월 둘째 주 전국 12곳서 5215가구 청약…경기에 79% 집중",
-   "url": "https://n.news.naver.com/mnews/article/014/0005600676?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "강남 3구 제치고 전국 1위… 분당 집값만 나홀로 폭등한 이유",
-   "url": "https://n.news.naver.com/mnews/article/053/0000062876?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "경기 매매심리 124.1… 가격·거래 뛰자 분양 단지 눈길",
-   "url": "https://n.news.naver.com/mnews/article/029/0003057558?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "영등포 2.2억·강북 1.2억…재초환 억대 부담금에 '닥공' 발목",
-   "url": "https://n.news.naver.com/mnews/article/009/0005760186?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "강남에 분양가 40억 아파트 등장…'30가구 룰' 뭐길래",
-   "url": "https://n.news.naver.com/mnews/article/015/0005351225?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "주가 급락에 서울·수도권 아파트 시장도 유탄…매수여력 급감",
-   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443504"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "정부, 퇴직연금 개편 본격화…사외적립 의무화·기금형 활성화",
-   "url": "https://n.news.naver.com/mnews/article/030/0003483107?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "[단독] 케이뱅크, 인터넷은행 두 번째로 퇴직연금 사업 진출",
-   "url": "https://n.news.naver.com/mnews/article/374/0000542211?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "[단독] 농협개혁 속도…경제지주 해체 추진",
-   "url": "https://n.news.naver.com/mnews/article/009/0005760275?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "금융권 '맏형' 은행연합회장 선출 본격화…10일 첫 회의",
-   "url": "https://n.news.naver.com/mnews/article/016/0002720103?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "금융사 부실 막을 '자금 수혈' 안전망 만든다",
-   "url": "https://n.news.naver.com/mnews/article/009/0005760221?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "[단독] 운용사 이어 증권사 LP 부른 금감원…ETF 거래 관행 점검",
-   "url": "https://n.news.naver.com/mnews/article/011/0004679599?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "3년간 5500억 벌고 배당은 '0원'…흥국화재, PBR 0.2배 굴레 [저PBR 꼬리표]",
-   "url": "https://news.mtn.co.kr/article/2026110615490626877"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "[무조건간다] DB손보 \"그 업체 쓰지말라\"…계약 내용도 무시하고 갑질?",
-   "url": "https://n.news.naver.com/mnews/article/422/0000923521?sid=102"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "금융사 CEO 책임 묻겠다더니…보안 제재 강화법 1년째 국회 계류",
-   "url": "https://n.news.naver.com/mnews/article/119/0003152257?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-06 21:45",
-   "title": "국민성장펀드도 참여한 LIG D&A 5300억 투자…7개월 늦춰진 이유는",
-   "url": "https://n.news.naver.com/mnews/article/050/0000112938?sid=101"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-11-08 06:33",
    "title": "[비즈토크<하>] 공공vs민간…주택공급 방식 두고 갈등하는 정부·서울시",
@@ -1410,7 +1296,127 @@
    "sent_kst": "2026-11-10 14:56",
    "title": "[Invest]KDB생명 매각 막판까지 '치킨게임'…산은·한투, 누가 먼저 물러",
    "url": "https://www.investchosun.com/site/data/html_dir/2026/11/10/2026111080125.html"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "3040도 서울 집 팔고 지방 가면 양도세 깎아준다",
+   "url": "https://www.fnnews.com/news/202611101819184202"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "[단독] '공공보행로 개방' 분양공고에 못 박는다",
+   "url": "https://www.sedaily.com/article/20112657?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "재개발 용적률 1.2배 높인다더니…'옥상옥 심사기구' 만드는 국토부",
+   "url": "https://www.sedaily.com/article/20112601?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "행복주택 공실률 10% 육박 지적에…국토부 \"입주 문턱 낮춰 공실 해소\"",
+   "url": "https://n.news.naver.com/mnews/article/119/0003153563?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "[단독] \"법만 만들면 뭐하나\"…민간이윤 10% 상한, 실제 검사는 '0건'",
+   "url": "https://www.mk.co.kr/article/12204062"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "2년 내 수도권 오피스텔 2만3400실 공급…'6억 룰' 걸림돌",
+   "url": "https://www.fnnews.com/news/202611101822288214"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "KB선도아파트50 시총 두 달 새 2.7조 감소…강남 재건축에 하락 집중",
+   "url": "https://www.sedaily.com/article/20112658?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "삐걱대는 GTX…B노선 잇단 유찰, C는 10년 만에 착공",
+   "url": "https://www.hankyung.com/article/2026111083981"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "[단독] 금감원, 제이알글로벌리츠 회계감리 착수…자산평가 논란 재점화하나",
+   "url": "https://www.sedaily.com/article/20112661?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "정부, 주택공급 속도 낸다더니⋯LH '파업 위기'·HUG '수장 공백'",
+   "url": "https://n.news.naver.com/mnews/article/031/0001073744?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "금융보안원도 해킹에 뚫려…금융사 보안평가 정보 일부 유출(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016434329?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "네이버·두나무 합병, 조건부 승인 유력",
+   "url": "https://www.sedaily.com/article/20112625?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "영풍, 사내이사 부재에도 MBK와 경영계약…적절성 지적",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052480?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "차기 은행연합회장, 2尹 지고 朴 뜨나…이원덕도 급부상",
+   "url": "https://news.mtn.co.kr/article/2026111016253411807"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "'10조 대어' 구다이글로벌, 코스피 상장 초읽기",
+   "url": "https://www.mk.co.kr/article/12204008"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "지방銀 부실채권 2조… 中企 대출 비상등",
+   "url": "https://www.fnnews.com/news/202611101825092917"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "예보료 협의체 가동… 업권별 사정 달라 '걱정 반, 기대 반'",
+   "url": "https://www.fnnews.com/news/202611101811331888"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "금감원, 부동산 신탁사 건전성 관리 당부…자금관리 가이드라인 제정",
+   "url": "https://n.news.naver.com/mnews/article/374/0000542794?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "정보 유출에 VIP? 수협은행, 보상 빙자한 영업",
+   "url": "https://n.news.naver.com/mnews/article/374/0000542850?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-10 21:49",
+   "title": "금리 오르면 호재였는데…이젠 대형 생보사도 '덜덜', 왜?",
+   "url": "https://n.news.naver.com/mnews/article/374/0000542829?sid=101"
   }
  ],
- "updated_kst": "2026-11-10 14:56"
+ "updated_kst": "2026-11-10 21:49"
 }
