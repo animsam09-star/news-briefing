@@ -1638,7 +1638,127 @@
    "sent_kst": "2026-11-11 10:24",
    "title": "'5년 내 선두권' 외친 신한카드…인니 카드서비스 결국 종료",
    "url": "https://dealsite.co.kr/articles/172372"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "HUG, 인허가·PF보증 심사 동시 진행…심사 기간 2개월 단축",
+   "url": "https://n.news.naver.com/mnews/article/001/0016435269?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "국토장관 \"서울시, 법에 없는 절차로 도심복합사업 지연\" 신속 진행 촉구",
+   "url": "https://www.newsis.com/view/NISX20261111_0003863721"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "인구 감소 지역 주택 공급도 관리…'공급관리지역' 도입 법안 발의",
+   "url": "https://www.news1.kr/realestate/general/6349616"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "1기 신도시 재건축연합, 규제 완화 요구… 여야 의원, 제도 개선 검토",
+   "url": "https://www.arunews.com/news/articleView.html?idxno=69365"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "현대차 새만금 9조 프로젝트…산업은행, AI 인프라 금융지원 시험대",
+   "url": "https://n.news.naver.com/mnews/article/629/0000550817?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "'0원 vs 505억'…강남 재초환 2호 '부담금 셈법' 논란",
+   "url": "https://n.news.naver.com/mnews/article/016/0002722009?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "집값 뛰던 노도강, 매수세 '주춤'…매물 늘고 토허제 신청 줄었다",
+   "url": "https://www.news1.kr/realestate/general/6350308"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "[단독] '주거복지 몫' 1.5조 담배세, 소방재정에 최대 절반 배분 검토",
+   "url": "https://n.news.naver.com/mnews/article/081/0003698213?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "HUG, 재건축·재개발 대출보증 60% 특례 1년 연장",
+   "url": "https://www.arunews.com/news/articleView.html?idxno=69384"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "한국부동산원, 정비사업 지연 막는다…착공 전까지 맞춤형 컨설팅 강화",
+   "url": "https://www.fnnews.com/news/202611111015002028"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "집 사느라 빚내고 주식 사느라 또 빚내고…은행권 가계대출 1200조원 첫 돌파",
+   "url": "https://n.news.naver.com/mnews/article/029/0003058465?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "\"5초 만에 국고채 금리 담합\"…증권사·은행 15곳에 과징금 1.6조",
+   "url": "https://n.news.naver.com/mnews/article/138/0002248110?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "금보원 해킹에 금감원 사칭까지…48개사 130여개 파일 유출",
+   "url": "https://n.news.naver.com/mnews/article/029/0003058501?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "법인보험 가입조건 법인 대표에 732억원 리베이트 주다 검거",
+   "url": "https://n.news.naver.com/mnews/article/374/0000542990?sid=103"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "671억 걷은 증권사 '주식정보 서비스'…금감원, 이용료 안내 강화",
+   "url": "https://n.news.naver.com/mnews/article/082/0001406636?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "내년부터 건설근로자·프리랜서 근로이력도 '신용' 인정",
+   "url": "https://n.news.naver.com/mnews/article/031/0001074110?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "재경부, 글로벌 투자자 만나 \"증권 결제주기 단축에 충분한 준비기간 부여\"",
+   "url": "https://n.news.naver.com/mnews/article/016/0002722110?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "첫 상생금융 우수은행에 기업·우리은행…동반위, 상생평가 외연 확대",
+   "url": "https://www.news1.kr/industry/sb-founded/6350291"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "한은, 지급결제제도 콘퍼런스 개최…디지털 인프라 혁신 모색",
+   "url": "https://view.asiae.co.kr/article/2026111111483070779"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-11 14:50",
+   "title": "네이버·두나무 결합 남은 고비는 거래소 '지분제한'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002721957?sid=101"
   }
  ],
- "updated_kst": "2026-11-11 10:24"
+ "updated_kst": "2026-11-11 14:50"
 }
