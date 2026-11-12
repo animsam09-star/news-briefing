@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "광주송정역·금호타이어공장 일대 '반도체 관문도시' 조성",
-   "url": "https://n.news.naver.com/mnews/article/001/0016428561?sid=105"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "7억 시세차익 청약도 신청자 없었다…'특혜 논란' 해외건설 특공, 알고보니 절반이 미달",
-   "url": "https://n.news.naver.com/mnews/article/016/0002720303?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "경기 아파트값 상승폭, 서울 앞질렀다…경기남부 강세",
-   "url": "https://n.news.naver.com/mnews/article/374/0000542329?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "\"빌라 전셋값도 1억 올랐다\" 서울 외곽 전세 품귀...강남은 매물 쌓인다",
-   "url": "https://n.news.naver.com/mnews/article/008/0005437999?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "생판 남한테 24억 대출해 준 강남 집주인들…알고 보니 '수억' 벌었다",
-   "url": "https://www.newsis.com/view/NISX20261106_0003857471"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "미국발 AI 데이터센터 불안…국내 업계 \"사업 추진 문제없어\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016428522?sid=105"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "현대엔지니어링, 주택 대신 에너지·AI에 승부수…신사업 수주 성과 가시화",
-   "url": "https://www.g-enews.com/view.php?ud=2026110610232984282aa6f4cdad_1"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "\"물류센터·공장이 AI센터로\"…CJ대한통운, DC '신축·전환 투트랙' 공략",
-   "url": "https://www.news1.kr/industry/sb-founded/6345734"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "월급 밀리고 상품 공급 끊기고…홈플러스 자금난 '일파만파'",
-   "url": "https://n.news.naver.com/mnews/article/654/0000209884?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "농지 전수조사 이후 농지 경매 낙찰률·낙찰가율 동반 하락",
-   "url": "https://n.news.naver.com/mnews/article/001/0016428525?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "'역대급 실적'에도 연임 안갯속…5대 은행장 운명은?",
-   "url": "https://www.newsis.com/view/NISX20261106_0003858608"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "미래에셋증권도 '해킹'‥3만 9천 명 정보 유출",
-   "url": "https://n.news.naver.com/mnews/article/214/0001534161?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "법원, '232억 불완전판매' 삼성증권 전 임원 감봉 3개월 취소",
-   "url": "https://n.news.naver.com/mnews/article/629/0000549698?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "'한정 감사의견' 알고도 안알린 운용사…法 \"투자자보호의무 위반\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016428473?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "'1000억 족쇄' 못 푼 저축은행… 자산관리회사 설립 해 넘긴다",
-   "url": "https://n.news.naver.com/mnews/article/008/0005438007?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "\"주식 판 돈, 2028년부터 다음날 찾는다는데\"…개미들 주의할 '이것'",
-   "url": "https://www.mk.co.kr/article/12201558"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "[정책 청구서②] 농지 대출 부실 늘고 쌀값 방어엔 '외상' 5669억…농협 이중고",
-   "url": "https://www.newsis.com/view/NISX20261105_0003856077"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "3000억 돌아온다…은행권 4분기 실적 홍콩ELS발 '뜻밖의 호재'",
-   "url": "https://n.news.naver.com/mnews/article/016/0002720348?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "NH벤처투자, 민간 벤처모펀드 1000억 규모 조성",
-   "url": "https://www.newsis.com/view/NISX20261108_0003859122"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-08 10:27",
-   "title": "반도체 호황에…'10억원 초과 예금' 1000조 육박",
-   "url": "https://n.news.naver.com/mnews/article/029/0003057669?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-11-08 14:57",
    "title": "중개사 등록 4년 새 12% 줄었다…올해 3분기 급감 이유는",
@@ -1998,7 +1878,127 @@
    "sent_kst": "2026-11-12 10:21",
    "title": "단순 송금·결제 넘어 배달·대출까지… 금융권 '외국인 락인' 경쟁",
    "url": "https://n.news.naver.com/mnews/article/023/0004009194?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "국토장관 \"재초환 종합 검토 필요\"…폐지안 국회 계류 중",
+   "url": "https://n.news.naver.com/mnews/article/374/0000543294?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "[단독] 소형 아파트도 10억 넘는데... PF 지원 가격 상한은 9억",
+   "url": "https://www.fnnews.com/news/202611111034284840"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "\"서울시가 공급 발목\"…與, 도심복합사업 승인권 회수 압박",
+   "url": "https://www.mk.co.kr/article/12206246"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "[속보] 서울 집값 92주째 상승…강남3구 하락세, 성동·강동으로 번졌다",
+   "url": "https://www.mk.co.kr/article/12206342"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "3분기 서울 아파트 거래량 44% '뚝'...전국 부동산 거래량도 22% 감소",
+   "url": "https://n.news.naver.com/mnews/article/123/0002393929?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "고금리·거래 위축에 11월 서울 주택사업 전망 23.2포인트 '뚝'",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/12/4Y5PQURM6FFH3PO3RU2RMBRIBI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "건설산업연구원 \"내년 전국 집값 2%·전셋값 4.5% 상승할 것\"",
+   "url": "https://n.news.naver.com/mnews/article/001/0016438387?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "내년 건설수주 261.7조 전망…반도체·AI 투자에 4.1% 증가",
+   "url": "https://www.news1.kr/realestate/general/6351838"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "재건축 어려운 서울 260여 단지 겨냥…GS건설, 신속형 리모델링 추진",
+   "url": "https://www.hankyung.com/article/202611122780i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "[Invest]GS건설, EOD 막으려 에너지머티리얼즈 산은 빚 대신 갚는다",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280053.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "7인 임추위서 2명만 반대해도 금융지주회장 3연임 못한다",
+   "url": "https://n.news.naver.com/mnews/article/021/0002832316?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "당정, 금융지주 지배구조 개선 입법속도…시행은 빨라야 내년하반기",
+   "url": "https://www.news1.kr/finance/general-finance/6351666"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "'실적은 합격점인데'…이환주 국민은행장, 이재근 체제서 연임할까",
+   "url": "https://n.news.naver.com/mnews/article/629/0000551181?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "연말 대출절벽 옛말?…은행들 주담대 빗장 다시 푼다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000543256?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "삼성생명, 3분기 누적순이익 2조6859억원…전년比 26.9% 증가",
+   "url": "https://www.news1.kr/finance/insurance-card/6351945"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "한화손해보험, 3분기 순이익 961억원…장기보험 수익성 회복",
+   "url": "https://n.news.naver.com/mnews/article/123/0002393930?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "\"TPG의 롯데렌탈 공개매수, 정무위안 땐 일반주주 몫 '0주'\"",
+   "url": "https://news.mtn.co.kr/article/2026111213385954688"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "넥스플렉스 매각, 인수금융 승인에도 자금조달 숙제 남아…MBK는 '최후통첩'",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280085.html"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "與, 기촉법 5년 연장 추진…워크아웃 법적 공백 막는다",
+   "url": "https://www.hankyung.com/article/202611122705i"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-12 14:54",
+   "title": "미래에셋證, 3분기 적자에도 누적 순익 2.5조…주주환원 확대",
+   "url": "https://n.news.naver.com/mnews/article/243/0000105580?sid=101"
   }
  ],
- "updated_kst": "2026-11-12 10:21"
+ "updated_kst": "2026-11-12 14:54"
 }
