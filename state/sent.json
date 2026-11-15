@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "기부채납으로 용적률 올리고 분양가도 높였나…국토부 검증 착수",
-   "url": "https://www.news1.kr/realestate/general/6349618"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "'재개발 알박기' 지적했던 李 \"불법행위 방치 전수조사하라\"",
-   "url": "https://www.donga.com/news/Politics/article/all/20261111/135002707/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "22층 아파트 레고처럼 조립... LH, '모듈러 주택'으로 공급 속도전",
-   "url": "https://n.news.naver.com/mnews/article/469/0000964855?sid=102"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "\"호가 2~3억 껑충 뛰더니 매수 단절\"…수도권 아파트 상승세 멈칫한 배경",
-   "url": "https://www.newsis.com/view/NISX20261110_0003861413"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "재건축했더니 \"2억 더 내세요\" 재초환 발칵...연내 부과? 3년 뒤?",
-   "url": "https://n.news.naver.com/mnews/article/008/0005439316?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "5년 지나 날아온 억대 부담금 고지서···정권마다 입장 바꾸며 혼란 부른 '재초환'",
-   "url": "https://www.khan.co.kr/article/202611110600141"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "\"수주 불확실성 vs 반사이익\"…AIDC 베팅한 건설사들, 美 규제에 촉각",
-   "url": "https://n.news.naver.com/mnews/article/008/0005439329?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "제조·건설업 찬바람…관광·소비·수출은 회복세",
-   "url": "https://n.news.naver.com/mnews/article/654/0000210610?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "11월 수도권 아파트 입주전망지수↓…금리인상 우려",
-   "url": "https://n.news.naver.com/mnews/article/422/0000924877?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "서울 주거비 부담에 경기로…'탈서울' 순이동 40% 증가",
-   "url": "https://www.newsis.com/view/NISX20261110_0003862735"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "증권사 주식정보서비스 수수료 671억원…금감원 \"안내 강화\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016434520?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "[단독] 4년 전 '유출 우려' 지적당한 금융보안원 시스템, 진짜 뚫렸다",
-   "url": "https://www.kmib.co.kr/article/20261111500022"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "네이버·두나무 기업결합 심의 개시…공정위 \"10개 시장 경쟁 제한 우려\"",
-   "url": "https://n.news.naver.com/mnews/article/081/0003698005?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "주가 반토막난 LIG D&A… 디인베·IMM인베, 5000억 투자 또 연기",
-   "url": "https://biz.chosun.com/stock/market_trend/2026/11/11/JQFYJAQSAJH2NHRMWRMF7GLZBA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "삼성화재, 2.3조원 들여 英 보험사 인수",
-   "url": "https://n.news.naver.com/mnews/article/023/0004008858?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "우리은행장 13일 최종 후보 결정…정진완 '1년 연임' 유력",
-   "url": "https://www.news1.kr/finance/general-finance/6349530"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "[금융지주 임원 인사 전망] [하나금융] 카드·보험 거쳐 은행으로…함영주式 인사공식 이어질까",
-   "url": "https://dealsite.co.kr/articles/172349"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "금감원, ETF신탁 판매관행 개선 '속도전'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005439320?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "국민성장펀드 '10조'가 빈다…'깜깜이' 심사자료 논란",
-   "url": "https://www.joongang.co.kr/article/25477475"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-11 06:33",
-   "title": "구다이글로벌, 이번 주 코스피 심사 청구…'10조 IPO' 겨냥 [시그널]",
-   "url": "https://www.sedaily.com/article/20112665?ref=naver"
-  },
-  {
    "slot": "midmorning",
    "sent_kst": "2026-11-11 10:24",
    "title": "지역업체 의무참여 공사 88억→300억 미만 확대…수주 최대 8000억 늘린다",
@@ -1542,7 +1422,127 @@
    "sent_kst": "2026-11-15 06:31",
    "title": "'빚투' 속 개미 여윳돈 말라가나…마통 4년 3개월 만에 최대",
    "url": "https://n.news.naver.com/mnews/article/001/0016442040?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "씨 마른 강남권 분양에…서울 1순위 청약자 4년 만에 최저",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846337&plink=ORI&cooper=NAVER"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "\"서울 세입자 초비상\"…장특공·토허제에 전월세 매물 더 잠기나",
+   "url": "https://www.newsis.com/view/NISX20261112_0003864820"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "서울 대학가 원룸 주거비 71만원…기숙사 수용률은 13%",
+   "url": "https://www.newsis.com/view/NISX20261113_0003867529"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "롯데건설 '체질개선' 숫자로…원가율 88%까지 낮추고 PF 2.3조대로",
+   "url": "https://n.news.naver.com/mnews/article/468/0001280946?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "전월세난 2029년까지 가나…\"신혼부부 여전히 고달플 것\"",
+   "url": "https://www.newsis.com/view/NISX20261114_0003868095"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "주택공급 속도내는 정부…수도권 전세수급은 여전히 불균형",
+   "url": "https://n.news.naver.com/mnews/article/001/0016442137?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "\"결혼 전에 집부터 산다\" '반도체 벨트' 수원, 생애 첫 매수 1.3만명 돌파 [부동산360]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002723509?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "울산외곽순환고속도로 16년 만에 착공…동서 연결 새로운 교통망",
+   "url": "https://www.kmib.co.kr/article/20261115500136"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "높을수록 '귀한 몸'…초고층 아파트 신고가 행진",
+   "url": "https://www.mk.co.kr/article/12208022"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "호남 반도체 산단, 하루 폐수 50만톤 예상…2029년까지 처리시설 구축",
+   "url": "https://n.news.naver.com/mnews/article/374/0000543698?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "\"북한 해킹조직 라자루스, 국내 서버 30곳 노렸다\"",
+   "url": "https://www.hankyung.com/article/2026111569037"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "코인원 \"고객상담 위탁사 해킹에 이름·계좌 등 개인정보 유출\"",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/15/MYYVLYFID5HSNHW3N6JAVGQJH4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "미래에셋증권, 스페이스X 투자손실에 3분기 대규모 적자…목표가 '하향' [주가동향]",
+   "url": "https://n.news.naver.com/mnews/article/123/0002394048?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "삼성생명 '주주환원 50%', 8개월째 변죽만…실체는 언제",
+   "url": "https://n.news.naver.com/mnews/article/374/0000543694?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "나스닥 23시간 거래 D-3주…\"美투자 확대\" \"국내 영향 제한적\"",
+   "url": "https://n.news.naver.com/mnews/article/001/0016442087?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "美 연준, AI 데이터센터 '순환금융' 경고…첨단 컴퓨팅 부채 발행 6800억달러",
+   "url": "https://n.news.naver.com/mnews/article/138/0002248570?sid=105"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "\"금리 오를 텐데, 짧게 굴려야지\"…은행 단기예금 470조 돌파 '역대 최대'",
+   "url": "https://www.newsis.com/view/NISX20261113_0003867654"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "[단독]도박 취급받던 가상자산 매매·중개업도 기업부설연구소 인정",
+   "url": "https://n.news.naver.com/mnews/article/008/0005441153?sid=105"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "전세보증금 6년 새 35% 뛰고 대출 53% 늘고…세입자 시름 깊어진다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002723534?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-15 10:23",
+   "title": "[공모주달력]청약자금 19조원 몰린 4곳…상장 첫날도 웃을까",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052631?sid=101"
   }
  ],
- "updated_kst": "2026-11-15 06:31"
+ "updated_kst": "2026-11-15 10:23"
 }
