@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "등기부 발급·열람 수수료 400원 인상…공인중개사 업계 반발",
-   "url": "https://www.newsis.com/view/NISX20261112_0003865661"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "[단독] 도봉구는 0곳…\"서울 아파트 20%, 사업성 없다\"",
-   "url": "https://n.news.naver.com/mnews/article/215/0001272578?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "2년 연속 전국 오피스텔·상업용 건물 기준시가 '↓뚝'…서울만 '상승'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440352?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "서울 빌딩 거래액 1년새 '반토막'…강남 제치고 1위 오른 곳은",
-   "url": "https://www.hankyung.com/article/202611123094i"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "서울 외곽도 '집주인 찬스'... 근저당설정 1년새 46% 쑥",
-   "url": "https://www.fnnews.com/news/202611121835081726"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "[단독] 포스코·롯데도 대수선 리모델링 진출…대형사 경쟁 확대",
-   "url": "https://news.mtn.co.kr/article/2026111216152333647"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "[단독] 책준 손해배상 부동산신탁사 또 승소했다...뒤집힌 판결",
-   "url": "https://www.fnnews.com/news/202611120928415574"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "\"대세는 경기남부\" 서울 대신 집값 '끌올'",
-   "url": "https://www.kmib.co.kr/article/20261112501118"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "전셋값 4년여 만에 최고치 눈앞‥내년 강남 6천 가구 '이주 폭탄'",
-   "url": "https://n.news.naver.com/mnews/article/214/0001535247?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "매매 이어 신규 분양도 한파…경기 지역별 부동산 양극화 '뚜렷'",
-   "url": "https://n.news.naver.com/mnews/article/666/0000131812?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "은행지주CEO 연임할수록 의결 까다롭게…임추위 전원 독립이사로(종합)",
-   "url": "https://n.news.naver.com/mnews/article/001/0016439389?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "금융지주 퇴임 회장, 고액 특별공로금·고문료 못 받는다",
-   "url": "https://www.sedaily.com/article/20113666?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "해킹 공식 사과한 금융보안원…금융위, 특정감사 착수키로",
-   "url": "https://www.sedaily.com/article/20113730?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "가상자산 콜드월렛 보관 95%로 상향…거래소 보안 의무 강화",
-   "url": "https://n.news.naver.com/mnews/article/092/0002445074?sid=105"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "[단독] 교보생명, 악사손보 지분 51% 인수 추진",
-   "url": "https://www.hankyung.com/article/2026111235531"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "DB손보, 3분기 당기순이익 4440억원⋯전년 동기 대비 35.3% ↑",
-   "url": "https://n.news.naver.com/mnews/article/031/0001074670?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "차기 은행연합회장 인선 본격화…13일 후보군 윤곽",
-   "url": "https://view.asiae.co.kr/article/2026111217232582687"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "망분리 완화 앞둔 금융권…제로트러스트 전환·보안 투자 과제",
-   "url": "https://n.news.naver.com/mnews/article/031/0001074660?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "저축銀 대출, 자영업자 줄고 법인은 급증",
-   "url": "https://www.hankyung.com/article/2026111235511"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-12 21:42",
-   "title": "토큰증권 시행 3개월 앞인데…\"결제수단·시장 인프라 준비 미흡\"",
-   "url": "https://biz.chosun.com/stock/stock_general/2026/11/12/S2IP7DP6EFCIPHQ3CJBVHHAP54/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-11-13 06:31",
    "title": "청년 한숨에… 吳 \"내년부터 관리비 지원\"",
@@ -1398,7 +1278,127 @@
    "sent_kst": "2026-11-16 14:54",
    "title": "[단독]카카오뱅크, 오늘 애플페이 연동 시작",
    "url": "https://n.news.naver.com/mnews/article/030/0003486096?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "홍지선 \"모듈러주택, 공급 가속 핵심 대안\"…2030년까지 2만 가구 발주",
+   "url": "https://www.news1.kr/realestate/general/6355755"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "도심복합사업 사전협의 재개한다",
+   "url": "https://www.hankyung.com/article/2026111699701"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "\"입주 후에도 개방 약속 지켜야\"…김남근 의원, 공공보행로법 법안 발의",
+   "url": "https://n.news.naver.com/mnews/article/008/0005441940?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "정부, 재초환 부담금 법률 검토…이르면 이번주 일선구청 통보",
+   "url": "https://view.asiae.co.kr/article/2026111617333600944"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "서리풀1지구 1만8500가구 중 79% 임대…주민 \"분양 늘려야\"",
+   "url": "https://n.news.naver.com/mnews/article/586/0000142364?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "유주택자도 양극화…상하위 10% 격차 52배",
+   "url": "https://www.mk.co.kr/article/12210175"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "\"신림동 빌라도 월세 100만원\" 서울 빌라 월세 역대 최고 [부동산360]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002724160?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "서울 집값 상승폭 석달째 둔화…평균 전셋값 5억원 돌파(종합)",
+   "url": "https://n.news.naver.com/mnews/article/001/0016444238?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "글로벌 오피스 '개발 가뭄' 속 서울 나 홀로 활황…왜?[부동산AtoZ]",
+   "url": "https://view.asiae.co.kr/article/2026111615524040920"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "성수·종로 등 상권 분산…강남구 중소형 빌딩 매매가 2년새 13% 뚝",
+   "url": "https://www.sedaily.com/article/20115116?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "지배구조 개선안 후 KB금융 회장 첫 인선 '시험대' 올라",
+   "url": "https://n.news.naver.com/mnews/article/022/0004175616?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "4대 금융 사외이사 84% 임기 만료⋯'지배구조 관행' 개선 첫 시험대",
+   "url": "https://n.news.naver.com/mnews/article/031/0001075499?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "BNK금융, 경남銀·투자증권 CEO후보군 확정",
+   "url": "https://n.news.naver.com/mnews/article/658/0000161419?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "은행지주는 혁신한다지만…증권사 지배구조 줄줄이 낙제점 [경제 블로그]",
+   "url": "https://n.news.naver.com/mnews/article/081/0003699894?sid=101"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "미래에셋, 디지털엑스에 305억원 추가 출자…지분율 98.13%로 확대",
+   "url": "https://n.news.naver.com/mnews/article/092/0002445550?sid=105"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "금감원, 불법영업 대형 GA 퇴출 '초강수'",
+   "url": "https://www.sedaily.com/article/20115051?ref=naver"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "금감원, '불법 리베이트 혐의' 한국보험금융에 등록 취소 사전 통지",
+   "url": "https://biz.chosun.com/stock/stock_general/2026/11/16/QNSJMGJKL5EJPCLJQ7J5LXAT4E/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "금감원, 신한·우리·농협·기업은행 영업점 불시 검사 돌입",
+   "url": "https://www.fnnews.com/news/202611161552498260"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "변동형이 고정형보다 높네 … 주택담보대출 금리 역전",
+   "url": "https://www.mk.co.kr/article/12210125"
+  },
+  {
+   "slot": "evening",
+   "sent_kst": "2026-11-16 21:43",
+   "title": "넥스트레이드, 3분기 영업익 반토막…거래대금 급감 영향",
+   "url": "https://n.news.naver.com/mnews/article/119/0003155837?sid=101"
   }
  ],
- "updated_kst": "2026-11-16 14:54"
+ "updated_kst": "2026-11-16 21:43"
 }
