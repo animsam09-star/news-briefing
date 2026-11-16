@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "국토장관 \"재초환 종합 검토 필요\"…폐지안 국회 계류 중",
-   "url": "https://n.news.naver.com/mnews/article/374/0000543294?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "[단독] 소형 아파트도 10억 넘는데... PF 지원 가격 상한은 9억",
-   "url": "https://www.fnnews.com/news/202611111034284840"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "\"서울시가 공급 발목\"…與, 도심복합사업 승인권 회수 압박",
-   "url": "https://www.mk.co.kr/article/12206246"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "[속보] 서울 집값 92주째 상승…강남3구 하락세, 성동·강동으로 번졌다",
-   "url": "https://www.mk.co.kr/article/12206342"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "3분기 서울 아파트 거래량 44% '뚝'...전국 부동산 거래량도 22% 감소",
-   "url": "https://n.news.naver.com/mnews/article/123/0002393929?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "고금리·거래 위축에 11월 서울 주택사업 전망 23.2포인트 '뚝'",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/12/4Y5PQURM6FFH3PO3RU2RMBRIBI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "건설산업연구원 \"내년 전국 집값 2%·전셋값 4.5% 상승할 것\"",
-   "url": "https://n.news.naver.com/mnews/article/001/0016438387?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "내년 건설수주 261.7조 전망…반도체·AI 투자에 4.1% 증가",
-   "url": "https://www.news1.kr/realestate/general/6351838"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "재건축 어려운 서울 260여 단지 겨냥…GS건설, 신속형 리모델링 추진",
-   "url": "https://www.hankyung.com/article/202611122780i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "[Invest]GS건설, EOD 막으려 에너지머티리얼즈 산은 빚 대신 갚는다",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280053.html"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "7인 임추위서 2명만 반대해도 금융지주회장 3연임 못한다",
-   "url": "https://n.news.naver.com/mnews/article/021/0002832316?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "당정, 금융지주 지배구조 개선 입법속도…시행은 빨라야 내년하반기",
-   "url": "https://www.news1.kr/finance/general-finance/6351666"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "'실적은 합격점인데'…이환주 국민은행장, 이재근 체제서 연임할까",
-   "url": "https://n.news.naver.com/mnews/article/629/0000551181?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "연말 대출절벽 옛말?…은행들 주담대 빗장 다시 푼다",
-   "url": "https://n.news.naver.com/mnews/article/374/0000543256?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "삼성생명, 3분기 누적순이익 2조6859억원…전년比 26.9% 증가",
-   "url": "https://www.news1.kr/finance/insurance-card/6351945"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "한화손해보험, 3분기 순이익 961억원…장기보험 수익성 회복",
-   "url": "https://n.news.naver.com/mnews/article/123/0002393930?sid=101"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "\"TPG의 롯데렌탈 공개매수, 정무위안 땐 일반주주 몫 '0주'\"",
-   "url": "https://news.mtn.co.kr/article/2026111213385954688"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "넥스플렉스 매각, 인수금융 승인에도 자금조달 숙제 남아…MBK는 '최후통첩'",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/12/2026111280085.html"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "與, 기촉법 5년 연장 추진…워크아웃 법적 공백 막는다",
-   "url": "https://www.hankyung.com/article/202611122705i"
-  },
-  {
-   "slot": "afternoon",
-   "sent_kst": "2026-11-12 14:54",
-   "title": "미래에셋證, 3분기 적자에도 누적 순익 2.5조…주주환원 확대",
-   "url": "https://n.news.naver.com/mnews/article/243/0000105580?sid=101"
-  },
-  {
    "slot": "evening",
    "sent_kst": "2026-11-12 21:42",
    "title": "등기부 발급·열람 수수료 400원 인상…공인중개사 업계 반발",
@@ -1398,7 +1278,127 @@
    "sent_kst": "2026-11-16 10:26",
    "title": "토스뱅크, '스테이블코인 해외송금' 보낸다",
    "url": "https://n.news.naver.com/mnews/article/030/0003485900?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "서울 집값 0.65% 상승에도 강남·서초 하락…강북권은 1%대 급등",
+   "url": "https://n.news.naver.com/mnews/article/031/0001075325?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "\"무주택자들 비명 지른다\"…전월세 상승률 3년 10개월만에 최고",
+   "url": "https://n.news.naver.com/mnews/article/088/0001040469?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "'기업 성장 동반자' GH…3조 단위 산단·300억 기금 조성",
+   "url": "https://n.news.naver.com/mnews/article/021/0002833130?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "30대 집주인 9년 만에 증가…인구 증가에 '막차'·정책대출 수요 겹쳐",
+   "url": "https://www.news1.kr/economy/trend/6355147"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "[부동산VIEW] 한강벨트로 번지는 아파트값 하락세, 미국 연준·전세 시장...",
+   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452046"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "GS·현산, 분양 족쇄 풀리나…정부 손본다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000543903?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "LH, 부채 1년새 20조 늘어 185조 돌파 [H-EXCLUSIVE]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002724018?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "신한자산신탁, 리츠운용 합병 앞두고 순익 회복세",
+   "url": "https://dealsite.co.kr/articles/172668"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "이소라 서울시의원 \"SH 매입임대주택 정산 5년째 표류… 2차 정산 기준도 없어\"",
+   "url": "https://n.news.naver.com/mnews/article/081/0003699741?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "분담금에 재초환 4.6억까지…은마 매물 70% '급급매'로 돌아섰다",
+   "url": "https://www.sedaily.com/article/20114778?ref=naver"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "윤종원 전 기업은행장, 은행연합회장 후보 고사…5명으로 압축",
+   "url": "https://n.news.naver.com/mnews/article/016/0002724053?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "신한은행장, 두 번째 연임 과제는?",
+   "url": "https://n.news.naver.com/mnews/article/629/0000552190?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "김현정 의원, 가상자산 자금세탁 차단 법안 발의",
+   "url": "https://www.news1.kr/local/gyeonggi/6355395"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "삼성·한화·메리츠 사법 리스크 털었다…신사업 '탄력'",
+   "url": "https://n.news.naver.com/mnews/article/374/0000543922?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "10년 이상 '장기 고정금리 주담대' TF 재가동…12월 청사진 나온다",
+   "url": "https://www.news1.kr/finance/general-finance/6354970"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "韓 투자 확대하는 KIC도 지방 이전 거론…'큰손 LP' 줄이전 땐 대체투자 위축 우려",
+   "url": "https://www.hankyung.com/article/202611135296r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "세종시교육청 금고, 2030년까지 NH농협은행이 맡아",
+   "url": "https://n.news.naver.com/mnews/article/001/0016444034?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "KB손해보험, 후순위채 발행한도 1조원 확보…'건전성 선제관리'",
+   "url": "https://n.news.naver.com/mnews/article/030/0003486063?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "금융위가 '보안' 외치던 날 털린 코인원 수탁사…주민번호·계좌 유출",
+   "url": "https://n.news.naver.com/mnews/article/088/0001040460?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-16 14:54",
+   "title": "[단독]카카오뱅크, 오늘 애플페이 연동 시작",
+   "url": "https://n.news.naver.com/mnews/article/030/0003486096?sid=101"
   }
  ],
- "updated_kst": "2026-11-16 10:26"
+ "updated_kst": "2026-11-16 14:54"
 }
