@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "청년 한숨에… 吳 \"내년부터 관리비 지원\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440611?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "'주거중심형' 도심복합 기준 이르면 이달 발표…대로변 50% 동의 검토",
-   "url": "https://www.news1.kr/realestate/general/6352284"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "미 데이터센터 규제…강원 AIDC 유치 호재 '주목'",
-   "url": "https://n.news.naver.com/mnews/article/654/0000211137?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "물·전기 끌어와도 \"지을 사람이 없어\"...반도체 공장 건설 '비상'",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440622?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "'재건축 부담금' 법적 분쟁 조짐에…대형 로펌들 TF 속속 가동",
-   "url": "https://n.news.naver.com/mnews/article/001/0016439586?sid=102"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "새 아파트 받아도 분담금 걱정… 서울 재개발 곳곳서 제동",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/13/DJ4MULQWE5CI5NONBVBLS4SGI4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "\"집 내놔도 안 팔려\" 서울 아파트 거래 '반토막'...매수심리 연중 최저",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440617?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "조작기소 특검법 암초에 본회의 무산… '주택공급 3법' 또 미뤄져",
-   "url": "https://www.donga.com/news/Politics/article/all/20261113/135017616/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "서초 한강변에 5000채 대단지 공급",
-   "url": "https://www.donga.com/news/Economy/article/all/20261112/135016585/2"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "LH 분리 방침에 21년前 약속 놓고 '전운'",
-   "url": "https://n.news.naver.com/mnews/article/081/0003698940?sid=102"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "해킹에 고개 숙인 금융보안원…금융위, 16일부터 특정감사",
-   "url": "https://www.sedaily.com/article/20113719?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "기술신용평가 '우수' 기관 4곳→11곳…하나은행 기술금융 1위",
-   "url": "https://n.news.naver.com/mnews/article/119/0003154638?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "금융위 \"스테이블코인 기술기업 최대주주 가능...AI 결제 로드맵 연말 공개\"",
-   "url": "https://www.sedaily.com/article/20113715?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "가상자산 해킹 의심되면 선제적 입출금 차단 허용 [코인 브리핑]",
-   "url": "https://n.news.naver.com/mnews/article/022/0004174794?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "코너스톤 도입 본격화…\"기존주주 자발적 보호예수 중요\" [시그널]",
-   "url": "https://www.sedaily.com/article/20113613?ref=naver"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "사모 운용전략 일반투자자에 연다…라이프자산운용, 첫 공모펀드 출시",
-   "url": "https://n.news.naver.com/mnews/article/029/0003058907?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "증권사 빅5, 올 누적순익 8.5조 육박",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440598?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "보험사 투자손익 희비… 삼성만 웃었다",
-   "url": "https://n.news.naver.com/mnews/article/008/0005440599?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "[Biz & Now] 토스뱅크, 1000원 투자 펀드서비스 출시",
-   "url": "https://www.joongang.co.kr/article/25478156"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-13 06:31",
-   "title": "美 '빅스텝' 거론에 한미 금리차 확대 우려…소비 부진에 한은 '딜레마'",
-   "url": "https://www.news1.kr/economy/trend/6352332"
-  },
-  {
    "slot": "midmorning",
    "sent_kst": "2026-11-13 10:20",
    "title": "억대 재초환 부담금 줄줄이 통지…\"산정 방식부터 바꿔야\"",
@@ -1398,7 +1278,127 @@
    "sent_kst": "2026-11-16 21:43",
    "title": "넥스트레이드, 3분기 영업익 반토막…거래대금 급감 영향",
    "url": "https://n.news.naver.com/mnews/article/119/0003155837?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "재초환 폐지 목소리에… \"공급 영향 제한적\" 선 그은 국토부",
+   "url": "https://n.news.naver.com/mnews/article/008/0005441983?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "[기로에 선 재초환] 팔지도 않은 집에 '수억 청구서'…보유·양도세까지 '삼중 부담'",
+   "url": "https://www.sedaily.com/article/20115114?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "서울 주택 매매 제자리인데…올해 증여 1.2만건 '5년 만에 최다'",
+   "url": "https://www.news1.kr/realestate/general/6355623"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "서울 집값 식으니… 경기도 매매·전세·월세 강세",
+   "url": "https://www.kmib.co.kr/article/20261116501741"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "10대 건설사 정비사업 수주 '역대급'…연말 60조 넘본다",
+   "url": "https://www.newsis.com/view/NISX20261116_0003869460"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "'농지 전수조사' 악재 쓰나미…거래 절벽에 가격·담보가치 하락",
+   "url": "https://n.news.naver.com/mnews/article/662/0000108622?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "[단독]재개발 빌라 상경 투자, 위장전입 조사",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164533?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "도로·철도서 일감 확보한 중견 건설사…주택사업도 영역 확대[집슐랭]",
+   "url": "https://www.sedaily.com/article/20115112?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "노원, 재건축 '상가 쪼개기' 원천 차단",
+   "url": "https://n.news.naver.com/mnews/article/081/0003700032?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "서울 대형 오피스텔 신규 월세 평균 240만원… 1년 새 20% 뛰었다",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/17/GBOCLL4OXJF7LPXJZ2PD3KQUOA/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "국내 전자금융업 10곳 중 1곳은 금감원 기준치 미달",
+   "url": "https://www.fnnews.com/news/202611170032500060"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "차기 보험협회장 인선 시계 빨라진다…이번주 생보 회추위 구성 주목",
+   "url": "https://n.news.naver.com/mnews/article/008/0005442040?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "신학기 임기 끝난 수협은행장 인선 '안갯속'…이형주 '완주' 의지",
+   "url": "https://www.news1.kr/finance/general-finance/6355653"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "인뱅-지방은행 공동대출, 저축은행으로 넓히나…인뱅은 '건전성 부담'",
+   "url": "https://www.news1.kr/finance/general-finance/6355787"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "손보사, 'LH 입찰담합' 혐의 벗었다…약 4년 만에 무죄 확정",
+   "url": "https://www.sedaily.com/article/20115056?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "[자본효율 트래커] 하나는 부실채권·우리는 추정손실 여신",
+   "url": "https://n.news.naver.com/mnews/article/629/0000552524?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "정은보, WFE 이사 연임 도전…블랙록 만나 韓 증시 제도개편 설명",
+   "url": "https://www.sedaily.com/article/20115157?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "네이버·두나무 결합 '동등 대우' 조건, 오프라인 결제단말기에도 적용될까",
+   "url": "https://www.kmib.co.kr/article/20261116502002"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "5세대 실손 전환비율 10%대… 11월 시행 할인 제도에 주목 [경제 레이더]",
+   "url": "https://n.news.naver.com/mnews/article/022/0004175682?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-17 06:31",
+   "title": "정부, 불법사금융 피해자 지원 예산 동났다",
+   "url": "https://www.sedaily.com/article/20115159?ref=naver"
   }
  ],
- "updated_kst": "2026-11-16 21:43"
+ "updated_kst": "2026-11-17 06:31"
 }
