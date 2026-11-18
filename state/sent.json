@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "정부, 청년 임대 쿼터제 도입 검토… \"2·3순위 공급 확대에 초점\"",
-   "url": "https://n.news.naver.com/mnews/article/008/0005441109?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "지난달 전월세 물가 1.4%↑…3년10개월 만에 최대폭",
-   "url": "https://n.news.naver.com/mnews/article/001/0016442034?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "한강벨트로 하락세 확산…연말 집값 안정론 힘 실리나",
-   "url": "https://www.newsis.com/view/NISX20261113_0003867431"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "작년 12% 뛰던 강남·서초 집값, 올해는 마이너스…송파도 상승폭 급감",
-   "url": "https://www.news1.kr/realestate/general/6353339"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "건축비가 밀어올린다, 분양가 딜레마",
-   "url": "https://www.joongang.co.kr/article/25478539"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "현대·삼성 '최대 실적'…건설사 도시정비 수주 신기록 세우나",
-   "url": "https://n.news.naver.com/mnews/article/079/0004209826?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "모듈러주택 1.8만가구 발주 예고…건설사 수주전 관건 '원가'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001075022?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "내년 건설업 반등 기대…공공주택·데이터센터가 이끈다",
-   "url": "https://news.mtn.co.kr/article/2026111419513657472"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "두산건설, 3분기 영업이익 271억원…도시정비 수주 4조원",
-   "url": "https://n.news.naver.com/mnews/article/016/0002723414?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "[단독] 영등포·강릉 지주택도 비리 의혹…'셀프 계약' 막을 법 없다",
-   "url": "https://n.news.naver.com/mnews/article/437/0000520754?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "미래에셋 해킹점검서 일부 위반 확인…내주 全업권 보안 간담회",
-   "url": "https://n.news.naver.com/mnews/article/001/0016442042?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "금융지주 회장 연임 '75%룰' 적용 언제부터…첫 시험대 오를 곳은",
-   "url": "https://www.newsis.com/view/NISX20261113_0003867687"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "5대 은행지주 사외이사 '포용금융 전문가' 한 명뿐이었다",
-   "url": "https://n.news.naver.com/mnews/article/016/0002723495?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "은행 ETF 판매수수료 낮아질까…TF 오늘 첫 회의 연다",
-   "url": "https://www.edaily.co.kr/News/Read?newsId=01469446645645720&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "'공시위반 퇴출' 기준 높이자…넉 달 새 5곳 '심판대'",
-   "url": "https://biz.chosun.com/stock/stock_general/2026/11/14/5QR7VB4PD5DRZB5MO7KTGDLYQQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "거래 위축·과징금에 10대 증권사 순익 85%↓…반등도 '험로'",
-   "url": "https://www.news1.kr/finance/general-stock/6353666"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "생보업계, 3분기 실적 '먹구름'…삼성이 전체 실적 견인",
-   "url": "https://n.news.naver.com/mnews/article/030/0003485590?sid=101"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "조폐공사 상품권 플랫폼 '착'도 뚫렸다…3083명 정보 유출",
-   "url": "https://www.donga.com/news/Society/article/all/20261114/135024414/1"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "카드사 머뭇거리는 사이 인뱅이 나섰다…애플페이 도입 '시간 문제'",
-   "url": "https://www.news1.kr/finance/insurance-card/6349667"
-  },
-  {
-   "slot": "morning",
-   "sent_kst": "2026-11-15 06:31",
-   "title": "'빚투' 속 개미 여윳돈 말라가나…마통 4년 3개월 만에 최대",
-   "url": "https://n.news.naver.com/mnews/article/001/0016442040?sid=101"
-  },
-  {
    "slot": "midmorning",
    "sent_kst": "2026-11-15 10:23",
    "title": "씨 마른 강남권 분양에…서울 1순위 청약자 4년 만에 최저",
@@ -1872,7 +1752,127 @@
    "sent_kst": "2026-11-18 21:41",
    "title": "영등포구, 2027년부터 KB국민은행이 구금고 맡는다…4년 약정 체결",
    "url": "https://n.news.naver.com/mnews/article/016/0002725330?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "내년 공시가격 현실화율 20일 공개…'동결' 유력해도 보유세 인상 전망",
+   "url": "https://www.news1.kr/realestate/general/6358558"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "5개월 만에 마주 앉은 국토부·서울시…1.5만 가구 병목 해소 기대감 [코주부]",
+   "url": "https://www.sedaily.com/article/20116138?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "재초환 부담금 부과시점 연장 여부 이번주 결론낼듯",
+   "url": "https://www.donga.com/news/Economy/article/all/20261119/135050584/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "한강벨트는 급랭, 반도체벨트는 후끈…동탄 거래 절반이 신고가[집슐랭]",
+   "url": "https://www.sedaily.com/article/20116135?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "'강남·대형' 내리고 '강북·소형' 상승…서울 아파트값 온도차",
+   "url": "https://view.asiae.co.kr/article/2026111821315670589"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "서울 구로·양천·강북·성북 모아타운 6319가구 공급",
+   "url": "https://n.news.naver.com/mnews/article/081/0003700926?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "韓총리, 경기 지자체장 24명과 만찬…\"10.4만 호 신규택지·정비사업 적기 공급 협력\"",
+   "url": "https://www.fnnews.com/news/202611182232549757"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "광주, 반도체 인재들 살 집 늘리기 속도",
+   "url": "https://www.donga.com/news/Society/article/all/20261118/135049640/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "김영범號 코오롱글로벌, 올해 영업익 목표 90% 달성…경영 정상화 속도",
+   "url": "https://n.news.naver.com/mnews/article/629/0000553403?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "금융권 해외부동산 투자 55.6조로 감소…부실우려 규모는 2.64조로 증가",
+   "url": "https://www.newsis.com/view/NISX20261118_0003873776"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "금감원 검사 전 자료 2.8만건 조작… 농협은행 내부 통제 부실",
+   "url": "https://www.kmib.co.kr/article/20261118502426"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "망분리 빗장 푸는 금융권…안방 보안, 외산에 내줄라",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164838?sid=105"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "\"1조원 더 달라\" \"더 못 준다\"… KDB생명 매각 '7수'도 실패",
+   "url": "https://n.news.naver.com/mnews/article/081/0003700962?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "전국구 은행 꿈꾸는 iM… 제주-호남 금융시장 공략",
+   "url": "https://www.donga.com/news/Society/article/all/20261118/135049595/2"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "[법조 인사이드] 성과급 환수에 '연임 75% 룰'까지… 금융권 로펌 상담 늘까",
+   "url": "https://biz.chosun.com/topics/law_firm/2026/11/19/HD7KXXMGKBCHDE3LEQSJI3VUEE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "4대은행 올해 고정이하여신 23% 늘 때 대손충당금 2% 증가",
+   "url": "https://n.news.naver.com/mnews/article/001/0016450440?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "관리급여 도입에 도수치료 청구액 90% 급감…비급여 '풍선효과' 현실화",
+   "url": "https://www.news1.kr/finance/insurance-card/6357118"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "증시 덕 봤던 2금융권, 증시 급락에 발목 잡혔다",
+   "url": "https://n.news.naver.com/mnews/article/417/0001164840?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "투자이익 줄어도 '본업'으로 버틴 손보사…내년 해외 M&A 효과 본격화",
+   "url": "https://www.news1.kr/finance/insurance-card/6358482"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-19 06:31",
+   "title": "국민연금에 떨어진 숙제…\"기금 감소기 韓주식 매각 충격 대비책 짜라\"",
+   "url": "https://biz.chosun.com/stock/stock_general/2026/11/19/3NYA7YZGHVGUDNHS7WDS3U5Y7U/?utm_source=naver&utm_medium=original&utm_campaign=biz"
   }
  ],
- "updated_kst": "2026-11-18 21:41"
+ "updated_kst": "2026-11-19 06:31"
 }
