@@ -1854,7 +1854,121 @@
    "sent_kst": "2026-11-20 06:36",
    "title": "연말 금융권 찬바람...NH금융, 40세이상 직원 특별 명퇴",
    "url": "https://www.sedaily.com/article/20116623?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "고동진, 재초환 폐지법 발의..\"주택시장 정상화\"",
+   "url": "https://www.fnnews.com/news/202611200858400620"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "HUG 기업보증 제도개선…\"침체 벗어나나\" 부산 건설업계 기대감↑",
+   "url": "https://www.news1.kr/local/busan-gyeongnam/6360344"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "대전 주거생활권 39→30개 재편…정비기본계획 변경 고시",
+   "url": "https://n.news.naver.com/mnews/article/001/0016453668?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "LH, 2030년까지 모듈러주택 1.8만호 발주…공사비 절감 추진",
+   "url": "https://n.news.naver.com/mnews/article/629/0000553880?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "서울 아파트값 93주 연속 상승…'한강벨트' 꺾이고 '반도체벨트' 강세",
+   "url": "https://n.news.naver.com/mnews/article/448/0000652239?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "강남·위례·판교 잇는 성남 구도심…대규모 정비사업에 주거지형 바뀐다",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726058?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "PF 부담 덜고 서울 수주 확대…롯데건설, 내실 회복 속도",
+   "url": "https://n.news.naver.com/mnews/article/031/0001076837?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "\"4인 가구 만점은 돼야\"…더 높아진 서울 신축 청약 문턱",
+   "url": "https://www.hankyung.com/article/2026112089756"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "㈜한화 건설부문, 수처리 사업 키운다…기획부터 운영까지",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726061?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "영풍·MBK \"고려아연 원아시아 출자금 5631억, 전액 최윤범 측에\"",
+   "url": "https://www.sedaily.com/article/20116806?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "금감원, 케이뱅크 정기검사 착수…해킹 대응체계 집중 점검 전망",
+   "url": "https://www.newsis.com/view/NISX20261120_0003876216"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "예보료 인상안 낮췄지만 보험사 부담 여전…\"업권별 특성 반영해야\"",
+   "url": "https://www.newsis.com/view/NISX20261119_0003875726"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "[Invest]SK㈜, 글랜우드·한투 등 에코플랜트 4000억 RCPS도 정리 가닥",
+   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/19/2026111980075.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "엑시트 막히자 공제회 PEF 돈줄 조인다",
+   "url": "https://dealsite.co.kr/articles/171921"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "예별손보 정리에 1조원대 수혈…'청구서'는 손보업계로",
+   "url": "https://dealsite.co.kr/articles/173093"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "미래 이익 7조 쌓고 순익 반토막…교보생명 'IPO 딜레마'",
+   "url": "https://dealsite.co.kr/articles/173017"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "'명의도용 전세대출' 막는다…은행, 내년부터 '본인 확인' 강화",
+   "url": "https://www.news1.kr/finance/general-finance/6359703"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "카뱅發 애플페이 경쟁 본격화…토스뱅크·카드사도 가세하나",
+   "url": "https://n.news.naver.com/mnews/article/243/0000105933?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-20 10:23",
+   "title": "\"징역 15년\" vs \"시세조종 증거 없다\"…김범수 오늘 항소심 선고",
+   "url": "https://www.hankyung.com/article/2026112089377"
   }
  ],
- "updated_kst": "2026-11-20 06:36"
+ "updated_kst": "2026-11-20 10:23"
 }
