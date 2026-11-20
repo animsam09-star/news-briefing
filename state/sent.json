@@ -2,114 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "공급 속도 내는 LH…사업기간 단축 평가 신설, 하반기 9000호 공모",
-   "url": "https://www.mk.co.kr/article/12209642"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "강남 그린벨트 풀었더니 임대주택 80%…서리풀 주민들 반발",
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=504326"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "8~10월, 전국 아파트 20년 초과 보유 매도인 11.9% 증가",
-   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/16/LTYYUI5WUNFBPPMPQJV463TZVM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "\"고수는 조용할 때 산다?\"…서울 아파트 '토허' 신청 두 달 연속 올라",
-   "url": "https://www.mk.co.kr/article/12209649"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "[단독] 이도에스테이트, 에비슨영과 손 잡고 국내외 상업용 부동산 시장 공략",
-   "url": "https://www.mk.co.kr/article/12209526"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "[Invest]임대주택 허브리츠, HUG 지급보증 회사채 2500억 발행",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/16/2026111680026.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "[골프존카운티 매각] 매각 앞서 1300억 배당…MBK 사전 자금회수 '눈길'",
-   "url": "https://dealsite.co.kr/articles/172664"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "붕괴 참사 아이파크, 전면 재시공 끝나고 12월 준공",
-   "url": "https://n.news.naver.com/mnews/article/660/0000121441?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "금융지주 3연임 문턱 높였지만…ISS 영향력·관치 논란은 숙제",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052649?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "10억 더 들여 지분 역전…KCGI, 산돌 지배력 확대 '속도'",
-   "url": "https://dealsite.co.kr/articles/172719"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "[Invest]조원태 우호펀드, 만기 없앴다…한진칼 경영권 분쟁 장기전 대비",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/15/2026111580037.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "은행들 주담대 빗장 속속 푼다…모기지보험 재개로 대출한도 최대 5500만...",
-   "url": "https://n.news.naver.com/mnews/article/023/0004009818?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "금융위, 금융보안원 침해사고에 유감 표명… 재발방지 대책 요청",
-   "url": "https://biz.chosun.com/stock/finance/2026/11/16/XI7EVJO4NNA7NN6MWZPX66FDDM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "[1mm금융톡]금감원 'GA감독국' 신설 요구 커지지만…내년 출범 어려울 듯",
-   "url": "https://view.asiae.co.kr/article/2026111316425093478"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "금융사 고액 성과급 공개 추진에...증권가 '숨은 보수'도 드러나나",
-   "url": "https://n.news.naver.com/mnews/article/023/0004009812?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "[조달비용의 역습] [신한은행] 저원가성예금 비중 12년 만에 최저…은행채 비용 급증에 마진 '뚝'",
-   "url": "https://dealsite.co.kr/articles/172738"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "메리츠화재, 1.35조 벌고도 배당여력 '압박'…대손준비금 93% 급증",
-   "url": "https://dealsite.co.kr/articles/172757"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-16 10:26",
-   "title": "토스뱅크, '스테이블코인 해외송금' 보낸다",
-   "url": "https://n.news.naver.com/mnews/article/030/0003485900?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-11-16 14:54",
    "title": "서울 집값 0.65% 상승에도 강남·서초 하락…강북권은 1%대 급등",
@@ -1968,7 +1860,127 @@
    "sent_kst": "2026-11-20 10:23",
    "title": "\"징역 15년\" vs \"시세조종 증거 없다\"…김범수 오늘 항소심 선고",
    "url": "https://www.hankyung.com/article/2026112089377"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "공시가 현실화율 69% 동결…보유세 부담 고려 5년째 제자리(종합)",
+   "url": "https://www.news1.kr/realestate/general/6360862"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "주택공급 재촉할 토지 보상 '협조 장려금'…얼마나?",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052829?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "모듈러 특별법 잇따라 발의…전문건설업 참여기반 확보 시급",
+   "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52814"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "HUG 전월세 안심신탁, 하나자산신탁 850세대 참여",
+   "url": "https://www.fnnews.com/news/202611201115169922"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "지방 새 아파트 분양가 기존 집값의 두 배…미분양 해소 난항",
+   "url": "https://www.mk.co.kr/article/12214498"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "11월 넷째 주, 전국 15곳 6295가구 청약",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/20/4D4O422IAZA6DEPSQOJ3GTZKYI/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "87명 몰렸던 헬리오시티, 올해는 3명 응찰…열기 식는 서울 경매시장",
+   "url": "https://view.asiae.co.kr/article/2026111819253603779"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "혼란 속 반포현대 재초환, 연내 부과…국회 발의된 '폐지법안'만 두개",
+   "url": "https://n.news.naver.com/mnews/article/008/0005444136?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "공정위, 진보건설·가온 '하도급 모범업체' 선정…1년간 직권조사 면제",
+   "url": "https://www.news1.kr/economy/trend/6360577"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "강남 수서역 영구임대, 월 3만9700원… SH 예비입주자 1200가구 모집",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/20/DFIQ4ZBO25EHZPRKNBL3GKECYQ/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "한국금융지주, 카디프생명 인수 눈앞…보험업 진출 위해 추가 M&A 나서나",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726231?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "이재근 KB금융 회장 선임 확정…21일 공식 취임",
+   "url": "https://magazine.hankyung.com/business/article/202611209845b"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "1인당 신규 가계대출 4년 만에 최저…주담대는 되레 늘었다",
+   "url": "https://news.mtn.co.kr/article/2026112010275857001"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "\"6년 만에 발행어음 재개\"…김종민 메리츠증권 대표 연임 '청신호'",
+   "url": "https://n.news.naver.com/mnews/article/138/0002249363?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "누적 실적에 가려진 3분기 '부진'…보험사 22곳 순익 44% 급감",
+   "url": "https://n.news.naver.com/mnews/article/629/0000553984?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "[단독]앤트로픽 투자 '대박'… 출자 참여 금융지주사, 첫날 350배 수익",
+   "url": "https://n.news.naver.com/mnews/article/021/0002834314?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "금감원, 가상자산 사업자 28곳에 'AI 해킹' 취약점 점검 주문",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726220?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "한국서 긁었는데 3천억은 해외로?…애플페이의 불편한 진실",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052824?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "[단독] \"사기당해 신고했는데 14일 뒤 돈 빼간다고?\"…이심 사기 피해자들 '황당'",
+   "url": "https://www.mk.co.kr/article/12214542"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-20 14:53",
+   "title": "금감원, '장기 미제' 보험사 분쟁 점검 속도… 이달 중 마무리",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/20/U4IPRA6KKJD6RDNC2LLSLZTRQ4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
   }
  ],
- "updated_kst": "2026-11-20 10:23"
+ "updated_kst": "2026-11-20 14:53"
 }
