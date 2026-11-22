@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "[주택법 시행령 개정안, 국무회의 통과]리모델링 허가 75→70% 완화… 안전성 검토 전문기관도 확대",
-   "url": "https://www.arunews.com/news/articleView.html?idxno=69669"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "'지분적립형' 수요는 확인했다…광교 다음 고양·광명?",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052731?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "지방 아파트값 다시 하락세? 10월 잠정지수 마이너스[박원갑의 집과 삶]",
-   "url": "https://www.news1.kr/realestate/market-price/6357233"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "[단독] 페이퍼컴퍼니 논란 삼부토건 새 주인, 다시 바꾼다",
-   "url": "https://news.mtn.co.kr/article/2026111809341955771"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "공사비 상승에...10대 건설사 공사손실충당부채 1조 넘어",
-   "url": "https://www.sedaily.com/article/20115631?ref=naver"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "대구·부산 등 지방도 ‘재초환 타겟’…“집값 떨어지면 책임지나”",
-   "url": "https://n.news.naver.com/mnews/article/119/0003156401?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "강남·서초 재건축부담금 법률 문의 증가…산정 기준·위헌성 쟁점",
-   "url": "https://www.fnnews.com/news/202611171853155740"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "압구정도 대형 외면…강남 재건축 줄줄이 ‘비상’",
-   "url": "https://n.news.naver.com/mnews/article/029/0003059738?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "800조 반도체, 첫삽은…내년 7월 팹 2기 착공 전망[반도체 호남시대①]",
-   "url": "https://www.newsis.com/view/NISX20261104_0003855137"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "공급 늘리자며 규제엔 평행선…국토부·서울시 '엇갈린 셈법'",
-   "url": "https://n.news.naver.com/mnews/article/031/0001075971?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "증권사, 회사채 ‘금리 낮추기’ 꼼수 막힌다…내년부터 ‘캡티브 영업’ 금지",
-   "url": "https://n.news.naver.com/mnews/article/016/0002724904?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "9월 은행 연체율 10년 만에 최고…신규 연체는 둔화",
-   "url": "https://n.news.naver.com/mnews/article/422/0000927283?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "거래시스템 멀쩡한데 고객정보 '줄줄'…코인원 보안에 뚫린 '옆문'",
-   "url": "https://dealsite.co.kr/articles/172859"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "[Invest]\"공은 국회에 있다\"…금융위, 의무공개매수 대안 논의 '신중'",
-   "url": "https://www.investchosun.com/site/data/html_dir/2026/11/17/2026111780204.html"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "[금융지주 지배구조 대전환] 회장 '참호' 허문다더니…후계자 인선엔 '칼날' 비켜갔다",
-   "url": "https://dealsite.co.kr/articles/172841"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "KDB생명 매각 또 불발⋯산업은행 \"한국투자금융지주와 협상 종료\"",
-   "url": "https://n.news.naver.com/mnews/article/031/0001076026?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "카카오뱅크, 몽골 엠뱅크 지분 15% 확보…2대 주주로",
-   "url": "https://n.news.naver.com/mnews/article/138/0002248982?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "JB금융, 앤트그룹과 AI 신용평가 협력…외국인 금융 강화",
-   "url": "https://n.news.naver.com/mnews/article/016/0002724917?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "종로구 금고, 우리은행→신한은행으로…내년부터 4년",
-   "url": "https://view.asiae.co.kr/article/2026111808284235021"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-18 10:21",
-   "title": "미래에셋생명 해킹 피해 1만명 넘어…스트리미도 2천명 정보 유출",
-   "url": "https://n.news.naver.com/mnews/article/079/0004210964?sid=101"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-11-18 14:53",
    "title": "저리융자에 세입자 추천…서울시, 비아파트 공급 확대 '승부수'",
@@ -1386,7 +1266,127 @@
    "sent_kst": "2026-11-22 06:35",
    "title": "김범수 2심 무죄에 한숨 돌린 카카오…AI 사업 재편·인적분할 '탄력'",
    "url": "https://n.news.naver.com/mnews/article/629/0000554234?sid=105"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "\"대전 1억·대구 6천\"…수도권도 억대 부담금 예고",
+   "url": "https://n.news.naver.com/mnews/article/422/0000928614?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "[단독] 서울시, 내년 '서소문고가 신축' 예산 제외…\"통제 1년, 교통 원활\"",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726611?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "\"공급 위축\"vs\"집값 안정\"…재초환 폐지·개편 논란 재점화[재초환 후폭풍④]",
+   "url": "https://www.newsis.com/view/NISX20261120_0003877372"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "지지부진 '도복' 5개월 만에 재시동했지만…용적률 갈등 불씨는 여전",
+   "url": "https://www.mk.co.kr/article/12215393"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "iH, '이주비 대출이자 대납에 95억 과세' 취소소송 승소",
+   "url": "https://n.news.naver.com/mnews/article/001/0016456060?sid=102"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "\"주담대 금리 치솟아도 돈 빌릴 곳 없으니\"…집단대출 늘며 잔액 증가폭 '쑥'",
+   "url": "https://www.mk.co.kr/article/12215366"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "\"더 작은집 없나요?\"…분양가 치솟자 서울 청약신청 80% '소형평수'",
+   "url": "https://www.mk.co.kr/article/12215386"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "1기 신도시의 반전…재건축·GTX 호재에 매매가 '쑥'",
+   "url": "https://n.news.naver.com/mnews/article/119/0003157954?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "집값 급등에 '시세 17억원' 주택 보유 30대, 1.8만명…1년새 70%↑",
+   "url": "https://n.news.naver.com/mnews/article/016/0002726639?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "외국인 바글바글한 명동, 세계서 9번째로 비싼 상권",
+   "url": "https://n.news.naver.com/mnews/article/648/0000052853?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "\"한은, 26일 기준금리 인상\" 한목소리…10곳 중 9곳 \"내년 3.50%\" [금통위 폴]",
+   "url": "https://www.news1.kr/economy/trend/6361408"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "ESG 공시 의무화 국회서 '제동'…291개사 깜깜이",
+   "url": "https://n.news.naver.com/mnews/article/008/0005444506?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "'50%+1주' 놓고 \"법안 취지 무색\"…의무공개매수제 논란 가열",
+   "url": "https://www.newsis.com/view/NISX20261121_0003877719"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "상폐는 멈췄는데 관리종목만 87곳…3개월 새 2.5배",
+   "url": "https://n.news.naver.com/mnews/article/374/0000545093?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "개미들 ETF로 몰렸다…거래액, 코스피 처음 넘겼다",
+   "url": "https://n.news.naver.com/mnews/article/374/0000545094?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "KB금융, 인니 지주사 설립 속도…은행·증권·카드 모두 주주된다",
+   "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445872"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "'KB 주도권' 확대냐, 견제냐…은행연합회장 인선에 쏠린 눈[금융권 인사 관전포인트②]",
+   "url": "https://www.newsis.com/view/NISX20261120_0003877414"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "은행 앱에서 요양원까지 찾는다…금융권, 시니어 사업 확장",
+   "url": "https://n.news.naver.com/mnews/article/374/0000545084?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "'빚투'에 금리 인상 직격탄…40대 마통 연체액 82% 급증",
+   "url": "https://www.kmib.co.kr/article/20261122500038"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-22 10:22",
+   "title": "5세대 실손 갈아타면 보험료 '반값'…달라지는 혜택 뭐길래",
+   "url": "https://www.mk.co.kr/article/12214600"
   }
  ],
- "updated_kst": "2026-11-22 06:35"
+ "updated_kst": "2026-11-22 10:22"
 }
