@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "공시가 현실화율 동결해도 대치팰리스·한남더힐 보유세 50% ↑",
-   "url": "https://www.news1.kr/realestate/general/6361142"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "19만 가구 '보편형 공공임대', 소득·자산 안 따지고 입주 검토",
-   "url": "https://www.hankyung.com/article/2026112006411"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "민간 도심복합개발 기준 논란…대상지 요건 완화 요구",
-   "url": "https://news.mtn.co.kr/article/2026112017282314856"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "세운4구역 당분간 개발 못 한다... 국가유산위, 보존방안 최종 부결",
-   "url": "https://n.news.naver.com/mnews/article/469/0000966855?sid=103"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "HUG, 든든전세 '입주 병목' 손본다…전담 TF·외부 위탁 검토",
-   "url": "https://www.fnnews.com/news/202611201725323172"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "건설사 도시정비 수주 '역대 최대'…내후년까지 물량 쏟아진다",
-   "url": "https://news.mtn.co.kr/article/2026112016422972620"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "재초환 폭탄에 보유세까지 겹악재…강남3구 매물 3만건 돌파",
-   "url": "https://www.sedaily.com/article/20117139?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "목동5·12·14단지 심의 통과…최고 49층 1만1863가구",
-   "url": "https://www.hankyung.com/article/2026112006441"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "강남선 손잡고 광명선 홀로…한화의 달라진 체급",
-   "url": "https://n.news.naver.com/mnews/article/031/0001077022?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "한수원, 대우건설과 체코 원전 시공 협력협약 종료 공식화",
-   "url": "https://www.newsis.com/view/NISX20261120_0003876900"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "[단독] 임종룡 2기 우리금융 첫 자회사 인사, 카드·캐피탈·증권 대표 연임 가닥…\"안정형 인선\"",
-   "url": "https://news.mtn.co.kr/article/2026112016104246443"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "신한은행장 인선에 '포스트 진옥동' 윤곽…정상혁 거취 변수",
-   "url": "https://n.news.naver.com/mnews/article/031/0001077115?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "은행연합회장, 대세론-세대교체 팽팽",
-   "url": "https://news.mtn.co.kr/article/2026112016391929481"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "보험판매전문회사 도입론에… 금융위 \"모집 질서 개선 먼저\"",
-   "url": "https://biz.chosun.com/stock/finance/2026/11/20/BXT6U6D5PVFCLDZQENUUXMDYPE/?utm_source=naver&utm_medium=original&utm_campaign=biz"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "국고채 담합 과징금 1.4조 '주주 불똥'⋯증권사 배당 기대 낮아졌다",
-   "url": "https://n.news.naver.com/mnews/article/031/0001077084?sid=101"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "금감원 '자제' 당부에도…증권사 발행어음 고금리 경쟁 '후끈'",
-   "url": "https://www.newsis.com/view/NISX20261120_0003876848"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "IMM 컨소, 현대LNG해운 26일 인니 시나르마스에 매각 종결",
-   "url": "https://www.sedaily.com/article/20116926?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "신협자산관리회사 출범…부실채권 관리 본격화",
-   "url": "https://www.mk.co.kr/article/12214588"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "4대금융 '위험 커진 대출' 197조…올들어 7조 신용손상 단계로",
-   "url": "https://www.sedaily.com/article/20117001?ref=naver"
-  },
-  {
-   "slot": "evening",
-   "sent_kst": "2026-11-20 21:46",
-   "title": "문페이, 美 연방 신탁은행 인가 신청…\"원화 스테이블코인 국경 간 결제 힘 보탤 것\"",
-   "url": "https://www.donga.com/news/Economy/article/all/20261120/135060577/2"
-  },
-  {
    "slot": "morning",
    "sent_kst": "2026-11-22 06:35",
    "title": "내달 강남권 첫 재초환 부담금…서울 52개 단지 1억1천만원씩",
@@ -1518,7 +1398,127 @@
    "sent_kst": "2026-11-24 21:41",
    "title": "KB국민·하나·우리은행…방산 협력사 8000억 대출",
    "url": "https://www.mk.co.kr/article/12217399"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "'전세의 시대' 저무나…수도권 월세 5년 새 39.7%→46.9%",
+   "url": "https://www.newsis.com/view/NISX20261124_0003881563"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "LH 미분양 매입확약 3만1천가구 중 1만3천가구 착공",
+   "url": "https://n.news.naver.com/mnews/article/001/0016461608?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "재건축 공공기여, 면적뿐 아니라 가치도 따진다…부담 기준 손질",
+   "url": "https://www.news1.kr/realestate/general/6364651"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "목동 재건축 6곳 모두 '나홀로 입찰'… 경쟁 붙은 성수는 500억 깎았다",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/25/5YMTV3WPSNBHVDGCX3ES26BKFM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "공공개발 속도전 이면… 집 지을수록 '부채 딜레마'",
+   "url": "https://n.news.naver.com/mnews/article/022/0004177889?sid=102"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "경매 아파트 12년 만에 최대인데… 10건 중 7건은 유찰",
+   "url": "https://n.news.naver.com/mnews/article/023/0004011524?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "보유세 부담에 재초환까지…강남·한강벨트 약세 계속되나",
+   "url": "https://n.news.naver.com/mnews/article/081/0003702880?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "경기·대전·대구도 줄줄이 '억대 청구서'…재초환 논란 전국 확산",
+   "url": "https://n.news.naver.com/mnews/article/448/0000653176?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "건설사, 해외선 뒷걸음… 안방선 '무경쟁 수주'",
+   "url": "https://n.news.naver.com/mnews/article/023/0004011509?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "아파트값 오르자… 매물 쌓이는 강북권",
+   "url": "https://n.news.naver.com/mnews/article/022/0004177894?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "3분기까지 보험사 당기순이익 10.4조·전년比 8%↓…IFRS17 도입 후 최저",
+   "url": "https://view.asiae.co.kr/article/2026112416254025858"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "코스피 5천 회복에도 10.7조 증안펀드 준비 계속…투입 여부 F4가 결정",
+   "url": "https://www.news1.kr/economy/trend/6364186"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "금감원·거래소, 불법공매도 합동점검 TF 가동",
+   "url": "https://n.news.naver.com/mnews/article/422/0000929622?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "'지분 20%룰' 네이버·두나무 결합 복병",
+   "url": "https://n.news.naver.com/mnews/article/008/0005445907?sid=105"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "\"대기업 믿었는데\" 자금 회수 막히자 법정 찾는 FI [시그널]",
+   "url": "https://www.sedaily.com/article/20118387?ref=naver"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "롤러코스터 장세에 靑·정부 움직인다…관망서 '적극 대응' 기조 전환",
+   "url": "https://www.news1.kr/politics/president/6364596"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "홍콩 ELS 사태 겪고도… 증권사, 증시 꼭지에 고위험 상품 쏟아냈다",
+   "url": "https://biz.chosun.com/stock/stock_general/2026/11/24/TNNMQSJBNRG2NMBBMHSSF2C2NM/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "중소기업 덮친 고금리…지방은행은 6% 돌파, 연체율도 '빨간불'",
+   "url": "https://www.newsis.com/view/NISX20261124_0003881716"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "\"대출서류 600장 점검, 2시간→4분\"…NH농협은행 'AI 실험' 통했다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005445952?sid=101"
+  },
+  {
+   "slot": "morning",
+   "sent_kst": "2026-11-25 06:29",
+   "title": "금융위기 때의 2배…롤러코스터 장세에 올해만 사이드카 101번",
+   "url": "https://view.asiae.co.kr/article/2026112421362654127"
   }
  ],
- "updated_kst": "2026-11-24 21:41"
+ "updated_kst": "2026-11-25 06:29"
 }
