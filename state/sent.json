@@ -1638,7 +1638,127 @@
    "sent_kst": "2026-11-25 10:26",
    "title": "'송금1호' 이나인페이, 실적·재무는 탄탄…보수적 공모가로 흥행 정조준",
    "url": "https://n.news.naver.com/mnews/article/008/0005446019?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "2028년 서울 입주 물량 38년래 최저… 공급 공백에 주거 불안 커진다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005446218?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "\"아파트 여전히 비싸\" 7억 넘는 빌라 거래 50%↑...재개발 노린다",
+   "url": "https://n.news.naver.com/mnews/article/008/0005446212?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "반토막 난 서울 아파트 거래량… 집값 상승세 줄어든다지만",
+   "url": "https://n.news.naver.com/mnews/article/008/0005446208?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "18년 표류 서부선...사업비 2조3000억으로 올려 민자 '마지막 도전'",
+   "url": "https://www.joongang.co.kr/article/25481761"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "철도가 가른 3기 신도시 청약… 부천대장 129대 1, 바로 옆 계양은 미달",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/25/3EJJHLPSV5FADCQSQEZIPXKGXY/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "행정수도 세종, 14년 만의 '2차 대이동'…국정 중심축 바뀐다",
+   "url": "https://n.news.naver.com/mnews/article/656/0000193508?sid=102"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "10월 45.3만명 거주지 옮겨…서울선 빠져나가고 경기·충청선 늘어",
+   "url": "https://n.news.naver.com/mnews/article/016/0002728349?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "'닥공' 발목 잡는 표준건축비…정부, 폐지 검토",
+   "url": "https://n.news.naver.com/mnews/article/016/0002728312?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "은평구 불광역세권 4092가구 재개발 시동",
+   "url": "https://n.news.naver.com/mnews/article/081/0003703053?sid=100"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "美 국채금리 5% 넘자 빌딩 투자자들 지갑 닫았다…신규매물도 급감",
+   "url": "https://www.newsis.com/view/NISX20261125_0003882580"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "10월 가계대출 금리 5% 돌파…주담대는 14년 7개월만 '최고'",
+   "url": "https://n.news.naver.com/mnews/article/660/0000122158?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "환매금지펀드 있어도 퇴직연금 실물이전 가능…내년 1월부터 시행",
+   "url": "https://biz.chosun.com/stock/stock_general/2026/11/25/QFPJIR3L2BBMVKQRGJHMJFG7A4/?utm_source=naver&utm_medium=original&utm_campaign=biz"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "종투사 모험자본 공급 11.6조…KB증권 투자플랫폼 첫 출자",
+   "url": "https://n.news.naver.com/mnews/article/001/0016462512?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "[단독] 프리미어, 한국펀드파트너스 인수 본계약…PTA 지분 20% 재출자",
+   "url": "https://www.hankyung.com/article/202611258529r"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "10월 車보험 손해율 80.5%…2021년 이후 최저",
+   "url": "https://n.news.naver.com/mnews/article/374/0000545767?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "생보업계, 신계약 절반 이상 GA…은행 판매는 '반토막'",
+   "url": "https://n.news.naver.com/mnews/article/030/0003489675?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "[금융지주 임원 인사 전망] [농협금융] 인사권은 농협금융에, 입김은 중앙회에…사장단 인사 촉각",
+   "url": "https://dealsite.co.kr/articles/173237"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "다올證 매각 막후에 '화우'…경영권 분쟁 3년 만에 재등장 [fn마켓워치]",
+   "url": "https://www.fnnews.com/news/202611251333460342"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "삼성, 씨티 토큰으로 1.8억弗 송금 거래…자금이체 '뉴노멀'",
+   "url": "https://n.news.naver.com/mnews/article/016/0002728252?sid=101"
+  },
+  {
+   "slot": "afternoon",
+   "sent_kst": "2026-11-25 14:53",
+   "title": "인터넷은행도 퇴직연금 시장 노린다…상품 공급 이어져",
+   "url": "https://view.asiae.co.kr/article/2026112510561933979"
   }
  ],
- "updated_kst": "2026-11-25 10:26"
+ "updated_kst": "2026-11-25 14:53"
 }
