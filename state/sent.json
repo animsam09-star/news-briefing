@@ -2,126 +2,6 @@
  "_comment": "슬롯 간 중복 발송 차단용 발송 이력. scripts/record_sent.py가 매 발송 후 갱신하고, 다음 슬롯의 collect.py가 읽어 같은 기사를 수집 단계에서 제외한다. 최근 96시간분만 보존.",
  "sent": [
   {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "드디어 문 여는 3기 신도시…12월 인천 계양 1285세대 첫 입주",
-   "url": "https://n.news.naver.com/mnews/article/022/0004177293?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "12월 전국 아파트 1만6486가구 입주…전년 대비 49% 감소",
-   "url": "https://www.fnnews.com/news/202611230919507296"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "문턱 낮아진 리모델링…건설업계 \"스피드 승부\"",
-   "url": "https://n.news.naver.com/mnews/article/648/0000052864?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "서울 빌라 평균 매매가 첫 4억 돌파…정비사업 기대에 몰려",
-   "url": "https://www.donga.com/news/Economy/article/all/20261123/135071540/1"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "강남서 꺾인 집값, 한강 건넜다…용산 다음은 어디",
-   "url": "https://n.news.naver.com/mnews/article/031/0001077304?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "대구시, 공동주택 일조 심의기준 80%로 일원화…주택공급 확대 속도",
-   "url": "https://n.news.naver.com/mnews/article/016/0002726882?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "DL이앤씨, 성수2지구 '아크로 성수' 시공권 획득…공사비 2조137억원",
-   "url": "https://n.news.naver.com/mnews/article/016/0002726942?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "과천 경마공원은 전면백지화 요구…'택지 선지정·후협의'에 흔들리는 수도권 공급",
-   "url": "https://view.asiae.co.kr/article/2026112011292134535"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "호남권 반도체 클러스터, 전력·용수부터 정주·연구까지 기반 구축",
-   "url": "https://n.news.naver.com/mnews/article/030/0003488393?sid=102"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "에이치에너지, GS에너지·스틱 손잡고 지붕 태양광 1GW 공동개발",
-   "url": "https://www.hankyung.com/article/202611233407i"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "은행연합회장에 박종복…스테이블코인 제도화 대응 맡는다",
-   "url": "https://n.news.naver.com/mnews/article/030/0003488345?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "이재근 KB금융 회장 취임…\"리딩뱅크 넘어 리딩플랫폼으로\"",
-   "url": "https://n.news.naver.com/mnews/article/374/0000545210?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "4차 행추위도 '팽팽', 표류하는 수협은행장 선임",
-   "url": "https://magazine.hankyung.com/business/article/202611171359b"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "\"손실 나면 직원 책임?\"…대신증권 반대매매 완화에 노조 반발",
-   "url": "https://n.news.naver.com/mnews/article/243/0000106036?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "5대 은행, 대기업 대출 20% 늘릴 때 중소기업은 3% 증가 그쳐...연체율 상승에 대출 문턱 더 높아진다",
-   "url": "https://n.news.naver.com/mnews/article/023/0004011146?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "삼성생명, 종신·연금 키웠지만…건강보험 더 팔고도 CSM 감소",
-   "url": "https://dealsite.co.kr/articles/173182"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "미래에셋생명, 건강상해보험 신계약 CSM 2년 새 2.3배",
-   "url": "https://dealsite.co.kr/articles/173283"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "IB 강화 나선 대신증권, 기업여신 수익 161% 증가에도 왜 적자일까?",
-   "url": "https://n.news.naver.com/mnews/article/243/0000106034?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "\"은행이 놓친 고객 잡는다\"…토스 온투업 승부수 통할까?",
-   "url": "https://n.news.naver.com/mnews/article/243/0000106037?sid=101"
-  },
-  {
-   "slot": "midmorning",
-   "sent_kst": "2026-11-23 10:24",
-   "title": "[크립토하나] 비트코인 6만 달러 사수할까…국내선 디지털자산기본법 공개",
-   "url": "https://n.news.naver.com/mnews/article/092/0002446387?sid=105"
-  },
-  {
    "slot": "afternoon",
    "sent_kst": "2026-11-23 14:56",
    "title": "GS건설, 목동12단지 재건축 시공사 선정…첫 '10조 클럽' 눈앞",
@@ -1890,7 +1770,127 @@
    "sent_kst": "2026-11-27 06:38",
    "title": "은행앱서 쇼핑·배달주문…금융사의 ‘영토 확장’ 통했다",
    "url": "https://n.news.naver.com/mnews/article/662/0000109433?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "\"그래도 내 집 한 채는\" 국민 100명 중 29명…'두 채 이상'은 98개월 만 최저 [부동산360]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002729253?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "서울 아파트값 보합 근접…한강벨트 하락세, 광진·영등포로 옮겨가[집슐랭]",
+   "url": "https://www.sedaily.com/article/20119560?ref=naver"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "가구당 3500만원 지원에도 망설이는 수도권 개발공사[닥공 첨병된 모듈러주택]②",
+   "url": "https://view.asiae.co.kr/article/2026112522165966200"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "\"집값도 비싼데 전세마저 없다\" 서울→경기 순유출 4.3만명, 열 달 만에 작년 기록 깼다 [부동산360]",
+   "url": "https://n.news.naver.com/mnews/article/016/0002729278?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "12월 전국 아파트 2.4만가구 일반분양…전월 대비 14% 감소",
+   "url": "https://www.news1.kr/realestate/general/6367889"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "[단독] 청년 보편형 전세임대 내년 2월 출시…모집 방식 '고심'",
+   "url": "https://www.news1.kr/realestate/general/6367614"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "공공임대주택, 공적주택으로 바꾸면 달라질까… 2030년까지 119만 채 공급",
+   "url": "https://h21.hani.co.kr/arti/society/society_general/60237.html"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "전세사기 눈물이 경매장으로... 오피스텔 낙찰 '사상 첫 5000건'",
+   "url": "https://www.fnnews.com/news/202611260956241447"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "부실대출 털려다 부동산에 발목 잡힌 신협",
+   "url": "https://dealsite.co.kr/articles/173422"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "부산시, 주택시장 안정화 총력…미분양 6928호·인허가 67.7%↓",
+   "url": "https://www.newsis.com/view/NISX20261127_0003885594"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "수협은행까지 덮친 해킹…피해 은행 5곳으로 확대",
+   "url": "https://n.news.naver.com/mnews/article/117/0004128567?sid=103"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "청와대 국가안보실, 금융당국 긴급 소집…해킹 피해 차단 나섰다",
+   "url": "https://www.fnnews.com/news/202611270931280716"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "금감원 검사·제재 투명성 높인다…계좌추적 통제·권익보호심의회 신설",
+   "url": "https://www.news1.kr/finance/financial-policy/6367748"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "금감원 노조 \"반쪽짜리 금융행정 쇄신 거부, 금융위부터 바꿔야\"",
+   "url": "https://www.kmib.co.kr/article/20261127500076"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "은행 3분기 누적 이자이익 48.4조 '역대 최대'…이자 의존도 90% 육박",
+   "url": "https://n.news.naver.com/mnews/article/031/0001078925?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "감봉 한 번에 막힌 임원 승진길…금융사 '인사 족쇄' 풀린다",
+   "url": "https://www.hankyung.com/article/202611273911i"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "韓 중징계 위기 MBK…日 6조원대 바이아웃 질주",
+   "url": "https://dealsite.co.kr/articles/173139"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "[단독] BNK투자증권 차기 대표에 PF·트레이딩 전문가 등 각축",
+   "url": "https://news.mtn.co.kr/article/2026112709070426097"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "생보사 실적 뒷걸음질…보험손익·투자손익 '이중고'",
+   "url": "https://n.news.naver.com/mnews/article/243/0000106362?sid=101"
+  },
+  {
+   "slot": "midmorning",
+   "sent_kst": "2026-11-27 10:24",
+   "title": "500조원대 스테이블코인 결제시장 열린다…카드사, 선점 경쟁",
+   "url": "https://www.newsis.com/view/NISX20261126_0003885279"
   }
  ],
- "updated_kst": "2026-11-27 06:38"
+ "updated_kst": "2026-11-27 10:24"
 }
